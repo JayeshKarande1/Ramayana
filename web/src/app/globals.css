@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Noto+Serif+Devanagari:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --background: #07050d;
+  --foreground: #f3f0e6;
+  --night-card: #110d1f;
+  --gold: #f3d27a;
+  --gold-glow: rgba(243, 210, 122, 0.25);
+  --saffron: #f59e3a;
+  --saffron-deep: #ea580c;
+  --border-gold: rgba(243, 210, 122, 0.16);
+  --text-muted: #a39eb5;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+.font-sanskrit {
+  font-family: 'Noto Serif Devanagari', serif;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-display {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+/* Sacred Glow Elements */
+.divine-border {
+  border: 1px solid var(--border-gold);
+}
+
+.divine-glow {
+  box-shadow: 0 0 35px var(--gold-glow);
+}
+
+.saffron-gradient {
+  background: linear-gradient(135deg, #f59e3a 0%, #ea580c 100%);
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #fff2cc 0%, #f3d27a 50%, #b8860b 100%);
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #fff2cc 0%, #f3d27a 50%, #d4a017 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090612;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(243, 210, 122, 0.25);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--saffron);
+}

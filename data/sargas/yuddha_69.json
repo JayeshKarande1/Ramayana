@@ -1,0 +1,737 @@
+{
+  "kanda": "yuddha",
+  "kandaName": "Yuddha Kanda",
+  "sarga": 69,
+  "title": "Sarga 69",
+  "totalShlokas": 91,
+  "shlokas": [
+    {
+      "id": "YK-69-1",
+      "shlokaNumber": 1,
+      "sanskrit": "एवंविलपमानस्यरावणस्यदुरात्मनः । श्रुत्वाशोकाभितप्तस्यत्रिशिरावाक्यमब्रवीत् ।।6.69.1।।",
+      "transliteration": "evṃvilapamānasyarāvaṇasyadurātmanḥ | śrutvāśokābhitaptasyatriśirāvākyamabravīt ||6.69.1||",
+      "wordByWord": "एवम् in that way, विलपमानस्य lamenting, दुरात्मनः evil minded, शोकाभितप्तस्य immersed in sorrow, रावणस्य Ravana's, वाक्यम् words, श्रुत्वा hearing, त्रिशिराः Trisira, वाक्यम् words, अब्रवीत् spoke.",
+      "meaning": "Hearing the lamentations of the evilminded Ravana, Trisira spoke to him."
+    },
+    {
+      "id": "YK-69-2",
+      "shlokaNumber": 2,
+      "sanskrit": "एवमेवमहावीर्योहतोनस्तातमध्यमः । न तुसत्पुरुषाराजन्विलपन्तियथाभवान् ।।6.69.2।।",
+      "transliteration": "evamevamahāvīryohatonastātamadhyamḥ | na tusatpuruṣārājanvilapantiyathābhavān ||6.69.2||",
+      "wordByWord": "नः no doubt, तातमध्यमः middle father and uncle, महावीर्यः of great prowess, हतः killed, एवमेव he alone, तु to you, राजन् King, भवान् यथा like you, सत्पुरुषाः good men, न विलपन्ति not wail.",
+      "meaning": "\"There is no doubt that Kumbhakarna, who is your middle father and uncle, was also endowed with great prowess. He has been killed. O King! Good men like you do not wail.\""
+    },
+    {
+      "id": "YK-69-3",
+      "shlokaNumber": 3,
+      "sanskrit": "नूनंत्रिभुवनस्यापिपर्याप्तस्त्वमसिप्रभो । स कस्मात्प्राकृतइवशोचस्यात्मानमीदृशम् ।।6.69.3।।",
+      "transliteration": "nūnṃtribhuvanasyāpiparyāptastvamasiprabho | sa kasmātprākṛtaivaśocasyātmānamīdṛśam ||6.69.3||",
+      "wordByWord": "प्रभो King, त्वम् you, त्रिभुवनस्यासि three worlds, पर्याप्तः conqueror, असि are, सः such you, ईदृशम् this way आत्मानम् yourself, प्राकृतःइव like a common man, कस्मात् allow, शोचसि to wail.",
+      "meaning": "\"O King! You are a conqueror of the three worlds. Why do you wail like a common man?\""
+    },
+    {
+      "id": "YK-69-4",
+      "shlokaNumber": 4,
+      "sanskrit": "ब्रह्मदत्ताऽस्तितेशक्तिःकवचस्सायकोधनुः । सहस्रखरसंयुक्तोरथोमेघस्वनोमहान् ।।6.69.4।।",
+      "transliteration": "brahmadattā'stiteśaktiḥkavacassāyakodhanuḥ | sahasrakharasṃyuktorathomeghasvanomahān ||6.69.4||",
+      "wordByWord": "ते you, ब्रह्मदत्ता bestowed by Brahma, शक्तिः javelin, अस्ति have, कवचम् shield, सायकः arrow, धनुः bow, सहस्रखरसंयुक्तः a thousand donkeys yoked, मेघस्वनोमहान् emitting sound like rumbling of cloud, रथः chariot.",
+      "meaning": "\"You are bestowed by Brahma with a javelin, a shield and an arrow and a chariot yoked by a thousand donkeys making rumbling sounds like a cloud.\""
+    },
+    {
+      "id": "YK-69-5",
+      "shlokaNumber": 5,
+      "sanskrit": "त्वयाऽसकृद्विशस्त्रेणविशस्तादेवदानवाः । स सर्वायुधसम्पन्नोराघवंशास्तुमर्हसि ।।6.69.5।।",
+      "transliteration": "tvayā'sakṛdviśastreṇaviśastādevadānavāḥ | sa sarvāyudhasampannorāghavṃśāstumarhasi ||6.69.5||",
+      "wordByWord": "त्वया by you, असकृत् deprived of, शस्त्रेण with weapons, देवदानवाः Devas and Danavas, विशस्ताःहि won over, सः he, सर्वायुधसम्पन्नः endowed with all kinds of weapons, राघवम् Raghava, शास्तुम् winning, अर्हसि will be able to.",
+      "meaning": "\"Devas and Danavas have been won over by you, deprived of weapons also. Now endowed with all weapons you will be able to win Raghava.\""
+    },
+    {
+      "id": "YK-69-6",
+      "shlokaNumber": 6,
+      "sanskrit": "कामंतिष्ठमहाराजनिर्गमिष्याम्यहंरणम् । उद्धरिष्यामितेशत्रूंन्गरुडःपन्नगानिव ।।6.69.6।।",
+      "transliteration": "kāmṃtiṣṭhamahārājanirgamiṣyāmyahṃraṇam | uddhariṣyāmiteśatrūṃngaruḍḥpannagāniva ||6.69.6||",
+      "wordByWord": "महाराज O King!, तिष्ठकामम् stay on, अहम् I, निर्गमिष्यामि will go forth, गरुडः Garuda, पन्नगानिव like serpent, रणम् battlefield, तेशत्रून् your enemy, उद्धरिष्यामि will uproot.",
+      "meaning": "\"O King! Stay on. I will move forth to the battlefield and uproot your enemy like Garuda uprooted serpents.\""
+    },
+    {
+      "id": "YK-69-7",
+      "shlokaNumber": 7,
+      "sanskrit": "शम्बरोदेवराजेननरकोविष्णुवायथा । तथाऽद्यशयितारामोमयायुधिनिपातितः ।।6.69.7।।",
+      "transliteration": "śambarodevarājenanarakoviṣṇuvāyathā | tathā'dyaśayitārāmomayāyudhinipātitḥ ||6.69.7||",
+      "wordByWord": "शम्बरः Sambara, देवराजेन Lord of Devas, नरकः Naraka, विष्णुना like Vishnu, यथा that way, तथा in the same manner, मया by me, अद्य struck, युधि in combat, निपातितः destroyed, रामः Rama, शयिता throw down.",
+      "meaning": "\"Just as Lord of Devas by Sambara, and Vishnu by Naraka, in the same way Rama will also be destroyed struck by me.\""
+    },
+    {
+      "id": "YK-69-8",
+      "shlokaNumber": 8,
+      "sanskrit": "श्रुत्वात्रिशिरसोवाक्यंरावणोराक्षसाधिपः । पुनर्जातमिवात्मानंमन्यतेकालचोदितः ।।6.69.8।।",
+      "transliteration": "śrutvātriśirasovākyṃrāvaṇorākṣasādhipḥ | punarjātamivātmānṃmanyatekālacoditḥ ||6.69.8||",
+      "wordByWord": "राक्षसाधिपः King of Rakshasas, रावणः Ravana, त्रिशिरसः Trisira's, वाक्यम् words, श्रुत्वा hearing, कालचोदितः impelled by destiny, आत्मानम् himself, पुनः again, जातम् इव as if born again, मन्यते thought.",
+      "meaning": "Ravana, the king of Rakshasas, hearing Trisira's words thought that impelled by destiny that he was reborn."
+    },
+    {
+      "id": "YK-69-9",
+      "shlokaNumber": 9,
+      "sanskrit": "श्रुत्वात्रिशिरसोवाक्यंदेवान्तकनरान्तकौ । अतिकायश्चतेजस्वीबभूवुर्युद्धहर्षिताः ।।6.69.9।।",
+      "transliteration": "śrutvātriśirasovākyṃdevāntakanarāntakau | atikāyaścatejasvībabhūvuryuddhaharṣitāḥ ||6.69.9||",
+      "wordByWord": "त्रिशिरसः Trisira, वाक्यम् words, श्रुत्वा hearing, देवान्तकनरान्तकौ Devanthaka and Naranthaka both, तेजस्वी glorious, अतिकायश्च Atikaya, युद्धहर्षिताः enthusiastic to fight war, बभूवुः became.",
+      "meaning": "Hearing Trisira's words both Devanthaka and Naranthaka and glorious Atikaya became enthusiastic for combat."
+    },
+    {
+      "id": "YK-69-10",
+      "shlokaNumber": 10,
+      "sanskrit": "ततोऽहमहमित्येवगर्जन्तोनैरृतर्षभाः । रावणस्यसुतावीराश्शक्रतुल्यपराक्रमाः ।।6.69.10।।",
+      "transliteration": "tato'hamahamityevagarjantonairṛtarṣabhāḥ | rāvaṇasyasutāvīrāśśakratulyaparākramāḥ ||6.69.10||",
+      "wordByWord": "ततः then, रावणस्य Ravana's, सुताः sons, वीराः heroes, शक्रतुल्यपराक्रमाः equal to Indra in valour, नैरृतर्षभाः bulls among ogres, अहम् इत्येव\" I will lead\", I will start\", गर्जन्तः roared.",
+      "meaning": "Then Ravana's sons, the heroes, and bulls among ogres, equal to Indra in valour, roared saying, \"I will start\", \"I will lead.\""
+    },
+    {
+      "id": "YK-69-11",
+      "shlokaNumber": 11,
+      "sanskrit": "अन्तरिक्षगतास्सर्वेसर्वेमायाविशारदाः । सर्वेत्रिदशदर्पघ्नास्सर्वे च रणदुर्जयाः ।।6.69.11।।",
+      "transliteration": "antarikṣagatāssarvesarvemāyāviśāradāḥ | sarvetridaśadarpaghnāssarve ca raṇadurjayāḥ ||6.69.11||",
+      "wordByWord": "सर्वे all, अन्तरिक्षगताः coursing through the sky, सर्वे all, मायाविशारदाः experts in conjuring tricks, सर्वे all, त्रिदशदर्पघ्नाः who can crush the pride of all Devatas, सर्वे all, रणदुर्जयाः fierce in fighting.",
+      "meaning": "All (sons of Ravana) are capable of coursing through the sky, experts in conjuring tricks, capable of crushing the pride of Devatas and all, are fierce in fighting."
+    },
+    {
+      "id": "YK-69-12",
+      "shlokaNumber": 12,
+      "sanskrit": "सर्वेसुबलसम्पन्नास्सर्वेविस्तीर्णकीर्तयः । सर्वेसमरमासाद्य न श्रूयन्तेस्मपराजिताः ।।6.69.12।। देवैरपिसगन्धर्वैस्सकिन्नरमहोरगैः ।",
+      "transliteration": "sarvesubalasampannāssarvevistīrṇakīrtayḥ | sarvesamaramāsādya na śrūyantesmaparājitāḥ ||6.69.12|| devairapisagandharvaissakinnaramahoragaiḥ |",
+      "wordByWord": "सर्वे all, सुबलसम्पन्नाः possessed stupendous strength, सर्वे all, विस्तीर्णकीर्तयः very well known for their fame, सर्वे all, समरम् in war, आसाद्य accompanied by, सगन्धर्वैः Gandharvas, संकिन्नरमहोरगैः even if they are Kinnaras, देवैरपि gods also, निर्जिताः will be vanquished, न श्रूयन्ते स्म never get defeated.",
+      "meaning": "All sons of Ravana possessed stupendous strength, all were very famous, and never got defeated in war be it Gandharvas, Kinnaras or even gods will get vanquished by them."
+    },
+    {
+      "id": "YK-69-13",
+      "shlokaNumber": 13,
+      "sanskrit": "सर्वेस्त्रविदुषोवीरास्सर्वेयुद्धविशारदाः ।।6.69.13।। सर्वेप्रसवरविज्ञानास्सर्वेलब्धवरास्तथा ।",
+      "transliteration": "sarvestraviduṣovīrāssarveyuddhaviśāradāḥ ||6.69.13|| sarveprasavaravijñānāssarvelabdhavarāstathā |",
+      "wordByWord": "सर्वall, अस्त्रविदुषः experts in the use of weapons, वीराः heroes, सर्वेall, युद्धविशारदाः skilled in warfare, सर्वall, प्रवरविज्ञानाः knowledgeable in scriptures, तथा so also, सर्वे all, लब्धवराः received boons.",
+      "meaning": "All were experts in the use of weapons, all were heroes and skilled in warfare, knowledgeable in scriptures, so also all were blessed with boons."
+    },
+    {
+      "id": "YK-69-14",
+      "shlokaNumber": 14,
+      "sanskrit": "सतैस्तथाभास्करतुल्यवर्चसैःपुस्त्रैर्वृतश्शत्रुबलप्रमार्दनैः । रराजराजामघवान्यथामरै ।र्वृतोमहादानवदर्पनाशनैः ।।6.69.14।।",
+      "transliteration": "sataistathābhāskaratulyavarcasaiḥpustrairvṛtaśśatrubalapramārdanaiḥ | rarājarājāmaghavānyathāmarai |rvṛtomahādānavadarpanāśanaiḥ ||6.69.14||",
+      "wordByWord": "भासतुल्यवर्चसैः equal to Sun in brilliance, शत्रुबलप्रमार्धनैः capable of crushing the foes, तैः those, सुतैः sons, तथा like that, वृतः surrounded, सःराजा the king, महादानवदर्पनाशनैः great in destroying the pride of Danavas, अमरैः immortals, वृतः surrounded, मघवायथा like Madhava, रराज shone.",
+      "meaning": "Surrounded by his sons, who matched Sun in brilliance and capable of crushing the pride of foes, great in destroying immortals, Ravana shone like Lord gods."
+    },
+    {
+      "id": "YK-69-15",
+      "shlokaNumber": 15,
+      "sanskrit": "स पुत्रान् सम्परिष्वज्यभूषयित्वा च भूषणैः । आशीर्भिश्चप्रशस्ताभिःप्रेषयामाससम्युगे ।।6.69.15।।",
+      "transliteration": "sa putrān sampariṣvajyabhūṣayitvā ca bhūṣaṇaiḥ | āśīrbhiścapraśastābhiḥpreṣayāmāsasamyuge ||6.69.15||",
+      "wordByWord": "सः he, पुत्रान् sons, सम्परिष्वज्य embraced, भूषणैः with ornaments, भूषयित्वा च decked with jewels, प्रशस्ताभिः enriched, आशीर्भिः benediction, सम्युगे for encounter, प्रेषयामास sent.",
+      "meaning": "Ravana embraced his sons, decked them with ornaments and jewels and enriched them and offered benediction and sent to encounter."
+    },
+    {
+      "id": "YK-69-16",
+      "shlokaNumber": 16,
+      "sanskrit": "युद्धोन्मत्तं च मत्तं च भ्रातरौचापिरावणः । रक्षणार्थंकुमाराणांप्रेषयामाससंयुगे ।।6.69.16।।",
+      "transliteration": "yuddhonmattṃ ca mattṃ ca bhrātaraucāpirāvaṇḥ | rakṣaṇārthṃkumārāṇāṃpreṣayāmāsasṃyuge ||6.69.16||",
+      "wordByWord": "रावणः Ravana, कुमाराणाम् for his sons, रक्षणार्थम् for protection of, भ्रातरौ brothers, युद्धोन्मत्तं च Yuddhonmatta, मत्तं च अपि and Matta, संयुगे for combat, प्रेषयामास for defence.",
+      "meaning": "Ravana sent his two brothers Yuddhonmatta and Matta for the protection of his sons for defence in combat."
+    },
+    {
+      "id": "YK-69-17",
+      "shlokaNumber": 17,
+      "sanskrit": "तेऽभिवाद्यमहात्मानंरावणंरिपुरावणम् । कृत्वाप्रदक्षिणंचैवमहाकायाःप्रतस्थिरे ।।6.69.17।।",
+      "transliteration": "te'bhivādyamahātmānṃrāvaṇṃripurāvaṇam | kṛtvāpradakṣiṇṃcaivamahākāyāḥpratasthire ||6.69.17||",
+      "wordByWord": "महाकायाः of huge body, ते those, महात्मानम् great, लोकरावणम् heroes, रावणम् to Ravana, प्रदक्षिणम् going round clockwise, कृत्वाचैव having done, प्रतस्थिरे departed.",
+      "meaning": "Those heroes greeting gigantic Ravana, went around him clockwise (as per tradition) and departed."
+    },
+    {
+      "id": "YK-69-18",
+      "shlokaNumber": 18,
+      "sanskrit": "सर्वौषधीभिर्गन्धैश्चसमालभ्यमहाबलाः । निर्जग्मुर्नैरृतश्रेष्ठाषडेतेयुद्धकाङ्क्षिणः ।।6.69.18।।",
+      "transliteration": "sarvauṣadhībhirgandhaiścasamālabhyamahābalāḥ | nirjagmurnairṛtaśreṣṭhāṣaḍeteyuddhakāṅkṣiṇḥ ||6.69.18||",
+      "wordByWord": "एते those, महाबलाः endowed with great strength, षट् six, नैरृतश्रेष्ठाः Rakshasa leaders, सर्वौषधीभिः which ward off injury, गन्धैः fragrance, समालभ्य anointing, युद्धकाङ्क्षिणः longing to fight, निर्जग्मुः went.",
+      "meaning": "The six leaders endowed with great strength, anointing themselves with fragrance, which can ward off injury went to fight."
+    },
+    {
+      "id": "YK-69-19",
+      "shlokaNumber": 19,
+      "sanskrit": "त्रिशिराश्चातिकायश्चदेवान्तकनरान्तकौ । महोदरमहापार्श्वौनिर्जग्मुःकालचोदिताः ।।6.69.19।।",
+      "transliteration": "triśirāścātikāyaścadevāntakanarāntakau | mahodaramahāpārśvaunirjagmuḥkālacoditāḥ ||6.69.19||",
+      "wordByWord": "त्रिशिराश्च Trisira also, अतिकायश्च Atikaya, देवान्तकनरान्तकौ Devantaka and Naranthaka, महोदरमहापार्श्वौ Mahodara and Mahaparsva, कालचोदिताः impelled by destiny, निर्जग्मुः went.",
+      "meaning": "Trisira, also Atikaya, Devanthaka, Naranthaka, Mahodara and Mahaparsva impelled by destiny went."
+    },
+    {
+      "id": "YK-69-20",
+      "shlokaNumber": 20,
+      "sanskrit": "ततस्सुदर्शनंनागंनीलजीमूतसन्निभम् । ऐरावतकुलेजातमारुरोहमहोदरः ।।6.69.20।।",
+      "transliteration": "tatassudarśanṃnāgṃnīlajīmūtasannibham | airāvatakulejātamārurohamahodarḥ ||6.69.20||",
+      "wordByWord": "ततः thereafter, महोदरः Mahodara, नीलजीमूतसन्निभम् resembling a dark cloud, ऐरावतकुलेजातम् born in the family of Airavatam elephant, सुदर्शनम् Sudarsanam, नागम् by name, आरुरोह mounted.",
+      "meaning": "Thereafter Mahodara mounted on an elephant born of Airavata (Indra 's elephant) family, by name Sudarsana went."
+    },
+    {
+      "id": "YK-69-21",
+      "shlokaNumber": 21,
+      "sanskrit": "सर्वायुधसमायुक्तंतूणीभिश्चस्वलङ्कृतम् । रराजगजमास्थायसवितेवास्तमूर्धनि ।।6.69.21।।",
+      "transliteration": "sarvāyudhasamāyuktṃtūṇībhiścasvalaṅkṛtam | rarājagajamāsthāyasavitevāstamūrdhani ||6.69.21||",
+      "wordByWord": "सर्वायुधसमायुक्तः ready with all kinds of weapons, तूणीभिश्चा quivers also, स्वलङ्कृतः decked, गजम् elephant, आस्थाय mounted, अस्तमूर्धनि on the western region, सवितेव like Sun, रराज shone.",
+      "meaning": "Ready with all kinds of weapons, quivers as well mounted on elephants shone like the setting Sun in the west."
+    },
+    {
+      "id": "YK-69-22",
+      "shlokaNumber": 22,
+      "sanskrit": "हयोत्तमसमायुक्तंसर्वायुधसमाकुलम् । आरुरोहरथश्रेष्ठंत्रिशिरारावणात्मजः ।।6.69.22।।",
+      "transliteration": "hayottamasamāyuktṃsarvāyudhasamākulam | āruroharathaśreṣṭhṃtriśirārāvaṇātmajḥ ||6.69.22||",
+      "wordByWord": "रावणात्मजः Ravana's brother, त्रिशिराः Trisira, हयोत्तमसमायुक्तम् best of horses, सर्वायुधसमाकुलम् with all kinds of weapons, रथश्रेष्ठम् best of chariots, आरुरोह mounted.",
+      "meaning": "Ravana's brother, Trisira went mounted on a chariot yoked to the best of horses with all kinds of weapons."
+    },
+    {
+      "id": "YK-69-23",
+      "shlokaNumber": 23,
+      "sanskrit": "त्रिशिरारथमास्थायविरराजधनुर्धरः । सविद्युदुल्कश्शैलाग्रेस्सेन्द्रइवाम्बुदः ।।6.69.23।।",
+      "transliteration": "triśirārathamāsthāyavirarājadhanurdharḥ | savidyudulkaśśailāgressendraivāmbudḥ ||6.69.23||",
+      "wordByWord": "धनुर्धरः wielding Bow, त्रिशिराः Trisira, रथम् chariot, आस्थाय taking seat, सविद्युदुल्कः attended by lightning, meteors light and rainbows, सैलाग्रे top of the mountain, सेन्द्रचापः sitting like leader, अम्बुदःइव like rain clouds, विरराज shone.",
+      "meaning": "Wielding a bow and sitting like a leader in the chariot Trisira shone as if attended by lightning, meteors, light, and rainbows."
+    },
+    {
+      "id": "YK-69-24",
+      "shlokaNumber": 24,
+      "sanskrit": "त्रिभिःकिरीटैश्शुशुभेत्रिशिरास्सरथोत्तमे । हिमवानिशैलेन्द्रस्त्रिभिःकाञ्चनपर्वतैः ।।6.69.24।।",
+      "transliteration": "tribhiḥkirīṭaiśśuśubhetriśirāssarathottame | himavāniśailendrastribhiḥkāñcanaparvataiḥ ||6.69.24||",
+      "wordByWord": "सः he, त्रिशिराः Trisira, रथोत्तमे best of chariot, त्रिभिः three, किरीटैः adorned with crowns, त्रिभिः three, काञ्चनपर्वतैः golden mountain, शैलेंद्रः Lord of mountains, हिमवानिव Himalaya like, शुशुभे shone.",
+      "meaning": "Trisira seated in the best of chariots, with his three heads adorned with crowns shone like the golden mountain, Himalayas with its three peaks."
+    },
+    {
+      "id": "YK-69-25",
+      "shlokaNumber": 25,
+      "sanskrit": "अतिकायोऽपितितेजस्वीराक्षसेन्द्रसुतस्तदा । आरुरोहरथश्रेष्ठंश्रेष्ठस्सर्वधनुष्मताम् ।।6.69.25।।",
+      "transliteration": "atikāyo'pititejasvīrākṣasendrasutastadā | āruroharathaśreṣṭhṃśreṣṭhassarvadhanuṣmatām ||6.69.25||",
+      "wordByWord": "तदा then, अतितेजस्वी very bright, राक्षसेन्द्रसुतः Lord of Rakshasas's son, सर्वधनुष्मताम् all archers, श्रेष्ठः best of, अतिकायः Atikaya, रथश्रेष्ठम् best of chariots, आरुरोह mounted.",
+      "meaning": "Then Atikaya the very bright son of Rakshasa king, foremost of all archers mounted on the best of chariots."
+    },
+    {
+      "id": "YK-69-26",
+      "shlokaNumber": 26,
+      "sanskrit": "सुचक्राक्षंसुसंयुक्तंस्वनुकर्षंसुकूबरम् । तूणीबाणासनैर्दीप्तंप्रासासिपरिघाकुलम् ।।6.69.26।।",
+      "transliteration": "sucakrākṣṃsusṃyuktṃsvanukarṣṃsukūbaram | tūṇībāṇāsanairdīptṃprāsāsiparighākulam ||6.69.26||",
+      "wordByWord": "सुचक्राक्षम् of excellent wheels, सुसंयुक्तम् well fixed, स्वनुकर्षम् strong axles, सुकूबरम् with stout poles, तूणीबाणासनैः with quivers and bows, दीप्तम् radiant, प्रासासिपरिघाकुलम् with best of bars, spears and swords.",
+      "meaning": "The chariot (of Atikaya) had excellent wheels, well fitted with strong axles, stout poles, equipped with quivers and bows, with best of spears, bars, and swords."
+    },
+    {
+      "id": "YK-69-27",
+      "shlokaNumber": 27,
+      "sanskrit": "सकाञ्चनविचित्रेणमकुटेनविराजता । भूषणैश्चबभौमेरुःप्रभाभिरिवभासयन् ।।6.69.27।।",
+      "transliteration": "sakāñcanavicitreṇamakuṭenavirājatā | bhūṣaṇaiścababhaumeruḥprabhābhirivabhāsayan ||6.69.27||",
+      "wordByWord": "सः he, काञ्चनविचित्रेण wonderful gold, विराजता shining, मकुटेन coronet, भूषणैश्च encrusted, प्रभाभिः sparkling, भासयन् splendid, मेरुःइव like Meru, बभौ seemed.",
+      "meaning": "His wonderful coronet encrusted with gold was shining, sparkling, and looked splendid like the Meru Mountain."
+    },
+    {
+      "id": "YK-69-28",
+      "shlokaNumber": 28,
+      "sanskrit": "स रराजरथेतस्मिन् राजसूनुर्महाबलः । वृतोनैरृतशार्दूलैर्वज्रपाणिरिवामरैः ।।6.69.28।।",
+      "transliteration": "sa rarājarathetasmin rājasūnurmahābalḥ | vṛtonairṛtaśārdūlairvajrapāṇirivāmaraiḥ ||6.69.28||",
+      "wordByWord": "नैरृतशार्दूलैः tiger among ogres, वृतः surrounded by, महाबलः great army, राजसूनुः the prince, तस्मिन् रथे in his chariot, अमरैः like king of gods, वज्रपाणिःइव like Indra the wielder of thunderbolt, रराज appeared.",
+      "meaning": "The tiger among ogres (Atikaya) surrounded by the great army of ogres, the prince was shining in the chariot like Indra, the king of gods and wielder of thunderbolt."
+    },
+    {
+      "id": "YK-69-29",
+      "shlokaNumber": 29,
+      "sanskrit": "हयमुच्चैश्श्रवःप्रख्यंश्वेतंकनकभूषणम् । मनोजवंमहाकायमारुरोहनरान्तकः ।।6.69.29।।",
+      "transliteration": "hayamuccaiśśravḥprakhyṃśvetṃkanakabhūṣaṇam | manojavṃmahākāyamārurohanarāntakḥ ||6.69.29||",
+      "wordByWord": "नरान्तकः Naranthaka, उच्छैःश्रवःप्रख्यम् Uchaisrava (horse evolved in churning of the milky ocean), श्वेतम् white, कनकभूषणम् decked in gold, मनोजवम् swift as thought in speed, महाकायम् huge, हयम् horse, आरुरोह mounted.",
+      "meaning": "Naranthaka, mounted on Uchaisrava, the white horse, decked in gold, was swift as thought in speed."
+    },
+    {
+      "id": "YK-69-30",
+      "shlokaNumber": 30,
+      "sanskrit": "गृहीत्वाप्रासमुल्काभंविरराजनरान्तकः । शक्तिमादायतेजस्वीगुहशशिखिगतोयथा ।।6.69.30।।",
+      "transliteration": "gṛhītvāprāsamulkābhṃvirarājanarāntakḥ | śaktimādāyatejasvīguhaśaśikhigatoyathā ||6.69.30||",
+      "wordByWord": "नरान्तकः Naranthaka, उल्काभम् burning spear like, प्रासम् barbed missile, गृहीत्वा seizing, तेजस्वी brilliant, शिखिगतः like the one with peacock feather in head (son of Siva), गुहः Guha, शक्तिम् taking javelin, आदायथा taking that way, विरजा shone.",
+      "meaning": "Naranthaka seizing a barbed missile like a burning spear, looked like son of Lord Siva wielding javelin in hand."
+    },
+    {
+      "id": "YK-69-31",
+      "shlokaNumber": 31,
+      "sanskrit": "देवान्ककस्समादायपरिघंवज्रभूषणम् । परिगृह्यगिरिंदोर्भ्यांवपुर्विष्णोर्विडम्बयन् ।।6.69.31।।",
+      "transliteration": "devānkakassamādāyaparighṃvajrabhūṣaṇam | parigṛhyagiriṃdorbhyāṃvapurviṣṇorviḍambayan ||6.69.31||",
+      "wordByWord": "देवान्तकः Devanthaka, वज्रभूषणम् encrusted with diamonds, परिघम् bar, समादाय taking, दोर्भ्याम् in both hands, गिरिम् mountain, परिगृह्य taking, विष्णोः Vishnu, वपुः enemy, विडम्बयन् in disguise.",
+      "meaning": "Devanthaka, holding a bar encrusted with diamonds in both hands, seemed like Vishnu in disguise with a mountain (to churn the milky ocean)."
+    },
+    {
+      "id": "YK-69-32",
+      "shlokaNumber": 32,
+      "sanskrit": "महापार्श्वोमहाकायोगदामादायवीर्यवान् । विरराजगदापाणिःकुबेरइवसंयुगे ।।6.69.32।।",
+      "transliteration": "mahāpārśvomahākāyogadāmādāyavīryavān | virarājagadāpāṇiḥkuberaivasṃyuge ||6.69.32||",
+      "wordByWord": "वीर्यवान् heroic, गदापाणिः holding mace, महापार्श्वः Mahaparsva, गदाम् आदाय holding mace, संयुगे for war, कुबेरःइव like Kubera, विरजा shone.",
+      "meaning": "Mahaparsva holding an ace in hand in the war shone like Kubera."
+    },
+    {
+      "id": "YK-69-33",
+      "shlokaNumber": 33,
+      "sanskrit": "तेप्रतस्थुर्महात्मानोऽमरावत्यास्सुराइव । तान् गजैश्चतुरङ्गैश्चरथैश्चाम्बुन्दिस्स्वनैः ।।6.69.33।। अनूत्पेतुर्महात्मानोराक्षसाःप्रवरायुधाः ।",
+      "transliteration": "tepratasthurmahātmāno'marāvatyāssurāiva | tān gajaiścaturaṅgaiścarathaiścāmbundissvanaiḥ ||6.69.33|| anūtpeturmahātmānorākṣasāḥpravarāyudhāḥ |",
+      "wordByWord": "महात्मानः great soul, ते they, अमरावत्याः of Amaravati, सुराःइव like gods, प्रतस्थुः went, महात्मानः great souls प्रवरायुधाः superb weapons, राक्षसाः Rakshasas, गजैश्च including elephants, तुरङ्गैश्च horses too, अम्बुन्दिस्स्वनैः sounding like rainy clouds, रथैश्च chariots also, तान् they, अनूत्पेतुः followed.",
+      "meaning": "Those great souls followed by elephants, horses, Rakshasas with superb weapons sounding like the rumbling of rainy clouds went like gods of Amaravati."
+    },
+    {
+      "id": "YK-69-34",
+      "shlokaNumber": 34,
+      "sanskrit": "तेविरेजुर्महात्मानःकुमारास्सूर्यवर्चसः ।।6.69.34।। किरीटिनश्रशियाजुष्टाग्रहादीप्ताइवाम्बरे ।",
+      "transliteration": "tevirejurmahātmānḥkumārāssūryavarcasḥ ||6.69.34|| kirīṭinaśraśiyājuṣṭāgrahādīptāivāmbare |",
+      "wordByWord": "सूर्यवर्चसः resplendent as Sun, किरीटिनः wearing crowns, श्रिया prosperous, जुष्टाः , महात्मानः great ones, ते they, कुमाराः princes, अम्बरे sky, दीप्ताः glowing, ग्रहाःइव like planets, विरेजुः shone.",
+      "meaning": "The great princes were wearing crowns resplendent like the Sun and glowing like planets in the sky."
+    },
+    {
+      "id": "YK-69-35",
+      "shlokaNumber": 35,
+      "sanskrit": "प्रगृहीताबभौतेषांशस्त्राणामावळिस्सिता ।।6.69.35।। शारदाभ्रप्रतीकाशाहंसावळिरिवाम्बरे ।",
+      "transliteration": "pragṛhītābabhauteṣāṃśastrāṇāmāvaळissitā ||6.69.35|| śāradābhrapratīkāśāhṃsāvaळirivāmbare |",
+      "wordByWord": "तेषाम् those princes, शस्त्राणाम् weapons, प्रगृहीता grasping, शिवा pure white, शरदभ्रप्रतीकाशा like autumnal clouds, आवलिः dark coloured, अम्बरे in the sky, हंसावलिःइव like white cranes, बभौ shone.",
+      "meaning": "The princes, grasping the white weapons shone like flocks of white cranes in the dark autumnal clouds in the sky."
+    },
+    {
+      "id": "YK-69-36",
+      "shlokaNumber": 36,
+      "sanskrit": "मरणंवापिनिश्चित्यशत्रूणांवापराजयम् ।।6.69.36।। इतिकृत्वामतिंवीरानिर्जग्मुस्संयुगार्थिनः ।",
+      "transliteration": "maraṇṃvāpiniścityaśatrūṇāṃvāparājayam ||6.69.36|| itikṛtvāmatiṃvīrānirjagmussṃyugārthinḥ |",
+      "wordByWord": "मरणंवापि even if it meant death, शत्रूणाम् enemy, पराजयंवापि even defeated, निश्चित्य determined, वीराः heroes, इति thus, मतिम् thinking, कृत्वा to do, संयुगार्थिनः for the combat, निर्जग्मुः started.",
+      "meaning": "Those heroes determined to defeat the enemy even if it meant death and went thinking for the combat."
+    },
+    {
+      "id": "YK-69-37",
+      "shlokaNumber": 37,
+      "sanskrit": "जगर्जुश्चप्रणेदुश्चचिक्षिपुश्चापिसायकान् ।।6.69.37।। जगृहुश्चमहात्मानोनिर्वातायुद्धदुर्मदाः ।",
+      "transliteration": "jagarjuścapraṇeduścacikṣipuścāpisāyakān ||6.69.37|| jagṛhuścamahātmānonirvātāyuddhadurmadāḥ |",
+      "wordByWord": "निर्याताः determined, महात्मानः great Rakshasas, युद्धदुर्मदाः fierce in combat, जगर्जुश्च roaring, प्रणेदुश्च shouted loudly, सायकान् arrows, चिक्षिपुश्च discharged, जगृहुः च went.",
+      "meaning": "The great Rakshasas who were fierce in combat went roaring shouting loudly and discharging arrows."
+    },
+    {
+      "id": "YK-69-38",
+      "shlokaNumber": 38,
+      "sanskrit": "क्ष्वेळिडितास्फोटिनिनदैश्चचाल च वसुन्दरा ।।6.69.38।। रक्षसांसिंहनादैश्चसंस्फोटेवतदाम्बरम् ।",
+      "transliteration": "kṣveळiḍitāsphoṭininadaiścacāla ca vasundarā ||6.69.38|| rakṣasāṃsiṃhanādaiścasṃsphoṭevatadāmbaram |",
+      "wordByWord": "क्ष्वेळिडितास्फोटितः by the sound of clapping of arms, रक्षसाम् Rakshasas, सिंहनादैः lion roar, संस्फोटितइव as though breaking like अम्बरम् sky, निनदैः by the roar, वसुन्दरा earth, चचाल shook.",
+      "meaning": "By the sound of their clapping of arms and their lion roar it was as though the sky was breaking and the earth was shaking."
+    },
+    {
+      "id": "YK-69-39",
+      "shlokaNumber": 39,
+      "sanskrit": "अभिनिष्क्रम्यमुदिताराक्षसेन्द्रामहाबलाः ।।6.69.39।। ददृशुर्वानरानीकंसमुद्यतशिलानगम् ।",
+      "transliteration": "abhiniṣkramyamuditārākṣasendrāmahābalāḥ ||6.69.39|| dadṛśurvānarānīkṃsamudyataśilānagam |",
+      "wordByWord": "महाबलाः possessed of extraordinary might, ते they, राक्षसेन्ध्राः Rakshasa army, अभिनिष्क्रम्य departing from there, समुद्यतशिलानगम् ready with many rocks, वानरानीकम् Vanara army, ददृशुः witnessed.",
+      "meaning": "Departing from there the Rakshasa army saw Vanara army ready with many rocks."
+    },
+    {
+      "id": "YK-69-40-41",
+      "shlokaNumber": 40,
+      "sanskrit": "हरयोपिमहात्मानोददृशुर्नेरृतम् ।।6.69.40।। हस्त्यश्वरथसम्बाधंकिङ्किणीशतनादितम् । नीलजीमूतसङ्काशंसमुद्यतमहायुधम् ।।6.69.41।। दीप्तानलरविप्रख्यैस्सर्वतोनैरृतैर्वृतम् ।",
+      "transliteration": "harayopimahātmānodadṛśurnerṛtam ||6.69.40|| hastyaśvarathasambādhṃkiṅkiṇīśatanāditam | nīlajīmūtasaṅkāśṃsamudyatamahāyudham ||6.69.41|| dīptānalaraviprakhyaissarvatonairṛtairvṛtam |",
+      "wordByWord": "महात्मानः huge gigantic, हरयोऽपि Vanaras also, हस्त्यश्वरथसम्भाधम् groups of elephants, horses and chariots, किङ्किणीशतनादितम् sounds of hundreds of bells of the chariots, नीलजीमूतसङ्काशम् like group of dark clouds, समुद्यतमहायुधम् with huge weapons, सर्वतः all, दीप्तानलरविप्रख्यैः glowing like fire and Sun, नैरृतैः Rakshasas, वृतम् surrounded, राक्षसम् Rakshasas, बलम् army, ददृशुः saw.",
+      "meaning": "The huge monkeys also saw groups of elephants, horses and chariots and heard hundreds of bells of the chariots and Rakshasas all over like groups of dark clouds with huge weapons glowing like fire and Sun surrounded by Rakshasa army."
+    },
+    {
+      "id": "YK-69-42-43",
+      "shlokaNumber": 42,
+      "sanskrit": "तद्दृष्टवाबलमायान्तंलब्धलक्षाःप्लवङ्गमाः ।।6.69.42।। समुद्यतमहाशैलास्सम्प्रणेदुर्महाबला । अमृष्यमाणारक्षांसिप्रतिनर्दन्तवानराः ।।6.69.43।।",
+      "transliteration": "taddṛṣṭavābalamāyāntṃlabdhalakṣāḥplavaṅgamāḥ ||6.69.42|| samudyatamahāśailāssampraṇedurmahābalā | amṛṣyamāṇārakṣāṃsipratinardantavānarāḥ ||6.69.43||",
+      "wordByWord": "आयातम् approaching, तत् that, बलम् army, दृष्टवा seeing, प्लवङ्गमाः monkeys, लब्धलक्षाः found their target to attack, समुद्यतमहाशैलाः collected huge mountains, दुर्महाबला deadly strong, सम्प्रणेदुः in great joy, वानराः Vanara, रक्षांसि at Rakshasas, अमृष्यमाणाः unable to tolerate, प्रतिनर्दन्त roared in return.",
+      "meaning": "Seeing the Rakshasa army approaching, the monkeys found an opportunity to attack them and collected huge mountains, deadly strong trees in great joy unable to tolerate roared in return."
+    },
+    {
+      "id": "YK-69-44",
+      "shlokaNumber": 44,
+      "sanskrit": "ततस्समुद्घुष्टरवंनिशम्य।रक्षोगणावानरयूथपानाम् । अमृष्यमाणाःपरहर्षमुग्रं।महाबलाःभीमतरंविनेदुः ।।6.69.44।।",
+      "transliteration": "tatassamudghuṣṭaravṃniśamya|rakṣogaṇāvānarayūthapānām | amṛṣyamāṇāḥparaharṣamugrṃ|mahābalāḥbhīmatarṃvineduḥ ||6.69.44||",
+      "wordByWord": "ततः there upon, उग्रमहाबलाः endowed with extraordinary prowess, रक्षोगणाः Rakshasa troop, वानरयूथपानाम् Vanara leaders, समुद्घुष्टरवम् joy of the troops, निशम्य beholding, परहर्षम् their joy, अमृष्यमाणाः unable to bear, भीमतरम् dreadfully, विनेदुः roared.",
+      "meaning": "There upon the Vanara leaders, endowed with extraordinary prowess, beholding the joy of Rakshasa troops, unable to bear roared dreadfully."
+    },
+    {
+      "id": "YK-69-45",
+      "shlokaNumber": 45,
+      "sanskrit": "तेराक्षसबलंघोरंप्रविश्यहरियूथपाः । विचेरुरुद्यतैश्शैलैर्नगाश्शिखरिणोयथा ।।6.69.45।।",
+      "transliteration": "terākṣasabalṃghorṃpraviśyahariyūthapāḥ | vicerurudyataiśśailairnagāśśikhariṇoyathā ||6.69.45||",
+      "wordByWord": "ते those, हरियूथपाः monkey leaders, घोरम् dreadful, राक्षसबलम् Rakshasa army, प्रविश्य entering, उद्यतैः uplifted, शैलैः rocks, शिखरिणः peaks of mountains, नगाःयथा forest trees, विचेरुः shone.",
+      "meaning": "Those monkey leaders entering dreadful Rakshasa army uplifted rocks and mountains with trees and shone."
+    },
+    {
+      "id": "YK-69-46",
+      "shlokaNumber": 46,
+      "sanskrit": "केचिदाकाशमाविश्यकेचिदुर्व्यांप्लवङ्गमाः । रक्षस्सैन्येषुसङ्कृद्धाःश्चेरुर्द्रुमशिलायुधाः ।।6.69.46।।",
+      "transliteration": "kecidākāśamāviśyakecidurvyāṃplavaṅgamāḥ | rakṣassainyeṣusaṅkṛddhāḥścerurdrumaśilāyudhāḥ ||6.69.46||",
+      "wordByWord": "केचित् some, प्लवङ्गमाः monkeys, आकाशम् sky, आविश्य springing, केचित् some, उर्व्याम् staying on earth, सङ्कृद्धाः highly enraged, द्रुमशिलायुधाः trees and rocks as weapons, रक्षस्सैन्येषु Rakshasa army, चेरुः ranged.",
+      "meaning": "Some monkeys springing into the sky, while some staying on earth, with trees, rocks as weapons, enraged, ranged the Rakshasa army."
+    },
+    {
+      "id": "YK-69-47",
+      "shlokaNumber": 47,
+      "sanskrit": "द्रुमांश्चविपुलस्कन्थान् गृह्यवानरपुङ्गवाः । तद्युद्धमभवद्घोरंरक्षोवानरसङ्कुलम् ।।6.69.47।।",
+      "transliteration": "drumāṃścavipulaskanthān gṛhyavānarapuṅgavāḥ | tadyuddhamabhavadghorṃrakṣovānarasaṅkulam ||6.69.47||",
+      "wordByWord": "वानरपुङ्गवाः Vanara leaders, विपुलस्कन्धान् huge branches of stems, द्रुमान् च trees also, गृह्य seizing, तत् those, रक्षोवानरसङ्कुलम् Rakshasa and Vanara troops, युद्धम् war, घोरम् frightening, अभवत् happened.",
+      "meaning": "Vanara leaders seizing huge branches of trees fought a frightening war with Rakshasas."
+    },
+    {
+      "id": "YK-69-48",
+      "shlokaNumber": 48,
+      "sanskrit": "तेपादपशिलाश्शैलैश्चक्रुर्वृष्टिमनूपमाम् । बाणौघैर्वार्यमाणाश्चहरयोभीमविक्रमाः ।।6.69.48।।",
+      "transliteration": "tepādapaśilāśśailaiścakrurvṛṣṭimanūpamām | bāṇaughairvāryamāṇāścaharayobhīmavikramāḥ ||6.69.48||",
+      "wordByWord": "बाणौघैः arrows, वार्यमाणाः heroic, भीमविक्रमाः of dreadful valour, ते those, हरयः monkeys, पादपशिलाश्शैलैः trees, rocks and mountains, अनूपमाम् unparalleled, वृष्टिम् rain, चक्रुः showered.",
+      "meaning": "The Vanaras of dreadful valour and unparalleled might waged with trees, rock and mountain when obstructed by the Rakshasas।।"
+    },
+    {
+      "id": "YK-69-49",
+      "shlokaNumber": 49,
+      "sanskrit": "सिंहनादान्विनेदुश्चरणेराक्षसवानराः । शिलाभिश्चूर्णयामासुर्यातुधानान् प्लवङ्गमाः ।।6.69.49।।",
+      "transliteration": "siṃhanādānvineduścaraṇerākṣasavānarāḥ | śilābhiścūrṇayāmāsuryātudhānān plavaṅgamāḥ ||6.69.49||",
+      "wordByWord": "रणे in the battlefield, राक्षसवानराः Rakshasas and Vanaras, सिंहनादान् roaring like lions, विनेदुः enthusiastic, प्लवंवङ्गमाः Vanaras, यातुधानान् pounded, शिलाभिः rocks, चूर्णयामासुः crushed.",
+      "meaning": "The Rakshasas and Vanaras enthusiastic in the battlefield roared like lion. The Vanaras pounded the Rakshasas with rocks."
+    },
+    {
+      "id": "YK-69-50",
+      "shlokaNumber": 50,
+      "sanskrit": "नर्जघ्नुस्संयुगेक्रुद्धाःकवचाभरणावृतान् । केचिद्रथगतावनीरान्गजवाजिगतानपि ।।6.69.50।।",
+      "transliteration": "narjaghnussṃyugekruddhāḥkavacābharaṇāvṛtān | kecidrathagatāvanīrāngajavājigatānapi ||6.69.50||",
+      "wordByWord": "क्रुद्धाः angered, संयुगे in combat, कवचाभरणावृतान् decked with shields and ornaments, निर्जजघ्नुः killed, केचित् some, रथगतान् seated on chariots, वीरान् heroes, गजवाजिगतानपि mounted on elephants and horses.",
+      "meaning": "In the combat, the enraged Vanaras killed Rakshasas decked with shields and ornaments. Some killed the ones mounted on chariots, elephants, and horses."
+    },
+    {
+      "id": "YK-69-51",
+      "shlokaNumber": 51,
+      "sanskrit": "निर्जघ्नुस्सहसाऽप्लुत्ययातुधानान् प्लवङ्गमाः । शैलशृङ्गाचिताङ्गाश्चमुष्टिभिर्वान्तलोचनाः ।।6.69.51।। चेरुःपेतुश्चनेदुश्चतत्रराक्षसपुङ्गवाः ।",
+      "transliteration": "nirjaghnussahasā'plutyayātudhānān plavaṅgamāḥ | śailaśṛṅgācitāṅgāścamuṣṭibhirvāntalocanāḥ ||6.69.51|| ceruḥpetuścaneduścatatrarākṣasapuṅgavāḥ |",
+      "wordByWord": "प्लवङ्गमाः monkeys, वीरान् leaders, यातुधानान् troop leaders, सहसा also, निर्जघ्नुः blows, तत्र there, ते they, राक्षसपुङ्गवाः Rakshasa leaders, शृङ्गाचितांङ्गाश्च bodies covered by mountain peak, मुष्टिभिः with fists, वान्तलोचनाः eyeballs protruded, चेलुः trembled, पेतुश्च shrieked, नेदुश्च fell down.",
+      "meaning": "The Rakshasa leaders, hit by the blows of Vanaras, fell down on the mountain peaks, trembling with their eyes protruded by the blows of fists."
+    },
+    {
+      "id": "YK-69-52",
+      "shlokaNumber": 52,
+      "sanskrit": "राक्षसाश्चशरैस्तीक्ष्णैर्बिदुःकपिकुञ्जरान् ।।6.69.52।। शूलमुद्गरखडगैश्चजघ्नुःप्रासैश्चशक्तिभिः ।",
+      "transliteration": "rākṣasāścaśaraistīkṣṇairbiduḥkapikuñjarān ||6.69.52|| śūlamudgarakhaḍagaiścajaghnuḥprāsaiścaśaktibhiḥ |",
+      "wordByWord": "राक्षसाश्च Rakshasas also, तीक्ष्णैः sharp, शरैः arrows, कपिकुञ्जरान् foremost of the monkeys, बिभिदुः pierced, शूलमुद्गरखडगैश्च with tridents and swords, शक्तिभिः javelins also, प्रासैश्च lances, जघ्नुः struck.",
+      "meaning": "The Rakshasas also pierced with arrows the foremost of the monkeys and struck with tridents swords and lances."
+    },
+    {
+      "id": "YK-69-53",
+      "shlokaNumber": 53,
+      "sanskrit": "अन्योन्यंपातयामासुःपरस्परजयैषिणः ।।6.69.53।। रिपुशोणितदिग्धाङ्गास्तत्रवानरराक्षसाः",
+      "transliteration": "anyonyṃpātayāmāsuḥparasparajayaiṣiṇḥ ||6.69.53|| ripuśoṇitadigdhāṅgāstatravānararākṣasāḥ",
+      "wordByWord": "तवtheir, रिपुशोणितदिग्धाङ्गाः limbs stained with blood of foes, वानरराक्षसाः Vanara and Rakshasas, परस्पर one another, जयैषिणः eager to conquer, अन्योन्यम् one another, पातयामासुः started striking.",
+      "meaning": "Their limbs stained with the blood of foes, both Vanaras and Rakshasas eager to conquer one another started striking one another."
+    },
+    {
+      "id": "YK-69-54",
+      "shlokaNumber": 54,
+      "sanskrit": "ततश्शैलैश्चखडगैश्चविसृष्टैर्हरिराक्षसैः ।।6.69.54।। मुहूर्तेनावृताभूमिरभवच्छोणिताप्लुता ।",
+      "transliteration": "tataśśailaiścakhaḍagaiścavisṛṣṭairharirākṣasaiḥ ||6.69.54|| muhūrtenāvṛtābhūmirabhavacchoṇitāplutā |",
+      "wordByWord": "ततः there upon, हरिराक्षसैः monkeys and Rakshasas, विसृष्टैः covered, शैलैश्च with rocks, खडगैश्च swords, मुहूर्तेन in a short while, आवृता surrounded, भूमिः earth, शोणिताप्लु with blood, अभवत् appeared.",
+      "meaning": "Then in a short while the battlefield was covered with blood and rocks and swords used by the monkeys and Rakshasas."
+    },
+    {
+      "id": "YK-69-55",
+      "shlokaNumber": 55,
+      "sanskrit": "विकीर्णैःपर्वताकारैरक्षोभिररिमर्दनैः ।।6.69.55।। आसीद्वसुमतीपूर्णातदायुद्धमदान्वितैः ।",
+      "transliteration": "vikīrṇaiḥparvatākārairakṣobhirarimardanaiḥ ||6.69.55|| āsīdvasumatīpūrṇātadāyuddhamadānvitaiḥ |",
+      "wordByWord": "तदा then, वसुमती earth, विकीर्णैः filled, पर्वताकारैः of mountain like, अभिमर्दितैः crushed, युद्धमदान्वितैः drunk pride of warfare, रक्षोभिः Rakshasas also, पूर्णा fully, आसीत् lying scattered.",
+      "meaning": "There, the battlefield was filled with mountain like forms of Rakshasas drunk with the pride of warfare, lying scattered all over."
+    },
+    {
+      "id": "YK-69-56",
+      "shlokaNumber": 56,
+      "sanskrit": "आक्षिप्ताःक्षिप्यमाणाश्चभग्नशूलाश्चवानरैः ।।6.69.56।। पुनरङ्गैस्तदाचक्रुरासन्नायुद्धमद्भुतम् ।",
+      "transliteration": "ākṣiptāḥkṣipyamāṇāścabhagnaśūlāścavānaraiḥ ||6.69.56|| punaraṅgaistadācakrurāsannāyuddhamadbhutam |",
+      "wordByWord": "वानरैः Vanaras, भग्नशूलाः breaking the tridents, आक्षिप्ताः lifting and dropping, क्षिप्यमाणाश्च scattered, तदा then, आसन्नाः went over, तदा then, अद्भुतम् wonderful, युद्धम् war, अङ्गैः limbs, चक्रुः carried out.",
+      "meaning": "Vanaras, were lifting and dropping the scattered Rakshasas, breaking the tridents and a wonderful war went on using their limbs."
+    },
+    {
+      "id": "YK-69-57",
+      "shlokaNumber": 57,
+      "sanskrit": "वानरान्वानरैरेवजघ्नुस्तेनैरृतर्षभाः ।।6.69.57।। राक्षसान्राक्षसैरेवजघ्नुस्तेवानराअपि ।",
+      "transliteration": "vānarānvānarairevajaghnustenairṛtarṣabhāḥ ||6.69.57|| rākṣasānrākṣasairevajaghnustevānarāapi |",
+      "wordByWord": "ते they, नैरृतर्षभाः bull of Rakshasas, वानरान् at Vanaras, वानरैरेव with monkeys, जघ्नुः struck, वानराः Vanaras अपि and also, राक्षसान् Rakshasas, राक्षसैरेव with Rakshasas, जघ्नुः struck.",
+      "meaning": "The bull among Rakshasas struck at Vanaras with other Vanaras and the monkeys struck Rakshasas with other Rakshasas."
+    },
+    {
+      "id": "YK-69-58",
+      "shlokaNumber": 58,
+      "sanskrit": "आक्षिप्य च शिलास्तेषांनिजघ्नाराक्षसाहरीन् ।।6.69.58।। तेषांचाछचिद्यशस्त्राणिजघ्नूरक्षांसिवानराः ।",
+      "transliteration": "ākṣipya ca śilāsteṣāṃnijaghnārākṣasāharīn ||6.69.58|| teṣāṃcāchacidyaśastrāṇijaghnūrakṣāṃsivānarāḥ |",
+      "wordByWord": "हरीन् monkeys, तेराक्षसाः those Rakshasas, शिलाः rocks, सेषाम् left over, आक्षिप्य taking, जघ्नुः struck, वानराः च Vanaras also, तेषाम् while they, शस्त्राणि weapons, आछचिद्य tearing, रक्षांसि Rakshasas, निजघ्नुः struck.",
+      "meaning": "The monkeys struck at the Rakshasas taking the weapons left over and tearing the weapons of the Rakshasas and the Vanaras also struck the Rakshasas."
+    },
+    {
+      "id": "YK-69-59",
+      "shlokaNumber": 59,
+      "sanskrit": "निजघ्नुश्शैलशूलार्स्सैर्भिभिदुश्चपरस्परम् ।।6.69.59।। सिंहनादान्विनेदुश्चरणेराक्षसावानराः ।",
+      "transliteration": "nijaghnuśśailaśūlārssairbhibhiduścaparasparam ||6.69.59|| siṃhanādānvineduścaraṇerākṣasāvānarāḥ |",
+      "wordByWord": "रणे in the battlefield, वानरराक्षसा Vanaras and Rakshasas, शैलशूलान् with rocks and swords, परस्परम् one another, बिभुदुः struck, सिंहनादैः lion roar, विनेदुश्च emitted, निजघ्नु one another (with their head).",
+      "meaning": "In the battlefield both Vanaras and Rakshasas struck at one another with their head, rocks and swords and emitted lion roar."
+    },
+    {
+      "id": "YK-69-60",
+      "shlokaNumber": 60,
+      "sanskrit": "छिन्नवर्णतनुत्राणाराक्षसावानरैर्हताः ।।6.69.60।। रुधिरंप्रसृतास्तत्ररससारमिवद्रुमाः ।",
+      "transliteration": "chinnavarṇatanutrāṇārākṣasāvānarairhatāḥ ||6.69.60|| rudhirṃprasṛtāstatrarasasāramivadrumāḥ |",
+      "wordByWord": "वानरैः Vanaras, हताः killed, राक्षसाः Rakshasas, छिन्नवर्णतनुत्राणाः shields and weapons broken, द्रुमाः trees, रससारम् sap exudes from stem, तत्र there, रुधिरम् blood, प्रसृताः flowed.",
+      "meaning": "The Rakshasas killed by Vanaras, their shields and weapons broken, blood flowed from their limbs just as sap exudes from broken trees."
+    },
+    {
+      "id": "YK-69-61",
+      "shlokaNumber": 61,
+      "sanskrit": "रथेन च रथंचापिवारणेनैववारणम् ।।6.69.61।। हयेन च हयंकेचिन्निजघ्नुर्वानरारणे ।",
+      "transliteration": "rathena ca rathṃcāpivāraṇenaivavāraṇam ||6.69.61|| hayena ca hayṃkecinnijaghnurvānarāraṇe |",
+      "wordByWord": "रणे in the battlefield, केचित् , some वानराः Vanaras, रथेन on chariot, रथम् another chariot, वारणेनापि elephant, वारणम् with another elephant, हयेन horse, हयम् with another horse, निजघ्नुः struck.",
+      "meaning": "In the battlefield a chariot with another chariot, an elephant with another elephant, a horse with another horse struck one another."
+    },
+    {
+      "id": "YK-69-62",
+      "shlokaNumber": 62,
+      "sanskrit": "क्षुरप्रैरर्धचन्द्रैश्चभल्लैश्चनिशितैश्शरैः ।।6.69.62।। राक्षसावानरेन्द्राणांबिभिदुःपादपान् शिलाः ।",
+      "transliteration": "kṣuraprairardhacandraiścabhallaiścaniśitaiśśaraiḥ ||6.69.62|| rākṣasāvānarendrāṇāṃbibhiduḥpādapān śilāḥ |",
+      "wordByWord": "राक्षसाः Rakshasa, क्षुरप्रैः horse shoe shaped, अर्धचन्द्रेःच halfmoon shaped, भल्लैश्च spear shaped heads, निशितैः sharp, शरैः arrows, वानरेन्द्राणाम् Vanara leaders, पादपान् trees, शिलाः rocks, बिभिदुः shattered.",
+      "meaning": "Rakshasas shattered the Vanara leaders with horseshoe shaped, halfmoon shaped, spear shaped sharp arrows, as well as trees and rocks."
+    },
+    {
+      "id": "YK-69-63",
+      "shlokaNumber": 63,
+      "sanskrit": "विकीर्णैपर्वताग्रैश्चद्रुमैछशिनैश्चसंयुगे ।।6.69.63।। हतैश्चकपिरक्षोभिर्दुर्गमावसुधाऽभवत् ।",
+      "transliteration": "vikīrṇaiparvatāgraiścadrumaichaśinaiścasṃyuge ||6.69.63|| hataiścakapirakṣobhirdurgamāvasudhā'bhavat |",
+      "wordByWord": "संयुगे in combat, तैः they, पर्वत mountains चिनैः broken, द्रुमैः trees, हतैः killed, कपिरक्षोभिः च Vanaras and Rakshasas, विकीर्णै covered, वसुधा earth, दुर्गमा difficult to tread, अभवत् seemed.",
+      "meaning": "The battlefield, covered with broken trees and mountains, fallen vanaras and rakshasas, seemed difficult to tread on ground."
+    },
+    {
+      "id": "YK-69-64",
+      "shlokaNumber": 64,
+      "sanskrit": "तेवानरागर्वितहृष्टचेष्टास्सङ्ग्राममासाद्यभयंविम । युद्धंस्मसर्वेसहराक्षसैस्सैयुधाश्चक्रुरदीनसत्त्वाः ।।6.69.64।।",
+      "transliteration": "tevānarāgarvitahṛṣṭaceṣṭāssaṅgrāmamāsādyabhayṃvima | yuddhṃsmasarvesaharākṣasaissaiyudhāścakruradīnasattvāḥ ||6.69.64||",
+      "wordByWord": "तेवानराः those Vanaras, सङ्ग्रामम् war field, आसाद्य reaching, गर्वितहृष्टचेष्टाः rejoicing full of pride, भयम् feared, विमुच्य leaving behind, सर्वे all, अदीनसत्त्वाः not depressed at all, नानायुधैः several kinds, राक्षसैस्सह with Rakshasas, युद्धम् war, चक्रुःस्म carried out.",
+      "meaning": "Those Vanaras leaving behind fear, reaching the war field, rejoicing with pride, not at all depressed, carried out war with Rakshasas."
+    },
+    {
+      "id": "YK-69-65",
+      "shlokaNumber": 65,
+      "sanskrit": "तस्मिन्प्रवृत्तेतुमुलेविमर्देप्रहृष्यमाणेषुवलीमुखेषु । निपात्यमानेषु च राक्षसेषुमहर्षयोदेवगणाश्चनेदुः ।।6.69.65।।",
+      "transliteration": "tasminpravṛttetumulevimardeprahṛṣyamāṇeṣuvalīmukheṣu | nipātyamāneṣu ca rākṣaseṣumaharṣayodevagaṇāścaneduḥ ||6.69.65||",
+      "wordByWord": "प्रवृत्ते as the fight progressed, तस्मिन् their, तुमुले tumultuous, विमर्धे crushed, वलीमुखेषु feeling exultant, प्रहृष्यमाणेषु rejoiced, राक्षसेषु Rakshasas too, निपात्यमानेषु were being struck down, महर्षयः ascetics, देवगणाः Devatas, श्चनेदुः made loud noise.",
+      "meaning": "As the conflict progressed and tumultuous fighting was on, Vanaras were feeling exultant and seeing Rakshasas struck down the ascetics and Devatas made loud noises in joy."
+    },
+    {
+      "id": "YK-69-66",
+      "shlokaNumber": 66,
+      "sanskrit": "ततोहयंमारुततुल्यवेगमारुह्यशक्तिंनिशितांप्रगृह्य । नरान्तकोवानरराजसैन्यंमहार्णवंमीनइवाविवेश ।।6.69.66।।",
+      "transliteration": "tatohayṃmārutatulyavegamāruhyaśaktiṃniśitāṃpragṛhya | narāntakovānararājasainyṃmahārṇavṃmīnaivāviveśa ||6.69.66||",
+      "wordByWord": "ततः then, नरान्तकः Naranthaka, मारुततुल्यवेगम् at wind speed, हयम् horse, आरुह्य mounting on top, निशिताम् sharp, शक्तिम् javelin, प्रगृह्य taking hold, मीनः fish, महार्णवम् इव like the ocean, वानरराजसैन्यम् Vanara kingdom army, आविवेश entered.",
+      "meaning": "Then Naranthaka, mounted on horseback went at wind speed taking hold of javelin and entered Vanara army just as fish entered the ocean."
+    },
+    {
+      "id": "YK-69-67",
+      "shlokaNumber": 67,
+      "sanskrit": "स वानरान् सप्तशतानिवीरःप्रासेनदीप्तेनन्वििर्बिभेद । एकःक्षणेनेन्द्ररिपुर्महात्माजघानसैन्यंहरिपुङ्गवानाम् ।।6.69.67।।",
+      "transliteration": "sa vānarān saptaśatānivīrḥprāsenadīptenanviirbibheda | ekḥkṣaṇenendraripurmahātmājaghānasainyṃharipuṅgavānām ||6.69.67||",
+      "wordByWord": "वीरः hero, महात्मा great, सः he, एकः alone, दीप्तेन glowing, प्रासेन spear, क्षणेन in a moment, सप्तशतानि seven hundred, वानरान् Vanaras, वनिर्बिभेद destroyed persistently, इन्द्ररिपुः Indra's enemy, हरिपुङ्गवानाम् monkey leaders, सैन्यम् army, जघान shattered.",
+      "meaning": "Great hero (Naranthaka) single handed persistently destroyed seven hundred Vanaras with his glowing spear. In that way the enemy of Indra shattered Vanara army and monkey leaders."
+    },
+    {
+      "id": "YK-69-68",
+      "shlokaNumber": 68,
+      "sanskrit": "ददृशुश्चमहात्मानंहयपृष्ठेप्रतिष्ठितम् । चरन्तंहरिसैन्येषुविद्याधरमहर्षयः ।।6.69.68।।",
+      "transliteration": "dadṛśuścamahātmānṃhayapṛṣṭhepratiṣṭhitam | carantṃharisainyeṣuvidyādharamaharṣayḥ ||6.69.68||",
+      "wordByWord": "विद्याधरमहर्षयः sage Vidhyadhara, हयपृष्ठेप्रतिष्ठितम् seated on horseback firmly, हरिसैन्येषु monkey army too, चरन्तम् moving, महात्मानम् great, ददृशुः witnessed.",
+      "meaning": "Vidhyadhara, the great sage, witnessed Naranthaka moving seated on the horseback firmly."
+    },
+    {
+      "id": "YK-69-69",
+      "shlokaNumber": 69,
+      "sanskrit": "स तस्यददृशेमार्गोमांसशोणितकर्दमः । पतितैःपर्वताकारैर्वानरैरभिसंवृतः ।।6.69.69।।",
+      "transliteration": "sa tasyadadṛśemārgomāṃsaśoṇitakardamḥ | patitaiḥparvatākārairvānarairabhisṃvṛtḥ ||6.69.69||",
+      "wordByWord": "मांसशोणितकर्दमः flesh and blood like mire, पतितैः fallen, पर्वताकारैः like a mountain in shape, वानरैः Vanaras, अभिसंवृतः covered fully, तस्य their, सःमार्गः on the way, ददृशे saw.",
+      "meaning": "On the way he saw flesh and blood fallen like a heap of a mountain covered fully with Vanaras."
+    },
+    {
+      "id": "YK-69-70",
+      "shlokaNumber": 70,
+      "sanskrit": "यावद्विक्रमितुंबुधदिंचक्रुःप्लवगपुङ्गवाः । तावदेतानतिक्रम्यनिर्बिभेदनरान्तकः ।।6.69.70।।",
+      "transliteration": "yāvadvikramituṃbudhadiṃcakruḥplavagapuṅgavāḥ | tāvadetānatikramyanirbibhedanarāntakḥ ||6.69.70||",
+      "wordByWord": "प्लवगपुङ्गवाः leaders of monkeys, विक्रमितुम् going past, यावत् all over, बुधदिम् before knowing, चक्रुः went, तावदेव before their attempt, एतान् them, अतिक्रम्य overcoming, नरान्तकः Naranthaka, निर्बिभेद destroyed.",
+      "meaning": "Naranthaka went past the Vanara leaders all over even before they attempted, he destroyed them."
+    },
+    {
+      "id": "YK-69-71",
+      "shlokaNumber": 71,
+      "sanskrit": "ददाहहरिसैन्यानिवनानीवविभावसुः । यावदुत्पाटयामासुर्वृक्षान्शैलान्वनौकसः ।।6.69.71।। तावत्प्रासहताःपेतुर्वज्रकृत्ताइवाचलाः ।",
+      "transliteration": "dadāhaharisainyānivanānīvavibhāvasuḥ | yāvadutpāṭayāmāsurvṛkṣānśailānvanaukasḥ ||6.69.71|| tāvatprāsahatāḥpeturvajrakṛttāivācalāḥ |",
+      "wordByWord": "विभावसुः like burning, वनानीव forests, हरिसैन्यानि Vanara army, ददाह burnt, वनौकसः Vanaras, वृक्षान् trees, शैलान् rocks, यावत everything, उत्पाटयामासुः uplifting, तावत् many, प्रासहताः lance, वज्रकृत्ताः like thunderbolt, अचलाःइव mountain like, पेतुः fell.",
+      "meaning": "Uplifting his lance in the battle, Naranthaka consumed the Vanara troops as fire would burn up forests even before the Vanaras uprooted trees and rocks. many Vanaras fell like mountains hit by a thunderbolt."
+    },
+    {
+      "id": "YK-69-72-73",
+      "shlokaNumber": 72,
+      "sanskrit": "ज्वलन्तम्प्रासमुद्यम्यसङ्ग्रामान्तेनरान्तकः ।।6.69.72।। दिक्षुसर्वासुबलवान् विचचारनरान्तकः । प्रमृद्नन्सर्वतोयुद्धेप्रावृटकालेयथानिलः ।।6.69.73।।",
+      "transliteration": "jvalantamprāsamudyamyasaṅgrāmāntenarāntakḥ ||6.69.72|| dikṣusarvāsubalavān vicacāranarāntakḥ | pramṛdnansarvatoyuddheprāvṛṭakāleyathānilḥ ||6.69.73||",
+      "wordByWord": "नरान्तकः Naranthaka, बलवान् mighty, नरान्तकः capable of killing humans, सङ्ग्रामान्ते in the battle, ज्वलन्तम् burning, प्रासम् spear, उद्यम्य taking up, युद्धे in battle, अनिलः wind, प्रावृटकालेइव like in the rainy season, सर्वतः everything, प्रमृद्नन् crushing, सर्वासु all sides, दिक्षु directions, विचचार ranged about.",
+      "meaning": "Mighty Naranthaka, the destroyer of humans, ranged over all sides in all directions in the battlefield, like the wind in the rainy season, taking a burning spear and crushing everything."
+    },
+    {
+      "id": "YK-69-74",
+      "shlokaNumber": 74,
+      "sanskrit": "न शेकुर्भाषितुंवीरा न स्थातुंस्पन्दितुंभयात् । उत्पतन्तंस्थितंयान्तंसर्वान्विव्याधवीर्यवान् ।।6.69.74।।",
+      "transliteration": "na śekurbhāṣituṃvīrā na sthātuṃspandituṃbhayāt | utpatantṃsthitṃyāntṃsarvānvivyādhavīryavān ||6.69.74||",
+      "wordByWord": "वीराः gallant, र्भाषितुम् terrified, न शेकुः not flee, स्थातुम् stand, न not, स्पन्दितुम् move, भयात् out of fear, वीर्यवान् audacious, उत्पतन्तम् jumping up, स्थितम् stationary, यान्तम् marching, सर्वान् all, विव्याध pierced.",
+      "meaning": "The gallant monkeys got terrified and could not flee, nor stand, nor move. The audacious Naranthaka marching ahead pierced the Vanaras either marching or jumping or stationary."
+    },
+    {
+      "id": "YK-69-75",
+      "shlokaNumber": 75,
+      "sanskrit": "एकेनानन्तकल्पेनप्रासेनादित्यतेजसा । भग्नानिहरिसैन्यानिनिपेतुर्धरणीतले ।।6.69.75।।",
+      "transliteration": "ekenānantakalpenaprāsenādityatejasā | bhagnāniharisainyāninipeturdharaṇītale ||6.69.75||",
+      "wordByWord": "अनन्तकल्पेन lance which was like death, एकेन alone, आदित्यतेजसा glowing like the Sun, प्रासेन spear, हरिसैन्यानि at Vanara army, भग्नानि routed, धरणीतले on the ground, निपेतुः fell.",
+      "meaning": "With lance that looked like death and the spear glowing like the Sun, Naranthaka routed the Vanaras, who fell down."
+    },
+    {
+      "id": "YK-69-76",
+      "shlokaNumber": 76,
+      "sanskrit": "वज्रनिष्पेषदृशंप्रासस्याभिनिपातनम् । न शेकुर्वानरास्सोढुंतेविनेदुर्महास्वनम् ।।6.69.76।।",
+      "transliteration": "vajraniṣpeṣadṛśṃprāsasyābhinipātanam | na śekurvānarāssoḍhuṃtevinedurmahāsvanam ||6.69.76||",
+      "wordByWord": "ते those, वानराः Vanaras, वज्रनिष्पेषसदृशम् like the strike of thunderbolt, प्रासस्य spear's, अभिनिपातनम् very severe, सोढुम् impact, न शेकुः not bear, महास्वनम् very loud voice, विनेदुः cried.",
+      "meaning": "Unable to bear the very severe impact of the strike of the spear which was like the strike of thunderbolt the Vanaras cried making loud noise."
+    },
+    {
+      "id": "YK-69-77",
+      "shlokaNumber": 77,
+      "sanskrit": "पततांहरिवीराणांरूपाणिप्रचकाशिरे । वज्रभिन्नाग्रकूटानांशैलानांपततामिव ।।6.69.77।।",
+      "transliteration": "patatāṃharivīrāṇāṃrūpāṇipracakāśire | vajrabhinnāgrakūṭānāṃśailānāṃpatatāmiva ||6.69.77||",
+      "wordByWord": "पतताम् fallen, हरिवीराणाम् monkey heroes, रूपाणि forms, वज्रभिन्नाग्रकूटानाम् like mountain peaks struck by thunderbolt, पतताम् fallen, शैलानाम् इव like mountains, प्रचकाशिरे shone.",
+      "meaning": "The forms of the monkey heroes fallen down unconscious shone like mountain peaks struck by the thunderbolt and fallen."
+    },
+    {
+      "id": "YK-69-78",
+      "shlokaNumber": 78,
+      "sanskrit": "येतुपूर्वंमहात्मानःकुम्भकर्णेनपातिताः । तेस्वस्थावानरश्रेष्ठास्सुग्रीवमुपतस्थिरे ।।6.69.78।।",
+      "transliteration": "yetupūrvṃmahātmānḥkumbhakarṇenapātitāḥ | tesvasthāvānaraśreṣṭhāssugrīvamupatasthire ||6.69.78||",
+      "wordByWord": "पूर्वम् earlier, ये by, महात्मानः great soul, कुम्भकर्णेन Kumbhakarna, पातिताः struck, ते those, वानरश्रेष्ठाः foremost of Vanaras, स्वस्थाः for their part, सुग्रीवम् to Sugriva, उपतस्थिरे stood before.",
+      "meaning": "The Vanaras who were struck by Kumbhakarna and fallen unconscious, came and stood before Sugriva."
+    },
+    {
+      "id": "YK-69-79",
+      "shlokaNumber": 79,
+      "sanskrit": "विप्रेक्षमाणस्सुग्रीवोददर्शहरिवाहिनीम् । नरान्तकभयत्रस्तांविद्रवन्तीमितस्ततः ।।6.69.79।।",
+      "transliteration": "viprekṣamāṇassugrīvodadarśaharivāhinīm | narāntakabhayatrastāṃvidravantīmitastatḥ ||6.69.79||",
+      "wordByWord": "विप्रेक्षमाणः looking all around, सःसुग्रीवः that Sugriva, नरान्तकभयत्रस्ताम् fear of Naranthaka, इतस्ततः here and there, विद्रवन्तीम् running, हरिवाहिनीम् monkey troops, ददर्श saw.",
+      "meaning": "Sugriva looked around all over the monkey troops running here and there out of fear of Naranthaka."
+    },
+    {
+      "id": "YK-69-80",
+      "shlokaNumber": 80,
+      "sanskrit": "विद्रुतांवाहिनींदृष्टवा स ददर्शनरान्तकम् । गृहीतप्रासमायान्तंहयपृष्ठेप्रतिष्ठितम् ।।6.69.80।।",
+      "transliteration": "vidrutāṃvāhinīṃdṛṣṭavā sa dadarśanarāntakam | gṛhītaprāsamāyāntṃhayapṛṣṭhepratiṣṭhitam ||6.69.80||",
+      "wordByWord": "सः he, Sugriva, विद्रुताम् running, वाहिनीम् troops, दृष्टवा seeing, गृहीतप्रासम् taking hold of spear, हयपृष्ठेप्रतिष्ठितम् seated on horseback, आयान्तम् advancing, नरान्तकम् Naranthaka, ददर्श saw.",
+      "meaning": "(Sugriva) saw the Vanaras troops running and Naranthaka seated on horseback advancing with a spear."
+    },
+    {
+      "id": "YK-69-81",
+      "shlokaNumber": 81,
+      "sanskrit": "अथोवाचमहातेजास्सुग्रीवोवानराधिपः । कुमारमङ्गदंवीरंशक्रतुल्यपराक्रमम् ।।6.69.81।।",
+      "transliteration": "athovācamahātejāssugrīvovānarādhipḥ | kumāramaṅgadṃvīrṃśakratulyaparākramam ||6.69.81||",
+      "wordByWord": "महातेजाः highly energetic, वानराधिपः Lord of Vanaras, सुग्रीवः Sugriva, अथ now, वीरम् gallant, शक्रतुल्यपराक्रमम् who resembled Indra in valour, कुमारम् son, अङ्गदम् Angada, उवाच spoke.",
+      "meaning": "Sugriva, the Lord of Vanaras seeing (Naranthaka advancing) spoke to his son Angada who resembled Indra in valour."
+    },
+    {
+      "id": "YK-69-82",
+      "shlokaNumber": 82,
+      "sanskrit": "गच्छत्वंराक्षसंवीरोयोऽसौतुरगमास्थितः । क्षोभयन्तहरिबलंक्षिप्रंप्राणैर्वियोजय ।।6.69.82।।",
+      "transliteration": "gacchatvṃrākṣasṃvīroyo'sauturagamāsthitḥ | kṣobhayantaharibalṃkṣiprṃprāṇairviyojaya ||6.69.82||",
+      "wordByWord": "गच्छै march, असौ Oh, तुरगम् horse, आस्थितः seated there, हरिबलम् Vanara army, त्वम् you, क्षोभयन्तम् terrifying, एनम् these, वीरः heroes, राक्षसम् Rakshasa, क्षिप्रम् immediately, प्राणैः life, वियोजय relieve.",
+      "meaning": "\"Oh! March ahead and immediately release the life of the Rakshasa seated on horseback terrifying the Vanara army.\""
+    },
+    {
+      "id": "YK-69-83",
+      "shlokaNumber": 83,
+      "sanskrit": "स भर्तुर्वचनंश्रुत्वानिष्पपाताङ्गदतः । अनीकान्मेघसङ्काशादंशुमानिववीर्यवान् ।।6.69.83।।",
+      "transliteration": "sa bharturvacanṃśrutvāniṣpapātāṅgadatḥ | anīkānmeghasaṅkāśādṃśumānivavīryavān ||6.69.83||",
+      "wordByWord": "तदा then, वीर्यवान् heroic, सःअङ्गदः that angada, भर्तुः king's, वचनम् words, श्रुत्वा hearing, मेघसङ्काशात् resembling cluster of clouds, अनीकात् Sun, अंशुमानिव rays, निष्पपात comes out.",
+      "meaning": "On hearing the king's words, Angada went just as the sun rays comes out of a cluster of clouds."
+    },
+    {
+      "id": "YK-69-84",
+      "shlokaNumber": 84,
+      "sanskrit": "शैलसङ्घातसङ्काशोहरीणामुत्तमोऽङ्गदः । रराजाङ्गदसन्नद्धस्सधातुरिवपर्वतः ।।6.69.84।।",
+      "transliteration": "śailasaṅghātasaṅkāśoharīṇāmuttamo'ṅgadḥ | rarājāṅgadasannaddhassadhāturivaparvatḥ ||6.69.84||",
+      "wordByWord": "शैलसङ्घातसङ्काशः who resembled mass of rocks, हरीणाम् Vanaras, उत्तमः best, अङ्गदसन्नद्धः Angada adorned with armlets, अङ्गदः Angada, सधातुः metal streaks, पर्वतःइव like mountain, रराज shone.",
+      "meaning": "Angada, the best of the Vanaras, adorned with arm lets resembled masses of rocks and shone like a mountain with metal streaks."
+    },
+    {
+      "id": "YK-69-85",
+      "shlokaNumber": 85,
+      "sanskrit": "निरायुधोमहातेजाःकेवलंनखदंष्ट्रवान् । नरान्तकमभिक्रम्यवालिपुत्रोऽब्रवीद्वचः ।।6.69.85।।",
+      "transliteration": "nirāyudhomahātejāḥkevalṃnakhadṃṣṭravān | narāntakamabhikramyavāliputro'bravīdvacḥ ||6.69.85||",
+      "wordByWord": "निरायुधः deprived of any weapon, महातेजाः brilliant, केवलम् with only, नखदंष्ट्रवान् nails and teeth, वालिपुत्रः Vali's son, नरान्तकम् Naranthakam, अभिक्रम्य advancing towards, वचः words, अब्रवीत् spoke.",
+      "meaning": "Brilliant Angada, unarmed only with nails and teeth (to fight) advanced towards Naranthaka and spoke these words."
+    },
+    {
+      "id": "YK-69-86",
+      "shlokaNumber": 86,
+      "sanskrit": "तिष्ठकिंप्राकृतैरेभिर्हरिभिस्त्वंकरिष्यसि । अस्मिन्वज्रसमस्पर्शंप्रासंक्षिपममोरसि ।।6.69.86।।",
+      "transliteration": "tiṣṭhakiṃprākṛtairebhirharibhistvṃkariṣyasi | asminvajrasamasparśṃprāsṃkṣipamamorasi ||6.69.86||",
+      "wordByWord": "तिष्ठ stop, एभिः with these, प्राकृतैः common, हरिभिः monkeys, त्वम् you, किम् what, करिष्यसि can you do, मम me, अस्मिन् with you, वज्रसमस्पर्शम् spear equalling thunderbolt, प्रासम् spear, क्षिप throw.",
+      "meaning": "\"Stop! What can you do with these common monkeys? Throw your spear at me, which equals thunderbolt.\""
+    },
+    {
+      "id": "YK-69-87-88",
+      "shlokaNumber": 87,
+      "sanskrit": "अङ्गदस्यवचश्श्रुत्वाप्रचुक्रोधनरान्तकः । सन्दश्यदशनैरोष्ठंन्वििश्श्वस्यभुजङ्गवत् ।।6.69.87।। अभिगम्याङ्गदंक्रुद्धोवालिपुत्रंनरान्तकः । प्रासंसमाविध्यतदाङ्गदायसमुज्ज्वलन्तंसहसोत्ससर्ज । स वालिपुत्रोरसिवज्रकल्पेबभूवभग्नोन्यपतच्चभूमौ ।।6.69.88।।",
+      "transliteration": "aṅgadasyavacaśśrutvāpracukrodhanarāntakḥ | sandaśyadaśanairoṣṭhṃnviiśśvasyabhujaṅgavat ||6.69.87|| abhigamyāṅgadṃkruddhovāliputrṃnarāntakḥ | prāsṃsamāvidhyatadāṅgadāyasamujjvalantṃsahasotsasarja | sa vāliputrorasivajrakalpebabhūvabhagnonyapataccabhūmau ||6.69.88||",
+      "wordByWord": "नरान्तकः Naranthaka, अङ्गदस्य Angada's, वचः words, श्रुत्वा hearing, प्रचुक्रोध flew in rage, सः he नरान्तकः Naranthaka, क्रुद्धः enraged, दशनैः ten, ओष्ठम् lips, सन्दश्य biting, भुजङ्गवत् like a serpent, न्वििश्श्वस्य च hissing, वालिपुत्रम् Vali's son, अङ्गदम् Angada, अभिगम्य going forward, समुज्ज्वलन्तम् glowing like fire, प्रासम् spear, समाविध्य hurled, तदा then, अङ्गदाय Angada, सहसा violently, उत्ससर्ज chest, सः he, वज्रकल्पे struck, वालिपुत्रोरसि chest of Vali's son, भग्नःबभूव shattered, भूमौ on ground, न्यपतच्च went round and fell.",
+      "meaning": "Hearing Angada's words Naranthaka flew into a rage. Biting his lips with teeth, hissing like a serpent Naranthaka stood before Angada. He hurled his spear glowing like fire on Angada's chest violently. It struck Angada and shattered, went round, and fell."
+    },
+    {
+      "id": "YK-69-89",
+      "shlokaNumber": 89,
+      "sanskrit": "तंप्रासमालोक्यतदाविभग्नंसुपर्णकृत्तोरगभोगकल्पम् । तलंसमुद्यम्य स वालिपुत्रस्तुरङ्गमतस्यजघानमूर्ध्नि ।।6.69.89।।",
+      "transliteration": "tṃprāsamālokyatadāvibhagnṃsuparṇakṛttoragabhogakalpam | talṃsamudyamya sa vāliputrasturaṅgamatasyajaghānamūrdhni ||6.69.89||",
+      "wordByWord": "सःवालिपुत्रः that Vali's son, तदा then, विभग्नम् broken and fallen, सुवर्णकृत्तोरगभोगकल्पम् like the coils of the serpent, प्रासम् spear, आलोक्य beholding, तलम् palm, उद्यम्य raising, तुरङ्गमस्य at the horse, मूर्ध्नि at the head, तस्यजघान struck at.",
+      "meaning": "Then Vali's son beholding the broken and shattered spear fallen like the coils of serpent, raised his palm and struck at the head of Naranthaka's horse."
+    },
+    {
+      "id": "YK-69-90",
+      "shlokaNumber": 90,
+      "sanskrit": "निमग्नतालुस्फ्सुटिताक्षितारोनिष्क्रान्तजिह्वोऽचलसन्निकाशः । स तस्यवाजीनिपपातभूमौतलप्रहारेणविशीर्णमूर्धा ।।6.69.90।।",
+      "transliteration": "nimagnatālusphsuṭitākṣitāroniṣkrāntajihvo'calasannikāśḥ | sa tasyavājīnipapātabhūmautalaprahāreṇaviśīrṇamūrdhā ||6.69.90||",
+      "wordByWord": "तस्य his, अचलसन्नकाशः closely resembling mountain, सःवाजी that Angada, तलप्रहारेण by the stroke of the palm, विशीर्णमूर्धा head broken, निमग्नतालुः cheeks drawn in, स्फुटिताक्षितारः eyeballs broken, निष्क्रान्तजिह्वः tongue ejected, भूमौ on ground, निपपात fell.",
+      "meaning": "His horse, which closely resembled a mountain, fell on the ground, its head broken, cheeks drawn in, eyeballs broken, tongue got ejected by the stroke of the palm of Angada."
+    },
+    {
+      "id": "YK-69-91",
+      "shlokaNumber": 91,
+      "sanskrit": "नरान्तकःक्रोधवशंजगामहतंतुरङ्गंपतितंनिरीक्ष्य । स मुष्टिमुद्यम्यमहाप्रभावोजघानशीर्षेयुधि वालिपुत्रम् ।।6.69.91।।",
+      "transliteration": "narāntakḥkrodhavaśṃjagāmahatṃturaṅgṃpatitṃnirīkṣya | sa muṣṭimudyamyamahāprabhāvojaghānaśīrṣeyudhi vāliputram ||6.69.91||",
+      "wordByWord": "हतम् killed, पतितम् fallen, तुरङ्गम् horse, निरीक्ष्य observing, नरान्तकः Naranthaka, क्रोधवशम् overcome by anger, जगाम went, महाप्रभावः great power, सः he, मुष्टिम् fist, उद्यम्य raising, युधि battle, वालिपुत्रम् Vali's son, शीर्षे head, जघान struck.",
+      "meaning": "Observing the horse fallen, Naranthaka, endowed with great power, overcome by anger raised his fist and struck at the head of Vali's son."
+    },
+    {
+      "id": "YK-69-92",
+      "shlokaNumber": 92,
+      "sanskrit": "अथाङ्गदोमुष्टिविशीर्णमूर्धासुस्रावतीव्रंरुधिरंभृशोष्णम् । मुहुर्विजज्वालमुमोहचापिसंज्ञांसमासाद्यविसिष्मिये च ।।6.69.92।।",
+      "transliteration": "athāṅgadomuṣṭiviśīrṇamūrdhāsusrāvatīvrṃrudhirṃbhṛśoṣṇam | muhurvijajvālamumohacāpisṃjñāṃsamāsādyavisiṣmiye ca ||6.69.92||",
+      "wordByWord": "अथ now, मुष्टिविशीर्णमूर्धा head smashed by the blow of the fist, अङ्गदः Angada, भृशोष्णम् burning sensation, रुधिरम् blood, तीव्रम् intensely, सुस्राव flowed rapidly, मुहुः for a while, विजज्वाल recovering, मुमोहचापि from delusion, संज्ञाम् recovering, समासाद्य consciousness, विसिष्मिये च wondered.",
+      "meaning": "Angada's head smashed by the blow of the fist of Naranthaka, hot blood flowed rapidly for a while. Recovering from delusion, gaining consciousness he wondered at the strength of Naranthaka."
+    },
+    {
+      "id": "YK-69-93",
+      "shlokaNumber": 93,
+      "sanskrit": "अथाङ्गदोमृत्युसमानवेगंसंवर्त्यमुष्टिंगिरिशृङ्गकल्पम् । निपातयामासतदामहात्मानरान्तकस्योरसिवालिपुत्रः ।।6.69.93।।",
+      "transliteration": "athāṅgadomṛtyusamānavegṃsṃvartyamuṣṭiṃgiriśṛṅgakalpam | nipātayāmāsatadāmahātmānarāntakasyorasivāliputrḥ ||6.69.93||",
+      "wordByWord": "अथ now, महात्मा great, वालिपुत्रः son of Vali, अङ्गदः Angada, तदा then, मृत्युसमानवेगम् equalling vehemence of death, गिरिशृङ्गकल्पम् mountain peak, मुष्टिम् fist, संवर्त्य clenching, नरान्तकस्य Naranthaka's, उपिरि top, निपातयामास brought.",
+      "meaning": "Angada clenching his fist, whose vehemence was equal to vehemence of death coming down from the top of the mountain peak, brought down Naranthaka."
+    },
+    {
+      "id": "YK-69-94",
+      "shlokaNumber": 94,
+      "sanskrit": "स मुष्टिनिष्पिष्टविभिन्नवक्षाज्वालावमन्शोणितदिग्धगात्रः । नरान्तकोभूमितलेपपातयथाऽचलोवज्रनिपातभग्नः ।।6.69.94।।",
+      "transliteration": "sa muṣṭiniṣpiṣṭavibhinnavakṣājvālāvamanśoṇitadigdhagātrḥ | narāntakobhūmitalepapātayathā'calovajranipātabhagnḥ ||6.69.94||",
+      "wordByWord": "सःनरान्तकः that Naranthaka, मुष्टिनिष्पिष्टविभिन्नवक्षाः chest having been split by the blow of the fist, ज्वालाः flaming, वमन् vomit, शोणितदिग्धगात्रः blood from throat, वज्रनिपातभग्नः shattered by stroke of lightning, अचलःयथा like mountain, पपात fell.",
+      "meaning": "Naranthaka's chest having been split by a blow on his chest, vomiting flaming blood from his throat was as if shattered by the stroke of lightning fell down like a mountain."
+    },
+    {
+      "id": "YK-69-95",
+      "shlokaNumber": 95,
+      "sanskrit": "अथान्तरिक्षेत्रिदशोत्तमानांवनौकसांचैवमहाप्रणादः । बभूवतस्मिन्निहतेऽग्य्रवीर्येनरान्तकेवालिसुतेनसंख्ये ।।6.69.95।।",
+      "transliteration": "athāntarikṣetridaśottamānāṃvanaukasāṃcaivamahāpraṇādḥ | babhūvatasminnihate'gyravīryenarāntakevālisutenasṃkhye ||6.69.95||",
+      "wordByWord": "अग्रवीर्ये of foremost among heroes, तस्मिन् his, नरान्तके Naranthaka, संख्ये in combat, वालिसुतेन by Vali's son, निहते killed, अथा and then, अन्तरिक्षे sky, त्रिदशोत्तमानाम् Devatas and gods of three worlds, वनौकसांचैव including Vanaras, महान् great, प्रणादः happiness, बभूव radiated.",
+      "meaning": "Naranthaka, the foremost of the heroes, having been killed in combat, the Devatas and gods of the three worlds experienced great joy."
+    }
+  ]
+}

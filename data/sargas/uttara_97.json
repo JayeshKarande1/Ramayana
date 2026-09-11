@@ -1,0 +1,233 @@
+{
+  "kanda": "uttara",
+  "kandaName": "Uttara Kanda",
+  "sarga": 97,
+  "title": "Sarga 97",
+  "totalShlokas": 28,
+  "shlokas": [
+    {
+      "id": "UK-97-1",
+      "shlokaNumber": 1,
+      "sanskrit": "वाल्मीकिनैवमुक्तस्तु राघवः प्रत्यभाषत । प्राञ्जलिर्जगतो मध्ये दृष्ट्वा तां वरवर्णिनीम् ।। 7.97.1 ।।",
+      "transliteration": "vālmīkinaivamuktastu rāghavaḥ pratyabhāṣata | prāñjalirjagato madhye dṛṣṭvā tāṃ varavarṇinīm || 7.97.1 ||",
+      "wordByWord": "Being thus addressed by Valmiki, Raghava, beholding that woman of fair complexion in the midst of the assembly, replied with hands joined in reverence.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-97-2",
+      "shlokaNumber": 2,
+      "sanskrit": "एवमेतन्महाभाग यथा वदसि धर्मवित् । प्रत्ययस्तु मम ब्रह्मंस्तव वाक्यैरकल्मषैः ।। 7.97.2 ।।",
+      "transliteration": "evametanmahābhāga yathā vadasi dharmavit | pratyayastu mama brahmaṃstava vākyairakalmaṣaiḥ || 7.97.2 ||",
+      "wordByWord": "\"It is even so, O illustrious and righteous one, just as you say; I have full faith in your faultless words, O Brahman.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-97-3",
+      "shlokaNumber": 3,
+      "sanskrit": "प्रत्ययस्तु पुरा वृत्तो वैदेह्याः सुरसन्निधौ । शपथस्तु कृतस्तत्र तेन वेश्म प्रवेशिता । लोकापवादो बलवान्येन त्यक्ता हि मैथिली ।। 7.97.3 ।।",
+      "transliteration": "pratyayastu purā vṛtto vaidehyāḥ surasannidhau | śapathastu kṛtastatra tena veśma praveśitā | lokāpavādo balavānyena tyaktā hi maithilī || 7.97.3 ||",
+      "wordByWord": "\"Indeed, proof was given before by Vaidehi in the presence of the gods, and an oath was sworn there by her; on that account she was admitted into my house, for the slander of the people was strong, by reason of which Maithili was forsaken.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-97-4",
+      "shlokaNumber": 4,
+      "sanskrit": "सेयं लोकभयाद्ब्रह्मन्नपापेत्यभिजानता । परित्यक्ता मया सीता तद्भावन्क्षन्तुमर्हति ।। 7.97.4 ।।",
+      "transliteration": "seyaṃ lokabhayādbrahmannapāpetyabhijānatā | parityaktā mayā sītā tadbhāvankṣantumarhati || 7.97.4 ||",
+      "wordByWord": "\"O Brahman, this Sita, though I knew her to be sinless, was forsaken by me out of fear of the people; may she forgive that act of mine.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-97-5",
+      "shlokaNumber": 5,
+      "sanskrit": "जानामि चेमौ पुत्रौ मे यमजातौ कुशीलवौ । शुद्धायां जगतो मध्ये मैथिल्यां प्रीतिरस्तु मे ।। 7.97.5 ।।",
+      "transliteration": "jānāmi cemau putrau me yamajātau kuśīlavau | śuddhāyāṃ jagato madhye maithilyāṃ prītirastu me || 7.97.5 ||",
+      "wordByWord": "\"And I know that these two twin-born boys, Kusha and Lava, are my sons; let my affection be set upon Maithili, who is pure, here in the midst of the world.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-97-6",
+      "shlokaNumber": 6,
+      "sanskrit": "अभिप्रायं तु विज्ञाय रामस्य सुरसत्तमाः । सीतायाः शपथे तस्मिन् महेन्द्राद्या महौजसः ।। 7.97.6 ।।",
+      "transliteration": "abhiprāyaṃ tu vijñāya rāmasya surasattamāḥ | sītāyāḥ śapathe tasmin mahendrādyā mahaujasaḥ || 7.97.6 ||",
+      "wordByWord": "And the most excellent of the gods, mighty in strength, Indra and the rest, having understood Rama's intention regarding that oath of Sita.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-97-7",
+      "shlokaNumber": 7,
+      "sanskrit": "पितामहं पुरस्कृत्य सर्व एव समागताः ।। 7.97.7 ।।",
+      "transliteration": "pitāmahaṃ puraskṛtya sarva eva samāgatāḥ || 7.97.7 ||",
+      "wordByWord": "Placing the Grandsire (Brahma) at their head, they all came together.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-97-8",
+      "shlokaNumber": 8,
+      "sanskrit": "आदित्या वसवो रुद्रा ह्यश्विनौ समरुद्गणाः । गन्धर्वाप्सरसश्चैव सर्व एव समागताः ।। 7.97.8 ।।",
+      "transliteration": "ādityā vasavo rudrā hyaśvinau samarudgaṇāḥ | gandharvāpsarasaścaiva sarva eva samāgatāḥ || 7.97.8 ||",
+      "wordByWord": "The Adityas, the Vasus, the Rudras, the two Ashvins together with the host of Maruts, and the Gandharvas and Apsarases as well, all came together.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-97-9",
+      "shlokaNumber": 9,
+      "sanskrit": "साध्याश्च विश्वेदेवाश्च सर्वे च परमर्षयः । नागाः सुपर्णाः सिद्धाश्च ते सर्वे हृष्टमानसाः । सीताशपथसम्भ्रान्ताः सर्व एव समागताः ।। 7.97.9 ।।",
+      "transliteration": "sādhyāśca viśvedevāśca sarve ca paramarṣayaḥ | nāgāḥ suparṇāḥ siddhāśca te sarve hṛṣṭamānasāḥ | sītāśapathasambhrāntāḥ sarva eva samāgatāḥ || 7.97.9 ||",
+      "wordByWord": "The Sadhyas and the Vishvedevas, and all the great sages, the Nagas, the Suparnas, and the Siddhas, all of them with joyful hearts, agitated by Sita's oath, all came together.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-97-10",
+      "shlokaNumber": 10,
+      "sanskrit": "दृष्ट्वा देवानृषींश्चैव राघवः पुनरब्रवीत् । प्रत्ययो मे नरश्रेष्ठा ऋषिवाक्यैरकल्मषैः ।। 7.97.10 ।।",
+      "transliteration": "dṛṣṭvā devānṛṣīṃścaiva rāghavaḥ punarabravīt | pratyayo me naraśreṣṭhā ṛṣivākyairakalmaṣaiḥ || 7.97.10 ||",
+      "wordByWord": "Seeing the gods and the sages, Raghava spoke once more: \"O best of men, I have full conviction through the faultless words of the sages.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-97-11",
+      "shlokaNumber": 11,
+      "sanskrit": "शुद्धायां जगतो मध्ये वैदेह्यां प्रीतिरस्तु मे ।। 7.97.11 ।।",
+      "transliteration": "śuddhāyāṃ jagato madhye vaidehyāṃ prītirastu me || 7.97.11 ||",
+      "wordByWord": "\"Let my love rest upon Vaidehi, who is proved pure in the midst of the world.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-97-12",
+      "shlokaNumber": 12,
+      "sanskrit": "ततो वायुः शुभः पुण्यो दिव्यगन्धो मनोरमः । तज्जनौघं सुरश्रेष्ठो ह्लादयामास सर्वतः ।। 7.97.12 ।।",
+      "transliteration": "tato vāyuḥ śubhaḥ puṇyo divyagandho manoramaḥ | tajjanaughaṃ suraśreṣṭho hlādayāmāsa sarvataḥ || 7.97.12 ||",
+      "wordByWord": "Then a wind, auspicious and holy, of divine fragrance and delightful, sent forth by the chief of the gods, gladdened that whole multitude of people on every side.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-97-13",
+      "shlokaNumber": 13,
+      "sanskrit": "तदद्भुतमिवाचिन्त्यं निरैक्षन्त समागताः । मानवाः सर्वराष्ट्रेभ्यः पूर्वं कृतयुगे यथा ।। 7.97.13 ।।",
+      "transliteration": "tadadbhutamivācintyaṃ niraikṣanta samāgatāḥ | mānavāḥ sarvarāṣṭrebhyaḥ pūrvaṃ kṛtayuge yathā || 7.97.13 ||",
+      "wordByWord": "Gathered there, the men from all the kingdoms beheld that wonder, as though inconceivable, just as it had been of old in the Krita Yuga.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-97-14",
+      "shlokaNumber": 14,
+      "sanskrit": "सर्वान्समागतान्दृष्ट्वा सीता काषायवासिनी । अब्रवीत्प्राञ्जलिर्वाक्यमधोदृष्टिरवाङ्मुखी ।। 7.97.14 ।।",
+      "transliteration": "sarvānsamāgatāndṛṣṭvā sītā kāṣāyavāsinī | abravītprāñjalirvākyamadhodṛṣṭiravāṅmukhī || 7.97.14 ||",
+      "wordByWord": "Seeing all assembled, Sita, clad in ochre robes, with her gaze cast down and her face lowered, spoke these words with hands joined in reverence.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-97-15",
+      "shlokaNumber": 15,
+      "sanskrit": "यथा ऽहं राघवादन्यं मनसापि न चिन्तये । तथा मे माधवी देवी विवरं दातुमर्हति ।। 7.97.15 ।।",
+      "transliteration": "yathā 'haṃ rāghavādanyaṃ manasāpi na cintaye | tathā me mādhavī devī vivaraṃ dātumarhati || 7.97.15 ||",
+      "wordByWord": "\"As I do not think of any other than Raghava even with my mind, so let the goddess Madhavi (the Earth) grant me an opening.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-97-16",
+      "shlokaNumber": 16,
+      "sanskrit": "मनसा कर्मणा वाचा यथा रामं समर्चये । तथा मे माधवी देवी विवरं दातुमर्हति ।। 7.97.16 ।।",
+      "transliteration": "manasā karmaṇā vācā yathā rāmaṃ samarcaye | tathā me mādhavī devī vivaraṃ dātumarhati || 7.97.16 ||",
+      "wordByWord": "\"As in thought, deed, and word I have worshipped Rama, so let the goddess Madhavi grant me an opening.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-97-17",
+      "shlokaNumber": 17,
+      "sanskrit": "यथैतत्सत्यमुक्तं मे वेद्मि रामात्परं न च । तथा मे माधवी देवी विवरं दातुमर्हति ।। 7.97.17 ।।",
+      "transliteration": "yathaitatsatyamuktaṃ me vedmi rāmātparaṃ na ca | tathā me mādhavī devī vivaraṃ dātumarhati || 7.97.17 ||",
+      "wordByWord": "\"As this that I have spoken is true, and I know none beyond Rama, so let the goddess Madhavi grant me an opening.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-97-18",
+      "shlokaNumber": 18,
+      "sanskrit": "तथा शपन्त्यां वैदेह्यां प्रादुरासीत्तदद्भुतम् । भूतलादुत्थितं दिव्यं सिंहासनमनुत्तमम् ।। 7.97.18 ।।",
+      "transliteration": "tathā śapantyāṃ vaidehyāṃ prādurāsīttadadbhutam | bhūtalādutthitaṃ divyaṃ siṃhāsanamanuttamam || 7.97.18 ||",
+      "wordByWord": "As Vaidehi was thus taking her oath, that marvel appeared: a divine and most excellent throne rose up from the surface of the earth.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-97-19",
+      "shlokaNumber": 19,
+      "sanskrit": "ध्रियमाणं शिरोभिस्तु नागैरमितविक्रमैः । दिव्यं दिव्येन वपुषा दिव्यरत्नविभूषितैः ।। 7.97.19 ।।",
+      "transliteration": "dhriyamāṇaṃ śirobhistu nāgairamitavikramaiḥ | divyaṃ divyena vapuṣā divyaratnavibhūṣitaiḥ || 7.97.19 ||",
+      "wordByWord": "It was borne upon their heads by Nagas of measureless might, divine in form with their divine bodies, adorned with celestial jewels.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-97-20",
+      "shlokaNumber": 20,
+      "sanskrit": "तस्मिंस्तु धरणी देवी बाहुभ्यां गृह्य मैथिलीम् । स्वागतेनाभिनन्द्यैनामासने चोपवेशयत् ।। 7.97.20 ।।",
+      "transliteration": "tasmiṃstu dharaṇī devī bāhubhyāṃ gṛhya maithilīm | svāgatenābhinandyaināmāsane copaveśayat || 7.97.20 ||",
+      "wordByWord": "Upon it the goddess Earth, taking Maithili in her arms, welcomed and greeted her, and seated her upon the throne.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-97-21",
+      "shlokaNumber": 21,
+      "sanskrit": "तामासनगतां दृष्ट्वा प्रविशन्तीं रसातलम् । पुष्पवृष्टिरविच्छिन्ना दिव्या सीतामवाकिरत् ।। 7.97.21 ।।",
+      "transliteration": "tāmāsanagatāṃ dṛṣṭvā praviśantīṃ rasātalam | puṣpavṛṣṭiravicchinnā divyā sītāmavākirat || 7.97.21 ||",
+      "wordByWord": "As they beheld her seated upon the throne and entering the netherworld, an unbroken shower of celestial flowers rained down upon Sita.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-97-22",
+      "shlokaNumber": 22,
+      "sanskrit": "साधुकारश्च सुमहान्देवानां सहसोत्थितः । साधु साध्विति वै सीते यस्यास्ते शीलमीदृशम् ।। 7.97.22 ।।",
+      "transliteration": "sādhukāraśca sumahāndevānāṃ sahasotthitaḥ | sādhu sādhviti vai sīte yasyāste śīlamīdṛśam || 7.97.22 ||",
+      "wordByWord": "And a great cry of approval rose suddenly from the gods: \"Well done, well done, O Sita, whose character is such as this!\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-97-23",
+      "shlokaNumber": 23,
+      "sanskrit": "एवं बहुविधा वाचो ह्यन्तरिक्षगताः सुराः । व्याजह्रुर्हृष्टमनसो दृष्ट्वा सीताप्रवेशनम् ।। 7.97.23 ।।",
+      "transliteration": "evaṃ bahuvidhā vāco hyantarikṣagatāḥ surāḥ | vyājahrurhṛṣṭamanaso dṛṣṭvā sītāpraveśanam || 7.97.23 ||",
+      "wordByWord": "Thus the gods, stationed in the sky, uttered words of many kinds with joyful hearts, beholding Sita's entrance into the earth.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-97-24",
+      "shlokaNumber": 24,
+      "sanskrit": "यज्ञवाटगताश्चापि मुनयः सर्व एव ते । राजानश्च नरव्याघ्रा विस्मयान्नोपरेमिरे ।। 7.97.24 ।।",
+      "transliteration": "yajñavāṭagatāścāpi munayaḥ sarva eva te | rājānaśca naravyāghrā vismayānnoparemire || 7.97.24 ||",
+      "wordByWord": "And the sages who had come to the sacrificial enclosure, all of them, and the kings, those tigers among men, could not cease from their wonder.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-97-25",
+      "shlokaNumber": 25,
+      "sanskrit": "अन्तरिक्षे च भूमौ च सर्वे स्थावरजङ्गमाः । दानवाश्च महाकायाः पाताले पन्नगाधिपाः ।। 7.97.25 ।।",
+      "transliteration": "antarikṣe ca bhūmau ca sarve sthāvarajaṅgamāḥ | dānavāśca mahākāyāḥ pātāle pannagādhipāḥ || 7.97.25 ||",
+      "wordByWord": "In the sky and on the earth all beings, moving and unmoving, and the Danavas of mighty frame, and the lords of serpents in the netherworld —",
+      "meaning": ""
+    },
+    {
+      "id": "UK-97-26",
+      "shlokaNumber": 26,
+      "sanskrit": "केचिद्विनेदुः संहृष्टाः केचिद्ध्यानपरायणाः । केचिद्रामं निरीक्षन्ते केचित्सीतामचेतनाः ।। 7.97.26 ।।",
+      "transliteration": "kecidvineduḥ saṃhṛṣṭāḥ keciddhyānaparāyaṇāḥ | kecidrāmaṃ nirīkṣante kecitsītāmacetanāḥ || 7.97.26 ||",
+      "wordByWord": "Some cried out, thrilled with joy; some were absorbed in meditation; some gazed at Rama; and some, their senses stunned, gazed at Sita.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-97-27",
+      "shlokaNumber": 27,
+      "sanskrit": "सीताप्रवेशनं दृष्ट्वा तेषामासीत्समागमः । तन्मुहूर्तमिवात्यर्थं समं सम्मोहितं जगत् ।। 7.97.27 ।।",
+      "transliteration": "sītāpraveśanaṃ dṛṣṭvā teṣāmāsītsamāgamaḥ | tanmuhūrtamivātyarthaṃ samaṃ sammohitaṃ jagat || 7.97.27 ||",
+      "wordByWord": "Seeing Sita enter the earth, those gathered there pressed together as one; and for that moment the whole world alike was utterly stupefied.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-97-28",
+      "shlokaNumber": 28,
+      "sanskrit": "इत्यार्षे श्रीमद्रामायणे वाल्मीकीये आदिकाव्ये श्रीमदुत्तरकाण्डे सप्तनवतितमः सर्गः ।। 97 ।।",
+      "transliteration": "ityārṣe śrīmadrāmāyaṇe vālmīkīye ādikāvye śrīmaduttarakāṇḍe saptanavatitamaḥ sargaḥ || 97 ||",
+      "wordByWord": "Thus ends the ninety-seventh sarga of the venerable Uttara Kanda in the holy Ramayana, the first poem composed by the sage Valmiki.",
+      "meaning": ""
+    }
+  ]
+}

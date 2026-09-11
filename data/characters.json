@@ -1,0 +1,3116 @@
+[
+  {
+    "slug": "rama",
+    "name": "Lord Rama",
+    "sanskritName": "श्रीरामः",
+    "tier": {
+      "title": "The Divine Couple",
+      "sanskrit": "श्रीराम-सीता",
+      "icon": "🪷"
+    },
+    "roleTag": "deity",
+    "description": "Seventh avatar of Vishnu. Prince of Ayodhya, embodiment of dharma, the ideal man (Maryada Purushottam).",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": true,
+    "profileUrl": "/characters/rama/",
+    "profileDetails": 0
+  },
+  {
+    "slug": "sita",
+    "name": "Mother Sita",
+    "sanskritName": "सीता",
+    "tier": {
+      "title": "The Divine Couple",
+      "sanskrit": "श्रीराम-सीता",
+      "icon": "🪷"
+    },
+    "roleTag": "deity",
+    "description": "Daughter of the Earth, princess of Mithila, wife of Rama. Embodiment of purity, devotion, and inner strength.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": true,
+    "profileUrl": "/characters/sita/",
+    "profileDetails": 0
+  },
+  {
+    "slug": "bharata",
+    "name": "Bharata",
+    "sanskritName": "भरतः",
+    "tier": {
+      "title": "Brothers & Param Bhakta",
+      "sanskrit": "रामभ्रातरः",
+      "icon": "🏹"
+    },
+    "roleTag": "human",
+    "description": "Rama's devoted half-brother who refused the throne and ruled as regent placing Rama's sandals (paduka) on the throne.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": true,
+    "profileUrl": "/characters/bharata/",
+    "profileDetails": 0
+  },
+  {
+    "slug": "hanuman",
+    "name": "Hanuman",
+    "sanskritName": "हनुमान्",
+    "tier": {
+      "title": "Brothers & Param Bhakta",
+      "sanskrit": "रामभ्रातरः",
+      "icon": "🏹"
+    },
+    "roleTag": "deity",
+    "description": "Son of Vayu and Anjana, greatest devotee of Rama, who leapt across the ocean and burned Lanka.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": true,
+    "profileUrl": "/characters/hanuman/",
+    "profileDetails": 0
+  },
+  {
+    "slug": "lakshmana",
+    "name": "Lakshmana",
+    "sanskritName": "लक्ष्मणः",
+    "tier": {
+      "title": "Brothers & Param Bhakta",
+      "sanskrit": "रामभ्रातरः",
+      "icon": "🏹"
+    },
+    "roleTag": "human",
+    "description": "Rama's devoted younger brother, son of Sumitra, who followed him into exile. An avatar of Shesha Naga.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": true,
+    "profileUrl": "/characters/lakshmana/",
+    "profileDetails": 0
+  },
+  {
+    "slug": "shatrughna",
+    "name": "Shatrughna",
+    "sanskritName": "शत्रुघ्नः",
+    "tier": {
+      "title": "Brothers & Param Bhakta",
+      "sanskrit": "रामभ्रातरः",
+      "icon": "🏹"
+    },
+    "roleTag": "human",
+    "description": "Youngest son of Dasharatha, twin to Lakshmana, son of Sumitra. Slayer of Lavanasura in the Uttara Kanda.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "dasharatha",
+    "name": "Dasharatha",
+    "sanskritName": "दशरथः",
+    "tier": {
+      "title": "Royal Parents & In-Laws",
+      "sanskrit": "पितरः",
+      "icon": "👑"
+    },
+    "roleTag": "human",
+    "description": "King of Ayodhya and father of Rama. A great warrior bound by his word, who died grief-stricken at Rama's exile.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": true,
+    "profileUrl": "/characters/dasharatha/",
+    "profileDetails": 0
+  },
+  {
+    "slug": "janaka-seeradhwaja",
+    "name": "Janaka (Seeradhwaja)",
+    "sanskritName": "जनकः",
+    "tier": {
+      "title": "Royal Parents & In-Laws",
+      "sanskrit": "पितरः",
+      "icon": "👑"
+    },
+    "roleTag": "human",
+    "description": "Philosopher-king of Mithila, foster-father of Sita whom he found in a furrow. A rajarshi (royal sage).",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "kaikeyi",
+    "name": "Kaikeyi",
+    "sanskritName": "कैकेयी",
+    "tier": {
+      "title": "Royal Parents & In-Laws",
+      "sanskrit": "पितरः",
+      "icon": "👑"
+    },
+    "roleTag": "human",
+    "description": "Second queen of Dasharatha, mother of Bharata. Her two boons, influenced by Manthara, sent Rama into exile.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": true,
+    "profileUrl": "/characters/kaikeyi/",
+    "profileDetails": 0
+  },
+  {
+    "slug": "kausalya",
+    "name": "Kausalya",
+    "sanskritName": "कौसल्या",
+    "tier": {
+      "title": "Royal Parents & In-Laws",
+      "sanskrit": "पितरः",
+      "icon": "👑"
+    },
+    "roleTag": "human",
+    "description": "Chief queen of Dasharatha and mother of Rama. A woman of dignity and unwavering dharma.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "sumitra",
+    "name": "Sumitra",
+    "sanskritName": "सुमित्रा",
+    "tier": {
+      "title": "Royal Parents & In-Laws",
+      "sanskrit": "पितरः",
+      "icon": "👑"
+    },
+    "roleTag": "human",
+    "description": "Third queen of Dasharatha, mother of Lakshmana and Shatrughna. Known for her wisdom and balanced counsel.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "sunayana",
+    "name": "Sunayana",
+    "sanskritName": "सुनयना",
+    "tier": {
+      "title": "Royal Parents & In-Laws",
+      "sanskrit": "पितरः",
+      "icon": "👑"
+    },
+    "roleTag": "human",
+    "description": "Queen of Janaka and foster-mother of Sita.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "agastya",
+    "name": "Agastya",
+    "sanskritName": "अगस्त्यः",
+    "tier": {
+      "title": "Kula Gurus & Maharshis",
+      "sanskrit": "कुलगुरवः",
+      "icon": "🕉️"
+    },
+    "roleTag": "rishi",
+    "description": "Great southern sage who gave Rama the bow of Vishnu, the quiver of Brahma, and the Aditya Hridaya mantra.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "ahalya",
+    "name": "Ahalya",
+    "sanskritName": "अहल्या",
+    "tier": {
+      "title": "Kula Gurus & Maharshis",
+      "sanskrit": "कुलगुरवः",
+      "icon": "🕉️"
+    },
+    "roleTag": "rishi",
+    "description": "Wife of sage Gautama, turned to stone by his curse and redeemed by the dust of Rama's feet.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "anasuya",
+    "name": "Anasuya",
+    "sanskritName": "अनसूया",
+    "tier": {
+      "title": "Kula Gurus & Maharshis",
+      "sanskrit": "कुलगुरवः",
+      "icon": "🕉️"
+    },
+    "roleTag": "rishi",
+    "description": "Wife of Atri, model of wifely devotion, who gave Sita celestial garments and ornaments.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "atri",
+    "name": "Atri",
+    "sanskritName": "अत्रिः",
+    "tier": {
+      "title": "Kula Gurus & Maharshis",
+      "sanskrit": "कुलगुरवः",
+      "icon": "🕉️"
+    },
+    "roleTag": "rishi",
+    "description": "One of the Saptarishis whose ashram Rama, Sita and Lakshmana visited at the start of their exile.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "bharadwaja",
+    "name": "Bharadwaja",
+    "sanskritName": "भरद्वाजः",
+    "tier": {
+      "title": "Kula Gurus & Maharshis",
+      "sanskrit": "कुलगुरवः",
+      "icon": "🕉️"
+    },
+    "roleTag": "rishi",
+    "description": "Great sage of Prayag at the confluence of Ganga and Yamuna who welcomed Rama and Sita during exile.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "gautama-maharshi",
+    "name": "Gautama Maharshi",
+    "sanskritName": "गौतमः",
+    "tier": {
+      "title": "Kula Gurus & Maharshis",
+      "sanskrit": "कुलगुरवः",
+      "icon": "🕉️"
+    },
+    "roleTag": "rishi",
+    "description": "Husband of Ahalya and father of Shatananda. A stern ascetic of Mithila.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "narada",
+    "name": "Narada",
+    "sanskritName": "नारदः",
+    "tier": {
+      "title": "Kula Gurus & Maharshis",
+      "sanskrit": "कुलगुरवः",
+      "icon": "🕉️"
+    },
+    "roleTag": "rishi",
+    "description": "Devarshi who narrated the essence of Rama's life to Valmiki, sparking the composition of the Ramayana.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "valmiki",
+    "name": "Valmiki",
+    "sanskritName": "वाल्मीकिः",
+    "tier": {
+      "title": "Kula Gurus & Maharshis",
+      "sanskrit": "कुलगुरवः",
+      "icon": "🕉️"
+    },
+    "roleTag": "rishi",
+    "description": "Adi Kavi, the first poet, composer of the Ramayana. Former hunter Ratnakara, transformed by the name of Rama.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": true,
+    "profileUrl": "/characters/valmiki/",
+    "profileDetails": 0
+  },
+  {
+    "slug": "vasishta",
+    "name": "Vasishta",
+    "sanskritName": "वसिष्ठः",
+    "tier": {
+      "title": "Kula Gurus & Maharshis",
+      "sanskrit": "कुलगुरवः",
+      "icon": "🕉️"
+    },
+    "roleTag": "rishi",
+    "description": "Kulaguru (family preceptor) of the Ikshvakus, one of the seven great rishis, keeper of Kamadhenu.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "vishwamitra",
+    "name": "Vishwamitra",
+    "sanskritName": "विश्वामित्रः",
+    "tier": {
+      "title": "Kula Gurus & Maharshis",
+      "sanskrit": "कुलगुरवः",
+      "icon": "🕉️"
+    },
+    "roleTag": "rishi",
+    "description": "Once a mighty king, who by fierce tapas became a Brahmarshi. Took Rama and Lakshmana to protect his yagna.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": true,
+    "profileUrl": "/characters/vishwamitra/",
+    "profileDetails": 0
+  },
+  {
+    "slug": "aditi",
+    "name": "Aditi",
+    "sanskritName": "अदितिः",
+    "tier": {
+      "title": "Devas — Cosmic Powers",
+      "sanskrit": "देवाः",
+      "icon": "✨"
+    },
+    "roleTag": "deity",
+    "description": "Mother of the Adityas and the devas, invoked in the Ikshvaku genealogies.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "agni",
+    "name": "Agni",
+    "sanskritName": "अग्निः",
+    "tier": {
+      "title": "Devas — Cosmic Powers",
+      "sanskrit": "देवाः",
+      "icon": "✨"
+    },
+    "roleTag": "deity",
+    "description": "Fire god and father of Nila; witness to Sita's Agni-pariksha after the war.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "ashwini-kumaras",
+    "name": "Ashwini Kumaras",
+    "sanskritName": "अश्विनीकुमारौ",
+    "tier": {
+      "title": "Devas — Cosmic Powers",
+      "sanskrit": "देवाः",
+      "icon": "✨"
+    },
+    "roleTag": "deity",
+    "description": "Twin physicians of the devas and fathers of the vanara brothers Mainda and Dvivida.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "bhudevi-earth",
+    "name": "Bhudevi (Earth)",
+    "sanskritName": "भूदेवी",
+    "tier": {
+      "title": "Devas — Cosmic Powers",
+      "sanskrit": "देवाः",
+      "icon": "✨"
+    },
+    "roleTag": "deity",
+    "description": "The Earth goddess, true mother of Sita, who at last opens her arms to receive her daughter back.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "brahma",
+    "name": "Brahma",
+    "sanskritName": "ब्रह्मा",
+    "tier": {
+      "title": "Devas — Cosmic Powers",
+      "sanskrit": "देवाः",
+      "icon": "✨"
+    },
+    "roleTag": "deity",
+    "description": "The four-faced creator of the worlds, whose boons to Ravana and blessings to Rama shape the story.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "chandra",
+    "name": "Chandra",
+    "sanskritName": "चन्द्रः",
+    "tier": {
+      "title": "Devas — Cosmic Powers",
+      "sanskrit": "देवाः",
+      "icon": "✨"
+    },
+    "roleTag": "deity",
+    "description": "The Moon god, referenced in similes and invocations throughout the Ramayana.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "ganga",
+    "name": "Ganga",
+    "sanskritName": "गङ्गा",
+    "tier": {
+      "title": "Devas — Cosmic Powers",
+      "sanskrit": "देवाः",
+      "icon": "✨"
+    },
+    "roleTag": "deity",
+    "description": "River goddess brought to earth by Bhagiratha; Rama crosses her with Guha's help at Shringverapura.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "garuda",
+    "name": "Garuda",
+    "sanskritName": "गरुडः",
+    "tier": {
+      "title": "Devas — Cosmic Powers",
+      "sanskrit": "देवाः",
+      "icon": "✨"
+    },
+    "roleTag": "deity",
+    "description": "King of birds and mount of Vishnu, who freed Rama and Lakshmana from Indrajit's naga-noose.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "indra",
+    "name": "Indra",
+    "sanskritName": "इन्द्रः",
+    "tier": {
+      "title": "Devas — Cosmic Powers",
+      "sanskrit": "देवाः",
+      "icon": "✨"
+    },
+    "roleTag": "deity",
+    "description": "King of the devas, father of Vali and adversary of Ravana and Meghanada (Indrajit).",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "kamadeva",
+    "name": "Kamadeva",
+    "sanskritName": "कामदेवः",
+    "tier": {
+      "title": "Devas — Cosmic Powers",
+      "sanskrit": "देवाः",
+      "icon": "✨"
+    },
+    "roleTag": "deity",
+    "description": "God of desire whose burning by Shiva in Dandaka gives the Dandakaranya its lore.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "kamadhenu-shabala",
+    "name": "Kamadhenu (Shabala)",
+    "sanskritName": "कामधेनुः",
+    "tier": {
+      "title": "Devas — Cosmic Powers",
+      "sanskrit": "देवाः",
+      "icon": "✨"
+    },
+    "roleTag": "deity",
+    "description": "Divine cow of plenty kept by Vasishta, whose capture by Vishwamitra's forces began his long tapas.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "kashyapa-prajapati",
+    "name": "Kashyapa Prajapati",
+    "sanskritName": "कश्यपः",
+    "tier": {
+      "title": "Devas — Cosmic Powers",
+      "sanskrit": "देवाः",
+      "icon": "✨"
+    },
+    "roleTag": "deity",
+    "description": "Prajapati sage-god, father of devas and asuras; ancestor in the cosmic genealogy.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "kubera",
+    "name": "Kubera",
+    "sanskritName": "कुबेरः",
+    "tier": {
+      "title": "Devas — Cosmic Powers",
+      "sanskrit": "देवाः",
+      "icon": "✨"
+    },
+    "roleTag": "deity",
+    "description": "Lord of wealth and half-brother of Ravana who originally ruled Lanka before being driven out.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "lakshmi",
+    "name": "Lakshmi",
+    "sanskritName": "लक्ष्मीः",
+    "tier": {
+      "title": "Devas — Cosmic Powers",
+      "sanskrit": "देवाः",
+      "icon": "✨"
+    },
+    "roleTag": "deity",
+    "description": "Consort of Vishnu; Sita is her descent into human form for the sake of Rama.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "nandi",
+    "name": "Nandi",
+    "sanskritName": "नन्दी",
+    "tier": {
+      "title": "Devas — Cosmic Powers",
+      "sanskrit": "देवाः",
+      "icon": "✨"
+    },
+    "roleTag": "deity",
+    "description": "Gana of Shiva whose curse on Ravana foretold his destruction at the hands of a monkey-aided prince.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "parashurama",
+    "name": "Parashurama",
+    "sanskritName": "परशुरामः",
+    "tier": {
+      "title": "Devas — Cosmic Powers",
+      "sanskrit": "देवाः",
+      "icon": "✨"
+    },
+    "roleTag": "deity",
+    "description": "Sixth avatar of Vishnu, the axe-wielding Bhargava, who challenged Rama after the breaking of Shiva's bow.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "parvati",
+    "name": "Parvati",
+    "sanskritName": "पार्वती",
+    "tier": {
+      "title": "Devas — Cosmic Powers",
+      "sanskrit": "देवाः",
+      "icon": "✨"
+    },
+    "roleTag": "deity",
+    "description": "Consort of Shiva, present in the cosmic background of the epic and in dialogue frames of later tradition.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "rati",
+    "name": "Rati",
+    "sanskritName": "रतिः",
+    "tier": {
+      "title": "Devas — Cosmic Powers",
+      "sanskrit": "देवाः",
+      "icon": "✨"
+    },
+    "roleTag": "deity",
+    "description": "Consort of Kamadeva, goddess of love.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "sachi",
+    "name": "Sachi",
+    "sanskritName": "शची",
+    "tier": {
+      "title": "Devas — Cosmic Powers",
+      "sanskrit": "देवाः",
+      "icon": "✨"
+    },
+    "roleTag": "deity",
+    "description": "Consort of Indra, whose modesty is contrasted with the wild force of the rakshasis.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "saraswati",
+    "name": "Saraswati",
+    "sanskritName": "सरस्वती",
+    "tier": {
+      "title": "Devas — Cosmic Powers",
+      "sanskrit": "देवाः",
+      "icon": "✨"
+    },
+    "roleTag": "deity",
+    "description": "Goddess of speech and learning; the river invoked in the opening of the epic.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "shesha-ananta",
+    "name": "Shesha (Ananta)",
+    "sanskritName": "शेषः",
+    "tier": {
+      "title": "Devas — Cosmic Powers",
+      "sanskrit": "देवाः",
+      "icon": "✨"
+    },
+    "roleTag": "deity",
+    "description": "Thousand-headed cosmic serpent on whom Vishnu reclines; incarnates as Lakshmana to serve Rama.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "shiva",
+    "name": "Shiva",
+    "sanskritName": "शिवः",
+    "tier": {
+      "title": "Devas — Cosmic Powers",
+      "sanskrit": "देवाः",
+      "icon": "✨"
+    },
+    "roleTag": "deity",
+    "description": "The Destroyer, whose great bow Rama broke at Sita's swayamvara and whose grace is central to the epic.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "surasa",
+    "name": "Surasa",
+    "sanskritName": "सुरसा",
+    "tier": {
+      "title": "Devas — Cosmic Powers",
+      "sanskrit": "देवाः",
+      "icon": "✨"
+    },
+    "roleTag": "deity",
+    "description": "Mother of the nagas, who tested Hanuman mid-ocean by demanding to swallow him before letting him pass.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "surya",
+    "name": "Surya",
+    "sanskritName": "सूर्यः",
+    "tier": {
+      "title": "Devas — Cosmic Powers",
+      "sanskrit": "देवाः",
+      "icon": "✨"
+    },
+    "roleTag": "deity",
+    "description": "The Sun god, father of Sugriva and ancestor of the Ikshvaku (Solar) line; giver of the Aditya Hridaya to Rama.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "varuna",
+    "name": "Varuna",
+    "sanskritName": "वरुणः",
+    "tier": {
+      "title": "Devas — Cosmic Powers",
+      "sanskrit": "देवाः",
+      "icon": "✨"
+    },
+    "roleTag": "deity",
+    "description": "God of the ocean who appeared before Rama and showed him the way across the sea to Lanka.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "vayu",
+    "name": "Vayu",
+    "sanskritName": "वायुः",
+    "tier": {
+      "title": "Devas — Cosmic Powers",
+      "sanskrit": "देवाः",
+      "icon": "✨"
+    },
+    "roleTag": "deity",
+    "description": "Wind god and true father of Hanuman, who carries the Sanjivani mountain through the skies of the war.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "vishnu",
+    "name": "Vishnu",
+    "sanskritName": "विष्णुः",
+    "tier": {
+      "title": "Devas — Cosmic Powers",
+      "sanskrit": "देवाः",
+      "icon": "✨"
+    },
+    "roleTag": "deity",
+    "description": "The Preserver, who descends as Rama for the slaying of Ravana at the prayer of the devas.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "vishwakarma",
+    "name": "Vishwakarma",
+    "sanskritName": "विश्वकर्मा",
+    "tier": {
+      "title": "Devas — Cosmic Powers",
+      "sanskrit": "देवाः",
+      "icon": "✨"
+    },
+    "roleTag": "deity",
+    "description": "Celestial architect, father of Nala, builder of Lanka and of the celestial weapons.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "yama",
+    "name": "Yama",
+    "sanskritName": "यमः",
+    "tier": {
+      "title": "Devas — Cosmic Powers",
+      "sanskrit": "देवाः",
+      "icon": "✨"
+    },
+    "roleTag": "deity",
+    "description": "God of death and dharma who once fled before Ravana and whom Rama consulted in the Uttara Kanda.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "angiras",
+    "name": "Angiras",
+    "sanskritName": "अङ्गिराः",
+    "tier": {
+      "title": "Rishis & Sages",
+      "sanskrit": "ऋषयः",
+      "icon": "📿"
+    },
+    "roleTag": "rishi",
+    "description": "One of the Saptarishis, a progenitor of the Angirasa Brahmin lineage.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "bhrigu",
+    "name": "Bhrigu",
+    "sanskritName": "भृगुः",
+    "tier": {
+      "title": "Rishis & Sages",
+      "sanskrit": "ऋषयः",
+      "icon": "📿"
+    },
+    "roleTag": "rishi",
+    "description": "One of the Saptarishis, progenitor of the Bhargava lineage that includes Parashurama.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "chyavana",
+    "name": "Chyavana",
+    "sanskritName": "च्यवनः",
+    "tier": {
+      "title": "Rishis & Sages",
+      "sanskrit": "ऋषयः",
+      "icon": "📿"
+    },
+    "roleTag": "rishi",
+    "description": "Bhargava sage famed for his tapas, mentioned in the Ikshvaku legends.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "durvasa",
+    "name": "Durvasa",
+    "sanskritName": "दुर्वासाः",
+    "tier": {
+      "title": "Rishis & Sages",
+      "sanskrit": "ऋषयः",
+      "icon": "📿"
+    },
+    "roleTag": "rishi",
+    "description": "Quick-tempered sage whose visit to Rama's court set in motion the departure of Lakshmana.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "jabali",
+    "name": "Jabali",
+    "sanskritName": "जाबालिः",
+    "tier": {
+      "title": "Rishis & Sages",
+      "sanskrit": "ऋषयः",
+      "icon": "📿"
+    },
+    "roleTag": "rishi",
+    "description": "Minister-sage of Dasharatha who argued with Rama in Chitrakoot from a materialist viewpoint, to test him.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "jamadagni",
+    "name": "Jamadagni",
+    "sanskritName": "जमदग्निः",
+    "tier": {
+      "title": "Rishis & Sages",
+      "sanskrit": "ऋषयः",
+      "icon": "📿"
+    },
+    "roleTag": "rishi",
+    "description": "Father of Parashurama, a great Bhargava sage of the solar lineage.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "kashyapa",
+    "name": "Kashyapa",
+    "sanskritName": "कश्यपः",
+    "tier": {
+      "title": "Rishis & Sages",
+      "sanskrit": "ऋषयः",
+      "icon": "📿"
+    },
+    "roleTag": "rishi",
+    "description": "Prajapati sage, father of devas, daityas, and most beings, included among Dasharatha's ritvijas.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "kratu",
+    "name": "Kratu",
+    "sanskritName": "क्रतुः",
+    "tier": {
+      "title": "Rishis & Sages",
+      "sanskrit": "ऋषयः",
+      "icon": "📿"
+    },
+    "roleTag": "rishi",
+    "description": "One of the seven mind-born sons of Brahma and a Saptarishi.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "lopamudra",
+    "name": "Lopamudra",
+    "sanskritName": "लोपामुद्रा",
+    "tier": {
+      "title": "Rishis & Sages",
+      "sanskrit": "ऋषयः",
+      "icon": "📿"
+    },
+    "roleTag": "rishi",
+    "description": "Wife of sage Agastya, herself a learned rishika who composed hymns of the Rig Veda.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "mandakarni",
+    "name": "Mandakarni",
+    "sanskritName": "माण्डकर्णिः",
+    "tier": {
+      "title": "Rishis & Sages",
+      "sanskrit": "ऋषयः",
+      "icon": "📿"
+    },
+    "roleTag": "rishi",
+    "description": "Ascetic of Panchavati region who stood in water for years; the devas sent apsaras to disturb his tapas.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "marichi",
+    "name": "Marichi",
+    "sanskritName": "मरीचिः",
+    "tier": {
+      "title": "Rishis & Sages",
+      "sanskrit": "ऋषयः",
+      "icon": "📿"
+    },
+    "roleTag": "rishi",
+    "description": "Mind-born son of Brahma, father of Kashyapa. Not to be confused with the rakshasa Maricha.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "markandeya",
+    "name": "Markandeya",
+    "sanskritName": "मार्कण्डेयः",
+    "tier": {
+      "title": "Rishis & Sages",
+      "sanskrit": "ऋषयः",
+      "icon": "📿"
+    },
+    "roleTag": "rishi",
+    "description": "Long-lived sage and member of Dasharatha's council.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "matanga",
+    "name": "Matanga",
+    "sanskritName": "मतङ्गः",
+    "tier": {
+      "title": "Rishis & Sages",
+      "sanskrit": "ऋषयः",
+      "icon": "📿"
+    },
+    "roleTag": "rishi",
+    "description": "Sage of the Rishyamuka region whose ashram became Shabari's home after his ascent.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "pulaha",
+    "name": "Pulaha",
+    "sanskritName": "पुलहः",
+    "tier": {
+      "title": "Rishis & Sages",
+      "sanskrit": "ऋषयः",
+      "icon": "📿"
+    },
+    "roleTag": "rishi",
+    "description": "One of the seven mind-born sons of Brahma.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "pulastya",
+    "name": "Pulastya",
+    "sanskritName": "पुलस्त्यः",
+    "tier": {
+      "title": "Rishis & Sages",
+      "sanskrit": "ऋषयः",
+      "icon": "📿"
+    },
+    "roleTag": "rishi",
+    "description": "One of the seven mind-born sons of Brahma and grandfather of Ravana, Kubera, Kumbhakarna and Vibhishana.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "renuka",
+    "name": "Renuka",
+    "sanskritName": "रेणुका",
+    "tier": {
+      "title": "Rishis & Sages",
+      "sanskrit": "ऋषयः",
+      "icon": "📿"
+    },
+    "roleTag": "rishi",
+    "description": "Wife of Jamadagni and mother of Parashurama.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "rishyasringa",
+    "name": "Rishyasringa",
+    "sanskritName": "ऋष्यशृङ्गः",
+    "tier": {
+      "title": "Rishis & Sages",
+      "sanskrit": "ऋषयः",
+      "icon": "📿"
+    },
+    "roleTag": "rishi",
+    "description": "Young sage whose arrival ended a drought in Anga. Performed Dasharatha's Putrakameshti yagna that led to Rama's birth.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "saubhari",
+    "name": "Saubhari",
+    "sanskritName": "सौभरिः",
+    "tier": {
+      "title": "Rishis & Sages",
+      "sanskrit": "ऋषयः",
+      "icon": "📿"
+    },
+    "roleTag": "rishi",
+    "description": "Ancient sage referenced in the Ikshvaku legends recited to Rama.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "shabari",
+    "name": "Shabari",
+    "sanskritName": "शबरी",
+    "tier": {
+      "title": "Rishis & Sages",
+      "sanskrit": "ऋषयः",
+      "icon": "📿"
+    },
+    "roleTag": "rishi",
+    "description": "Tribal devotee of Rama who tasted each fruit to ensure none was sour before offering it to him.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "sharabhanga",
+    "name": "Sharabhanga",
+    "sanskritName": "शरभङ्गः",
+    "tier": {
+      "title": "Rishis & Sages",
+      "sanskrit": "ऋषयः",
+      "icon": "📿"
+    },
+    "roleTag": "rishi",
+    "description": "Ascetic whom Rama met in the Dandaka forest, who ascended to Brahmaloka after beholding Rama.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "shatananda",
+    "name": "Shatananda",
+    "sanskritName": "शतानन्दः",
+    "tier": {
+      "title": "Rishis & Sages",
+      "sanskrit": "ऋषयः",
+      "icon": "📿"
+    },
+    "roleTag": "rishi",
+    "description": "Chief priest of Janaka, eldest son of the sage Gautama and Ahalya.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "sutikshna",
+    "name": "Sutikshna",
+    "sanskritName": "सुतीक्ष्णः",
+    "tier": {
+      "title": "Rishis & Sages",
+      "sanskrit": "ऋषयः",
+      "icon": "📿"
+    },
+    "roleTag": "rishi",
+    "description": "Disciple of Agastya who hosted Rama in his ashram and directed him onward to Agastya.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "suyajna",
+    "name": "Suyajna",
+    "sanskritName": "सुयज्ञः",
+    "tier": {
+      "title": "Rishis & Sages",
+      "sanskrit": "ऋषयः",
+      "icon": "📿"
+    },
+    "roleTag": "rishi",
+    "description": "Son of Vasishta, priest of Ayodhya invoked during Dasharatha's sacrifices.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "svayamprabha",
+    "name": "Svayamprabha",
+    "sanskritName": "स्वयंप्रभा",
+    "tier": {
+      "title": "Rishis & Sages",
+      "sanskrit": "ऋषयः",
+      "icon": "📿"
+    },
+    "roleTag": "rishi",
+    "description": "Tapasvini in the magical cave (Rikshabila) who sheltered Hanuman's search party and led them to the sea.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "trinabindu",
+    "name": "Trinabindu",
+    "sanskritName": "तृणबिन्दुः",
+    "tier": {
+      "title": "Rishis & Sages",
+      "sanskrit": "ऋषयः",
+      "icon": "📿"
+    },
+    "roleTag": "rishi",
+    "description": "Sage whose curse features in the Pulastya-Kaikasi ancestry of the rakshasas.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "vamadeva",
+    "name": "Vamadeva",
+    "sanskritName": "वामदेवः",
+    "tier": {
+      "title": "Rishis & Sages",
+      "sanskrit": "ऋषयः",
+      "icon": "📿"
+    },
+    "roleTag": "rishi",
+    "description": "Ancient rishi and member of Dasharatha's council of priests.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "vibhandaka",
+    "name": "Vibhandaka",
+    "sanskritName": "विभाण्डकः",
+    "tier": {
+      "title": "Rishis & Sages",
+      "sanskrit": "ऋषयः",
+      "icon": "📿"
+    },
+    "roleTag": "rishi",
+    "description": "Father of Rishyasringa, a stern forest sage who had raised his son in complete ignorance of women.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "vishrava",
+    "name": "Vishrava",
+    "sanskritName": "विश्रवाः",
+    "tier": {
+      "title": "Rishis & Sages",
+      "sanskrit": "ऋषयः",
+      "icon": "📿"
+    },
+    "roleTag": "rishi",
+    "description": "Son of Pulastya, father of Kubera (by Ilavida) and of Ravana, Kumbhakarna, Vibhishana and Shurpanakha (by Kaikasi).",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "angada-son-of-vali",
+    "name": "Angada (son of Vali)",
+    "sanskritName": "अङ्गदः",
+    "tier": {
+      "title": "Faithful Allies of Rama",
+      "sanskrit": "मित्राणि",
+      "icon": "🤝"
+    },
+    "roleTag": "vanara",
+    "description": "Crown prince of Kishkindha, son of Vali and Tara. Led the southern search for Sita and served as Rama's envoy to Ravana.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "guha",
+    "name": "Guha",
+    "sanskritName": "गुहः",
+    "tier": {
+      "title": "Faithful Allies of Rama",
+      "sanskrit": "मित्राणि",
+      "icon": "🤝"
+    },
+    "roleTag": "human",
+    "description": "Chief of the Nishadas at Shringverapura who ferried Rama across the Ganga and loved him as a brother.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "jambavan",
+    "name": "Jambavan",
+    "sanskritName": "जाम्बवान्",
+    "tier": {
+      "title": "Faithful Allies of Rama",
+      "sanskrit": "मित्राणि",
+      "icon": "🤝"
+    },
+    "roleTag": "vanara",
+    "description": "Ancient bear king (Rikshraj), elder among Sugriva's counsellors, who reminded Hanuman of his own strength.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "jatayu",
+    "name": "Jatayu",
+    "sanskritName": "जटायुः",
+    "tier": {
+      "title": "Faithful Allies of Rama",
+      "sanskrit": "मित्राणि",
+      "icon": "🤝"
+    },
+    "roleTag": "other",
+    "description": "Eagle king and friend of Dasharatha who battled Ravana to rescue Sita and died in Rama's arms.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "nala",
+    "name": "Nala",
+    "sanskritName": "नलः",
+    "tier": {
+      "title": "Faithful Allies of Rama",
+      "sanskrit": "मित्राणि",
+      "icon": "🤝"
+    },
+    "roleTag": "vanara",
+    "description": "Son of Vishwakarma, the vanara architect who engineered the bridge (Setu) across the ocean to Lanka.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "nila",
+    "name": "Nila",
+    "sanskritName": "नीलः",
+    "tier": {
+      "title": "Faithful Allies of Rama",
+      "sanskrit": "मित्राणि",
+      "icon": "🤝"
+    },
+    "roleTag": "vanara",
+    "description": "Son of Agni, commander-in-chief of Sugriva's army, a fierce warrior of the siege of Lanka.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "sampati",
+    "name": "Sampati",
+    "sanskritName": "सम्पातिः",
+    "tier": {
+      "title": "Faithful Allies of Rama",
+      "sanskrit": "मित्राणि",
+      "icon": "🤝"
+    },
+    "roleTag": "other",
+    "description": "Elder brother of Jatayu, the aged eagle who told the vanaras that Sita was held in Lanka.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "sugriva",
+    "name": "Sugriva",
+    "sanskritName": "सुग्रीवः",
+    "tier": {
+      "title": "Faithful Allies of Rama",
+      "sanskrit": "मित्राणि",
+      "icon": "🤝"
+    },
+    "roleTag": "vanara",
+    "description": "Son of Surya, king of the Vanaras of Kishkindha after the death of his brother Vali, and steadfast ally of Rama.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "tara",
+    "name": "Tara",
+    "sanskritName": "तारा",
+    "tier": {
+      "title": "Faithful Allies of Rama",
+      "sanskrit": "मित्राणि",
+      "icon": "🤝"
+    },
+    "roleTag": "vanara",
+    "description": "Wise queen of Vali, later of Sugriva. Her counsel saved Lakshmana's wrath and kept the vanara alliance together.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "vibhishana",
+    "name": "Vibhishana",
+    "sanskritName": "विभीषणः",
+    "tier": {
+      "title": "Faithful Allies of Rama",
+      "sanskrit": "मित्राणि",
+      "icon": "🤝"
+    },
+    "roleTag": "rakshasa",
+    "description": "Righteous brother of Ravana who chose dharma, joined Rama and was crowned king of Lanka after the war.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "aja",
+    "name": "Aja",
+    "sanskritName": "अजः",
+    "tier": {
+      "title": "Ikshvaku Lineage & Kings",
+      "sanskrit": "मानवाः",
+      "icon": "🛖"
+    },
+    "roleTag": "human",
+    "description": "Son of Raghu and father of Dasharatha. Ruled Ayodhya with justice.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "ambarisha",
+    "name": "Ambarisha",
+    "sanskritName": "अम्बरीषः",
+    "tier": {
+      "title": "Ikshvaku Lineage & Kings",
+      "sanskrit": "मानवाः",
+      "icon": "🛖"
+    },
+    "roleTag": "human",
+    "description": "Pious Ikshvaku king whose sacrifice features the tale of the boy Shunahshepa being rescued by Vishwamitra.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "amshuman",
+    "name": "Amshuman",
+    "sanskritName": "अंशुमान्",
+    "tier": {
+      "title": "Ikshvaku Lineage & Kings",
+      "sanskrit": "मानवाः",
+      "icon": "🛖"
+    },
+    "roleTag": "human",
+    "description": "Grandson of Sagara who recovered the sacrificial horse and learned the fate of his ancestors from Garuda.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "anaranya",
+    "name": "Anaranya",
+    "sanskritName": "अनरण्यः",
+    "tier": {
+      "title": "Ikshvaku Lineage & Kings",
+      "sanskrit": "मानवाः",
+      "icon": "🛖"
+    },
+    "roleTag": "human",
+    "description": "Ikshvaku king who fought Ravana and, in dying, prophesied Ravana's destruction at the hands of a descendant — Rama.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "angada-son-of-lakshmana",
+    "name": "Angada (son of Lakshmana)",
+    "sanskritName": "अङ्गदः",
+    "tier": {
+      "title": "Ikshvaku Lineage & Kings",
+      "sanskrit": "मानवाः",
+      "icon": "🛖"
+    },
+    "roleTag": "human",
+    "description": "Son of Lakshmana and Urmila; made king of Karupada by Rama. Not to be confused with Vali's son.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "asamanjas",
+    "name": "Asamanjas",
+    "sanskritName": "असमञ्जसः",
+    "tier": {
+      "title": "Ikshvaku Lineage & Kings",
+      "sanskrit": "मानवाः",
+      "icon": "🛖"
+    },
+    "roleTag": "human",
+    "description": "Sagara's wicked son, banished for tormenting the citizens of Ayodhya. Father of Amshuman.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "ashwapati",
+    "name": "Ashwapati",
+    "sanskritName": "अश्वपतिः",
+    "tier": {
+      "title": "Ikshvaku Lineage & Kings",
+      "sanskrit": "मानवाः",
+      "icon": "🛖"
+    },
+    "roleTag": "human",
+    "description": "King of Kekaya, maternal grandfather of Bharata and father of Kaikeyi.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "bhagiratha",
+    "name": "Bhagiratha",
+    "sanskritName": "भगीरथः",
+    "tier": {
+      "title": "Ikshvaku Lineage & Kings",
+      "sanskrit": "मानवाः",
+      "icon": "🛖"
+    },
+    "roleTag": "human",
+    "description": "Great king whose tapas brought the Ganga down from heaven to liberate the sixty thousand sons of Sagara.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "chandraketu",
+    "name": "Chandraketu",
+    "sanskritName": "चन्द्रकेतुः",
+    "tier": {
+      "title": "Ikshvaku Lineage & Kings",
+      "sanskrit": "मानवाः",
+      "icon": "🛖"
+    },
+    "roleTag": "human",
+    "description": "Son of Lakshmana and Urmila, made king of Chandrakanta.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "dilipa",
+    "name": "Dilipa",
+    "sanskritName": "दिलीपः",
+    "tier": {
+      "title": "Ikshvaku Lineage & Kings",
+      "sanskrit": "मानवाः",
+      "icon": "🛖"
+    },
+    "roleTag": "human",
+    "description": "Son of Amshuman. Despite his tapas, failed to bring down the Ganga for the salvation of Sagara's sons.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "harishchandra",
+    "name": "Harishchandra",
+    "sanskritName": "हरिश्चन्द्रः",
+    "tier": {
+      "title": "Ikshvaku Lineage & Kings",
+      "sanskrit": "मानवाः",
+      "icon": "🛖"
+    },
+    "roleTag": "human",
+    "description": "Son of Trishanku. Legendary for his unwavering truthfulness even when reduced to a cremation-ground keeper.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "ikshvaku",
+    "name": "Ikshvaku",
+    "sanskritName": "इक्ष्वाकुः",
+    "tier": {
+      "title": "Ikshvaku Lineage & Kings",
+      "sanskrit": "मानवाः",
+      "icon": "🛖"
+    },
+    "roleTag": "human",
+    "description": "Founder of the Solar (Suryavamsha) dynasty, eldest son of Manu, after whom the Ikshvaku lineage is named.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "kakutstha-puranjaya",
+    "name": "Kakutstha (Puranjaya)",
+    "sanskritName": "ककुत्स्थः",
+    "tier": {
+      "title": "Ikshvaku Lineage & Kings",
+      "sanskrit": "मानवाः",
+      "icon": "🛖"
+    },
+    "roleTag": "human",
+    "description": "Ancestor of Rama who rode on the hump of Indra (in bull form) to defeat the asuras — source of the epithet 'Kakutstha'.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "kalmashapada",
+    "name": "Kalmashapada",
+    "sanskritName": "कल्माषपादः",
+    "tier": {
+      "title": "Ikshvaku Lineage & Kings",
+      "sanskrit": "मानवाः",
+      "icon": "🛖"
+    },
+    "roleTag": "human",
+    "description": "Ikshvaku king also known as Saudasa, cursed to become a rakshasa after offending Vasishta.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "kusha",
+    "name": "Kusha",
+    "sanskritName": "कुशः",
+    "tier": {
+      "title": "Ikshvaku Lineage & Kings",
+      "sanskrit": "मानवाः",
+      "icon": "🛖"
+    },
+    "roleTag": "human",
+    "description": "Son of Rama and Sita, born in Valmiki's ashram. Inheritor of the southern Kosala kingdom.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "kushadhwaja",
+    "name": "Kushadhwaja",
+    "sanskritName": "कुशध्वजः",
+    "tier": {
+      "title": "Ikshvaku Lineage & Kings",
+      "sanskrit": "मानवाः",
+      "icon": "🛖"
+    },
+    "roleTag": "human",
+    "description": "Younger brother of Janaka, king of Sankashya, father of Mandavi and Shrutakirti.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "lava",
+    "name": "Lava",
+    "sanskritName": "लवः",
+    "tier": {
+      "title": "Ikshvaku Lineage & Kings",
+      "sanskrit": "मानवाः",
+      "icon": "🛖"
+    },
+    "roleTag": "human",
+    "description": "Son of Rama and Sita, twin to Kusha. Taught the Ramayana by Valmiki and sang it in Rama's court.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "mandavi",
+    "name": "Mandavi",
+    "sanskritName": "माण्डवी",
+    "tier": {
+      "title": "Ikshvaku Lineage & Kings",
+      "sanskrit": "मानवाः",
+      "icon": "🛖"
+    },
+    "roleTag": "human",
+    "description": "Daughter of Kushadhwaja (Janaka's brother), wife of Bharata.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "mandhata",
+    "name": "Mandhata",
+    "sanskritName": "मान्धाता",
+    "tier": {
+      "title": "Ikshvaku Lineage & Kings",
+      "sanskrit": "मानवाः",
+      "icon": "🛖"
+    },
+    "roleTag": "human",
+    "description": "Legendary Ikshvaku emperor whose empire extended to the ends of the earth.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "manthara",
+    "name": "Manthara",
+    "sanskritName": "मन्थरा",
+    "tier": {
+      "title": "Ikshvaku Lineage & Kings",
+      "sanskrit": "मानवाः",
+      "icon": "🛖"
+    },
+    "roleTag": "human",
+    "description": "The hunchbacked maidservant of Kaikeyi whose poisoned counsel triggered Rama's exile.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "manu-vaivasvata",
+    "name": "Manu (Vaivasvata)",
+    "sanskritName": "वैवस्वत मनुः",
+    "tier": {
+      "title": "Ikshvaku Lineage & Kings",
+      "sanskrit": "मानवाः",
+      "icon": "🛖"
+    },
+    "roleTag": "human",
+    "description": "Progenitor of the Ikshvaku line and the present manvantara. Son of Surya, lawgiver of mankind.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "nimi",
+    "name": "Nimi",
+    "sanskritName": "निमिः",
+    "tier": {
+      "title": "Ikshvaku Lineage & Kings",
+      "sanskrit": "मानवाः",
+      "icon": "🛖"
+    },
+    "roleTag": "human",
+    "description": "Son of Ikshvaku and founder of the Mithila (Videha) line. Cursed by Vasishta, he became the blinking of the eyes.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "pushkala",
+    "name": "Pushkala",
+    "sanskritName": "पुष्कलः",
+    "tier": {
+      "title": "Ikshvaku Lineage & Kings",
+      "sanskrit": "मानवाः",
+      "icon": "🛖"
+    },
+    "roleTag": "human",
+    "description": "Son of Bharata and Mandavi. Founded the city of Pushkalavati.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "raghu",
+    "name": "Raghu",
+    "sanskritName": "रघुः",
+    "tier": {
+      "title": "Ikshvaku Lineage & Kings",
+      "sanskrit": "मानवाः",
+      "icon": "🛖"
+    },
+    "roleTag": "human",
+    "description": "Illustrious ancestor of Rama, after whom the Raghuvamsha (Raghu dynasty) is named.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "romapada",
+    "name": "Romapada",
+    "sanskritName": "रोमपादः",
+    "tier": {
+      "title": "Ikshvaku Lineage & Kings",
+      "sanskrit": "मानवाः",
+      "icon": "🛖"
+    },
+    "roleTag": "human",
+    "description": "King of Anga, foster-father of Shanta, who invited Rishyasringa to end a famine and performed his marriage.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "sagara",
+    "name": "Sagara",
+    "sanskritName": "सगरः",
+    "tier": {
+      "title": "Ikshvaku Lineage & Kings",
+      "sanskrit": "मानवाः",
+      "icon": "🛖"
+    },
+    "roleTag": "human",
+    "description": "Ikshvaku emperor, father of sixty thousand sons who were burnt to ashes by Kapila's glance while searching for the sacrificial horse.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "shanta",
+    "name": "Shanta",
+    "sanskritName": "शान्ता",
+    "tier": {
+      "title": "Ikshvaku Lineage & Kings",
+      "sanskrit": "मानवाः",
+      "icon": "🛖"
+    },
+    "roleTag": "human",
+    "description": "Daughter of Dasharatha, given in adoption to King Romapada of Anga. Wife of the sage Rishyasringa.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "shatrughati",
+    "name": "Shatrughati",
+    "sanskritName": "शत्रुघातिः",
+    "tier": {
+      "title": "Ikshvaku Lineage & Kings",
+      "sanskrit": "मानवाः",
+      "icon": "🛖"
+    },
+    "roleTag": "human",
+    "description": "Son of Shatrughna, installed as king of Vidisha.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "shrutakirti",
+    "name": "Shrutakirti",
+    "sanskritName": "श्रुतकीर्तिः",
+    "tier": {
+      "title": "Ikshvaku Lineage & Kings",
+      "sanskrit": "मानवाः",
+      "icon": "🛖"
+    },
+    "roleTag": "human",
+    "description": "Daughter of Kushadhwaja, wife of Shatrughna.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "subahu-son-of-shatrughna",
+    "name": "Subahu (son of Shatrughna)",
+    "sanskritName": "सुबाहुः",
+    "tier": {
+      "title": "Ikshvaku Lineage & Kings",
+      "sanskrit": "मानवाः",
+      "icon": "🛖"
+    },
+    "roleTag": "human",
+    "description": "Son of Shatrughna, installed as king of Mathura after the death of Lavanasura.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "sumantra",
+    "name": "Sumantra",
+    "sanskritName": "सुमन्त्रः",
+    "tier": {
+      "title": "Ikshvaku Lineage & Kings",
+      "sanskrit": "मानवाः",
+      "icon": "🛖"
+    },
+    "roleTag": "human",
+    "description": "Chief minister and charioteer of Dasharatha who drove Rama to the forest and returned heartbroken.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "taksha",
+    "name": "Taksha",
+    "sanskritName": "तक्षः",
+    "tier": {
+      "title": "Ikshvaku Lineage & Kings",
+      "sanskrit": "मानवाः",
+      "icon": "🛖"
+    },
+    "roleTag": "human",
+    "description": "Son of Bharata and Mandavi. Founded the city of Takshashila in the northwest.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "trishanku",
+    "name": "Trishanku",
+    "sanskritName": "त्रिशङ्कुः",
+    "tier": {
+      "title": "Ikshvaku Lineage & Kings",
+      "sanskrit": "मानवाः",
+      "icon": "🛖"
+    },
+    "roleTag": "human",
+    "description": "Ikshvaku king who sought heaven in his mortal body. Suspended between earth and heaven by Vishwamitra as Trishanku's constellation.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "urmila",
+    "name": "Urmila",
+    "sanskritName": "ऊर्मिला",
+    "tier": {
+      "title": "Ikshvaku Lineage & Kings",
+      "sanskrit": "मानवाः",
+      "icon": "🛖"
+    },
+    "roleTag": "human",
+    "description": "Daughter of Janaka, wife of Lakshmana. She accepted separation for fourteen years so Lakshmana could serve Rama.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "yudhajit",
+    "name": "Yudhajit",
+    "sanskritName": "युधाजित्",
+    "tier": {
+      "title": "Ikshvaku Lineage & Kings",
+      "sanskrit": "मानवाः",
+      "icon": "🛖"
+    },
+    "roleTag": "human",
+    "description": "Brother of Kaikeyi, prince of Kekaya, who took Bharata and Shatrughna to his kingdom before Rama's exile.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "anjana",
+    "name": "Anjana",
+    "sanskritName": "अञ्जना",
+    "tier": {
+      "title": "Vanaras & Rikshas",
+      "sanskrit": "वानराः",
+      "icon": "🐒"
+    },
+    "roleTag": "vanara",
+    "description": "Apsara-born mother of Hanuman, wife of Kesari.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "dadhimukha",
+    "name": "Dadhimukha",
+    "sanskritName": "दधिमुखः",
+    "tier": {
+      "title": "Vanaras & Rikshas",
+      "sanskrit": "वानराः",
+      "icon": "🐒"
+    },
+    "roleTag": "vanara",
+    "description": "Maternal uncle of Sugriva and guardian of the sacred Madhuvana grove raided by the returning vanara host.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "dvivida",
+    "name": "Dvivida",
+    "sanskritName": "द्विविदः",
+    "tier": {
+      "title": "Vanaras & Rikshas",
+      "sanskrit": "वानराः",
+      "icon": "🐒"
+    },
+    "roleTag": "vanara",
+    "description": "Vanara warrior, brother of Mainda, son of the Ashwini Kumaras.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "gaja",
+    "name": "Gaja",
+    "sanskritName": "गजः",
+    "tier": {
+      "title": "Vanaras & Rikshas",
+      "sanskrit": "वानराः",
+      "icon": "🐒"
+    },
+    "roleTag": "vanara",
+    "description": "Vanara warrior chief in Sugriva's forces.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "gavaksha",
+    "name": "Gavaksha",
+    "sanskritName": "गवाक्षः",
+    "tier": {
+      "title": "Vanaras & Rikshas",
+      "sanskrit": "वानराः",
+      "icon": "🐒"
+    },
+    "roleTag": "vanara",
+    "description": "Vanara commander of a large troop listed among Sugriva's ministers.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "gavaya",
+    "name": "Gavaya",
+    "sanskritName": "गवयः",
+    "tier": {
+      "title": "Vanaras & Rikshas",
+      "sanskrit": "वानराः",
+      "icon": "🐒"
+    },
+    "roleTag": "vanara",
+    "description": "Vanara chief commanding a mighty division in Sugriva's army.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "kesari",
+    "name": "Kesari",
+    "sanskritName": "केसरी",
+    "tier": {
+      "title": "Vanaras & Rikshas",
+      "sanskrit": "वानराः",
+      "icon": "🐒"
+    },
+    "roleTag": "vanara",
+    "description": "Foster-father of Hanuman, a mighty vanara chief.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "kumuda",
+    "name": "Kumuda",
+    "sanskritName": "कुमुदः",
+    "tier": {
+      "title": "Vanaras & Rikshas",
+      "sanskrit": "वानराः",
+      "icon": "🐒"
+    },
+    "roleTag": "vanara",
+    "description": "Vanara chief listed among Sugriva's warriors at Kishkindha.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "mainda",
+    "name": "Mainda",
+    "sanskritName": "मैन्दः",
+    "tier": {
+      "title": "Vanaras & Rikshas",
+      "sanskrit": "वानराः",
+      "icon": "🐒"
+    },
+    "roleTag": "vanara",
+    "description": "Vanara warrior, brother of Dvivida, son of the Ashwini Kumaras.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "panasa",
+    "name": "Panasa",
+    "sanskritName": "पनसः",
+    "tier": {
+      "title": "Vanaras & Rikshas",
+      "sanskrit": "वानराः",
+      "icon": "🐒"
+    },
+    "roleTag": "vanara",
+    "description": "Vanara commander of great strength listed in Sugriva's council.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "rishabha",
+    "name": "Rishabha",
+    "sanskritName": "ऋषभः",
+    "tier": {
+      "title": "Vanaras & Rikshas",
+      "sanskrit": "वानराः",
+      "icon": "🐒"
+    },
+    "roleTag": "vanara",
+    "description": "Vanara commander listed among Sugriva's chiefs at the march on Lanka.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "ruma",
+    "name": "Ruma",
+    "sanskritName": "रुमा",
+    "tier": {
+      "title": "Vanaras & Rikshas",
+      "sanskrit": "वानराः",
+      "icon": "🐒"
+    },
+    "roleTag": "vanara",
+    "description": "Wife of Sugriva, taken by Vali during the brothers' estrangement and restored to Sugriva after Vali's fall.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "sharabha",
+    "name": "Sharabha",
+    "sanskritName": "शरभः",
+    "tier": {
+      "title": "Vanaras & Rikshas",
+      "sanskrit": "वानराः",
+      "icon": "🐒"
+    },
+    "roleTag": "vanara",
+    "description": "Vanara chief commanding a division of Sugriva's host.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "shatabali",
+    "name": "Shatabali",
+    "sanskritName": "शतबलिः",
+    "tier": {
+      "title": "Vanaras & Rikshas",
+      "sanskrit": "वानराः",
+      "icon": "🐒"
+    },
+    "roleTag": "vanara",
+    "description": "Vanara chief leading the search party of the northern quarter.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "suhotra",
+    "name": "Suhotra",
+    "sanskritName": "सुहोत्रः",
+    "tier": {
+      "title": "Vanaras & Rikshas",
+      "sanskrit": "वानराः",
+      "icon": "🐒"
+    },
+    "roleTag": "vanara",
+    "description": "Vanara warrior enumerated among Sugriva's commanders.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "sushena",
+    "name": "Sushena",
+    "sanskritName": "सुषेणः",
+    "tier": {
+      "title": "Vanaras & Rikshas",
+      "sanskrit": "वानराः",
+      "icon": "🐒"
+    },
+    "roleTag": "vanara",
+    "description": "Aged physician of the vanara army and father-in-law of Sugriva, who sent Hanuman for the Sanjivani herb.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "vali",
+    "name": "Vali",
+    "sanskritName": "वाली",
+    "tier": {
+      "title": "Vanaras & Rikshas",
+      "sanskrit": "वानराः",
+      "icon": "🐒"
+    },
+    "roleTag": "vanara",
+    "description": "Mighty son of Indra, elder brother of Sugriva and king of Kishkindha, slain by Rama's arrow.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "vinata",
+    "name": "Vinata",
+    "sanskritName": "विनतः",
+    "tier": {
+      "title": "Vanaras & Rikshas",
+      "sanskrit": "वानराः",
+      "icon": "🐒"
+    },
+    "roleTag": "vanara",
+    "description": "Vanara commander appointed by Sugriva to lead one of the four search parties (the eastern quarter).",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "indrajit-meghanada",
+    "name": "Indrajit (Meghanada)",
+    "sanskritName": "इन्द्रजित्",
+    "tier": {
+      "title": "Ravana's House",
+      "sanskrit": "रावणकुलम्",
+      "icon": "👹"
+    },
+    "roleTag": "rakshasa",
+    "description": "Son of Ravana, conqueror of Indra, master of maya and the Brahmastra, slain by Lakshmana in the war.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "kumbhakarna",
+    "name": "Kumbhakarna",
+    "sanskritName": "कुम्भकर्णः",
+    "tier": {
+      "title": "Ravana's House",
+      "sanskrit": "रावणकुलम्",
+      "icon": "👹"
+    },
+    "roleTag": "rakshasa",
+    "description": "Ravana's giant brother cursed to sleep for six months at a stretch; awakened for the war, he fell to Rama's arrows.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "mandodari",
+    "name": "Mandodari",
+    "sanskritName": "मन्दोदरी",
+    "tier": {
+      "title": "Ravana's House",
+      "sanskrit": "रावणकुलम्",
+      "icon": "👹"
+    },
+    "roleTag": "rakshasa",
+    "description": "Chief queen of Ravana, daughter of Mayasura. One of the five legendary Panchakanya for her virtue.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "ravana",
+    "name": "Ravana",
+    "sanskritName": "रावणः",
+    "tier": {
+      "title": "Ravana's House",
+      "sanskrit": "रावणकुलम्",
+      "icon": "👹"
+    },
+    "roleTag": "rakshasa",
+    "description": "Ten-headed king of Lanka, son of Vishrava and Kaikasi, great scholar and devotee of Shiva whose pride brought his fall.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": true,
+    "profileUrl": "/characters/ravana/",
+    "profileDetails": 0
+  },
+  {
+    "slug": "akampana",
+    "name": "Akampana",
+    "sanskritName": "अकम्पनः",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Rakshasa counsellor who advised Ravana to abduct Sita by guile, slain later in the war.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "aksha-akshayakumara",
+    "name": "Aksha (Akshayakumara)",
+    "sanskritName": "अक्षकुमारः",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Young son of Ravana slain by Hanuman during the burning of Lanka.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "atikaya",
+    "name": "Atikaya",
+    "sanskritName": "अतिकायः",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Son of Ravana and Dhanyamalini, a giant-bodied warrior slain by Lakshmana with a wind-borne arrow.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "devantaka",
+    "name": "Devantaka",
+    "sanskritName": "देवान्तकः",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Son of Ravana, slain by Hanuman in the siege of Lanka.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "dhumraksha",
+    "name": "Dhumraksha",
+    "sanskritName": "धूम्राक्षः",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Rakshasa general dispatched by Ravana, slain by Hanuman in the siege.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "dundubhi",
+    "name": "Dundubhi",
+    "sanskritName": "दुन्दुभिः",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Buffalo-shaped asura slain by Vali, whose bones Rama kicked to demonstrate his strength to Sugriva.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "dushana",
+    "name": "Dushana",
+    "sanskritName": "दूषणः",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Lieutenant of Khara at Janasthana, slain by Rama alongside his commander.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "heti",
+    "name": "Heti",
+    "sanskritName": "हेतिः",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Primordial rakshasa ancestor mentioned in the Uttara Kanda genealogy.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "kabandha",
+    "name": "Kabandha",
+    "sanskritName": "कबन्धः",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Headless rakshasa cursed to a monstrous form; freed by Rama's cremation, he rose as a gandharva and pointed Rama to Sugriva.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "kaikasi",
+    "name": "Kaikasi",
+    "sanskritName": "कैकसी",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Rakshasi mother of Ravana, Kumbhakarna, Vibhishana and Shurpanakha, daughter of Sumali.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "khara",
+    "name": "Khara",
+    "sanskritName": "खरः",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Cousin of Ravana commanding the rakshasa host at Janasthana, slain by Rama with the whole army of fourteen thousand.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "kumbha",
+    "name": "Kumbha",
+    "sanskritName": "कुम्भः",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Son of Kumbhakarna, slain by Sugriva in battle.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "lankini",
+    "name": "Lankini",
+    "sanskritName": "लङ्किणी",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Tutelary rakshasi of the city of Lanka whom Hanuman struck down at the gates, fulfilling an old prophecy.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "mahakaya",
+    "name": "Mahakaya",
+    "sanskritName": "महाकायः",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Rakshasa warrior of great stature listed in the hosts of Lanka.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "mahaparshva",
+    "name": "Mahaparshva",
+    "sanskritName": "महापार्श्वः",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Rakshasa warrior of Ravana's inner council, slain by Angada.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "mahodara",
+    "name": "Mahodara",
+    "sanskritName": "महोदरः",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Rakshasa counsellor and warrior of Lanka, slain in battle with Sugriva.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "makaraksha",
+    "name": "Makaraksha",
+    "sanskritName": "मकराक्षः",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Son of Khara who came to avenge his father in the war and fell to Rama's arrow.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "mali",
+    "name": "Mali",
+    "sanskritName": "माली",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Rakshasa brother of Sumali and Malyavan, slain by Vishnu in the ancient wars that preceded Ravana's rise.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "malyavan",
+    "name": "Malyavan",
+    "sanskritName": "माल्यवान्",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Aged maternal uncle of Ravana who counselled peace with Rama and was ignored.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "maricha",
+    "name": "Maricha",
+    "sanskritName": "मारीचः",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Son of Tataka who assumed the form of the golden deer to lure Rama away so Ravana could abduct Sita.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "mayasura",
+    "name": "Mayasura",
+    "sanskritName": "मयासुरः",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Great asura architect and father of Mandodari, builder of magical palaces.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "mayavi",
+    "name": "Mayavi",
+    "sanskritName": "मायावी",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Son of Dundubhi whose pursuit into a cave estranged Vali from Sugriva and set their tragic quarrel in motion.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "narantaka",
+    "name": "Narantaka",
+    "sanskritName": "नरान्तकः",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Son of Ravana, slain by Angada in the siege of Lanka.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "nikumbha",
+    "name": "Nikumbha",
+    "sanskritName": "निकुम्भः",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Son of Kumbhakarna, a powerful warrior slain by Hanuman in the war.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "prahasta",
+    "name": "Prahasta",
+    "sanskritName": "प्रहस्तः",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Chief commander of Ravana's armies, slain by Nila on the third day of the great battle.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "praheti",
+    "name": "Praheti",
+    "sanskritName": "प्रहेतिः",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Brother of Heti in the primordial rakshasa ancestry.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "prajangha",
+    "name": "Prajangha",
+    "sanskritName": "प्रजङ्घः",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Rakshasa warrior listed among Ravana's commanders in the great siege.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "rashmiketu",
+    "name": "Rashmiketu",
+    "sanskritName": "रश्मिकेतुः",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Rakshasa chief in the army of Lanka, killed in the great war.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "sarama",
+    "name": "Sarama",
+    "sanskritName": "सरमा",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Wife of Vibhishana, friend and comforter of Sita in the Ashoka Vatika.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "sarana",
+    "name": "Sarana",
+    "sanskritName": "सारणः",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Rakshasa minister and spy of Ravana, paired with Shuka in reconnaissance missions.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "shuka",
+    "name": "Shuka",
+    "sanskritName": "शुकः",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Rakshasa minister and messenger of Ravana sent to spy on and parley with Sugriva.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "shurpanakha",
+    "name": "Shurpanakha",
+    "sanskritName": "शूर्पणखा",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Sister of Ravana whose advances Rama rejected and whose mutilation by Lakshmana ignited the war.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "simhika",
+    "name": "Simhika",
+    "sanskritName": "सिंहिका",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Shadow-seizing sea demoness who caught Hanuman by his shadow as he leapt toward Lanka; slain by him.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "subahu-rakshasa",
+    "name": "Subahu (rakshasa)",
+    "sanskritName": "सुबाहुः",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Son of Tataka and brother of Maricha, slain by Rama during Vishwamitra's sacrifice.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "sumali",
+    "name": "Sumali",
+    "sanskritName": "सुमाली",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Maternal grandfather of Ravana, ancient rakshasa patriarch of Lanka restored after the fall of the Nagas.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "sunda",
+    "name": "Sunda",
+    "sanskritName": "सुन्दः",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Yaksha husband of Tataka, father of Maricha, slain earlier by sage Agastya.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "suparshva",
+    "name": "Suparshva",
+    "sanskritName": "सुपार्श्वः",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Rakshasa minister who reminded Ravana of dharma and stopped him from forcing himself on the captive Sita.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "suryashatru",
+    "name": "Suryashatru",
+    "sanskritName": "सूर्यशत्रुः",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Rakshasa warrior enumerated among those fallen in the siege of Lanka.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "tataka",
+    "name": "Tataka",
+    "sanskritName": "ताटका",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Yakshini cursed into a rakshasi form, terror of the sages, slain by Rama in his very first battle.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "trijata",
+    "name": "Trijata",
+    "sanskritName": "त्रिजटा",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Elder rakshasi in the Ashoka Vatika who dreamed of Ravana's doom and comforted the grieving Sita.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "trishira-khara-s-general",
+    "name": "Trishira (Khara's general)",
+    "sanskritName": "त्रिशिराः",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "A three-headed rakshasa commander under Khara at Janasthana, slain by Rama.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "trishira-son-of-ravana",
+    "name": "Trishira (son of Ravana)",
+    "sanskritName": "त्रिशिराः",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Three-headed son of Ravana, slain in battle. Distinct from Khara's general of the same name.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "vajradamshtra",
+    "name": "Vajradamshtra",
+    "sanskritName": "वज्रदंष्ट्रः",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Rakshasa commander of Lanka, slain by Angada.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "vidyujjihva",
+    "name": "Vidyujjihva",
+    "sanskritName": "विद्युज्जिह्वः",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Master illusionist of Lanka who created the false head of Rama to break Sita's will in the Ashoka Vatika.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "viradha",
+    "name": "Viradha",
+    "sanskritName": "विराधः",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Cursed gandharva in rakshasa form who seized Sita in the Dandaka forest and was buried alive by Rama and Lakshmana.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "virupaksha",
+    "name": "Virupaksha",
+    "sanskritName": "विरूपाक्षः",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Rakshasa chieftain among Ravana's commanders at the great battle.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "yajnakopa",
+    "name": "Yajnakopa",
+    "sanskritName": "यज्ञकोपः",
+    "tier": {
+      "title": "Other Rakshasas",
+      "sanskrit": "राक्षसाः",
+      "icon": "🗡️"
+    },
+    "roleTag": "rakshasa",
+    "description": "Rakshasa warrior in Ravana's host, felled during the battle of Lanka.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  },
+  {
+    "slug": "suketu",
+    "name": "Suketu",
+    "sanskritName": "सुकेतुः",
+    "tier": {
+      "title": "Other Beings",
+      "sanskrit": "अन्ये",
+      "icon": "🌿"
+    },
+    "roleTag": "other",
+    "description": "Yaksha father of Tataka whose tapas won her a son's strength.",
+    "aliases": [],
+    "appearsIn": [],
+    "hasFullProfile": false,
+    "profileUrl": null
+  }
+]

@@ -1,0 +1,369 @@
+{
+  "kanda": "uttara",
+  "kandaName": "Uttara Kanda",
+  "sarga": 17,
+  "title": "Sarga 17",
+  "totalShlokas": 45,
+  "shlokas": [
+    {
+      "id": "UK-17-1",
+      "shlokaNumber": 1,
+      "sanskrit": "अथ राजन्महाबाहुर्विचरन्स महीतले । हिमवद्वनमासाद्य परिचक्राम रावणः ।। 7.17.1 ।।",
+      "transliteration": "atha rājanmahābāhurvicaransa mahītale | himavadvanamāsādya paricakrāma rāvaṇaḥ || 7.17.1 ||",
+      "wordByWord": "Now, O King, the mighty-armed Ravana, wandering over the surface of the earth, reached the forest of the Himalaya and roamed about there.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-2",
+      "shlokaNumber": 2,
+      "sanskrit": "तत्रापश्यत्स वै कन्यां कृष्णाजिनजटाधराम् । आर्षेण विधिना युक्तां दीप्यन्तीं देवतामिव ।। 7.17.2 ।।",
+      "transliteration": "tatrāpaśyatsa vai kanyāṃ kṛṣṇājinajaṭādharām | ārṣeṇa vidhinā yuktāṃ dīpyantīṃ devatāmiva || 7.17.2 ||",
+      "wordByWord": "There he saw a maiden wearing a black antelope skin and matted locks, engaged in the observances of an ascetic and shining like a goddess.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-3",
+      "shlokaNumber": 3,
+      "sanskrit": "स दृष्ट्वा रूपसम्पन्नां कन्यां तां सुमहाव्रताम् । काममोहपरीतात्मा पप्रच्छ प्रहसन्निव ।। 7.17.3 ।।",
+      "transliteration": "sa dṛṣṭvā rūpasampannāṃ kanyāṃ tāṃ sumahāvratām | kāmamohaparītātmā papraccha prahasanniva || 7.17.3 ||",
+      "wordByWord": "Seeing that maiden, endowed with beauty and devoted to great vows, his mind overcome by the bewilderment of desire, he asked her, smiling as it were:",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-4",
+      "shlokaNumber": 4,
+      "sanskrit": "किमिदं वर्तसे भद्रे विरुद्धं यौवनस्य ते । नहि युक्ता तवैतस्य रूपस्यैव प्रतिक्रिया ।। 7.17.4 ।।",
+      "transliteration": "kimidaṃ vartase bhadre viruddhaṃ yauvanasya te | nahi yuktā tavaitasya rūpasyaiva pratikriyā || 7.17.4 ||",
+      "wordByWord": "'What is this way of life you follow, gentle lady, so contrary to your youth? Indeed, such usage of this beauty of yours is not fitting.'",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-5",
+      "shlokaNumber": 5,
+      "sanskrit": "रूपं ते ऽनुपमं भीरु कामोन्मादकरं नृणाम् । न युक्तं तपसि स्थातुं निर्गतो ह्येष निर्णयः ।। 7.17.5 ।।",
+      "transliteration": "rūpaṃ te 'nupamaṃ bhīru kāmonmādakaraṃ nṛṇām | na yuktaṃ tapasi sthātuṃ nirgato hyeṣa nirṇayaḥ || 7.17.5 ||",
+      "wordByWord": "'Your beauty is incomparable, O timid one, and maddens the desire of men. It is not right that you should abide in austerities, such is my settled conclusion.'",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-6",
+      "shlokaNumber": 6,
+      "sanskrit": "कस्यासि किमिदं भद्रे कश्च भर्ता वरानने । येन सम्भुज्यसे भीरु स नरः पुण्यभाग्भुवि ।। 7.17.6 ।।",
+      "transliteration": "kasyāsi kimidaṃ bhadre kaśca bhartā varānane | yena sambhujyase bhīru sa naraḥ puṇyabhāgbhuvi || 7.17.6 ||",
+      "wordByWord": "'Whose are you, and what is this, gentle lady? And who is your husband, O fair-faced one? That man by whom you are enjoyed, O timid one, is the most blessed in the world.'",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-7",
+      "shlokaNumber": 7,
+      "sanskrit": "पृच्छतः शंस मे सर्वं कस्य हेतोः परिश्रमः । एवमुक्ता तु सा कन्या रावणेन यशस्विनी ।। 7.17.7 ।।",
+      "transliteration": "pṛcchataḥ śaṃsa me sarvaṃ kasya hetoḥ pariśramaḥ | evamuktā tu sā kanyā rāvaṇena yaśasvinī || 7.17.7 ||",
+      "wordByWord": "'Tell me, who ask you, all of it, for what reason is this toil?' Thus addressed by Ravana, that illustrious maiden replied:",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-8",
+      "shlokaNumber": 8,
+      "sanskrit": "कुशध्वजो मम पिता ब्रह्मर्षिरमितप्रभः । बृहस्पतिसुतः श्रीमान्बुद्ध्या तुल्यो बृहस्पतेः ।। 7.17.8 ।।",
+      "transliteration": "kuśadhvajo mama pitā brahmarṣiramitaprabhaḥ | bṛhaspatisutaḥ śrīmānbuddhyā tulyo bṛhaspateḥ || 7.17.8 ||",
+      "wordByWord": "'My father is Kushadhvaja, a Brahmarshi of boundless splendor, the glorious son of Brihaspati, and in wisdom equal to Brihaspati himself.'",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-9",
+      "shlokaNumber": 9,
+      "sanskrit": "तस्याहं कुर्वतो नित्यं वेदाभ्यासं महात्मनः । सम्भूय वाङ्मयी कन्या नाम्ना वेदवती स्मृता ।। 7.17.9 ।।",
+      "transliteration": "tasyāhaṃ kurvato nityaṃ vedābhyāsaṃ mahātmanaḥ | sambhūya vāṅmayī kanyā nāmnā vedavatī smṛtā || 7.17.9 ||",
+      "wordByWord": "'I was born to that great soul as he was constantly engaged in the study of the Vedas, a maiden made of speech (Vedic recitation), known by the name Vedavati.'",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-10",
+      "shlokaNumber": 10,
+      "sanskrit": "ततो देवाः सगन्धर्वा यक्षराक्षसपन्नगाः । ते ऽपि गत्वा हि पितरं वरणं रोचयन्ति मे ।। 7.17.10 ।।",
+      "transliteration": "tato devāḥ sagandharvā yakṣarākṣasapannagāḥ | te 'pi gatvā hi pitaraṃ varaṇaṃ rocayanti me || 7.17.10 ||",
+      "wordByWord": "'Then the gods together with the Gandharvas, the Yakshas, the Rakshasas, and the Nagas, they too went to my father and sought to choose me in marriage.'",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-11",
+      "shlokaNumber": 11,
+      "sanskrit": "न च मां स पिता तेभ्यो दत्तवान्राक्षसर्षभ । कारणं तद्वदिष्यामि निशाचर निशामय ।। 7.17.11 ।।",
+      "transliteration": "na ca māṃ sa pitā tebhyo dattavānrākṣasarṣabha | kāraṇaṃ tadvadiṣyāmi niśācara niśāmaya || 7.17.11 ||",
+      "wordByWord": "'But my father did not give me to them, O bull among Rakshasas. I shall tell you the reason for that, hear it, O night-wanderer.'",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-12",
+      "shlokaNumber": 12,
+      "sanskrit": "पितुस्तु मम जामाता विष्णुः किल सुरेश्वरः । अभिप्रेतस्त्रिलोकेशस्तस्मान्नान्यस्य मे पिता ।। 7.17.12 ।।",
+      "transliteration": "pitustu mama jāmātā viṣṇuḥ kila sureśvaraḥ | abhipretastrilokeśastasmānnānyasya me pitā || 7.17.12 ||",
+      "wordByWord": "'My father indeed desired Vishnu, the Lord of the gods, the Lord of the three worlds, as his son-in-law; therefore my father would have me belong to no other.'",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-13",
+      "shlokaNumber": 13,
+      "sanskrit": "दातुमिच्छति तस्मै तु तच्छ्रुत्वा बलदर्पितः । दम्भुर्नाम ततो राजा दैत्यानां कुपितो ऽभवत् ।। 7.17.13 ।।",
+      "transliteration": "dātumicchati tasmai tu tacchrutvā baladarpitaḥ | dambhurnāma tato rājā daityānāṃ kupito 'bhavat || 7.17.13 ||",
+      "wordByWord": "'He wished to give me to him; and hearing that, the king of the Daityas named Dambhu, proud of his strength, then became enraged.'",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-14",
+      "shlokaNumber": 14,
+      "sanskrit": "तेन रात्रौ शयानो मे पिता पापेन हिंसितः ।। 7.17.14 ।।",
+      "transliteration": "tena rātrau śayāno me pitā pāpena hiṃsitaḥ || 7.17.14 ||",
+      "wordByWord": "By that wicked one my father was slain as he lay sleeping in the night.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-15",
+      "shlokaNumber": 15,
+      "sanskrit": "ततो मे जननी दीना तच्छरीरं पितुर्मम । परिष्वज्य महाभागा प्रविष्टा हव्यवाहनम् ।। 7.17.15 ।।",
+      "transliteration": "tato me jananī dīnā taccharīraṃ piturmama | pariṣvajya mahābhāgā praviṣṭā havyavāhanam || 7.17.15 ||",
+      "wordByWord": "Then my wretched mother, that highly blessed lady, embracing the body of my father, entered the fire.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-16",
+      "shlokaNumber": 16,
+      "sanskrit": "ततो मनोरथं सत्यं पितुर्नारायणं प्रति । करोमीति तमेवाहं हृदयेन समुद्वहे ।। 7.17.16 ।।",
+      "transliteration": "tato manorathaṃ satyaṃ piturnārāyaṇaṃ prati | karomīti tamevāhaṃ hṛdayena samudvahe || 7.17.16 ||",
+      "wordByWord": "Thereafter, to make true my father's heart's wish concerning Narayana, I bear that very resolve within my heart, vowing, \"I shall accomplish it.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-17",
+      "shlokaNumber": 17,
+      "sanskrit": "इति प्रतिज्ञामारुह्य चरामि विपुलं तपः । एतत्ते सर्वमाख्यातं मया राक्षसपुङ्गव ।। 7.17.17 ।।",
+      "transliteration": "iti pratijñāmāruhya carāmi vipulaṃ tapaḥ | etatte sarvamākhyātaṃ mayā rākṣasapuṅgava || 7.17.17 ||",
+      "wordByWord": "Having taken up this vow, I practice vast austerities. All this has been declared by me to you, O bull among the Rakshasas.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-18",
+      "shlokaNumber": 18,
+      "sanskrit": "नारायणो मम पतिर्न त्वन्यः पुरुषोत्तमात् । आश्रये नियमं घोरं नारायणपरीप्सया । विज्ञातस्त्वं हि मे राजन्गच्छ पौलस्त्यनन्दन ।। 7.17.18 ।।",
+      "transliteration": "nārāyaṇo mama patirna tvanyaḥ puruṣottamāt | āśraye niyamaṃ ghoraṃ nārāyaṇaparīpsayā | vijñātastvaṃ hi me rājangaccha paulastyanandana || 7.17.18 ||",
+      "wordByWord": "Narayana is my husband, and none other than that Supreme Person; I undertake this terrible discipline out of the longing to win Narayana. You are indeed known to me, O king; go your way, O delight of Pulastya's line.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-19",
+      "shlokaNumber": 19,
+      "sanskrit": "जानामि तपसा सर्वं त्रैलोक्ये यद्धि वर्तते ।। 7.17.19 ।।",
+      "transliteration": "jānāmi tapasā sarvaṃ trailokye yaddhi vartate || 7.17.19 ||",
+      "wordByWord": "By my austerities I know all that comes to pass in the three worlds.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-20",
+      "shlokaNumber": 20,
+      "sanskrit": "सो ऽब्रवीद्रावणो भूयस्तां कन्यां सुमहाव्रताम् । अवरुह्य विमानाग्रात्कन्दर्पशरपीडितः ।। 7.17.20 ।।",
+      "transliteration": "so 'bravīdrāvaṇo bhūyastāṃ kanyāṃ sumahāvratām | avaruhya vimānāgrātkandarpaśarapīḍitaḥ || 7.17.20 ||",
+      "wordByWord": "Then Ravana, tormented by the arrows of the god of love, descending from the top of his chariot, spoke once more to that maiden of mighty vows.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-21",
+      "shlokaNumber": 21,
+      "sanskrit": "अवलिप्ता ऽसि सुश्रोणि यस्यास्ते मतिरीदृशी । वृद्धानां मृगशावाक्षि भ्राजते पुण्यसञ्चयः ।। 7.17.21 ।।",
+      "transliteration": "avaliptā 'si suśroṇi yasyāste matirīdṛśī | vṛddhānāṃ mṛgaśāvākṣi bhrājate puṇyasañcayaḥ || 7.17.21 ||",
+      "wordByWord": "\"You are conceited, O fair-hipped one, that your mind should be of such a kind. O fawn-eyed lady, it is in the aged that an accumulation of merit shines forth.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-22",
+      "shlokaNumber": 22,
+      "sanskrit": "त्वं सर्वंगुणसम्पन्ना नार्हसे वक्तुमीदृशम् । त्रैलोक्यसुन्दरी भीरु यौवनं ते निवर्तते ।। 7.17.22 ।।",
+      "transliteration": "tvaṃ sarvaṃguṇasampannā nārhase vaktumīdṛśam | trailokyasundarī bhīru yauvanaṃ te nivartate || 7.17.22 ||",
+      "wordByWord": "\"You who are endowed with every virtue ought not to speak in this manner. O timid one, beauty of the three worlds, your youth is slipping away.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-23",
+      "shlokaNumber": 23,
+      "sanskrit": "अहं लङ्कापतिर्भद्रे दशग्रीव इति श्रुतः । तस्य मे भव भार्या त्वं भुङ्क्ष्व भोगान्यथासुखम् ।। 7.17.23 ।।",
+      "transliteration": "ahaṃ laṅkāpatirbhadre daśagrīva iti śrutaḥ | tasya me bhava bhāryā tvaṃ bhuṅkṣva bhogānyathāsukham || 7.17.23 ||",
+      "wordByWord": "\"I am the lord of Lanka, O gentle lady, known as Dashagriva. Become the wife of me who am he, and enjoy pleasures at your ease.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-24",
+      "shlokaNumber": 24,
+      "sanskrit": "कश्च तावदसौ यं त्वं विष्णुरित्यभिभाषसे । वीर्येण तपसा चैव भोगेन च बलेन च ।।",
+      "transliteration": "kaśca tāvadasau yaṃ tvaṃ viṣṇurityabhibhāṣase | vīryeṇa tapasā caiva bhogena ca balena ca ||",
+      "wordByWord": "\"And who, after all, is this one whom you call Vishnu — in valor, in austerity, in enjoyment, and in strength?\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-25",
+      "shlokaNumber": 25,
+      "sanskrit": "न मया स समो भद्रे यं त्वं कामयसे ऽङ्गने ।। 7.17.24 ।।",
+      "transliteration": "na mayā sa samo bhadre yaṃ tvaṃ kāmayase 'ṅgane || 7.17.24 ||",
+      "wordByWord": "\"He whom you desire, O gentle one, O lovely-limbed woman, is not the equal of me.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-26",
+      "shlokaNumber": 26,
+      "sanskrit": "इत्युक्तवति तस्मिंस्तु वेदवत्यथ सा ऽब्रवीत् ।। 7.17.25 ।।",
+      "transliteration": "ityuktavati tasmiṃstu vedavatyatha sā 'bravīt || 7.17.25 ||",
+      "wordByWord": "When he had spoken thus, Vedavati then replied.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-27",
+      "shlokaNumber": 27,
+      "sanskrit": "वै भोगेन च बलेन च ।। मा मैवमिति सा कन्या तमुवाच निशाचरम् । त्रैलोक्याधिपति विष्णुं सर्वलोकनमस्कृतम् । त्वदृते राक्षसेन्द्रान्यः को ऽवमन्येत बुद्धिमान् ।। 7.17.26 ।।",
+      "transliteration": "vai bhogena ca balena ca || mā maivamiti sā kanyā tamuvāca niśācaram | trailokyādhipati viṣṇuṃ sarvalokanamaskṛtam | tvadṛte rākṣasendrānyaḥ ko 'vamanyeta buddhimān || 7.17.26 ||",
+      "wordByWord": "\"...indeed in enjoyment and in strength.\" \"Not so, not so!\" that maiden said to the night-roaming demon. \"Apart from you, O lord of Rakshasas, what wise man would slight Vishnu, the sovereign of the three worlds, who is honored by all the worlds?\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-28",
+      "shlokaNumber": 28,
+      "sanskrit": "एवमुक्तस्तया तत्र वेदवत्या निशाचरः । मूर्धजेषु तदा कन्यां कराग्रेण परामृशत् ।। 7.17.27 ।।",
+      "transliteration": "evamuktastayā tatra vedavatyā niśācaraḥ | mūrdhajeṣu tadā kanyāṃ karāgreṇa parāmṛśat || 7.17.27 ||",
+      "wordByWord": "Thus addressed there by Vedavati, the night-roamer then seized the maiden by the hair with the tip of his hand.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-29",
+      "shlokaNumber": 29,
+      "sanskrit": "ततो वेदवती क्रुद्धा केशान्हस्तेन सा ऽच्छिनत् । असिर्भूत्वा करस्तस्याः केशांश्छिन्नांस्तदा ऽकरोत् ।। 7.17.28 ।।",
+      "transliteration": "tato vedavatī kruddhā keśānhastena sā 'cchinat | asirbhūtvā karastasyāḥ keśāṃśchinnāṃstadā 'karot || 7.17.28 ||",
+      "wordByWord": "Then Vedavati, enraged, cut off her hair with her hand; her hand having become a sword, she thus made her hair shorn away.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-30",
+      "shlokaNumber": 30,
+      "sanskrit": "सा ज्वलन्तीव रोषेण दहन्तीव निशाचरम् । उवाचाग्निं समाधाय मरणाय कृतत्वरा ।। 7.17.29 ।।",
+      "transliteration": "sā jvalantīva roṣeṇa dahantīva niśācaram | uvācāgniṃ samādhāya maraṇāya kṛtatvarā || 7.17.29 ||",
+      "wordByWord": "She, as though blazing with fury, as though consuming the night-roamer, having kindled a fire, made haste toward death and spoke.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-31",
+      "shlokaNumber": 31,
+      "sanskrit": "धर्षितायास्त्वयानार्य न मे जीवितमिष्यते । रक्षस्तस्मात्प्रवेक्ष्यामि पश्यतस्ते हुताशनम् ।। 7.17.30 ।।",
+      "transliteration": "dharṣitāyāstvayānārya na me jīvitamiṣyate | rakṣastasmātpravekṣyāmi paśyataste hutāśanam || 7.17.30 ||",
+      "wordByWord": "\"Since I have been outraged by you, O base one, life is no longer desired by me; therefore, O demon, I shall enter the fire before your very eyes.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-32",
+      "shlokaNumber": 32,
+      "sanskrit": "यस्मात्तु धर्षिता चाहं त्वया पापात्मना वने । तस्मात्तव वधार्थं हि समुत्पत्स्ये ह्यहं पुनः ।। 7.17.31 ।।",
+      "transliteration": "yasmāttu dharṣitā cāhaṃ tvayā pāpātmanā vane | tasmāttava vadhārthaṃ hi samutpatsye hyahaṃ punaḥ || 7.17.31 ||",
+      "wordByWord": "\"Because I have been outraged by you, O evil-souled one, in the forest, for that very reason I shall be born again for the purpose of your slaying.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-33",
+      "shlokaNumber": 33,
+      "sanskrit": "न हि शक्यं स्त्रिया हन्तुं पुरुषः पापनिश्चः । शापे त्वयि मयोत्सृष्टे तपसश्च व्ययो भवेत् ।। 7.17.32 ।।",
+      "transliteration": "na hi śakyaṃ striyā hantuṃ puruṣaḥ pāpaniścaḥ | śāpe tvayi mayotsṛṣṭe tapasaśca vyayo bhavet || 7.17.32 ||",
+      "wordByWord": "\"For it is not possible for a woman to slay a man of sinful resolve; and were a curse to be uttered by me upon you, there would come about a waste of my austerity.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-34",
+      "shlokaNumber": 34,
+      "sanskrit": "यदि त्वस्ति मया किञ्चित्कृतं दत्तं हुतं तथा । तस्मात्त्वयोनिजा साध्वी भवेयं धर्मिणः सुता ।। 7.17.33 ।।",
+      "transliteration": "yadi tvasti mayā kiñcitkṛtaṃ dattaṃ hutaṃ tathā | tasmāttvayonijā sādhvī bhaveyaṃ dharmiṇaḥ sutā || 7.17.33 ||",
+      "wordByWord": "If there is in me anything of merit—of rites performed, of gifts bestowed, and of oblations offered to the fire—then by virtue of that, may I, a virtuous woman, be reborn not from a womb, as the daughter of a righteous man.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-35",
+      "shlokaNumber": 35,
+      "sanskrit": "एवमुक्त्वा प्रविष्टा सा ज्वलितं जातवेदसम् । पपात च दिवो दिव्या पुष्पवृष्टिः समन्ततः ।। 7.17.34 ।।",
+      "transliteration": "evamuktvā praviṣṭā sā jvalitaṃ jātavedasam | papāta ca divo divyā puṣpavṛṣṭiḥ samantataḥ || 7.17.34 ||",
+      "wordByWord": "Having spoken thus, she entered the blazing fire; and a divine rain of flowers fell from the heavens on every side.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-36",
+      "shlokaNumber": 36,
+      "sanskrit": "पुनरेव समुद्भूता पद्मे पद्मसमप्रभा । तस्मादपि पुनः प्राप्ता पूर्ववत्तेन रक्षसा ।। 7.17.35 ।।",
+      "transliteration": "punareva samudbhūtā padme padmasamaprabhā | tasmādapi punaḥ prāptā pūrvavattena rakṣasā || 7.17.35 ||",
+      "wordByWord": "She was born once again upon a lotus, radiant as the lotus itself; but from there too she was again seized by that Rakshasa, as before.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-37",
+      "shlokaNumber": 37,
+      "sanskrit": "कन्यां कमलगर्भाभां प्रगृह्य स्वगृहं ययौ । प्रगृह्य रावणस्त्वेतां दर्शयामास मन्त्रिणे ।। 7.17.36 ।।",
+      "transliteration": "kanyāṃ kamalagarbhābhāṃ pragṛhya svagṛhaṃ yayau | pragṛhya rāvaṇastvetāṃ darśayāmāsa mantriṇe || 7.17.36 ||",
+      "wordByWord": "Taking up the maiden, who shone like the inner heart of a lotus, he went to his own dwelling; and Ravana, having brought her, displayed her to his counsellor.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-38",
+      "shlokaNumber": 38,
+      "sanskrit": "लक्षणज्ञो निरीक्ष्यैव रावणं चैवमब्रवीत् । गृहस्थैषां हि सुश्रोणी त्वद्वधायैव दृश्यते ।। 7.17.37 ।।",
+      "transliteration": "lakṣaṇajño nirīkṣyaiva rāvaṇaṃ caivamabravīt | gṛhasthaiṣāṃ hi suśroṇī tvadvadhāyaiva dṛśyate || 7.17.37 ||",
+      "wordByWord": "The one versed in marks, having looked upon her, spoke thus to Ravana: 'This fair-hipped maiden, kept in your house, is seen to portend nothing but your own destruction.'",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-39",
+      "shlokaNumber": 39,
+      "sanskrit": "एतच्छ्रुत्वा ऽर्णवे राम तां प्रचिक्षेप रावणः । सा चैव क्षितिमासाद्य यज्ञायतनमध्यगा ।। 7.17.38 ।।",
+      "transliteration": "etacchrutvā 'rṇave rāma tāṃ pracikṣepa rāvaṇaḥ | sā caiva kṣitimāsādya yajñāyatanamadhyagā || 7.17.38 ||",
+      "wordByWord": "Hearing this, O Rama, Ravana cast her into the ocean; yet she, reaching the earth, came to rest in the midst of a sacrificial ground.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-40",
+      "shlokaNumber": 40,
+      "sanskrit": "राज्ञो हलमुखोत्कृष्टा पुनरप्युत्थिता सती । सैषा जनकराजस्य प्रसूता तनया प्रभो । तव भार्या महाबाहो विष्णुस्त्वं हि सनातनः ।। 7.17.39 ।।",
+      "transliteration": "rājño halamukhotkṛṣṭā punarapyutthitā satī | saiṣā janakarājasya prasūtā tanayā prabho | tava bhāryā mahābāho viṣṇustvaṃ hi sanātanaḥ || 7.17.39 ||",
+      "wordByWord": "Turned up by the blade of the king's plough, that virtuous woman rose up again; she, O lord, is the daughter born to King Janaka, and your wife, O mighty-armed one—for you are indeed the eternal Vishnu.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-41",
+      "shlokaNumber": 41,
+      "sanskrit": "पूर्वं क्रोधाहितः शत्रुर्यया ऽसौ निहतस्तथा । उपाश्रयित्वा शैलभस्तव वीर्यममानुषम् ।। 7.17.40 ।।",
+      "transliteration": "pūrvaṃ krodhāhitaḥ śatruryayā 'sau nihatastathā | upāśrayitvā śailabhastava vīryamamānuṣam || 7.17.40 ||",
+      "wordByWord": "Long ago that foe, made hostile through wrath, was slain by her in this very manner, when she had taken refuge in your superhuman, more-than-mortal valour.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-42",
+      "shlokaNumber": 42,
+      "sanskrit": "एवमेषा महाभागा मर्त्येषूत्पत्स्यते पुनः । क्षेत्रे हलमुखोत्कृष्टे वेद्यामग्निशिखोपमा ।। 7.17.41 ।।",
+      "transliteration": "evameṣā mahābhāgā martyeṣūtpatsyate punaḥ | kṣetre halamukhotkṛṣṭe vedyāmagniśikhopamā || 7.17.41 ||",
+      "wordByWord": "Thus shall this greatly fortunate one be born again among mortals, in a field turned up by the blade of the plough, upon a sacrificial altar, resembling a tongue of fire.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-43",
+      "shlokaNumber": 43,
+      "sanskrit": "एषा वेदवती नाम पूर्वमासीत्कृते युगे । त्रेतायुगमनुप्राप्य वधार्थं तस्य रक्षसः ।। 7.17.42 ।।",
+      "transliteration": "eṣā vedavatī nāma pūrvamāsītkṛte yuge | tretāyugamanuprāpya vadhārthaṃ tasya rakṣasaḥ || 7.17.42 ||",
+      "wordByWord": "She was formerly, in the Krita age, named Vedavati; reaching the Treta age for the destruction of that Rakshasa,",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-44",
+      "shlokaNumber": 44,
+      "sanskrit": "उत्पन्ना मैथिलकुले जनकस्य महात्मनः । सीतोत्पन्ना तु सीतेति मानुषैः पुनरुच्यते ।। 7.17.43 ।।",
+      "transliteration": "utpannā maithilakule janakasya mahātmanaḥ | sītotpannā tu sīteti mānuṣaiḥ punarucyate || 7.17.43 ||",
+      "wordByWord": "she was born in the Maithila line, of the great-souled Janaka; and because she sprang up from the furrow (sita), she is called Sita by men.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-17-45",
+      "shlokaNumber": 45,
+      "sanskrit": "इत्यार्षे श्रीमद्रामायणे वाल्मीकीये आदिकाव्ये श्रीमदुत्तरकाण्डे सप्तदशः सर्गः ।। 17 ।।",
+      "transliteration": "ityārṣe śrīmadrāmāyaṇe vālmīkīye ādikāvye śrīmaduttarakāṇḍe saptadaśaḥ sargaḥ || 17 ||",
+      "wordByWord": "Thus, in the sacred Ramayana of Valmiki, the first epic poem, in the holy Uttara Kanda, ends the seventeenth canto.",
+      "meaning": ""
+    }
+  ]
+}

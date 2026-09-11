@@ -1,0 +1,225 @@
+{
+  "kanda": "uttara",
+  "kandaName": "Uttara Kanda",
+  "sarga": 53,
+  "title": "Sarga 53",
+  "totalShlokas": 27,
+  "shlokas": [
+    {
+      "id": "UK-53-1",
+      "shlokaNumber": 1,
+      "sanskrit": "लक्ष्मणस्य तु तद्वाक्यं निशम्य परमाद्भुतम् । सुप्रीतश्चाभवद्रामो वाक्यमेतदुवाच ह ।। 7.53.1 ।।",
+      "transliteration": "lakṣmaṇasya tu tadvākyaṃ niśamya paramādbhutam | suprītaścābhavadrāmo vākyametaduvāca ha || 7.53.1 ||",
+      "wordByWord": "Having heard that most wonderful speech of Lakshmana, Rama became greatly pleased and spoke these words.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-53-2",
+      "shlokaNumber": 2,
+      "sanskrit": "दुर्लभस्त्वीदृशो बन्धुरस्मिन्काले विशेषतः । यादृशस्त्वं महाबुद्धेर्मम सौम्य मनो ऽनुगः ।। 7.53.2 ।।",
+      "transliteration": "durlabhastvīdṛśo bandhurasminkāle viśeṣataḥ | yādṛśastvaṃ mahābuddhermama saumya mano 'nugaḥ || 7.53.2 ||",
+      "wordByWord": "\"Such a kinsman is hard to find, especially in these times, as you are — one who follows the mind of me, the highly wise, O gentle one.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-53-3",
+      "shlokaNumber": 3,
+      "sanskrit": "यच्च मे हृदये किञ्चिद्वर्तते शुभलक्षण । तन्निशामय च श्रुत्वा कुरुष्व वचनं मम ।। 7.53.3 ।।",
+      "transliteration": "yacca me hṛdaye kiñcidvartate śubhalakṣaṇa | tanniśāmaya ca śrutvā kuruṣva vacanaṃ mama || 7.53.3 ||",
+      "wordByWord": "\"And whatever is stirring somewhat in my heart, O you of auspicious marks, hear it; and having heard, carry out my word.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-53-4",
+      "shlokaNumber": 4,
+      "sanskrit": "चत्वारो दिवसाः सौम्य कार्यं पौरजनस्य वै । अकुर्वाणस्य सौमित्रे तन्मे मर्माणि कृन्तति ।। 7.53.4 ।।",
+      "transliteration": "catvāro divasāḥ saumya kāryaṃ paurajanasya vai | akurvāṇasya saumitre tanme marmāṇi kṛntati || 7.53.4 ||",
+      "wordByWord": "\"Four days, O gentle one, of not attending to the affairs of the townspeople, O son of Sumitra — that cuts me to the very quick.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-53-5",
+      "shlokaNumber": 5,
+      "sanskrit": "आहूयन्तां प्रकृतयः पुरोधा मन्त्रिणस्तथा । कार्यार्थिनश्च पुरुषाः स्त्रियश्च पुरुषर्षभ ।। 7.53.5 ।।",
+      "transliteration": "āhūyantāṃ prakṛtayaḥ purodhā mantriṇastathā | kāryārthinaśca puruṣāḥ striyaśca puruṣarṣabha || 7.53.5 ||",
+      "wordByWord": "\"Let the subjects be summoned, the family priest, and the ministers likewise, and the men who have business to bring, and the women too, O bull among men.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-53-6",
+      "shlokaNumber": 6,
+      "sanskrit": "पौरकार्याणि यो राजा न करोति दिने दिने । संवृते नरके घोरे पतितो नात्र संशयः ।। 7.53.6 ।।",
+      "transliteration": "paurakāryāṇi yo rājā na karoti dine dine | saṃvṛte narake ghore patito nātra saṃśayaḥ || 7.53.6 ||",
+      "wordByWord": "The king who fails day after day to attend to the affairs of his subjects falls, beyond all doubt, into a dreadful enclosed hell.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-53-7",
+      "shlokaNumber": 7,
+      "sanskrit": "श्रूयते हि पुरा राजा नृगो नाम महायशाः । बभूव पृथिवीपालो ब्रह्मण्यः सत्यवाक् शुचिः ।। 7.53.7 ।।",
+      "transliteration": "śrūyate hi purā rājā nṛgo nāma mahāyaśāḥ | babhūva pṛthivīpālo brahmaṇyaḥ satyavāk śuciḥ || 7.53.7 ||",
+      "wordByWord": "For it is told that long ago there was a king of great renown named Nriga, a protector of the earth, devoted to the brahmins, truthful in speech, and pure.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-53-8",
+      "shlokaNumber": 8,
+      "sanskrit": "स कदाचिद्गवां कोटीः सवत्साः स्वर्णभूषिताः । नृदेवो भूमिदेवेभ्यः पुष्करेषु ददौ नृपः ।। 7.53.8 ।।",
+      "transliteration": "sa kadācidgavāṃ koṭīḥ savatsāḥ svarṇabhūṣitāḥ | nṛdevo bhūmidevebhyaḥ puṣkareṣu dadau nṛpaḥ || 7.53.8 ||",
+      "wordByWord": "On one occasion that king, a god among men, gave to the brahmins—gods upon the earth—crores of cows together with their calves, adorned with gold, at Pushkara.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-53-9",
+      "shlokaNumber": 9,
+      "sanskrit": "ततः सङ्गाद्गता धेनुः सवत्सा स्पर्शिता ऽनघ । ब्राह्मणस्याहिताग्नेश्च दरिद्रस्योञ्छवर्तिनः ।। 7.53.9 ।।",
+      "transliteration": "tataḥ saṅgādgatā dhenuḥ savatsā sparśitā 'nagha | brāhmaṇasyāhitāgneśca daridrasyoñchavartinaḥ || 7.53.9 ||",
+      "wordByWord": "Then, O sinless one, a cow with her calf strayed away from the herd and was given to a poor brahmin who maintained the sacred fires and lived by gleaning grains.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-53-10",
+      "shlokaNumber": 10,
+      "sanskrit": "स नष्टां गां क्षुधार्तो वै अन्विषंस्तत्र तत्र च । नापश्यत्सर्वराज्येषु संवत्सरगणान्बहून् ।। 7.53.10 ।।",
+      "transliteration": "sa naṣṭāṃ gāṃ kṣudhārto vai anviṣaṃstatra tatra ca | nāpaśyatsarvarājyeṣu saṃvatsaragaṇānbahūn || 7.53.10 ||",
+      "wordByWord": "Tormented by hunger and searching for his lost cow here and there, he could not find her throughout all the kingdoms for many years on end.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-53-11",
+      "shlokaNumber": 11,
+      "sanskrit": "ततः कनखलं गत्वा जीर्णवत्सां निरामयाम् । ददर्श गां स्वकां धेनुं ब्राह्मणस्य निवेशने ।। 7.53.11 ।।",
+      "transliteration": "tataḥ kanakhalaṃ gatvā jīrṇavatsāṃ nirāmayām | dadarśa gāṃ svakāṃ dhenuṃ brāhmaṇasya niveśane || 7.53.11 ||",
+      "wordByWord": "Then, having gone to Kanakhala, he saw his own cow—the milch-cow, healthy and with an aged calf—in the dwelling of another brahmin.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-53-12",
+      "shlokaNumber": 12,
+      "sanskrit": "अथ तां नामधेयेन स्वकेनोवाच स द्विजः । आगच्छ शबलेत्येवं सा तु शुश्राव गौः स्वरम् ।। 7.53.12 ।।",
+      "transliteration": "atha tāṃ nāmadheyena svakenovāca sa dvijaḥ | āgaccha śabaletyevaṃ sā tu śuśrāva gauḥ svaram || 7.53.12 ||",
+      "wordByWord": "Then that brahmin called her by her own name, saying, \"Come here, Shabala!\"—and the cow heard his voice.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-53-13",
+      "shlokaNumber": 13,
+      "sanskrit": "तस्य तं स्वरमाज्ञाय क्षुधार्तस्य द्विजस्य वै । अन्वगात्पृष्ठतः सा गौर्गच्छन्तं पावकोपमम् ।। 7.53.13 ।।",
+      "transliteration": "tasya taṃ svaramājñāya kṣudhārtasya dvijasya vai | anvagātpṛṣṭhataḥ sā gaurgacchantaṃ pāvakopamam || 7.53.13 ||",
+      "wordByWord": "Recognizing the voice of that hunger-stricken brahmin, who was like blazing fire, the cow followed behind him as he went.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-53-14",
+      "shlokaNumber": 14,
+      "sanskrit": "यो ऽपि पालयते विप्रः सो ऽपि गामन्वगाद्द्रुतम् । गत्वा तमृषिमाचष्ट मम गौरिति सत्वरम् ।। 7.53.14 ।।",
+      "transliteration": "yo 'pi pālayate vipraḥ so 'pi gāmanvagāddrutam | gatvā tamṛṣimācaṣṭa mama gauriti satvaram || 7.53.14 ||",
+      "wordByWord": "The brahmin who was tending her also swiftly followed the cow, and going up to that sage he declared at once, \"This is my cow.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-53-15",
+      "shlokaNumber": 15,
+      "sanskrit": "स्पर्शिता राजसिंहेन मम दत्ता नृगेण ह । तयोर्ब्राह्मणयोर्वादो महानासीद्विपश्चितोः ।। 7.53.15 ।।",
+      "transliteration": "sparśitā rājasiṃhena mama dattā nṛgeṇa ha | tayorbrāhmaṇayorvādo mahānāsīdvipaścitoḥ || 7.53.15 ||",
+      "wordByWord": "\"She was bestowed by the lion among kings; she was given to me by Nriga.\" Thus a great quarrel arose between those two learned brahmins.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-53-16",
+      "shlokaNumber": 16,
+      "sanskrit": "विवदन्तौ ततो ऽन्योन्यं दातारमभिजग्मतुः । तौ राजभवनद्वारि न प्राप्तौ नृगशासनम् ।। 7.53.16 ।।",
+      "transliteration": "vivadantau tato 'nyonyaṃ dātāramabhijagmatuḥ | tau rājabhavanadvāri na prāptau nṛgaśāsanam || 7.53.16 ||",
+      "wordByWord": "Disputing thus with one another, the two went to the giver; but arriving at the gate of the royal palace, they did not obtain Nriga's decree.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-53-17",
+      "shlokaNumber": 17,
+      "sanskrit": "अहोरात्राण्यनेकानि वसन्तौ क्रोधमीयतुः । ऊचतुश्च महात्मानौ तावुभौ द्विजसत्तमौ ।। क्रुद्धौ परमसम्प्राप्तौ वाक्यं घोराभिसंहितम् ।। 7.53.17 ।।",
+      "transliteration": "ahorātrāṇyanekāni vasantau krodhamīyatuḥ | ūcatuśca mahātmānau tāvubhau dvijasattamau || kruddhau paramasamprāptau vākyaṃ ghorābhisaṃhitam || 7.53.17 ||",
+      "wordByWord": "Dwelling there many days and nights, those two high-souled, most excellent brahmins fell into wrath; and the two, greatly enraged, spoke a terrible word charged with dire intent.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-53-18",
+      "shlokaNumber": 18,
+      "sanskrit": "अर्थिनां कार्यसिद्ध्यर्थं यस्मात्त्वं नैषि दर्शनम् । अदृश्यः सर्वभूतानां कृकलासो भविष्यसि ।। 7.53.18 ।।",
+      "transliteration": "arthināṃ kāryasiddhyarthaṃ yasmāttvaṃ naiṣi darśanam | adṛśyaḥ sarvabhūtānāṃ kṛkalāso bhaviṣyasi || 7.53.18 ||",
+      "wordByWord": "\"Because you do not grant audience for the accomplishment of the petitioners' business, you shall become a lizard, invisible to all beings.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-53-19",
+      "shlokaNumber": 19,
+      "sanskrit": "बहुवर्षसहस्राणि बहुवर्षशतानि च । श्वभ्रे ऽस्मिन् कृकलासो वै दीर्घकालं वसिष्यसि ।। 7.53.19 ।।",
+      "transliteration": "bahuvarṣasahasrāṇi bahuvarṣaśatāni ca | śvabhre 'smin kṛkalāso vai dīrghakālaṃ vasiṣyasi || 7.53.19 ||",
+      "wordByWord": "\"For many thousands of years and many hundreds of years you shall dwell as a lizard in this pit for a long time.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-53-20",
+      "shlokaNumber": 20,
+      "sanskrit": "उत्पत्स्यते हि लोके ऽस्मिन्यदूनां कीर्तिवर्धनः । वासुदेव इति ख्यातो विष्णुः पुरुषविग्रहः ।। 7.53.20 ।।",
+      "transliteration": "utpatsyate hi loke 'sminyadūnāṃ kīrtivardhanaḥ | vāsudeva iti khyāto viṣṇuḥ puruṣavigrahaḥ || 7.53.20 ||",
+      "wordByWord": "\"For there shall arise in this world one who increases the glory of the Yadus, renowned as Vasudeva—Vishnu in human form.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-53-21",
+      "shlokaNumber": 21,
+      "sanskrit": "स ते मोक्षयिता राजंस्तस्माच्छापाद्भविष्यसि । कृता च तेन कालेन निष्कृतिस्ते भविष्यति ।। 7.53.21 ।।",
+      "transliteration": "sa te mokṣayitā rājaṃstasmācchāpādbhaviṣyasi | kṛtā ca tena kālena niṣkṛtiste bhaviṣyati || 7.53.21 ||",
+      "wordByWord": "\"He, O king, shall be your deliverer; through him you shall be freed from that curse, and when that time has come your release shall be accomplished.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-53-22",
+      "shlokaNumber": 22,
+      "sanskrit": "भारावतरणार्थं हि नरनारायणावुभौ । उत्पत्स्येते महावीर्यौ कलौ युग उपस्थिते ।। 7.53.22 ।।",
+      "transliteration": "bhārāvataraṇārthaṃ hi naranārāyaṇāvubhau | utpatsyete mahāvīryau kalau yuga upasthite || 7.53.22 ||",
+      "wordByWord": "\"For the two of mighty valor, Nara and Narayana, shall be born to lift the burden of the earth when the Kali age has arrived.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-53-23",
+      "shlokaNumber": 23,
+      "sanskrit": "एवं तौ शापमुत्सृज्य ब्राह्मणौ विगतज्वरौ । तां गां हि दुर्बलां वृद्धां ददतुर्ब्राह्मणाय वै ।। 7.53.23 ।।",
+      "transliteration": "evaṃ tau śāpamutsṛjya brāhmaṇau vigatajvarau | tāṃ gāṃ hi durbalāṃ vṛddhāṃ dadaturbrāhmaṇāya vai || 7.53.23 ||",
+      "wordByWord": "Having thus pronounced the curse, the two brahmins, their fever of anger gone, gave that weak and aged cow to a brahmin.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-53-24",
+      "shlokaNumber": 24,
+      "sanskrit": "एवं स राजा तं शापमुपभुङ्क्ते सुदारुणम् ।। 7.53.24 ।।",
+      "transliteration": "evaṃ sa rājā taṃ śāpamupabhuṅkte sudāruṇam || 7.53.24 ||",
+      "wordByWord": "Thus that king is enduring that most dreadful curse.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-53-25",
+      "shlokaNumber": 25,
+      "sanskrit": "कार्यार्थिनां विमर्दो हि राज्ञां दोषाय कल्पते । तच्छीघ्रं दर्शनं मह्यमभिवर्तन्तु कार्यिणः ।। 7.53.25 ।।",
+      "transliteration": "kāryārthināṃ vimardo hi rājñāṃ doṣāya kalpate | tacchīghraṃ darśanaṃ mahyamabhivartantu kāryiṇaḥ || 7.53.25 ||",
+      "wordByWord": "For the harassment of those who seek their affairs settled turns to the fault of kings; therefore let those with business come quickly into my presence.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-53-26",
+      "shlokaNumber": 26,
+      "sanskrit": "सुकृतस्य हि कार्यस्य फलं नापैति पार्थिवः । तस्माद्गच्छ प्रतीक्षस्व सौमित्रे कार्यवाञ्जनः ।। 7.53.26 ।।",
+      "transliteration": "sukṛtasya hi kāryasya phalaṃ nāpaiti pārthivaḥ | tasmādgaccha pratīkṣasva saumitre kāryavāñjanaḥ || 7.53.26 ||",
+      "wordByWord": "For a king does not lose the fruit of a deed well performed; therefore go, Saumitri, and wait there, for a man who has work to do.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-53-27",
+      "shlokaNumber": 27,
+      "sanskrit": "इत्यार्षे श्रीमद्रामायणे वाल्मीकीये आदिकाव्ये श्रीमदुत्तरकाण्डे त्रिपञ्चाशः सर्गः ।। 53 ।।",
+      "transliteration": "ityārṣe śrīmadrāmāyaṇe vālmīkīye ādikāvye śrīmaduttarakāṇḍe tripañcāśaḥ sargaḥ || 53 ||",
+      "wordByWord": "Thus ends the fifty-third sarga in the Uttara Kanda of the holy Ramayana, the first epic poem composed by the sage Valmiki.",
+      "meaning": ""
+    }
+  ]
+}

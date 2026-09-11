@@ -1,0 +1,650 @@
+[
+  {
+    "id": 1,
+    "name": "श्रीरामः",
+    "iast": "Śrī Rāmaḥ",
+    "meaning": "He who delights all beings — the beloved Lord."
+  },
+  {
+    "id": 2,
+    "name": "रामभद्रः",
+    "iast": "Rāmabhadraḥ",
+    "meaning": "The auspicious one, bringer of all good."
+  },
+  {
+    "id": 3,
+    "name": "रामचन्द्रः",
+    "iast": "Rāmacandraḥ",
+    "meaning": "Cool and gentle as the moon to those who behold him."
+  },
+  {
+    "id": 4,
+    "name": "शाश्वतः",
+    "iast": "Śāśvataḥ",
+    "meaning": "The eternal one, unchanging across ages."
+  },
+  {
+    "id": 5,
+    "name": "राजीवलोचनः",
+    "iast": "Rājīvalocanaḥ",
+    "meaning": "Whose eyes are wide and lustrous as lotus petals."
+  },
+  {
+    "id": 6,
+    "name": "श्रीमान्",
+    "iast": "Śrīmān",
+    "meaning": "Endowed with grace, dignity, and divine splendour."
+  },
+  {
+    "id": 7,
+    "name": "राजेन्द्रः",
+    "iast": "Rājendraḥ",
+    "meaning": "Lord of kings — sovereign among rulers."
+  },
+  {
+    "id": 8,
+    "name": "रघुपुङ्गवः",
+    "iast": "Raghupuṅgavaḥ",
+    "meaning": "The foremost of the Raghu lineage."
+  },
+  {
+    "id": 9,
+    "name": "जानकीवल्लभः",
+    "iast": "Jānakīvallabhaḥ",
+    "meaning": "Beloved of Janaki — devoted husband of Sita."
+  },
+  {
+    "id": 10,
+    "name": "जैत्रः",
+    "iast": "Jaitraḥ",
+    "meaning": "The ever-victorious one."
+  },
+  {
+    "id": 11,
+    "name": "जितामित्रः",
+    "iast": "Jitāmitraḥ",
+    "meaning": "Conqueror of every foe."
+  },
+  {
+    "id": 12,
+    "name": "जनार्दनः",
+    "iast": "Janārdanaḥ",
+    "meaning": "Refuge of all souls — to whom prayers ascend."
+  },
+  {
+    "id": 13,
+    "name": "विश्वामित्रप्रियः",
+    "iast": "Viśvāmitrapriyaḥ",
+    "meaning": "Dear to the sage Vishvamitra, his first guru."
+  },
+  {
+    "id": 14,
+    "name": "दान्तः",
+    "iast": "Dāntaḥ",
+    "meaning": "Perfectly self-controlled, master of the senses."
+  },
+  {
+    "id": 15,
+    "name": "शरणत्राणतत्परः",
+    "iast": "Śaraṇatrāṇatatparaḥ",
+    "meaning": "Ever-eager to protect those who take refuge in him."
+  },
+  {
+    "id": 16,
+    "name": "वाली​प्रमथनः",
+    "iast": "Vālīpramathanaḥ",
+    "meaning": "Slayer of Vali — restorer of dharma in Kishkindha."
+  },
+  {
+    "id": 17,
+    "name": "वागमी",
+    "iast": "Vāgmī",
+    "meaning": "Eloquent of speech — whose words carry truth."
+  },
+  {
+    "id": 18,
+    "name": "सत्यवाक्",
+    "iast": "Satyavāk",
+    "meaning": "Whose every word is truth."
+  },
+  {
+    "id": 19,
+    "name": "सत्यविक्रमः",
+    "iast": "Satyavikramaḥ",
+    "meaning": "Whose valour rests on truth alone."
+  },
+  {
+    "id": 20,
+    "name": "सत्यव्रतः",
+    "iast": "Satyavrataḥ",
+    "meaning": "Steadfast in the vow of truth."
+  },
+  {
+    "id": 21,
+    "name": "व्रतपरायणः",
+    "iast": "Vrataparāyaṇaḥ",
+    "meaning": "Devoted to every sacred vow he undertakes."
+  },
+  {
+    "id": 22,
+    "name": "सदा हनुमदाश्रितः",
+    "iast": "Sadā Hanumadāśritaḥ",
+    "meaning": "Forever attended by Hanuman, his greatest devotee."
+  },
+  {
+    "id": 23,
+    "name": "कौसलेयः",
+    "iast": "Kausaleyaḥ",
+    "meaning": "Son of Kausalya — beloved firstborn of the queen."
+  },
+  {
+    "id": 24,
+    "name": "खरध्वंसी",
+    "iast": "Kharadhvaṁsī",
+    "meaning": "Slayer of the rakshasa Khara at Janasthana."
+  },
+  {
+    "id": 25,
+    "name": "विराधवधपण्डितः",
+    "iast": "Virādhavadhapaṇḍitaḥ",
+    "meaning": "Skilled vanquisher of the demon Viradha."
+  },
+  {
+    "id": 26,
+    "name": "विभीषणपरित्राता",
+    "iast": "Vibhīṣaṇaparitrātā",
+    "meaning": "Protector of Vibhishana, granting him refuge and a throne."
+  },
+  {
+    "id": 27,
+    "name": "हरकोदण्डखण्डनः",
+    "iast": "Harakodaṇḍakhaṇḍanaḥ",
+    "meaning": "Breaker of Shiva's mighty bow at Mithila."
+  },
+  {
+    "id": 28,
+    "name": "सप्ततालप्रभेत्ता",
+    "iast": "Saptatālaprabhettā",
+    "meaning": "Whose single arrow pierced the seven sala trees."
+  },
+  {
+    "id": 29,
+    "name": "दशग्रीवशिरोहरः",
+    "iast": "Daśagrīvaśiroharaḥ",
+    "meaning": "Slayer of ten-headed Ravana."
+  },
+  {
+    "id": 30,
+    "name": "जामदग्न्यमहादर्पदलनः",
+    "iast": "Jāmadagnyamahādarpadalanaḥ",
+    "meaning": "Humbler of Parashurama's pride."
+  },
+  {
+    "id": 31,
+    "name": "ताटकान्तकः",
+    "iast": "Tāṭakāntakaḥ",
+    "meaning": "Destroyer of the demoness Tataka."
+  },
+  {
+    "id": 32,
+    "name": "वेदान्तसारः",
+    "iast": "Vedāntasāraḥ",
+    "meaning": "The very essence of all Vedanta."
+  },
+  {
+    "id": 33,
+    "name": "वेदात्मा",
+    "iast": "Vedātmā",
+    "meaning": "The soul of the Vedas themselves."
+  },
+  {
+    "id": 34,
+    "name": "भवरोगस्य भेषजम्",
+    "iast": "Bhavarogasya Bheṣajam",
+    "meaning": "The medicine that cures the disease of worldly existence."
+  },
+  {
+    "id": 35,
+    "name": "दूषणत्रिशिरोहन्ता",
+    "iast": "Dūṣaṇatriśirohantā",
+    "meaning": "Slayer of the rakshasas Dushana and Trishira."
+  },
+  {
+    "id": 36,
+    "name": "त्रिमूर्तिः",
+    "iast": "Trimūrtiḥ",
+    "meaning": "Embodiment of the three forms — Brahma, Vishnu, Shiva."
+  },
+  {
+    "id": 37,
+    "name": "त्रिगुणात्मकः",
+    "iast": "Triguṇātmakaḥ",
+    "meaning": "He whose nature transcends the three gunas."
+  },
+  {
+    "id": 38,
+    "name": "त्रिविक्रमः",
+    "iast": "Trivikramaḥ",
+    "meaning": "Who measured the universe in three strides."
+  },
+  {
+    "id": 39,
+    "name": "त्रिलोकात्मा",
+    "iast": "Trilokātmā",
+    "meaning": "Soul of the three worlds."
+  },
+  {
+    "id": 40,
+    "name": "पुण्यचारित्रकीर्तनः",
+    "iast": "Puṇyacāritrakīrtanaḥ",
+    "meaning": "Whose sacred life-story purifies all who hear it."
+  },
+  {
+    "id": 41,
+    "name": "त्रिलोकरक्षकः",
+    "iast": "Trilokarakṣakaḥ",
+    "meaning": "Protector of all three worlds."
+  },
+  {
+    "id": 42,
+    "name": "धन्वी",
+    "iast": "Dhanvī",
+    "meaning": "The supreme archer."
+  },
+  {
+    "id": 43,
+    "name": "दण्डकारण्यवासकृत्",
+    "iast": "Daṇḍakāraṇyavāsakṛt",
+    "meaning": "Who dwelt long in the Dandaka forest during exile."
+  },
+  {
+    "id": 44,
+    "name": "अहल्याशापशमनः",
+    "iast": "Ahalyāśāpaśamanaḥ",
+    "meaning": "Who lifted the curse of Ahalya by the touch of his foot."
+  },
+  {
+    "id": 45,
+    "name": "पितृभक्तः",
+    "iast": "Pitṛbhaktaḥ",
+    "meaning": "The model son — devoted to his father Dasharatha."
+  },
+  {
+    "id": 46,
+    "name": "वरप्रदः",
+    "iast": "Varapradaḥ",
+    "meaning": "Bestower of boons to those who pray to him."
+  },
+  {
+    "id": 47,
+    "name": "जितेन्द्रियः",
+    "iast": "Jitendriyaḥ",
+    "meaning": "Master of the senses."
+  },
+  {
+    "id": 48,
+    "name": "जितक्रोधः",
+    "iast": "Jitakrodhaḥ",
+    "meaning": "Conqueror of anger — ever serene."
+  },
+  {
+    "id": 49,
+    "name": "जितामित्रः",
+    "iast": "Jitāmitraḥ",
+    "meaning": "Vanquisher of every adversary."
+  },
+  {
+    "id": 50,
+    "name": "जगद्गुरुः",
+    "iast": "Jagadguruḥ",
+    "meaning": "Teacher of the entire universe."
+  },
+  {
+    "id": 51,
+    "name": "ऋक्षवानरसङ्घाती",
+    "iast": "Ṛkṣavānarasaṅghātī",
+    "meaning": "Who gathered the armies of bears and vanaras."
+  },
+  {
+    "id": 52,
+    "name": "चित्रकूटसमाश्रयः",
+    "iast": "Citrakūṭasamāśrayaḥ",
+    "meaning": "Who took refuge at Chitrakuta during exile."
+  },
+  {
+    "id": 53,
+    "name": "जयन्तत्राणवरदः",
+    "iast": "Jayantatrāṇavaradaḥ",
+    "meaning": "Who pardoned Jayanta the crow with merciful boon."
+  },
+  {
+    "id": 54,
+    "name": "सुमित्रापुत्रसेवितः",
+    "iast": "Sumitrāputrasevitaḥ",
+    "meaning": "Served devotedly by Sumitra's son Lakshmana."
+  },
+  {
+    "id": 55,
+    "name": "सर्वदेवादिदेवः",
+    "iast": "Sarvadevādidevaḥ",
+    "meaning": "The God of all gods."
+  },
+  {
+    "id": 56,
+    "name": "मृतवानरजीवनः",
+    "iast": "Mṛtavānarajīvanaḥ",
+    "meaning": "Restorer of life to the fallen vanaras after the great war."
+  },
+  {
+    "id": 57,
+    "name": "मायामारीचहन्ता",
+    "iast": "Māyāmārīcahantā",
+    "meaning": "Slayer of Maricha disguised as the golden deer."
+  },
+  {
+    "id": 58,
+    "name": "महादेवः",
+    "iast": "Mahādevaḥ",
+    "meaning": "The great divinity."
+  },
+  {
+    "id": 59,
+    "name": "महाभुजः",
+    "iast": "Mahābhujaḥ",
+    "meaning": "Mighty-armed warrior."
+  },
+  {
+    "id": 60,
+    "name": "सर्वदेवस्तुतः",
+    "iast": "Sarvadevastutaḥ",
+    "meaning": "Praised by every god in heaven."
+  },
+  {
+    "id": 61,
+    "name": "सौम्यः",
+    "iast": "Saumyaḥ",
+    "meaning": "Gentle, gracious, soft-natured."
+  },
+  {
+    "id": 62,
+    "name": "ब्रह्मण्यः",
+    "iast": "Brahmaṇyaḥ",
+    "meaning": "Friend of the brahmins, upholder of dharma."
+  },
+  {
+    "id": 63,
+    "name": "मुनिसंस्तुतः",
+    "iast": "Munisaṁstutaḥ",
+    "meaning": "Hymned by the sages."
+  },
+  {
+    "id": 64,
+    "name": "महायोगी",
+    "iast": "Mahāyogī",
+    "meaning": "The great yogi."
+  },
+  {
+    "id": 65,
+    "name": "महोदारः",
+    "iast": "Mahodāraḥ",
+    "meaning": "Boundlessly generous."
+  },
+  {
+    "id": 66,
+    "name": "सुग्रीवेप्सितराज्यदः",
+    "iast": "Sugrīvepsitarājyadaḥ",
+    "meaning": "Who restored Sugriva's longed-for kingdom."
+  },
+  {
+    "id": 67,
+    "name": "सर्वपुण्याधिकफलः",
+    "iast": "Sarvapuṇyādhikaphalaḥ",
+    "meaning": "Whose remembrance yields the fruit of every sacred act."
+  },
+  {
+    "id": 68,
+    "name": "स्मृतसर्वाघनाशनः",
+    "iast": "Smṛtasarvāghanāśanaḥ",
+    "meaning": "Whose mere memory destroys every sin."
+  },
+  {
+    "id": 69,
+    "name": "आदिपुरुषः",
+    "iast": "Ādipuruṣaḥ",
+    "meaning": "The primal person — first of all beings."
+  },
+  {
+    "id": 70,
+    "name": "महापुरुषः",
+    "iast": "Mahāpuruṣaḥ",
+    "meaning": "The supreme person."
+  },
+  {
+    "id": 71,
+    "name": "परम्पुरुषः",
+    "iast": "Parampuruṣaḥ",
+    "meaning": "The transcendent self."
+  },
+  {
+    "id": 72,
+    "name": "पुण्योदयः",
+    "iast": "Puṇyodayaḥ",
+    "meaning": "The rising sun of all merit."
+  },
+  {
+    "id": 73,
+    "name": "दयासारः",
+    "iast": "Dayāsāraḥ",
+    "meaning": "Essence of compassion itself."
+  },
+  {
+    "id": 74,
+    "name": "पुराणपुरुषोत्तमः",
+    "iast": "Purāṇapuruṣottamaḥ",
+    "meaning": "The ancient supreme person of the Puranas."
+  },
+  {
+    "id": 75,
+    "name": "स्मितवक्त्रः",
+    "iast": "Smitavaktraḥ",
+    "meaning": "Whose face wears a gentle smile."
+  },
+  {
+    "id": 76,
+    "name": "मितभाषी",
+    "iast": "Mitabhāṣī",
+    "meaning": "Whose speech is measured and never wasted."
+  },
+  {
+    "id": 77,
+    "name": "पूर्वभाषी",
+    "iast": "Pūrvabhāṣī",
+    "meaning": "Who speaks first, never waiting for another to greet him."
+  },
+  {
+    "id": 78,
+    "name": "राघवः",
+    "iast": "Rāghavaḥ",
+    "meaning": "Descendant of King Raghu."
+  },
+  {
+    "id": 79,
+    "name": "अनन्तगुणगम्भीरः",
+    "iast": "Anantaguṇagambhīraḥ",
+    "meaning": "Of endless virtues, profound beyond fathoming."
+  },
+  {
+    "id": 80,
+    "name": "धीरोदात्तगुणोत्तरः",
+    "iast": "Dhīrodāttaguṇottaraḥ",
+    "meaning": "The heroic and high-minded one, supreme in virtue."
+  },
+  {
+    "id": 81,
+    "name": "मायामानुषचारित्रः",
+    "iast": "Māyāmānuṣacāritraḥ",
+    "meaning": "Whose human form is itself a divine līlā."
+  },
+  {
+    "id": 82,
+    "name": "महादेवादिपूजितः",
+    "iast": "Mahādevādipūjitaḥ",
+    "meaning": "Worshipped by Mahadeva himself."
+  },
+  {
+    "id": 83,
+    "name": "सेतुकृत्",
+    "iast": "Setukṛt",
+    "meaning": "Builder of the bridge to Lanka."
+  },
+  {
+    "id": 84,
+    "name": "जितवाराशिः",
+    "iast": "Jitavārāśiḥ",
+    "meaning": "Conqueror of the ocean itself."
+  },
+  {
+    "id": 85,
+    "name": "सर्वतीर्थमयः",
+    "iast": "Sarvatīrthamayaḥ",
+    "meaning": "He in whom all sacred waters dwell."
+  },
+  {
+    "id": 86,
+    "name": "हरिः",
+    "iast": "Hariḥ",
+    "meaning": "Who removes sorrow and bondage."
+  },
+  {
+    "id": 87,
+    "name": "श्यामाङ्गः",
+    "iast": "Śyāmāṅgaḥ",
+    "meaning": "Of dark, rain-cloud-blue complexion."
+  },
+  {
+    "id": 88,
+    "name": "सुन्दरः",
+    "iast": "Sundaraḥ",
+    "meaning": "Beautiful beyond measure."
+  },
+  {
+    "id": 89,
+    "name": "शूरः",
+    "iast": "Śūraḥ",
+    "meaning": "The brave one, fearless in battle."
+  },
+  {
+    "id": 90,
+    "name": "पीतवासाः",
+    "iast": "Pītavāsāḥ",
+    "meaning": "Clad in golden-yellow silks."
+  },
+  {
+    "id": 91,
+    "name": "धनुर्धरः",
+    "iast": "Dhanurdharaḥ",
+    "meaning": "Bearer of the bow — the eternal archer."
+  },
+  {
+    "id": 92,
+    "name": "सर्वयज्ञाधिपः",
+    "iast": "Sarvayajñādhipaḥ",
+    "meaning": "Lord of every sacrifice."
+  },
+  {
+    "id": 93,
+    "name": "यज्वा",
+    "iast": "Yajvā",
+    "meaning": "The sacrificer — performer of holy rites."
+  },
+  {
+    "id": 94,
+    "name": "जरामरणवर्जितः",
+    "iast": "Jarāmaraṇavarjitaḥ",
+    "meaning": "Beyond old age and death."
+  },
+  {
+    "id": 95,
+    "name": "विभीषणप्रतिष्ठाता",
+    "iast": "Vibhīṣaṇapratiṣṭhātā",
+    "meaning": "Who installed Vibhishana on the throne of Lanka."
+  },
+  {
+    "id": 96,
+    "name": "सर्वावगुणवर्जितः",
+    "iast": "Sarvāvaguṇavarjitaḥ",
+    "meaning": "Free of every fault and impurity."
+  },
+  {
+    "id": 97,
+    "name": "परमात्मा",
+    "iast": "Paramātmā",
+    "meaning": "The supreme Self."
+  },
+  {
+    "id": 98,
+    "name": "परम्ब्रह्म",
+    "iast": "Parambrahma",
+    "meaning": "The transcendent absolute."
+  },
+  {
+    "id": 99,
+    "name": "सच्चिदानन्दविग्रहः",
+    "iast": "Saccidānandavigrahaḥ",
+    "meaning": "Embodied form of being, consciousness, and bliss."
+  },
+  {
+    "id": 100,
+    "name": "परम्ज्योतिः",
+    "iast": "Paramjyotiḥ",
+    "meaning": "The supreme effulgent light."
+  },
+  {
+    "id": 101,
+    "name": "परंधाम",
+    "iast": "Paraṁdhāma",
+    "meaning": "The highest abode of all souls."
+  },
+  {
+    "id": 102,
+    "name": "पराकाशः",
+    "iast": "Parākāśaḥ",
+    "meaning": "The infinite space beyond space."
+  },
+  {
+    "id": 103,
+    "name": "परात्परः",
+    "iast": "Parātparaḥ",
+    "meaning": "Greater than the greatest."
+  },
+  {
+    "id": 104,
+    "name": "परेशः",
+    "iast": "Pareśaḥ",
+    "meaning": "The supreme Lord."
+  },
+  {
+    "id": 105,
+    "name": "पारगः",
+    "iast": "Pāragaḥ",
+    "meaning": "Who has reached the far shore of all knowledge."
+  },
+  {
+    "id": 106,
+    "name": "पारः",
+    "iast": "Pāraḥ",
+    "meaning": "The far shore itself — the goal of all yogis."
+  },
+  {
+    "id": 107,
+    "name": "सर्वदेवात्मकः",
+    "iast": "Sarvadevātmakaḥ",
+    "meaning": "In whom every god is contained."
+  },
+  {
+    "id": 108,
+    "name": "परः",
+    "iast": "Paraḥ",
+    "meaning": "The transcendent one — beyond all."
+  }
+]

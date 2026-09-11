@@ -1,0 +1,185 @@
+{
+  "kanda": "uttara",
+  "kandaName": "Uttara Kanda",
+  "sarga": 55,
+  "title": "Sarga 55",
+  "totalShlokas": 22,
+  "shlokas": [
+    {
+      "id": "UK-55-1",
+      "shlokaNumber": 1,
+      "sanskrit": "एष ते नृगशापस्य विस्तरो ऽभिहितो मया । यद्यस्ति श्रवणे श्रद्धा शृणुष्वेहापरां कथाम् ।। 7.55.1 ।।",
+      "transliteration": "eṣa te nṛgaśāpasya vistaro 'bhihito mayā | yadyasti śravaṇe śraddhā śṛṇuṣvehāparāṃ kathām || 7.55.1 ||",
+      "wordByWord": "This account of Nriga's curse has now been related to you by me in full; if you have the desire to listen, hear now this further tale.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-55-2",
+      "shlokaNumber": 2,
+      "sanskrit": "एवमुक्तस्तु रामेण सौमित्रिः पुनरब्रवीत् । तृप्तिराश्चर्यभूतानां कथानां नास्ति मे नृप ।। 7.55.2 ।।",
+      "transliteration": "evamuktastu rāmeṇa saumitriḥ punarabravīt | tṛptirāścaryabhūtānāṃ kathānāṃ nāsti me nṛpa || 7.55.2 ||",
+      "wordByWord": "Thus addressed by Rama, Lakshmana, the son of Sumitra, spoke again: O king, there is no satiety for me of these wondrous stories.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-55-3",
+      "shlokaNumber": 3,
+      "sanskrit": "लक्ष्मणेनैवमुक्तस्तु राम इक्ष्वाकुनन्दनः । कथां परमधर्मिष्ठां व्याहर्तुमुपचक्रमे ।। 7.55.3 ।।",
+      "transliteration": "lakṣmaṇenaivamuktastu rāma ikṣvākunandanaḥ | kathāṃ paramadharmiṣṭhāṃ vyāhartumupacakrame || 7.55.3 ||",
+      "wordByWord": "Thus addressed by Lakshmana, Rama, the delight of the Ikshvakus, began to relate a tale most full of righteousness.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-55-4",
+      "shlokaNumber": 4,
+      "sanskrit": "आसीद्राजा निमिर्नाम इक्ष्वाकूणां महात्मनाम् । पुत्रो द्वादशमो वीर्ये धर्मे च परिनिष्ठितः ।। 7.55.4 ।।",
+      "transliteration": "āsīdrājā nimirnāma ikṣvākūṇāṃ mahātmanām | putro dvādaśamo vīrye dharme ca pariniṣṭhitaḥ || 7.55.4 ||",
+      "wordByWord": "There was a king named Nimi, the twelfth son of the great-souled Ikshvaku, firmly established in both valor and righteousness.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-55-5",
+      "shlokaNumber": 5,
+      "sanskrit": "स राजा वीर्यसम्पन्नः पुरं देवपुरोपमम् । निवेशयामास तदा अभ्याशे गौतमस्य तु ।। 7.55.5 ।।",
+      "transliteration": "sa rājā vīryasampannaḥ puraṃ devapuropamam | niveśayāmāsa tadā abhyāśe gautamasya tu || 7.55.5 ||",
+      "wordByWord": "That king, endowed with valor, then founded a city resembling the city of the gods, in the vicinity of Gautama's hermitage.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-55-6",
+      "shlokaNumber": 6,
+      "sanskrit": "पुरस्य सुकृतं नाम वैजयन्तमिति श्रुतम् । निवेशं यत्र राजर्षिर्निमिश्चक्रे महायशाः ।। 7.55.6 ।।",
+      "transliteration": "purasya sukṛtaṃ nāma vaijayantamiti śrutam | niveśaṃ yatra rājarṣirnimiścakre mahāyaśāḥ || 7.55.6 ||",
+      "wordByWord": "The city which that royal sage Nimi of great fame established there as his settlement was well-built and renowned by the name Vaijayanta.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-55-7",
+      "shlokaNumber": 7,
+      "sanskrit": "तस्य बुद्धिः समुत्पन्ना निवेश्य सुमहापुरम् । यजेयं दीर्घसत्रेण पितुः प्रह्लादयन्मनः ।। 7.55.7 ।।",
+      "transliteration": "tasya buddhiḥ samutpannā niveśya sumahāpuram | yajeyaṃ dīrghasatreṇa pituḥ prahlādayanmanaḥ || 7.55.7 ||",
+      "wordByWord": "After founding that very great city, a thought arose in him: 'I shall perform a sacrifice with a long sacrificial session, gladdening the heart of my father.'",
+      "meaning": ""
+    },
+    {
+      "id": "UK-55-8",
+      "shlokaNumber": 8,
+      "sanskrit": "ततः पितरमामन्त्र्य इक्ष्वाकुं हि मनोः सुतम् । वसिष्ठं वरयामास पूर्वं ब्रह्मर्षिसत्तमम् ।। 7.55.8 ।।",
+      "transliteration": "tataḥ pitaramāmantrya ikṣvākuṃ hi manoḥ sutam | vasiṣṭhaṃ varayāmāsa pūrvaṃ brahmarṣisattamam || 7.55.8 ||",
+      "wordByWord": "Then, having taken leave of his father Ikshvaku, the son of Manu, he first chose Vasishtha, the most excellent of the Brahmin sages, as his priest.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-55-9",
+      "shlokaNumber": 9,
+      "sanskrit": "अनन्तरं स राजर्षिर्निमिरिक्ष्वाकुनन्दनः । अत्रिमङ्गिरसं चैव भृगुं चैव तपोधनम् ।। 7.55.9 ।।",
+      "transliteration": "anantaraṃ sa rājarṣirnimirikṣvākunandanaḥ | atrimaṅgirasaṃ caiva bhṛguṃ caiva tapodhanam || 7.55.9 ||",
+      "wordByWord": "Thereafter that royal sage Nimi, the delight of the Ikshvakus, chose also Atri, Angiras, and Bhrigu, rich in austerities.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-55-10",
+      "shlokaNumber": 10,
+      "sanskrit": "तमुवाच वसिष्ठस्तु निमिं राजर्षिसत्तमम् । वृतो ऽहं पूर्वमिन्द्रेण अन्तरं प्रतिपालय ।। 7.55.10 ।।",
+      "transliteration": "tamuvāca vasiṣṭhastu nimiṃ rājarṣisattamam | vṛto 'haṃ pūrvamindreṇa antaraṃ pratipālaya || 7.55.10 ||",
+      "wordByWord": "But Vasishtha said to Nimi, that most excellent of royal sages: 'I have been chosen beforehand by Indra; wait for the interval until then.'",
+      "meaning": ""
+    },
+    {
+      "id": "UK-55-11",
+      "shlokaNumber": 11,
+      "sanskrit": "अनन्तरं महाविप्रो गौतमः प्रत्यपूरयत् । वसिष्ठो ऽपि महातेजा इन्द्रयज्ञमथाकरोत् ।। 7.55.11 ।।",
+      "transliteration": "anantaraṃ mahāvipro gautamaḥ pratyapūrayat | vasiṣṭho 'pi mahātejā indrayajñamathākarot || 7.55.11 ||",
+      "wordByWord": "Thereupon the great Brahmin Gautama filled the office of priest in his stead, while Vasishtha of mighty splendor went and performed Indra's sacrifice.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-55-12",
+      "shlokaNumber": 12,
+      "sanskrit": "निमिस्तु राजा विप्रांस्तान्समानीय नराधिपः । अयजद्धिमवत्पार्श्वे स्वपुरस्य समीपतः । पञ्चवर्षसहस्राणि राजा दीक्षामुपागमत् ।। 7.55.12 ।।",
+      "transliteration": "nimistu rājā viprāṃstānsamānīya narādhipaḥ | ayajaddhimavatpārśve svapurasya samīpataḥ | pañcavarṣasahasrāṇi rājā dīkṣāmupāgamat || 7.55.12 ||",
+      "wordByWord": "But King Nimi, the lord of men, having assembled those Brahmins, performed his sacrifice on the slope of the Himalaya near his own city; and the king entered upon the consecration for five thousand years.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-55-13",
+      "shlokaNumber": 13,
+      "sanskrit": "इन्द्रयज्ञावसाने तु वसिष्ठो भगवनृषिः । सकाशमागतो राज्ञो हौत्रं कर्तुमनिन्दितः ।। 7.55.13 ।।",
+      "transliteration": "indrayajñāvasāne tu vasiṣṭho bhagavanṛṣiḥ | sakāśamāgato rājño hautraṃ kartumaninditaḥ || 7.55.13 ||",
+      "wordByWord": "At the conclusion of Indra's sacrifice, the venerable and blameless sage Vasishtha came into the presence of the king to perform the office of the officiating priest.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-55-14",
+      "shlokaNumber": 14,
+      "sanskrit": "तदन्तरमथापश्यद्गौतमेनाभिपूरितम् । कोपेन महताविष्टो वसिष्ठो ब्रह्मणः सुतः ।। 7.55.14 ।।",
+      "transliteration": "tadantaramathāpaśyadgautamenābhipūritam | kopena mahatāviṣṭo vasiṣṭho brahmaṇaḥ sutaḥ || 7.55.14 ||",
+      "wordByWord": "Then Vasishtha, the son of Brahma, saw that the interval had been filled by Gautama, and he was seized with great wrath.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-55-15",
+      "shlokaNumber": 15,
+      "sanskrit": "स राज्ञो दर्शनाकाङ्क्षी मुहूर्तं समुपाविशत् । तस्मिन्नहनि राजर्षिर्निद्रया ऽपहृतो भृशम् ।। 7.55.15 ।।",
+      "transliteration": "sa rājño darśanākāṅkṣī muhūrtaṃ samupāviśat | tasminnahani rājarṣirnidrayā 'pahṛto bhṛśam || 7.55.15 ||",
+      "wordByWord": "Desiring an audience with the king, he sat down for a while; but on that day the royal sage was deeply overcome by sleep.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-55-16",
+      "shlokaNumber": 16,
+      "sanskrit": "ततो मन्युर्वसिष्ठस्य प्रादुरासीन्महात्मनः । अदर्शनेन राजर्षेर्व्याहर्तुमुपचक्रमे ।। 7.55.16 ।।",
+      "transliteration": "tato manyurvasiṣṭhasya prādurāsīnmahātmanaḥ | adarśanena rājarṣervyāhartumupacakrame || 7.55.16 ||",
+      "wordByWord": "Then anger arose in the great-souled Vasishtha, and on account of not being received by the royal sage he began to speak.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-55-17",
+      "shlokaNumber": 17,
+      "sanskrit": "यस्मात्त्वमन्यं वृतवान्मामवज्ञाय पार्थिव । चेतनेन विनाभूतो देहस्तव भविष्यति ।। 7.55.17 ।।",
+      "transliteration": "yasmāttvamanyaṃ vṛtavānmāmavajñāya pārthiva | cetanena vinābhūto dehastava bhaviṣyati || 7.55.17 ||",
+      "wordByWord": "'Because you, O king, disregarding me, have chosen another, your body shall become bereft of consciousness.'",
+      "meaning": ""
+    },
+    {
+      "id": "UK-55-18",
+      "shlokaNumber": 18,
+      "sanskrit": "ततः प्रबुद्धो राजर्षिः श्रुत्वा शापमुदाहृतम् । ब्रह्मयोनिमथोवाच संरम्भात् क्रोधमूर्च्छितः ।। 7.55.18 ।।",
+      "transliteration": "tataḥ prabuddho rājarṣiḥ śrutvā śāpamudāhṛtam | brahmayonimathovāca saṃrambhāt krodhamūrcchitaḥ || 7.55.18 ||",
+      "wordByWord": "Then the royal sage, awakened and hearing the curse that had been uttered, in his agitation, beside himself with anger, addressed him who was born of Brahma.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-55-19",
+      "shlokaNumber": 19,
+      "sanskrit": "अजानतः शयानस्य क्रोधेन कलुषीकृतः । मुक्तवान्मयि शापाग्निं यमदण्डमिवापरम् ।। 7.55.19 ।।",
+      "transliteration": "ajānataḥ śayānasya krodhena kaluṣīkṛtaḥ | muktavānmayi śāpāgniṃ yamadaṇḍamivāparam || 7.55.19 ||",
+      "wordByWord": "While I lay asleep, unaware, he, his mind clouded by anger, hurled at me the fire of a curse, like a second rod of Yama.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-55-20",
+      "shlokaNumber": 20,
+      "sanskrit": "तस्मात्तवापि ब्रह्मर्षे चेतनेन विना कृतः । देहः सुरुचिरप्रख्यो भविष्यति न संशयः ।। 7.55.20 ।।",
+      "transliteration": "tasmāttavāpi brahmarṣe cetanena vinā kṛtaḥ | dehaḥ suruciraprakhyo bhaviṣyati na saṃśayaḥ || 7.55.20 ||",
+      "wordByWord": "Therefore, O Brahmarshi, your body too, though radiant and most beautiful in appearance, shall be deprived of consciousness; of this there is no doubt.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-55-21",
+      "shlokaNumber": 21,
+      "sanskrit": "इति रोषवशादुभौ तदानीमन्योन्यं शपितौ नृपद्विजेन्द्रौ । सहसैव बभूवतुर्विदेहौ तत्तुल्याधिगतप्रभाववन्तौ ।। 7.55.21 ।।",
+      "transliteration": "iti roṣavaśādubhau tadānīmanyonyaṃ śapitau nṛpadvijendrau | sahasaiva babhūvaturvidehau tattulyādhigataprabhāvavantau || 7.55.21 ||",
+      "wordByWord": "Thus, overpowered by wrath, the two of them at that moment cursed one another—the king and the foremost of the twice-born—and both, possessed of equal power thus attained, were suddenly rendered bodiless.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-55-22",
+      "shlokaNumber": 22,
+      "sanskrit": "इत्यार्षे श्रीमद्रामायणे वाल्मीकीये आदिकाव्ये श्रीमदुत्तरकाण्डे पञ्चपञ्चाशः सर्गः ।। 55 ।।",
+      "transliteration": "ityārṣe śrīmadrāmāyaṇe vālmīkīye ādikāvye śrīmaduttarakāṇḍe pañcapañcāśaḥ sargaḥ || 55 ||",
+      "wordByWord": "Thus ends the fifty-fifth canto in the venerable Uttara Kanda of the sacred Ramayana, the first poem composed by the sage Valmiki.",
+      "meaning": ""
+    }
+  ]
+}

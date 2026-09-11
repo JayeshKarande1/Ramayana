@@ -1,0 +1,281 @@
+{
+  "kanda": "uttara",
+  "kandaName": "Uttara Kanda",
+  "sarga": 20,
+  "title": "Sarga 20",
+  "totalShlokas": 34,
+  "shlokas": [
+    {
+      "id": "UK-20-1",
+      "shlokaNumber": 1,
+      "sanskrit": "ततो वित्रासयन्मर्त्यान्पृथिव्यां राक्षसाधिपः । आससाद घने तस्मिन्नारदं मुनिपुङ्गवम् ।। 7.20.1 ।।",
+      "transliteration": "tato vitrāsayanmartyānpṛthivyāṃ rākṣasādhipaḥ | āsasāda ghane tasminnāradaṃ munipuṅgavam || 7.20.1 ||",
+      "wordByWord": "Then the lord of the Rakshasas, terrifying mortals upon the earth, met Narada, that bull among sages, amid that cloud.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-20-2",
+      "shlokaNumber": 2,
+      "sanskrit": "तस्याभिवादनं कृत्वा दशग्रीवो निशाचरः । अब्रवीत्कुशलं पृष्ट्वा हेतुमागमनस्य च ।। 7.20.2 ।।",
+      "transliteration": "tasyābhivādanaṃ kṛtvā daśagrīvo niśācaraḥ | abravītkuśalaṃ pṛṣṭvā hetumāgamanasya ca || 7.20.2 ||",
+      "wordByWord": "Having made his salutation to him, Dashagriva, the night-roaming Rakshasa, inquired after his welfare and then asked the reason for his coming.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-20-3",
+      "shlokaNumber": 3,
+      "sanskrit": "नारदस्तु महातेजा देवर्षिरमितप्रभः । अब्रवीन्मेघपृष्ठस्थो रावणं पुष्पके स्थितम् ।। 7.20.3 ।।",
+      "transliteration": "nāradastu mahātejā devarṣiramitaprabhaḥ | abravīnmeghapṛṣṭhastho rāvaṇaṃ puṣpake sthitam || 7.20.3 ||",
+      "wordByWord": "And Narada, the divine sage of mighty splendor and measureless radiance, seated upon the back of a cloud, spoke to Ravana, who stood in the Pushpaka chariot.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-20-4",
+      "shlokaNumber": 4,
+      "sanskrit": "राक्षसाधिपते सौम्य तिष्ठ विश्रवसः सुत । प्रीतो ऽस्म्यभिजनोपेतविक्रमैरूर्जितैस्तव ।। 7.20.4 ।।",
+      "transliteration": "rākṣasādhipate saumya tiṣṭha viśravasaḥ suta | prīto 'smyabhijanopetavikramairūrjitaistava || 7.20.4 ||",
+      "wordByWord": "\"O gentle lord of the Rakshasas, son of Vishravas, halt! I am pleased with you, well-born and endowed with mighty, surpassing valor.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-20-5",
+      "shlokaNumber": 5,
+      "sanskrit": "विष्णुना दैत्यघातैश्च गन्धर्वोरगधर्षणैः । त्वया समं विमर्दैश्च भृशं हि परितोषितः ।। 7.20.5 ।।",
+      "transliteration": "viṣṇunā daityaghātaiśca gandharvoragadharṣaṇaiḥ | tvayā samaṃ vimardaiśca bhṛśaṃ hi paritoṣitaḥ || 7.20.5 ||",
+      "wordByWord": "\"By your battles waged on equal terms with Vishnu, by your slaughter of the Daityas, and by your assaults upon the Gandharvas and Nagas, I have indeed been exceedingly delighted.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-20-6",
+      "shlokaNumber": 6,
+      "sanskrit": "किंचिद्वक्ष्यामि तावत्ते श्रोतव्यं श्रोष्यसे यदि । श्रुत्वा चानन्तरं कार्यं त्वया राक्षससत्तम । तन्मे निगदतस्तात समाधिं श्रवणे कुरु ।। 7.20.6 ।।",
+      "transliteration": "kiṃcidvakṣyāmi tāvatte śrotavyaṃ śroṣyase yadi | śrutvā cānantaraṃ kāryaṃ tvayā rākṣasasattama | tanme nigadatastāta samādhiṃ śravaṇe kuru || 7.20.6 ||",
+      "wordByWord": "\"I wish to say something to you, which is worth hearing if you will hear it; and after hearing it, O best of Rakshasas, you must act accordingly. Give me, my dear, your full attention as I speak.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-20-7",
+      "shlokaNumber": 7,
+      "sanskrit": "किमयं वध्यते तात त्वया ऽवध्येन दैवतैः । हत एव ह्ययं लोको यदा मृत्युवशं गतः ।। 7.20.7 ।। ्तम ।",
+      "transliteration": "kimayaṃ vadhyate tāta tvayā 'vadhyena daivataiḥ | hata eva hyayaṃ loko yadā mṛtyuvaśaṃ gataḥ || 7.20.7 || ्tama |",
+      "wordByWord": "\"Why is this race of men being slain by you, my dear, who are unslayable by the gods? This world is as good as slain already, since it has fallen under the sway of death.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-20-8",
+      "shlokaNumber": 8,
+      "sanskrit": "देवदानवदैत्यानां यक्षगन्धर्वरक्षसाम् । अवध्येन त्वया लोकः क्लेष्टुं युक्तो न मानुषः ।। 7.20.8 ।।",
+      "transliteration": "devadānavadaityānāṃ yakṣagandharvarakṣasām | avadhyena tvayā lokaḥ kleṣṭuṃ yukto na mānuṣaḥ || 7.20.8 ||",
+      "wordByWord": "\"You, who are unslayable by the Devas, Danavas, and Daityas, by the Yakshas, Gandharvas, and Rakshasas, ought not to harass the world of men.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-20-9",
+      "shlokaNumber": 9,
+      "sanskrit": "नित्यं श्रेयसि सम्मूढं महद्भिर्व्यसनैर्वृतम् । हन्यात्कस्तादृशं लोकं जराव्याधिशतैर्युतम् ।। 7.20.9 ।।",
+      "transliteration": "nityaṃ śreyasi sammūḍhaṃ mahadbhirvyasanairvṛtam | hanyātkastādṛśaṃ lokaṃ jarāvyādhiśatairyutam || 7.20.9 ||",
+      "wordByWord": "\"Who would strike such a world of men—forever deluded as to its true good, beset by great calamities, and afflicted by a hundred forms of old age and disease?\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-20-10",
+      "shlokaNumber": 10,
+      "sanskrit": "तैस्तैरनिष्टोपगमैरजस्रं यत्र कुत्र कः । मतिमान्मानुषे लोके युद्धेन प्रणयी भवेत् ।। 7.20.10 ।।",
+      "transliteration": "taistairaniṣṭopagamairajasraṃ yatra kutra kaḥ | matimānmānuṣe loke yuddhena praṇayī bhavet || 7.20.10 ||",
+      "wordByWord": "\"With such unwelcome ills befalling it ceaselessly, here and there, who that is wise in the world of men would seek to win it through battle?\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-20-11",
+      "shlokaNumber": 11,
+      "sanskrit": "क्षीयमाणं दैवहतं श्रुत्पिपासाजरादिभिः । विषादशोकसम्मूढं लोकं त्वं क्षपयस्व मा ।। 7.20.11 ।।",
+      "transliteration": "kṣīyamāṇaṃ daivahataṃ śrutpipāsājarādibhiḥ | viṣādaśokasammūḍhaṃ lokaṃ tvaṃ kṣapayasva mā || 7.20.11 ||",
+      "wordByWord": "\"This world, wasting away, smitten by fate, by hunger, thirst, old age, and the rest, and deluded by despair and grief—do not you destroy it.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-20-12",
+      "shlokaNumber": 12,
+      "sanskrit": "पश्य तावन्महाबाहो राक्षसेश्वर मानुषम् । मूढमेवं विचित्रार्थं यस्य न ज्ञायते गतिः ।। 7.20.12 ।।",
+      "transliteration": "paśya tāvanmahābāho rākṣaseśvara mānuṣam | mūḍhamevaṃ vicitrārthaṃ yasya na jñāyate gatiḥ || 7.20.12 ||",
+      "wordByWord": "\"Look then, O mighty-armed lord of the Rakshasas, at mankind—deluded thus, of strange and varied ways, whose course cannot be known.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-20-13",
+      "shlokaNumber": 13,
+      "sanskrit": "क्वचिद्वादित्रनृत्यादि सेव्यते मुदितैर्जनैः । रुद्यते चापरैरार्तैर्धाराश्रुनयनाननैः ।। 7.20.13 ।।",
+      "transliteration": "kvacidvāditranṛtyādi sevyate muditairjanaiḥ | rudyate cāparairārtairdhārāśrunayanānanaiḥ || 7.20.13 ||",
+      "wordByWord": "\"In one place music and dancing and the like are enjoyed by people who are glad; elsewhere others, afflicted, weep, the tears streaming down over their eyes and faces.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-20-14",
+      "shlokaNumber": 14,
+      "sanskrit": "मातापितृसुतस्नेहैर्भार्याबन्धुमनोरमैः । मोहितो ऽयं जनो ध्वस्तः क्लेशं स्वं नावबुध्यते ।। 7.20.14 ।।",
+      "transliteration": "mātāpitṛsutasnehairbhāryābandhumanoramaiḥ | mohito 'yaṃ jano dhvastaḥ kleśaṃ svaṃ nāvabudhyate || 7.20.14 ||",
+      "wordByWord": "\"Deluded by affection for mother, father, and sons, and by the delights of wife and kinsmen, this stricken folk does not perceive its own suffering.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-20-15",
+      "shlokaNumber": 15,
+      "sanskrit": "अलमेनं परिक्लिश्य लोकं मोहनिराकृतम् । जित एव त्वया सौम्य मर्त्यलोको न संशयः ।। 7.20.15 ।।",
+      "transliteration": "alamenaṃ parikliśya lokaṃ mohanirākṛtam | jita eva tvayā saumya martyaloko na saṃśayaḥ || 7.20.15 ||",
+      "wordByWord": "\"Enough of tormenting this world that is overcome by delusion! By you, O gentle one, the world of mortals is already conquered—of that there is no doubt.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-20-16",
+      "shlokaNumber": 16,
+      "sanskrit": "अवश्यमेभिः सर्वैश्च गन्तव्यं यमसादनम् । तन्निगृह्णीष्व पौलस्त्य यमं परपुरञ्जय ।। 7.20.16 ।।",
+      "transliteration": "avaśyamebhiḥ sarvaiśca gantavyaṃ yamasādanam | tannigṛhṇīṣva paulastya yamaṃ parapurañjaya || 7.20.16 ||",
+      "wordByWord": "\"All these men must inevitably go to the abode of Yama; therefore subdue Yama himself, O scion of Pulastya, O conqueror of the cities of your foes!\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-20-17",
+      "shlokaNumber": 17,
+      "sanskrit": "तस्मिञ्जिते जितं सर्वं भवत्येव न संशयः । एवमुक्तस्तु लङ्केशो दीप्यमानं स्वतेजसा । अब्रवीन्नारदं तत्र सम्प्रहस्याभिवाद्य च ।। 7.20.17 ।।",
+      "transliteration": "tasmiñjite jitaṃ sarvaṃ bhavatyeva na saṃśayaḥ | evamuktastu laṅkeśo dīpyamānaṃ svatejasā | abravīnnāradaṃ tatra samprahasyābhivādya ca || 7.20.17 ||",
+      "wordByWord": "\"When he is conquered, all is conquered—of that there is no doubt.\" Thus addressed, the lord of Lanka, blazing with his own splendor, laughed aloud and, saluting Narada, spoke to him there.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-20-18",
+      "shlokaNumber": 18,
+      "sanskrit": "महर्षे देवगन्धर्वविहार समरप्रिय । अहं समुद्यतो गन्तुं विजयार्थं रसातलम् ।। 7.20.18 ।।",
+      "transliteration": "maharṣe devagandharvavihāra samarapriya | ahaṃ samudyato gantuṃ vijayārthaṃ rasātalam || 7.20.18 ||",
+      "wordByWord": "\"O great sage, you who roam in the company of gods and Gandharvas and who love battle—I am even now setting out, for the sake of victory, to go to the netherworld of Rasatala.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-20-19",
+      "shlokaNumber": 19,
+      "sanskrit": "ततो लोकत्रयं जित्वा स्थाप्य नागान्सुरान्वशे । समुद्रममृतार्थं च मथिष्यामि रसालयम् ।। 7.20.19 ।।",
+      "transliteration": "tato lokatrayaṃ jitvā sthāpya nāgānsurānvaśe | samudramamṛtārthaṃ ca mathiṣyāmi rasālayam || 7.20.19 ||",
+      "wordByWord": "\"Then, having conquered the three worlds and brought the Nagas and the gods under my control, I shall churn the ocean, the abode of waters, for the sake of the nectar of immortality.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-20-20",
+      "shlokaNumber": 20,
+      "sanskrit": "अथाब्रवीदृशग्रीवं नारदो भगवानृषिः । क्व खल्विदानीं मार्गेण त्वया ह्यन्येन गम्यते ।। 7.20.20 ।।",
+      "transliteration": "athābravīdṛśagrīvaṃ nārado bhagavānṛṣiḥ | kva khalvidānīṃ mārgeṇa tvayā hyanyena gamyate || 7.20.20 ||",
+      "wordByWord": "Then the venerable sage Narada said to Dashagriva (the ten-necked Ravana): \"Where, then, are you now going by this other road?\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-20-21",
+      "shlokaNumber": 21,
+      "sanskrit": "अयं खलु सुदुर्गम्यः प्रेतराजपुरं प्रति । मार्गो गच्छति दुर्धर्षो यमस्यामित्रकर्शन ।। 7.20.21 ।।",
+      "transliteration": "ayaṃ khalu sudurgamyaḥ pretarājapuraṃ prati | mārgo gacchati durdharṣo yamasyāmitrakarśana || 7.20.21 ||",
+      "wordByWord": "\"This road, O tormentor of foes, is very hard to traverse and difficult to assail; it leads toward the city of Yama, the king of the dead.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-20-22",
+      "shlokaNumber": 22,
+      "sanskrit": "स तु शारदमेघाभं हासं मुक्त्वा दशाननः । उवाच कृतमित्येव वचनं चेदमब्रवीत् ।। 7.20.22 ।।",
+      "transliteration": "sa tu śāradameghābhaṃ hāsaṃ muktvā daśānanaḥ | uvāca kṛtamityeva vacanaṃ cedamabravīt || 7.20.22 ||",
+      "wordByWord": "But Dashanana (the ten-faced Ravana), having let loose a laugh like an autumn cloud, said only \"It is done!\" and spoke these words as well:",
+      "meaning": ""
+    },
+    {
+      "id": "UK-20-23",
+      "shlokaNumber": 23,
+      "sanskrit": "तस्मादेवमहं ब्रह्मन् वैवस्वतवधोद्यतः । गच्छामि दक्षिणामाशां यत्र सूर्यात्मजो नृपः ।। 7.20.23 ।।",
+      "transliteration": "tasmādevamahaṃ brahman vaivasvatavadhodyataḥ | gacchāmi dakṣiṇāmāśāṃ yatra sūryātmajo nṛpaḥ || 7.20.23 ||",
+      "wordByWord": "\"For that very reason, O Brahmin, intent upon slaying Vaivasvata (Yama, son of Vivasvat), I am going to the southern quarter, where dwells the king who is the son of the Sun.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-20-24",
+      "shlokaNumber": 24,
+      "sanskrit": "मया हि भगवन्क्रोधात्प्रतिज्ञातं रणार्थिना । अवजेष्यामि चतुरो लोकपालानिति प्रभो ।। 7.20.24 ।।",
+      "transliteration": "mayā hi bhagavankrodhātpratijñātaṃ raṇārthinā | avajeṣyāmi caturo lokapālāniti prabho || 7.20.24 ||",
+      "wordByWord": "\"For I, O venerable one, eager for battle, have in my wrath made this vow, O lord: that I shall conquer the four guardians of the world.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-20-25",
+      "shlokaNumber": 25,
+      "sanskrit": "तदिह प्रस्थितो ऽहं वै प्रेतराजपुरं प्रति । प्राणिसङ्क्लेशकर्तारं योजयिष्यामि मृत्युना ।। 7.20.25 ।।",
+      "transliteration": "tadiha prasthito 'haṃ vai pretarājapuraṃ prati | prāṇisaṅkleśakartāraṃ yojayiṣyāmi mṛtyunā || 7.20.25 ||",
+      "wordByWord": "\"Therefore I have set out hither toward the city of the king of the dead; I shall unite with death that one who is the cause of suffering to living beings.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-20-26",
+      "shlokaNumber": 26,
+      "sanskrit": "एवमुक्त्वा दशग्रीवो मुनिं तमभिवाद्य च । प्रययौ दक्षिणामाशां प्रविष्टः सह मन्त्रिभिः ।। 7.20.26 ।।",
+      "transliteration": "evamuktvā daśagrīvo muniṃ tamabhivādya ca | prayayau dakṣiṇāmāśāṃ praviṣṭaḥ saha mantribhiḥ || 7.20.26 ||",
+      "wordByWord": "Having spoken thus, Dashagriva saluted that sage and, accompanied by his ministers, proceeded into the southern quarter.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-20-27",
+      "shlokaNumber": 27,
+      "sanskrit": "नारदस्तु महातेजा मुहूर्तं ध्यानमास्थितः । चिन्तयामास विप्रेन्द्रो विधूम इव पावकः ।। 7.20.27 ।।",
+      "transliteration": "nāradastu mahātejā muhūrtaṃ dhyānamāsthitaḥ | cintayāmāsa viprendro vidhūma iva pāvakaḥ || 7.20.27 ||",
+      "wordByWord": "But Narada of great splendor, the foremost among the twice-born, remained absorbed in meditation for a moment and reflected, like a fire without smoke.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-20-28",
+      "shlokaNumber": 28,
+      "sanskrit": "येन लोकास्त्रयः सेन्द्राः क्लिश्यन्ते सचराचराः । क्षीणे चायुषि धर्मेण स कालो जेष्यते कथम् ।। 7.20.28 ।।",
+      "transliteration": "yena lokāstrayaḥ sendrāḥ kliśyante sacarācarāḥ | kṣīṇe cāyuṣi dharmeṇa sa kālo jeṣyate katham || 7.20.28 ||",
+      "wordByWord": "\"He by whom the three worlds together with Indra, with all that moves and moves not, are afflicted, and who claims them when their lifespan is rightfully exhausted — how shall that Kala (Yama, Time) be conquered?\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-20-29",
+      "shlokaNumber": 29,
+      "sanskrit": "स्वदत्तकृतसाक्षी यो द्वितीय इव पावकः । लब्धसञ्ज्ञा विजेष्यन्ते लोका यस्य महात्मनः ।। 7.20.29 ।।",
+      "transliteration": "svadattakṛtasākṣī yo dvitīya iva pāvakaḥ | labdhasañjñā vijeṣyante lokā yasya mahātmanaḥ || 7.20.29 ||",
+      "wordByWord": "\"He who is the witness of what each being has given and done, who is like a second fire — by him are the worlds vanquished, even when they have regained their senses; they are subject to that great-souled one.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-20-30",
+      "shlokaNumber": 30,
+      "sanskrit": "यस्य नित्यं त्रयो लोका विद्रवन्ति भयार्दिताः । तं कथं राक्षसेन्द्रो ऽसौ स्वयमेव गमिष्यति ।। 7.20.30 ।।",
+      "transliteration": "yasya nityaṃ trayo lokā vidravanti bhayārditāḥ | taṃ kathaṃ rākṣasendro 'sau svayameva gamiṣyati || 7.20.30 ||",
+      "wordByWord": "\"He from whom the three worlds, stricken with fear, perpetually flee — how shall this lord of the Rakshasas go against him of his own accord?\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-20-31",
+      "shlokaNumber": 31,
+      "sanskrit": "यो विधाता च धाता च सुकृतं दुष्कृतं तथा । त्रैलोक्यं विजितं येन तं कथं विजयिष्यते ।। 7.20.31 ।।",
+      "transliteration": "yo vidhātā ca dhātā ca sukṛtaṃ duṣkṛtaṃ tathā | trailokyaṃ vijitaṃ yena taṃ kathaṃ vijayiṣyate || 7.20.31 ||",
+      "wordByWord": "\"He who is the disposer and the ordainer of good deeds and likewise of evil deeds, by whom the three worlds have been subdued — how shall he be conquered?\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-20-32",
+      "shlokaNumber": 32,
+      "sanskrit": "अपरं किन्तु कृत्वायं विधानं संविधास्यति । कौतूहलसमुत्पन्नो यास्यामि यमसादनम् ।। 7.20.32 ।।",
+      "transliteration": "aparaṃ kintu kṛtvāyaṃ vidhānaṃ saṃvidhāsyati | kautūhalasamutpanno yāsyāmi yamasādanam || 7.20.32 ||",
+      "wordByWord": "\"But what other measure will he (Yama) devise and put into effect? Filled with curiosity, I shall go to the abode of Yama,\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-20-33",
+      "shlokaNumber": 33,
+      "sanskrit": "विमर्दं द्रष्टुमनयोर्यमराक्षसयोः स्वयम् ।। 7.20.33 ।।",
+      "transliteration": "vimardaṃ draṣṭumanayoryamarākṣasayoḥ svayam || 7.20.33 ||",
+      "wordByWord": "\"to behold for myself the clash between these two — Yama and the Rakshasa.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-20-34",
+      "shlokaNumber": 34,
+      "sanskrit": "इत्यार्षे श्रीमद्रामायणे वाल्मीकीये आदिकाव्ये श्रीमदुत्तरकाण्डे विंशः सर्गः ।। 20 ।।",
+      "transliteration": "ityārṣe śrīmadrāmāyaṇe vālmīkīye ādikāvye śrīmaduttarakāṇḍe viṃśaḥ sargaḥ || 20 ||",
+      "wordByWord": "Thus ends the twentieth canto in the venerable Uttara Kanda of the holy Ramayana, the first poem composed by the sage Valmiki.",
+      "meaning": ""
+    }
+  ]
+}

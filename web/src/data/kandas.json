@@ -1,0 +1,86 @@
+[
+  {
+    "id": "bala",
+    "order": 1,
+    "romanNumeral": "I",
+    "name": "Bala Kanda",
+    "sanskrit": "बालकाण्ड",
+    "subtitle": "The Beginning",
+    "description": "The birth of Rama, his early adventures, training under Sage Vishwamitra, and the breaking of Shiva's bow at Mithila to win Sita's hand.",
+    "sargasCount": 77,
+    "shlokasCount": 2217,
+    "themeColor": "amber"
+  },
+  {
+    "id": "ayodhya",
+    "order": 2,
+    "romanNumeral": "II",
+    "name": "Ayodhya Kanda",
+    "sanskrit": "अयोध्याकाण्ड",
+    "subtitle": "The Exile",
+    "description": "A prince renounces his throne the night before his coronation for his father's honour, and departs for 14 years of forest exile.",
+    "sargasCount": 119,
+    "shlokasCount": 4262,
+    "themeColor": "rose"
+  },
+  {
+    "id": "aranya",
+    "order": 3,
+    "romanNumeral": "III",
+    "name": "Aranya Kanda",
+    "sanskrit": "अरण्यकाण्ड",
+    "subtitle": "The Forest",
+    "description": "Thirteen years in Dandaka, the encounters with sages and demons, the golden deer Maricha, and the abduction of Sita by Ravana.",
+    "sargasCount": 75,
+    "shlokasCount": 2439,
+    "themeColor": "emerald"
+  },
+  {
+    "id": "kishkindha",
+    "order": 4,
+    "romanNumeral": "IV",
+    "name": "Kishkindha Kanda",
+    "sanskrit": "किष्किन्धाकाण्ड",
+    "subtitle": "The Alliance",
+    "description": "Rama meets Hanuman, befriends the exiled monkey king Sugriva, slays Vali, and the vast Vanara army is raised to search for Sita.",
+    "sargasCount": 67,
+    "shlokasCount": 2445,
+    "themeColor": "yellow"
+  },
+  {
+    "id": "sundara",
+    "order": 5,
+    "romanNumeral": "V",
+    "name": "Sundara Kanda",
+    "sanskrit": "सुन्दरकाण्ड",
+    "subtitle": "The Beautiful",
+    "description": "Hanuman's heroic leap across the ocean, finding Sita in the Ashoka grove, the burning of Lanka, and delivering Sita's chudamani to Rama.",
+    "sargasCount": 68,
+    "shlokasCount": 2772,
+    "themeColor": "sky"
+  },
+  {
+    "id": "yuddha",
+    "order": 6,
+    "romanNumeral": "VI",
+    "name": "Yuddha Kanda",
+    "sanskrit": "युद्धकाण्ड",
+    "subtitle": "The War",
+    "description": "The building of Rama Setu, the epic war in Lanka, the fall of Kumbhakarna, Indrajit, and Ravana, Sita's trial by fire, and the victorious return to Ayodhya.",
+    "sargasCount": 131,
+    "shlokasCount": 5693,
+    "themeColor": "red"
+  },
+  {
+    "id": "uttara",
+    "order": 7,
+    "romanNumeral": "VII",
+    "name": "Uttara Kanda",
+    "sanskrit": "उत्तरकाण्ड",
+    "subtitle": "The Legacy",
+    "description": "The righteous reign of Rama (Ramrajya), the origins of Ravana, the birth of Lava and Kusha, the singing of the Ramayana, and Rama's final ascent.",
+    "sargasCount": 111,
+    "shlokasCount": 3574,
+    "themeColor": "purple"
+  }
+]

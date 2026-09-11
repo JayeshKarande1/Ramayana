@@ -1,0 +1,161 @@
+{
+  "kanda": "bala",
+  "kandaName": "Bala Kanda",
+  "sarga": 9,
+  "title": "Sarga 9",
+  "totalShlokas": 19,
+  "shlokas": [
+    {
+      "id": "BK-9-1",
+      "shlokaNumber": 1,
+      "sanskrit": "एतच्छ्रुत्वा रहस्सूतो राजानमिदमब्रवीत्। ऋत्विग्भिरुपदिष्टोऽयं पुरावृत्तो मया श्रुत:।।1.9.1।।",
+      "transliteration": "etacchrutvā rahassūto rājānamidamabravīt| ṛtvigbhirupadiṣṭo'yṃ purāvṛtto mayā śruta:||1.9.1||",
+      "wordByWord": "एतत् this matter, श्रुत्वा having heard, सूत: king's charioteer, राजानम् addressing king, रह: in privacy, इदम् these words, अब्रवीत् said, ऋत्विग्भिः by officiating priests, उपदिष्ट: advised, अयम् this solution, पुरा ancient, वृत्त: happened, मया श्रुत: heard by me.",
+      "meaning": "The charioteer tells the king in privacy that he has heard the advice given by the offciating priests."
+    },
+    {
+      "id": "BK-9-2",
+      "shlokaNumber": 2,
+      "sanskrit": "सनत्कुमारो भगवान्पूर्वं कथितवान्कथाम्। ऋषीणां सन्निधौ राजन् तव पुत्रागमं प्रति।।1.9.2।।",
+      "transliteration": "sanatkumāro bhagavānpūrvṃ kathitavānkathām| ṛṣīṇāṃ sannidhau rājan tava putrāgamṃ prati||1.9.2||",
+      "wordByWord": "राजन् O King, भगवान् possessing divinity, सनत्कुमार: Sanatkumara, तव your, पुत्रागमं प्रति about the birth of your sons, कथाम् story, ऋषीणां सन्निधौ in the presence of sages, पूर्वम् earlier, कथितवान् narrated.",
+      "meaning": "\"O king, the divine Sanatkumara had narrated a story about your posterity in the presence of sages."
+    },
+    {
+      "id": "BK-9-3",
+      "shlokaNumber": 3,
+      "sanskrit": "काश्यपस्यतु पुत्रोऽस्ति विभण्डक इति श्रुत:। ऋष्यशृङ्ग इति ख्यातस्तस्य पुत्रो भविष्यति।।1.9.3।।",
+      "transliteration": "kāśyapasyatu putro'sti vibhaṇḍaka iti śruta:| ṛṣyaśṛṅga iti khyātastasya putro bhaviṣyati||1.9.3||",
+      "wordByWord": "काश्यपस्य for Kasyapa, विभण्डक: इति named Vibhandaka, श्रुत: famous, पुत्र: अस्ति has a son, तस्य for him, ऋष्यशृङ्ग इति named Rsyasringa, ख्यात: wellknown, पुत्र: son भविष्यति will be born.",
+      "meaning": "Kasyapa has a famous son named Vibhandaka. It was prophesied that he would have a son named Rsyasringa."
+    },
+    {
+      "id": "BK-9-4",
+      "shlokaNumber": 4,
+      "sanskrit": "स वने नित्यसंवृद्धो मुनिर्वनचरस्सदा । नान्यं जानाति विप्रेन्द्रो नित्यं पित्रनुवर्तनात् ।।1.9.4।।",
+      "transliteration": "sa vane nityasṃvṛddho munirvanacarassadā | nānyṃ jānāti viprendro nityṃ pitranuvartanāt ||1.9.4||",
+      "wordByWord": "वने in the forest, नित्यसंवृद्ध: grown up, सदा always, वनचर: a person moving in the forest, विप्रेन्द्र: foremost among brahmins, स: मुनि: that sage, नित्यम् always, पित्रनुवर्तनात् by following his father, अन्यम् others, न जानाति will not know.",
+      "meaning": "Grown up in the forest and always moving with his father, that sage knows none other than his father."
+    },
+    {
+      "id": "BK-9-5",
+      "shlokaNumber": 5,
+      "sanskrit": "द्वैविध्यं ब्रह्मचर्यस्य भविष्यति महात्मन:। लोकेषु प्रथितं राजन्विप्रैश्च कथितं सदा।।1.9.5।।",
+      "transliteration": "dvaividhyṃ brahmacaryasya bhaviṣyati mahātmana:| lokeṣu prathitṃ rājanvipraiśca kathitṃ sadā||1.9.5||",
+      "wordByWord": "राजन् O King, महात्मन: eminet one, लोकेषु in the worlds, प्रथितम् celebrated, सदा always, विप्रै: by brahmins, कथितम् described, ब्रह्मचर्यस्य of Brahmacharya (life of celebacy), द्वैविध्यम् twofold, भविष्यति will happen.",
+      "meaning": "O eminent king, sage Rsyasringa celebrated in the three worlds who practises a twofold brahmacharya life (life of celebacy) described by brahmins (as vratitva and prajapatya)."
+    },
+    {
+      "id": "BK-9-6",
+      "shlokaNumber": 6,
+      "sanskrit": "तस्यैवं वर्तमानस्य कालस्समभिवर्तत । अग्निं शुश्रूषमाणस्य पितरं च यशस्विनम्।।1.9.6।।",
+      "transliteration": "tasyaivṃ vartamānasya kālassamabhivartata | agniṃ śuśrūṣamāṇasya pitarṃ ca yaśasvinam||1.9.6||",
+      "wordByWord": "अग्निम् firegod, यशस्विनम् enowned, पितरम् च his father also, शुश्रूषमाणस्य while attending, एवम् in this manner, वर्तमानस्य living, तस्य for him, काल: time, समभिवर्तत will be spent.",
+      "meaning": "Worshipping the firegod and attending on his renowned father, he will spend a long time living in this manner (practising vratitva mode of brahmacharya)."
+    },
+    {
+      "id": "BK-9-7",
+      "shlokaNumber": 7,
+      "sanskrit": "एतस्मिन्नेव काले तु रोमपाद: प्रतापवान्। अङ्गेषु प्रथितो राजा भविष्यति महाबल:।। 1.9.7।।",
+      "transliteration": "etasminneva kāle tu romapāda: pratāpavān| aṅgeṣu prathito rājā bhaviṣyati mahābala:|| 1.9.7||",
+      "wordByWord": "एतस्मिन्नेव काले at this time, अङ्गेषु in the country of Anga, प्रतापवान् mighty, महाबल: possessing great strength, प्रथित: celebrated, रोमपाद: king Romapada, भविष्यति will be living.",
+      "meaning": "At this time a powerful king Romapada, mighty and celebrated would be living in the country of Anga."
+    },
+    {
+      "id": "BK-9-8",
+      "shlokaNumber": 8,
+      "sanskrit": "तस्य व्यतिक्रमाद्राज्ञो भविष्यति सुदारुणा । अनावृष्टिस्सुघोरा वै सर्वभूतभयावहा ।।1.9.8।।",
+      "transliteration": "tasya vyatikramādrājño bhaviṣyati sudāruṇā | anāvṛṣṭissughorā vai sarvabhūtabhayāvahā ||1.9.8||",
+      "wordByWord": "तस्य that, राज्ञ: king, व्यतिक्रमात् violation of code of conduct, सुदारुणा सुघोरा dreadful, सर्वभूतभयावहा frightening all living beings, अनावृष्टि: drought, भविष्यति will set in.",
+      "meaning": "Because of violation of code of conduct by the king, a terrible, dreadful drought frightening all living beings will set in the kingdom."
+    },
+    {
+      "id": "BK-9-9",
+      "shlokaNumber": 9,
+      "sanskrit": "अनावृष्ट्यां तु वृत्तायां राजा दु:खसमन्वित:। ब्राह्मणान्श्रुतवृद्धांश्च समानीय प्रवक्ष्यति।। 1.9.9।।",
+      "transliteration": "anāvṛṣṭyāṃ tu vṛttāyāṃ rājā du:khasamanvita:| brāhmaṇānśrutavṛddhāṃśca samānīya pravakṣyati|| 1.9.9||",
+      "wordByWord": "अनावृष्ट्याम् when drought, वृत्तायाम् will be prevailing, राजा king, दु:खसमन्वित: filled with grief, श्रुतवृद्धान् men who grow old by learning, ब्राह्मणान् brahmins, समानीय summoning, प्रवक्ष्यति will say.",
+      "meaning": "With drought prevailing, the griefstricken king, would summon all those grown old with learning and tell them."
+    },
+    {
+      "id": "BK-9-10",
+      "shlokaNumber": 10,
+      "sanskrit": "भवन्तश्श्रुतधर्माणो लोकचारित्रवेदिन: । समादिशन्तु नियमं प्रायश्चित्तं यथा भवेत् ।।1.9.10।।",
+      "transliteration": "bhavantaśśrutadharmāṇo lokacāritravedina: | samādiśantu niyamṃ prāyaścittṃ yathā bhavet ||1.9.10||",
+      "wordByWord": "भवन्त: all of you, श्रुतधर्माण: are conversant in duties (enjoined by scriptures), लोकचारित्रवेदिन: wellversed in the ways of the world, यथा in whichever manner, प्रायश्चित्तम् expiation, भवेत् happens, नियमम् religious observance, समादिशन्तु instruct.",
+      "meaning": ""
+    },
+    {
+      "id": "BK-9-11",
+      "shlokaNumber": 11,
+      "sanskrit": "वक्ष्यन्ति ते महीपालं ब्राह्मणा वेदपारगा:। विभण्डकसुतं राजन्सर्वोपायैरिहानय।।1.9.11।।",
+      "transliteration": "vakṣyanti te mahīpālṃ brāhmaṇā vedapāragā:| vibhaṇḍakasutṃ rājansarvopāyairihānaya||1.9.11||",
+      "wordByWord": "वेदपारगा: those learned in vedas, ते ब्राह्मणा: those brahmins, महीपालम् addressing the king, वक्ष्यन्ति will say, राजन् O king, विभण्डकसुतम् son of sage Vibhandaka, Rsyasringa, सर्वोपायै: by all means, इह here, आनय bring.",
+      "meaning": "Those brahmins versed in the Vedas, said, to 'O king bring here Rsyasringa, son of the sage Vibhandaka by all means'."
+    },
+    {
+      "id": "BK-9-12",
+      "shlokaNumber": 12,
+      "sanskrit": "आनाय्य च महीपाल ऋश्यशृङ्गं सुसत्कृतम्। प्रयच्छ कन्यां शान्तां वै विधिना सुसमाहित: ।।1.9.12।।",
+      "transliteration": "ānāyya ca mahīpāla ṛśyaśṛṅgṃ susatkṛtam| prayaccha kanyāṃ śāntāṃ vai vidhinā susamāhita: ||1.9.12||",
+      "wordByWord": "महीपाल O Monarch, सुसत्कृतम् greatly honoured, ऋश्यशृङ्गम् Rsyasringa, आनाय्य having brought, समाहित: with due reverence, कन्याम् your daughter, शान्ताम् Shanta, विधिना according to religious ceremonies, प्रयच्छ offer.",
+      "meaning": "\"O monarch, on having brought Rsyasringa here, honour him, and offer him your daughter Santa with due reverence."
+    },
+    {
+      "id": "BK-9-13",
+      "shlokaNumber": 13,
+      "sanskrit": "तेषां तु वचनं श्रुत्वा राजा चिन्तां प्रपत्स्यते । केनोपायेन वै शक्य इहानेतुं स वीर्यवान् ।।1.9.13।।",
+      "transliteration": "teṣāṃ tu vacanṃ śrutvā rājā cintāṃ prapatsyate | kenopāyena vai śakya ihānetuṃ sa vīryavān ||1.9.13||",
+      "wordByWord": "तेषाम् their, वचनम् words, श्रुत्वा having heard, राजा king, वीर्यवान् with controlled senses, सः he, इह here, आनेतुम् to bring, केन उपायेन by what means, शक्य: capable of being done, चिन्ताम् contemplating, प्रपत्स्यते will obtain.",
+      "meaning": "On hearing their words, the king in a thoughtful mood said, 'How can the mighty sage be brought here'?"
+    },
+    {
+      "id": "BK-9-14",
+      "shlokaNumber": 14,
+      "sanskrit": "ततो राजा विनिश्चित्य सह मन्त्रिभिरात्मवान्। पुरोहितममात्यांश्च तत: प्रेष्यति सत्कृतान्।।1.9.14।।",
+      "transliteration": "tato rājā viniścitya saha mantribhirātmavān| purohitamamātyāṃśca tata: preṣyati satkṛtān||1.9.14||",
+      "wordByWord": "तत: thereafter, आत्मवान् intelligent, राजा king, मन्त्रिभि: सह in consultation with his ministers, विनिश्चित्य having decided, तत: thereafter, सत्कृतान् duly honouring, पुरोहितम् priest, अमात्यांश्च counsellors, प्रेष्यति send on a mission.",
+      "meaning": "Thereafter the confident king, having decided, in consultation with his ministers to bring him (Rsyasringa), sent the priest with the counsellors on this mission."
+    },
+    {
+      "id": "BK-9-15",
+      "shlokaNumber": 15,
+      "sanskrit": "ते तु राज्ञो वचश्श्रुशृत्वा व्यथिता विनतानना:। न गच्छेम ऋषेर्भीता अनुनेष्यन्ति तं नृपम् ।। 1.9.15।।",
+      "transliteration": "te tu rājño vacaśśruśṛtvā vyathitā vinatānanā:| na gacchema ṛṣerbhītā anuneṣyanti tṃ nṛpam || 1.9.15||",
+      "wordByWord": "ते they, राज्ञ: king's, वच: words, श्रुत्वा having heard, ऋषे: from the Rishi, भीता: frightened, व्यथिता: distressed, विनतानना: with faces bent down, न गच्छेम we will not go, तम् that, नृपम् king, अनुनेष्यन्ति will appeal.",
+      "meaning": "On hearing the king's words, distressed and frightened by rishi's power, they appealed to the king, faces bent down, 'We will not go'."
+    },
+    {
+      "id": "BK-9-16",
+      "shlokaNumber": 16,
+      "sanskrit": "वक्ष्यन्ति चिन्तयित्वा ते तस्योपायांश्च तत्क्षमान्। आनेष्यामो वयं विप्रं न च दोषो भविष्यति।। 1.9.16।।",
+      "transliteration": "vakṣyanti cintayitvā te tasyopāyāṃśca tatkṣamān| āneṣyāmo vayṃ viprṃ na ca doṣo bhaviṣyati|| 1.9.16||",
+      "wordByWord": "ते they, चिन्तयित्वा having thought about it, तत्क्षमान् useful in bringing him, उपायान् means, तस्य ते for that king, वक्ष्यन्ति will tell, वयम् we, विप्रम् that sage, आनेष्याम: will bring, दोष: blame, न भविष्यति च will not accrue.",
+      "meaning": "After thinking about the means to be employed to bring the rishi to the court, they told him they would bring the sage if they are not to blame (in case anything untoward happens)."
+    },
+    {
+      "id": "BK-9-17",
+      "shlokaNumber": 17,
+      "sanskrit": "एवमङ्गाधिपेनैव गणिकाभि: ऋषेस्सुत:। आनीतोऽवर्षयद्देवश्शान्ता चास्मै प्रदीयते।।1.9.17।।",
+      "transliteration": "evamaṅgādhipenaiva gaṇikābhi: ṛṣessuta:| ānīto'varṣayaddevaśśāntā cāsmai pradīyate||1.9.17||",
+      "wordByWord": "एवम् in this way, अङ्गाधिपेन by the king of Anga region, Romapada, गणिकाभि: with the help of courtesans, ऋषे: सुत: son of sage Vibhandaka, आनीत: was brought, देव: god (Indra), अवर्षयत् poured rains, अस्मै for Rsyasringa, शान्ता Shanta, प्रदीयते च will be offered.",
+      "meaning": "Thus with the help of courtesans of the king of Anga, when the son of the sage (Rsyasringa) was brought rains followed. The king offered his daughter Santa (in marriage to the sage)."
+    },
+    {
+      "id": "BK-9-18",
+      "shlokaNumber": 18,
+      "sanskrit": "ऋश्यशृङ्गस्तु जामाता पुत्रांस्तव विधास्यति। सनत्कुमारकथितमेतावद्व्याहृतं मया।।1.9.18।।",
+      "transliteration": "ṛśyaśṛṅgastu jāmātā putrāṃstava vidhāsyati| sanatkumārakathitametāvadvyāhṛtṃ mayā||1.9.18||",
+      "wordByWord": "जामाता soninlaw, ऋश्यशृङ्गस्तु Rsyasringa, तव your, पुत्रान् sons, विधास्यति will ordain to be born, एतावत् till that instance, सनत्कुमारकथितम् the account communicated by Sanatkumara, मया by me, व्याहृतम् told to you.",
+      "meaning": "'Risyasringa, your soninlaw, would help you to obtain sons'. Thus said Sanathkumara which I have related to you."
+    },
+    {
+      "id": "BK-9-19",
+      "shlokaNumber": 19,
+      "sanskrit": "अथ हृष्टो दशरथस्सुमन्त्रं प्रत्यभाषत। यथर्श्यशृङ्गस्त्वानीतो विस्तरेण त्वयोच्यताम्।।1.9.19।।",
+      "transliteration": "atha hṛṣṭo daśarathassumantrṃ pratyabhāṣata| yatharśyaśṛṅgastvānīto vistareṇa tvayocyatām||1.9.19||",
+      "wordByWord": "अथ now, हृष्ट: pleased, दशरथ: king Dasaratha, सुमन्त्रं प्रति addressing Sumantra, अभाषत spoke, ऋष्यशृङ्ग: Rsyasringa, यथा by whatever means, आनीत: was brought, त्वया by you, विस्तरेण in detail, उच्यताम् be described.",
+      "meaning": "Thereupon Dasaratha, pleased, (with him), said to Sumantra, \"Describe in detail the means by which Rsyasringa was brought (to the court of Romapada)\". इत्यार्षे श्रीमद्रामायणे वाल्मीकीय आदिकाव्ये बालकाण्डे नवमस्सर्ग:।। Thus ends the ninth sarga of Balakanda of the holy Ramayana of the first epic composed by sage Valmiki."
+    }
+  ]
+}

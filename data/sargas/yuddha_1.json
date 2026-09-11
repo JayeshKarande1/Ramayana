@@ -1,0 +1,161 @@
+{
+  "kanda": "yuddha",
+  "kandaName": "Yuddha Kanda",
+  "sarga": 1,
+  "title": "Sarga 1",
+  "totalShlokas": 19,
+  "shlokas": [
+    {
+      "id": "YK-1-1",
+      "shlokaNumber": 1,
+      "sanskrit": "श्रुत्वा हनुमतो वाक्यं यथावदभिभाषितम् । रामः प्रीतिसमायुक्तो वाक्यमुत्तरमब्रवीत् ।।6.1.1।।",
+      "transliteration": "śrutvā hanumato vākyṃ yathāvadabhibhāṣitam | rāmḥ prītisamāyukto vākyamuttaramabravīt ||6.1.1||",
+      "wordByWord": "रामः Rama, यथावत्: in that manner, अभिभाषितम् : spoken , हनुमतः by Hanuman, वाक्यम्: words,श्रुत्वा: having heard, प्रीतिसमायुक्तः filled with love, उत्तरम: replied, वाक्यम्: words, अब्रवीत्: said",
+      "meaning": "Having heard Hanuman's words, full of love, Rama replied."
+    },
+    {
+      "id": "YK-1-2",
+      "shlokaNumber": 2,
+      "sanskrit": "कृतं हनुमता कार्यं सुमहद्भुवि दुर्लभम् । मनसापि यदन्येन न शक्यं धरणीतले ।।6.1.2।।",
+      "transliteration": "kṛtṃ hanumatā kāryṃ sumahadbhuvi durlabham | manasāpi yadanyena na śakyṃ dharaṇītale ||6.1.2||",
+      "wordByWord": "हनुमता: Hanuman, यत्: such , धरणीतले: on this earth, अन्येन: by any one, मनसापि: even to think, नशक्यम्: not possible, सुमहत्: mighty, भुवि: world, दुर्लभम्: difficult, कार्यम्: task, कृतम्: has performed.",
+      "meaning": "\"Hanuman You have performed a mighty task indeed, which is difficult even to think of in this world and not possible for any one else on this earth.\""
+    },
+    {
+      "id": "YK-1-3",
+      "shlokaNumber": 3,
+      "sanskrit": "न हि तं परिपश्यामि यस्तरेत महार्णवम् । अन्यत्र गरुडाद्वायोरन्यत्र च हनूमतः ।।6.1.3।।",
+      "transliteration": "na hi tṃ paripaśyāmi yastareta mahārṇavam | anyatra garuḍādvāyoranyatra ca hanūmatḥ ||6.1.3||",
+      "wordByWord": "गरुडात्: by Garuda( the vehicle of Visnu ), वायोः by windgod, अन्यत्र: anyone other than, हनूमतः by Hanuman, अन्यत्र: none other than, यः this, महार्णवम्: great ocean, तरेत: can cross, हि: indeed, परिपश्यामि: not seen",
+      "meaning": "\"None else than Garuda or Vayu have I seen to have crossed this great ocean crossed by you, Hanuman.\""
+    },
+    {
+      "id": "YK-1-4",
+      "shlokaNumber": 4,
+      "sanskrit": "देवदानवयक्षाणां गन्धर्वोरगरक्षसाम् । अप्रधृष्यां पुरीं लङ्कां रावणेन सुरक्षिताम् । प्रवष्ट स्सत्त्वमाश्रित्यश्वसन्को नाम निष्क्रमेत् ।।6.1.4।।",
+      "transliteration": "devadānavayakṣāṇāṃ gandharvoragarakṣasām | apradhṛṣyāṃ purīṃ laṅkāṃ rāvaṇena surakṣitām | pravaṣṭa ssattvamāśrityaśvasanko nāma niṣkramet ||6.1.4||",
+      "wordByWord": "देवदानवयक्षाणाम्: for devas, danavas, yakshas, गन्धर्वोरगरक्षसाम्गन्धर्वोरगरक्षसाम् gandharvas ,uragas , rakshasas, अप्रधृष्याम्: unimaginable to cross, रावणेन: by Ravana, सुरक्षिताम्: highly protected, पुरीम्: city, सत्त्वम्: strength, आश्रित्य: resorted, प्रविष्टः enter, को नाम: who indeed, श्वसन्: life, निष्क्रमेत्: can return",
+      "meaning": "\"Indeed, who has the strength to return alive after entering that city highly protected by Ravana. It is unimaginable even for devas, danavas, yakshas, gandharvas, uragas and rakshasas to cross.\""
+    },
+    {
+      "id": "YK-1-5",
+      "shlokaNumber": 5,
+      "sanskrit": "को विशेत्सुदुराधर्षां राक्षसैश्च सुरक्षिताम् । यो वीर्यबलसम्पन्नो न समस्याद्धनूमतः ।।6.1.5।।",
+      "transliteration": "ko viśetsudurādharṣāṃ rākṣasaiśca surakṣitām | yo vīryabalasampanno na samasyāddhanūmatḥ ||6.1.5||",
+      "wordByWord": "यः he who , वीर्यबलसम्पन्नः abounding in valour and strength, हनूमतः Hanuman, नस्यात्: not possible , कः which सुदुराधर्षाम्: inaccessible, राक्षसैः by rakshasas, सुरक्षिताम्: highly protected, विशेत्: to enter",
+      "meaning": "\"Except for Hanuman, who is abounding in valour and strength, it is not possible for others to enter the inaccessible Lanka highly protected by rakshasas.\""
+    },
+    {
+      "id": "YK-1-6",
+      "shlokaNumber": 6,
+      "sanskrit": "भृत्यकार्यं हनुमता सुग्रीवस्य कृतंमहत् । स्वयं विधाय स्वबलं सदृशं विक्रमस्य च ।।6.1.6।।",
+      "transliteration": "bhṛtyakāryṃ hanumatā sugrīvasya kṛtṃmahat | svayṃ vidhāya svabalṃ sadṛśṃ vikramasya ca ||6.1.6||",
+      "wordByWord": "हनुमता: Hanuman, विक्रमस्य: by his valour, सदृशम्: mighty form, स्वबलम्: own strength, विधाय: what ought to be done, सुग्रीवस्य: Sugriva's, महत्: great, भृत्यकार्यम्: task assigned, कृतम्: carried out",
+      "meaning": "\"Hanuman, with his mighty form and valour not only carried out a great task assigned by Sugriva but also what had to be done as duty.\""
+    },
+    {
+      "id": "YK-1-7",
+      "shlokaNumber": 7,
+      "sanskrit": "यो हि भृत्यो नियुक्तस्सन्भर्त्रा कर्मणि दुष्करे । कुर्यात्तदनुरागेण तमाहुः पुरुषोत्तमम् ।।6.1.7।।",
+      "transliteration": "yo hi bhṛtyo niyuktassanbhartrā karmaṇi duṣkare | kuryāttadanurāgeṇa tamāhuḥ puruṣottamam ||6.1.7||",
+      "wordByWord": "यः he who, भृत्यः servant, दुष्करे: formidable, कर्मणि: task, भर्त्रा: master, नियुक्तः entrusted by, सन्: bestow, तत्: that, अनुरागेण: with love, कुर्यात्: does, तम्: him, पुरुषोत्तमम्: the best among men, आहुः is said to be",
+      "meaning": "\"He, who carries out a formidable task entrusted to him by the master, with love is said to be the best among men.\""
+    },
+    {
+      "id": "YK-1-8",
+      "shlokaNumber": 8,
+      "sanskrit": "नियुक्तोय: परं कार्यं न कुर्यान्नृपतेः प्रियम् । भृत्योऽभृत्यस्समर्थोऽपि तमाहुर्मध्यमं नरम् ।।6.1.8।।",
+      "transliteration": "niyuktoya: parṃ kāryṃ na kuryānnṛpateḥ priyam | bhṛtyo'bhṛtyassamartho'pi tamāhurmadhyamṃ naram ||6.1.8||",
+      "wordByWord": "यः he, भृत्यः is a servant, समर्थ: efficient, अभृत्य: not a servant, नियुक्तः told, नृपते: by king, प्रियम्: dear, कार्यम्: work, परम्: other, नकुर्यात्: does not do, तम्: him, नरम्: mediocre, अहु: said to be",
+      "meaning": "An efficient servant does not only do what is asked but also does the work dear to the king. One who does not do so is said to be mediocre."
+    },
+    {
+      "id": "YK-1-9",
+      "shlokaNumber": 9,
+      "sanskrit": "नियुक्तो नृपतेः कार्यं न कुर्याद्यस्समाहितः । भृत्यो युक्तस्समर्थश्च तमाहुः पुरुषाधमम् ।।6.1.9।।",
+      "transliteration": "niyukto nṛpateḥ  kāryṃ na kuryādyassamāhitḥ | bhṛtyo yuktassamarthaśca tamāhuḥ puruṣādhamam ||6.1.9||",
+      "wordByWord": "नियुक्तः one who is entrusted, यः he , भृत्यः servant, युक्तः capable, समर्थश्च: who is efficient, नृपतेः by the king, कार्यम्: work, समाहितः who has agreed, कुर्यात्: not do the work , तम्: him, पुरुषाधमम्: lowly person, अहुः said to be",
+      "meaning": "\"If one who is capable and efficient has been entrusted with a task by a king and fails to do the work agreed to, is said to be a lowly person.\""
+    },
+    {
+      "id": "YK-1-10",
+      "shlokaNumber": 10,
+      "sanskrit": "तन्नियोगे नियुक्तेन कृतं कृत्यं हनूमता । न चात्मा लघुतां नीतस्सुग्रीवश्चापि तोषितः ।।6.1.10।।",
+      "transliteration": "tanniyoge niyuktena kṛtṃ kṛtyṃ hanūmatā | na cātmā laghutāṃ nītassugrīvaścāpi toṣitḥ ||6.1.10||",
+      "wordByWord": "तत्: that, नियोगे: assigned, नियुक्तेन: which is favourable, हनूमता: Hanuman, कृत्यम्: had to be done, कृतम्: having accomplished, आत्मा: on his own, लघुताम् :difficulty, न: not, नीतः carried out सुग्रीवश्चापि: even to Sugriva, तोषितः made happy",
+      "meaning": "\"Having done the task assigned to him, Hanuman carried out what had to be done and accomplished without difficulty. This made Sugriva also happy.\""
+    },
+    {
+      "id": "YK-1-11",
+      "shlokaNumber": 11,
+      "sanskrit": "अहं च रघुवंशश्च लक्ष्मणश्च महाबलः । वैदेह्या दर्शनेनाद्य धर्मतः परिरक्षिताः ।।6.1.11।।",
+      "transliteration": "ahṃ ca raghuvṃśaśca lakṣmaṇaśca mahābalḥ | vaidehyā darśanenādya dharmatḥ parirakṣitāḥ ||6.1.11||",
+      "wordByWord": "वैदेह्या: Vaidehi's, दर्शनेन: by seeing, अद्य: now, अहं च: I am also, रघुवंशश्च: those of Raghu dynasty, महाबलः mighty, लक्ष्मणश्च: Lakshmana's, धर्मतः rightfully, परिरक्षिताः protected.",
+      "meaning": "\"On Hanuman finding Vaidehi, I and, mighty Lakshmana and the whole of Raghu dynasty are now rightfully protected.\""
+    },
+    {
+      "id": "YK-1-12",
+      "shlokaNumber": 12,
+      "sanskrit": "इदं तु मम दीनस्य मनो भूयः प्रकर्षति । यदिहास्य प्रियाख्यातुर्न कुर्मि सदृशं प्रियम् ।।6.1.12।।",
+      "transliteration": "idṃ tu mama dīnasya mano bhūyḥ prakarṣati | yadihāsya priyākhyāturna kurmi sadṛśṃ priyam ||6.1.12||",
+      "wordByWord": "तु: on the other hand, प्रियाख्यातुः who has spoken pleasing words, अस्य: to him, सदृशम्: to see, प्रियम्: pleasing, यत् न कुर्मि: not able to do to such person, इदम्: this, दीनस्य: piteous, मम: me, मनः mind भूयः further, प्रकर्षति: causing exceedingly",
+      "meaning": "\"On the other hand, it is a pity that I am not able to please such a person who has spoken pleasing words. Further this causes grief to me.\""
+    },
+    {
+      "id": "YK-1-13",
+      "shlokaNumber": 13,
+      "sanskrit": "एष सर्वस्वभूते परिष्वङ्गो हनूमतः । मया कालमिमं प्राप्य दत्तस्तस्य महात्मनः ।।6.1.13।।",
+      "transliteration": "eṣa sarvasvabhūte pariṣvaṅgo hanūmatḥ | mayā kālamimṃ prāpya dattastasya mahātmanḥ ||6.1.13||",
+      "wordByWord": "मया: me, इमम्: such, कालम्: time, प्राप्य: attained, महात्मनः great person, तस्य: to him, हनूमतः Hanuman, सर्वस्वभूतः everything, एषः परिष्वङ्गः this embrace, मे दत्तः that I give",
+      "meaning": "\"To such a great one who attained success at this time, everything can be given. I give my embrace.\""
+    },
+    {
+      "id": "YK-1-14",
+      "shlokaNumber": 14,
+      "sanskrit": "इत्युक्त्वा प्रीतिहृष्टाङ्गो रामस्तं परिषस्वजे । हनूमन्तं कृतात्मानं कृतकार्यमुपागतम् ।।6.1.14।।",
+      "transliteration": "ityuktvā prītihṛṣṭāṅgo rāmastṃ pariṣasvaje | hanūmantṃ kṛtātmānṃ kṛtakāryamupāgatam ||6.1.14||",
+      "wordByWord": "रामः Rama, इति: thus, उक्त्वा: having said, प्रीतिहृष्टाङ्गः experiencing the joy of love all over the body, कृतात्मानम्: one who has accomplished, कृतकार्यम्: his duty, उपागतम्: returned back, तं हनूमन्तम्: to him, Hanuman, परिषस्वजे: embraced.",
+      "meaning": "Having said so, Rama experienced the joy of love all over his body and embraced Hanuman who returned successful."
+    },
+    {
+      "id": "YK-1-15",
+      "shlokaNumber": 15,
+      "sanskrit": "ध्यात्वा पुनरुवाचेदं वचनं रघुनन्दनः । हरीणामीश्वरस्यापि सुग्रीवस्योपशृण्वतः ।।6.1.15।।",
+      "transliteration": "dhyātvā punaruvācedṃ vacanṃ raghunandanḥ | harīṇāmīśvarasyāpi sugrīvasyopaśṛṇvatḥ ||6.1.15||",
+      "wordByWord": "रघुनन्दनः Rama the delight of Raghu dynasty, ध्यात्वा: thought over , हरीणाम्: of monkeys, ईश्वरस्य: lord, सुग्रीवस्य: Sugriva's, उपशृण्वतः while listening, पुनः again, इदं वचनम्: these words, उवाच: spoke",
+      "meaning": "Rama, the delight of Raghu dynasty thought over and said while Sugriva, the lord of monkeys was still listening."
+    },
+    {
+      "id": "YK-1-16",
+      "shlokaNumber": 16,
+      "sanskrit": "सर्वथा सुकृतं तावत्सीतायाः परिमार्गणम् । सागरं तु समासाद्य पुनर्नष्टं मनो मम ।।6.1.16।।",
+      "transliteration": "sarvathā sukṛtṃ tāvatsītāyāḥ parimārgaṇam | sāgarṃ tu samāsādya punarnaṣṭṃ mano mama ||6.1.16||",
+      "wordByWord": "सीतायाः Sita's, परिमार्गणम्: in searching, सर्वथा: by all means, सुकृतम्: good work, तु: but( on the contrary), सागरम्: ocean, समासाद्य : having succeeded, मम मनः my mind, पुनः again, नष्टम्: fear",
+      "meaning": "\"By all means good work was done in searching for Sita. On the contrary, having succeeded, my mind is once again agitated when I think of (crossing) the ocean.\""
+    },
+    {
+      "id": "YK-1-17",
+      "shlokaNumber": 17,
+      "sanskrit": "कथं नाम समुद्रस्य दुष्पारस्य महाम्भसः । हरयो दक्षिणं पारं गमिष्यन्ति समागताः ।।6.1.17।।",
+      "transliteration": "kathṃ nāma samudrasya duṣpārasya mahāmbhasḥ | harayo dakṣiṇṃ pārṃ gamiṣyanti samāgatāḥ ||6.1.17||",
+      "wordByWord": "समागताः come together, हरय: monkeys, दुष्पारस्य: difficult to cross, महाम्भसः vast ocean, समुद्रस्य: ocean's, दक्षिणम्: southern, पारम्: shore, कथम्: how can, गमिष्यन्ति: be able to cross",
+      "meaning": "\"How will all the monkeys together be able to cross to the southern shore of the vast ocean? It is difficult to cross.\""
+    },
+    {
+      "id": "YK-1-18",
+      "shlokaNumber": 18,
+      "sanskrit": "यद्यप्येष तु वृत्तान्तो वैदेह्या गदितो मम । समुद्रपारगमने हरीणां किमिहोत्तरम् ।।6.1.18।।",
+      "transliteration": "yadyapyeṣa tu vṛttānto vaidehyā gadito mama | samudrapāragamane harīṇāṃ kimihottaram ||6.1.18||",
+      "wordByWord": "वैदेह्या: to Vaidehi, एषः all this , वृत्तान्तः matter, मम: by me , गदितो: told, यद्यपि: even though, हरीणाम्: the monkeys, समुद्रपारगमने : to cross the ocean, उत्तरम्: enquired, किम्: what",
+      "meaning": "\"This has been told to me by Vaidehi. How will the monkeys cross the ocean(enquired Vaidehi).\""
+    },
+    {
+      "id": "YK-1-19",
+      "shlokaNumber": 19,
+      "sanskrit": "इत्युक्तवा शोकसम्भ्रान्तो राम श्शत्रुनिबर्हणः । हनूमन्तं महाबाहुस्ततो ध्यानमुपागमत् ।।6.1.19।।",
+      "transliteration": "ityuktavā śokasambhrānto rāma śśatrunibarhaṇḥ | hanūmantṃ mahābāhustato dhyānamupāgamat ||6.1.19||",
+      "wordByWord": "शत्रुनिबर्हणः destroyer of enemy, महाबाहुः mighty armed, रामः Rama , हनूमन्तम्: at Hanuman, इति: thus, उक्त्वा: said, शोकसंभ्रान्तः agitated with sorrow, ध्यानम्: reflected, उपागमत्: approaching",
+      "meaning": "Agitated with sorrow, mighty armed Rama, the destroyer of enemies approached Hanuman and reflected (about the crossing of the ocean). इत्यार्षे श्रीमद्रामायणे वाल्मीकीये आदिकाव्ये युद्धकाण्डे प्रथमस्सर्गः This is the end of the first Sarga of Yuddha Kanda of the first epic the holy Ramayana composed by sage Valmiki."
+    }
+  ]
+}

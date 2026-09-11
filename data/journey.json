@@ -1,0 +1,333 @@
+[
+  {
+    "stop": 1,
+    "name": "Ayodhya",
+    "sanskritName": "अयोध्या",
+    "kanda": "Bala Kanda",
+    "location": "Ayodhya, Uttar Pradesh",
+    "coordinates": {
+      "latitude": 26.79,
+      "longitude": 82.2
+    },
+    "description": "The sacred city on the banks of the Sarayu where Lord Rama was born as the eldest son of King Dasharatha. From here, young Rama accompanied Sage Vishwamitra to protect his yagna, and later won Sita's hand by breaking Lord Shiva's mighty bow at the Swayamvar in Mithila.",
+    "tags": [
+      "Rama's divine birth",
+      "Training under Vishwamitra",
+      "Sita Swayamvar"
+    ],
+    "featuredShloka": {
+      "sanskrit": "रामो विग्रहवान् धर्मः साधुः सत्यपराक्रमः",
+      "meaning": "Rama is dharma incarnate — noble, truthful, and truly valorous"
+    },
+    "mapsUrl": "https://www.google.com/maps?q=26.79,82.2"
+  },
+  {
+    "stop": 2,
+    "name": "Shringaverapura",
+    "sanskritName": "शृङ्गवेरपुर",
+    "kanda": "Ayodhya Kanda",
+    "location": "Sringverpur, Uttar Pradesh",
+    "coordinates": {
+      "latitude": 25.53,
+      "longitude": 81.73
+    },
+    "description": "The first halt after leaving Ayodhya. Here Nishad Raj Guha, the tribal king and devoted friend, ferried Rama, Sita, and Lakshmana across the sacred Ganga. Guha's selfless devotion shows that dharma knows no caste or kingdom.",
+    "tags": [
+      "Crossing the Ganga",
+      "Nishad Raj Guha's devotion",
+      "Farewell to Sumantra"
+    ],
+    "featuredShloka": {
+      "sanskrit": "निषादराजो बलवान् रामस्य आत्मसमः सखा",
+      "meaning": "The mighty Nishad king was a friend as dear to Rama as his own self"
+    },
+    "mapsUrl": "https://www.google.com/maps?q=25.53,81.73"
+  },
+  {
+    "stop": 3,
+    "name": "Prayag",
+    "sanskritName": "प्रयाग",
+    "kanda": "Ayodhya Kanda",
+    "location": "Prayagraj, Uttar Pradesh",
+    "coordinates": {
+      "latitude": 25.44,
+      "longitude": 81.85
+    },
+    "description": "At the sacred confluence of the Ganga, Yamuna, and the invisible Saraswati, Rama visited the ashram of Sage Bharadwaja. The sage blessed them and directed them southward to Chitrakoot, where they could live in peace amidst nature.",
+    "tags": [
+      "Triveni Sangam visit",
+      "Sage Bharadwaja's blessings",
+      "Direction to Chitrakoot"
+    ],
+    "featuredShloka": {
+      "sanskrit": "गच्छ रामानुजानामि सिद्धिः तेऽस्तु सदा पथि",
+      "meaning": "Go forth, Rama — may success always accompany your path"
+    },
+    "mapsUrl": "https://www.google.com/maps?q=25.44,81.85"
+  },
+  {
+    "stop": 4,
+    "name": "Chitrakoot",
+    "sanskritName": "चित्रकूट",
+    "kanda": "Ayodhya Kanda",
+    "location": "Chitrakoot, Uttar Pradesh / Madhya Pradesh",
+    "coordinates": {
+      "latitude": 25.2,
+      "longitude": 80.9
+    },
+    "description": "The forested hills by the Mandakini River where Rama, Sita, and Lakshmana built their first forest dwelling. It was here that Bharata came with the entire court of Ayodhya to plead with Rama to return. When Rama refused, Bharata carried his brother's sandals back to rule as regent — one of the most poignant moments in the epic.",
+    "tags": [
+      "Forest dwelling built",
+      "Bharata's plea",
+      "Rama's sandals on the throne"
+    ],
+    "featuredShloka": {
+      "sanskrit": "पादुके प्रतिगृह्णीष्व इमे मे भरत आर्यवत्",
+      "meaning": "Accept these sandals, O noble Bharata — they shall rule in my place"
+    },
+    "mapsUrl": "https://www.google.com/maps?q=25.2,80.9"
+  },
+  {
+    "stop": 5,
+    "name": "Dandaka Forest",
+    "sanskritName": "दण्डकारण्य",
+    "kanda": "Aranya Kanda",
+    "location": "Central India (MP, Chhattisgarh, Maharashtra)",
+    "coordinates": {
+      "latitude": 20.5,
+      "longitude": 80.0
+    },
+    "description": "The vast Dandakaranya forest stretched across central India where Rama spent nearly ten years visiting sage ashrams and protecting them from Rakshasa attacks. This immense wilderness tested their resolve and deepened their spiritual discipline.",
+    "tags": [
+      "10 years in the forest",
+      "Protecting sage ashrams",
+      "Slaying demons"
+    ],
+    "featuredShloka": {
+      "sanskrit": "तपस्विनां रक्षणार्थं राक्षसानां वधाय च",
+      "meaning": "For the protection of the sages and the destruction of the demons"
+    },
+    "mapsUrl": "https://www.google.com/maps?q=20.5,80"
+  },
+  {
+    "stop": 6,
+    "name": "Panchavati",
+    "sanskritName": "पञ्चवटी",
+    "kanda": "Aranya Kanda",
+    "location": "Nashik, Maharashtra",
+    "coordinates": {
+      "latitude": 20.01,
+      "longitude": 73.79
+    },
+    "description": "On the banks of the Godavari River, Rama built a beautiful dwelling among five banyan trees. This idyllic place became the stage for the epic's great turning point — Shurpanakha's encounter with Rama, which set Ravana's wrath in motion, leading to the abduction of Sita.",
+    "tags": [
+      "Shurpanakha's encounter",
+      "Khara-Dushana battle",
+      "Sita's abduction by Ravana"
+    ],
+    "featuredShloka": {
+      "sanskrit": "गोदावर्याः समीपे तु पञ्चवट्यां तपोवने",
+      "meaning": "Near the Godavari, in the sacred grove of Panchavati"
+    },
+    "mapsUrl": "https://www.google.com/maps?q=20.01,73.79"
+  },
+  {
+    "stop": 7,
+    "name": "Lepakshi",
+    "sanskritName": "लेपाक्षी",
+    "kanda": "Aranya Kanda",
+    "location": "Lepakshi, Andhra Pradesh",
+    "coordinates": {
+      "latitude": 15.48,
+      "longitude": 77.61
+    },
+    "description": "As Ravana carried Sita through the sky, the mighty eagle king Jatayu fought valiantly to save her. Mortally wounded, Jatayu fell here. When Rama found the dying bird, Jatayu told him of Sita's abduction and the direction Ravana flew. Rama said 'Le Pakshi' (rise, bird) — giving this place its name.",
+    "tags": [
+      "Jatayu's heroic battle",
+      "Jatayu reveals Ravana's direction",
+      "Rama's grief"
+    ],
+    "featuredShloka": {
+      "sanskrit": "गृध्रराजो महाप्राज्ञो जटायुः पतगोत्तमः",
+      "meaning": "Jatayu, the wise king of eagles, greatest among birds"
+    },
+    "mapsUrl": "https://www.google.com/maps?q=15.48,77.61"
+  },
+  {
+    "stop": 8,
+    "name": "Shabari Ashram",
+    "sanskritName": "शबरी आश्रम",
+    "kanda": "Aranya Kanda",
+    "location": "Pampa Sarovar, Karnataka",
+    "coordinates": {
+      "latitude": 15.35,
+      "longitude": 76.39
+    },
+    "description": "At the sacred Pampa lake, the elderly tribal woman Shabari had waited years for Rama's arrival. She offered him berries — tasting each one first to ensure only the sweetest reached him. Rama accepted them with love, showing that pure devotion transcends all social boundaries.",
+    "tags": [
+      "Shabari's devotion",
+      "Tasting the berries",
+      "Directed to Sugriva"
+    ],
+    "featuredShloka": {
+      "sanskrit": "भक्त्या तु पूजितं ग्राह्यं भक्तिः मे सदा प्रिया",
+      "meaning": "What is offered with devotion, I accept — devotion is forever dear to me"
+    },
+    "mapsUrl": "https://www.google.com/maps?q=15.35,76.39"
+  },
+  {
+    "stop": 9,
+    "name": "Kishkindha",
+    "sanskritName": "किष्किन्धा",
+    "kanda": "Kishkindha Kanda",
+    "location": "Hampi, Karnataka",
+    "coordinates": {
+      "latitude": 15.34,
+      "longitude": 76.46
+    },
+    "description": "The boulder-strewn kingdom of the Vanaras along the Tungabhadra River. Here Rama met Hanuman — who would become his greatest devotee — and forged an alliance with Sugriva. Together they assembled a vast army to search for Sita across the four directions.",
+    "tags": [
+      "Meeting Hanuman",
+      "Alliance with Sugriva",
+      "Vanara army assembled"
+    ],
+    "featuredShloka": {
+      "sanskrit": "को न्वेष मनुजव्याघ्रः कांचनवर्णो महाबलः",
+      "meaning": "Who is this tiger among men, golden-hued and supremely powerful?"
+    },
+    "mapsUrl": "https://www.google.com/maps?q=15.34,76.46"
+  },
+  {
+    "stop": 10,
+    "name": "Rishyamukha",
+    "sanskritName": "ऋष्यमूक",
+    "kanda": "Kishkindha Kanda",
+    "location": "Anegundi, Karnataka",
+    "coordinates": {
+      "latitude": 15.36,
+      "longitude": 76.49
+    },
+    "description": "The mountain where Sugriva lived in exile after being banished by his brother Vali. From this hilltop, Sugriva spotted Rama and Lakshmana approaching and sent Hanuman to investigate — the fateful meeting that changed the course of the epic. Nearby Anjanadri Hill is believed to be Hanuman's birthplace.",
+    "tags": [
+      "Sugriva's exile refuge",
+      "Hanuman sent to meet Rama",
+      "Hanuman's birthplace nearby"
+    ],
+    "featuredShloka": {
+      "sanskrit": "ऋष्यमूकस्य पृष्ठे तु बहुपादपसंकुले",
+      "meaning": "On the summit of Rishyamukha, dense with many trees"
+    },
+    "mapsUrl": "https://www.google.com/maps?q=15.36,76.49"
+  },
+  {
+    "stop": 11,
+    "name": "Southern Coast",
+    "sanskritName": "दक्षिणसागरतट",
+    "kanda": "Sundara Kanda",
+    "location": "Southern Tamil Nadu",
+    "coordinates": {
+      "latitude": 10.23,
+      "longitude": 77.49
+    },
+    "description": "The Vanara search party led by Angada traveled south through dense forests and mountains. When they reached the southern coast and despaired, the aged bear Jambavan reminded Hanuman of his forgotten divine powers — inspiring the mighty leap across the ocean to Lanka.",
+    "tags": [
+      "Southward search",
+      "Jambavan awakens Hanuman's power",
+      "Hanuman prepares to leap"
+    ],
+    "featuredShloka": {
+      "sanskrit": "न हि तद्विद्यते किञ्चित् त्रिषु लोकेषु राघव",
+      "meaning": "There is nothing in the three worlds impossible for Hanuman"
+    },
+    "mapsUrl": "https://www.google.com/maps?q=10.23,77.49"
+  },
+  {
+    "stop": 12,
+    "name": "Rameshwaram",
+    "sanskritName": "रामेश्वरम्",
+    "kanda": "Yuddha Kanda",
+    "location": "Rameshwaram, Tamil Nadu",
+    "coordinates": {
+      "latitude": 9.29,
+      "longitude": 79.31
+    },
+    "description": "At India's southern tip, Rama worshipped Lord Shiva before the great battle. He established the sacred Shiva Linga and sought blessings for victory. From this coast, the Vanara engineer Nala designed the bridge across the ocean — each stone placed with devotion and Rama's name.",
+    "tags": [
+      "Shiva Linga worship",
+      "Bridge planning with Nala",
+      "Army gathers at the shore"
+    ],
+    "featuredShloka": {
+      "sanskrit": "समुद्रं शोषयिष्यामि पद्भ्यां यान्तु प्लवंगमाः",
+      "meaning": "I shall dry up the ocean — let the Vanaras cross on foot"
+    },
+    "mapsUrl": "https://www.google.com/maps?q=9.29,79.31"
+  },
+  {
+    "stop": 13,
+    "name": "Ram Setu",
+    "sanskritName": "रामसेतु",
+    "kanda": "Yuddha Kanda",
+    "location": "Adam's Bridge, Palk Strait",
+    "coordinates": {
+      "latitude": 9.13,
+      "longitude": 79.07
+    },
+    "description": "The legendary 48-kilometer bridge of floating stones built by the Vanara army across the Palk Strait. Each stone, inscribed with Rama's name, floated on the ocean. NASA satellite imagery confirms the existence of a limestone shoal chain at this exact location — one of the Ramayana's most tangible geographic connections.",
+    "tags": [
+      "Bridge construction by Vanara army",
+      "Stones float with Rama's name",
+      "Army crosses to Lanka"
+    ],
+    "featuredShloka": {
+      "sanskrit": "नलसेतुः कृतो येन सागरे अप्रतिमं महत्",
+      "meaning": "Nala built an incomparable great bridge across the ocean"
+    },
+    "mapsUrl": "https://www.google.com/maps?q=9.13,79.07"
+  },
+  {
+    "stop": 14,
+    "name": "Lanka",
+    "sanskritName": "लङ्का",
+    "kanda": "Yuddha Kanda",
+    "location": "Sri Lanka",
+    "coordinates": {
+      "latitude": 7.87,
+      "longitude": 79.88
+    },
+    "description": "The golden city of Ravana, surrounded by the ocean. Here the great war was fought — Rama's army of Vanaras against Ravana's Rakshasa forces. After fierce battles with Kumbhakarna, Indrajit, and finally Ravana himself, dharma triumphed. Sita was rescued, and Vibhishana was crowned the righteous king of Lanka.",
+    "tags": [
+      "The great war begins",
+      "Kumbhakarna and Indrajit fall",
+      "Ravana's defeat",
+      "Sita rescued"
+    ],
+    "featuredShloka": {
+      "sanskrit": "धर्मात्मा सत्यसन्धश्च रामो दाशरथिर्यदि। पौरुषे चाप्रतिद्वन्द्वः शरैनं जहि रावणम्",
+      "meaning": "If Rama, son of Dasharatha, is truly righteous and unmatched in valor — then let this arrow slay Ravana"
+    },
+    "mapsUrl": "https://www.google.com/maps?q=7.87,79.88"
+  },
+  {
+    "stop": 15,
+    "name": "Return to Ayodhya",
+    "sanskritName": "अयोध्यागमनम्",
+    "kanda": "Uttara Kanda",
+    "location": "Ayodhya, Uttar Pradesh (aerial return)",
+    "coordinates": {
+      "latitude": 26.79,
+      "longitude": 82.2
+    },
+    "description": "Victorious, Rama returned to Ayodhya aboard the Pushpaka Vimana — the celestial flying chariot. The citizens lit thousands of lamps to welcome their king, a tradition celebrated to this day as Diwali. Rama's coronation began the golden age of Rama Rajya — a reign of perfect dharma, justice, and prosperity.",
+    "tags": [
+      "Pushpaka Vimana flight",
+      "Diwali — Festival of Lights",
+      "Rama Rajya begins"
+    ],
+    "featuredShloka": {
+      "sanskrit": "रामो राज्यमुपासित्वा विमानं पुष्पकं ततः",
+      "meaning": "Rama, having attained the kingdom, then ascended the Pushpaka Vimana"
+    },
+    "mapsUrl": "https://www.google.com/maps?q=26.79,82.2"
+  }
+]

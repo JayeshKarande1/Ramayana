@@ -1,0 +1,57 @@
+{
+  "kanda": "sundara",
+  "kandaName": "Sundara Kanda",
+  "sarga": 60,
+  "title": "Sarga 60",
+  "totalShlokas": 6,
+  "shlokas": [
+    {
+      "id": "SK-60-1",
+      "shlokaNumber": 1,
+      "sanskrit": "तस्य तद्वचनं श्रुत्वा वालिसूनुरभाषत। अयुक्तं तु विना देवीं दृष्टवद्भिश्च वानराः।।5.60.1।। समीपं गन्तुमस्माभी राघवस्य महात्मनः।",
+      "transliteration": "tasya tadvacanṃ śrutvā vālisūnurabhāṣata| ayuktṃ tu vinā devīṃ dṛṣṭavadbhiśca vānarāḥ||5.60.1|| samīpṃ gantumasmābhī rāghavasya mahātmanḥ|",
+      "wordByWord": "तस्य his, तत् that, वचनम् words, श्रुत्वा on hearing, वालिसूनुः Vali's son, अभाषत said this, वानराः O vanaras, दृष्टवद्भिः even after seeing, अस्माभिः her, देवीं विना without Sita, महात्मनः great soul, राघवस्य to Rama, समीपम् near, गन्तुम् going, अयुक्तं तु not appropriate.",
+      "meaning": "After hearing Hanuman, Vali's son said\" O vanaras (Hanuman) having seen Sita it is not proper on our part to go without Sita to the great soul Rama."
+    },
+    {
+      "id": "SK-60-2",
+      "shlokaNumber": 2,
+      "sanskrit": "दृष्टा देवी न चानीता इति तत्र निवेदनम्।।5.60.2।। अयुक्तमिव पश्यामि भवद्भिः ख्यातविक्रमैः।",
+      "transliteration": "dṛṣṭā devī na cānītā iti tatra nivedanam||5.60.2|| ayuktamiva paśyāmi bhavadbhiḥ khyātavikramaiḥ|",
+      "wordByWord": "ख्यातविक्रमैः known for valour, भवद्भिः you too, देवी godlike lady, दृष्टा seeing, न आनीता च not brought her, इति this, तत्र there, निवेदनम् tell, अयुक्तमिव not proper, पश्यामि I think.",
+      "meaning": "\"O vanaras, you are known for your valour. I think, to tell Rama that we have seen Sita but not brought her is not proper\"."
+    },
+    {
+      "id": "SK-60-3",
+      "shlokaNumber": 3,
+      "sanskrit": "न हि नः प्लवने कश्चिन्नापि कश्चित्पराक्रमे।।5.60.3।। तुल्य स्सामरदैत्येषु लोकेषु हरिसत्तमाः।",
+      "transliteration": "na hi nḥ plavane kaścinnāpi kaścitparākrame||5.60.3|| tulya ssāmaradaityeṣu lokeṣu harisattamāḥ|",
+      "wordByWord": "हरिसत्तमाः noble vanaras, सामरदैत्येषु gods or demons, लोकेषु in the world, प्लवने in leaping, नः none, तुल्यः match, कश्चित् even few, न हि not indeed, पराक्रमेऽपि even in valour, कश्चित् are there, न no one.",
+      "meaning": "\"O noble vanaras Indeed either among gods or among demons there is none who can match the vanaras in leaping and exhibiting valour."
+    },
+    {
+      "id": "SK-60-4",
+      "shlokaNumber": 4,
+      "sanskrit": "तेष्वेवं हतवीरेषु राक्षसेषु हनूमता।।5.60.4।। किमन्यदत्र कर्तव्यं गृहीत्वा याम जानकीम्।",
+      "transliteration": "teṣvevṃ hatavīreṣu rākṣaseṣu hanūmatā||5.60.4|| kimanyadatra kartavyṃ gṛhītvā yāma jānakīm|",
+      "wordByWord": "तेषु hence, राक्षसेषु among demons, हनूमता Hanuman, एवम् in that way, हतवीरेषु dead heroes, अत्र there, किम् what, अन्यत् other, कर्तव्यम् action, जानकीम् Janaki, गृहीत्वा get, याम here.",
+      "meaning": "\"Hence, having killed the heroes among ogres what other task has Hanuman to do? Let us get Sita."
+    },
+    {
+      "id": "SK-60-5",
+      "shlokaNumber": 5,
+      "sanskrit": "तमेवं कृतसङ्कल्पं जाम्बवान् हरिसत्तमः।।5.60.5।। उवाच परमप्रीतो वाक्यमर्थवदर्थवित्।",
+      "transliteration": "tamevṃ kṛtasaṅkalpṃ jāmbavān harisattamḥ||5.60.5|| uvāca paramaprīto vākyamarthavadarthavit|",
+      "wordByWord": "अर्थवित् knower of ways of execution of tasks, हरिसत्तमः noble vanara, जाम्बवान् Jambavan, परमप्रीतः very pleased, एवम् in that way, कृतसंकल्पम् determined, तम् him, अर्थवत् commnading way, वाक्यम् these words, उवाच spoke.",
+      "meaning": "\"Jambavan, the noble vanara, skilled in the execution of tasks thus commanded in a determined manner:"
+    },
+    {
+      "id": "SK-60-6",
+      "shlokaNumber": 6,
+      "sanskrit": "न तावदेषा मतिरक्षमा नो यथा भवान् पश्यति राजपुत्र। यथा तु रामस्य मतिर्निविष्टा तथा भवान् पश्यतु कार्यसिद्धिम्।।5.60.6।।",
+      "transliteration": "na tāvadeṣā matirakṣamā no yathā bhavān paśyati rājaputra| yathā tu rāmasya matirniviṣṭā tathā bhavān paśyatu kāryasiddhim||5.60.6||",
+      "wordByWord": "राजपुत्र O prince, भवान् you, यथा this way, पश्यति thought of, एषा also, मतिः to my mind, नः none, अक्षमा acceptable, न तावत् we are capable, तु you, रामस्य Rama's, मतिः mind, यथा this way, निविष्टा should act, तथा that way, भवान् you, कार्यसिद्धिम् to accomplish the work, पश्यतु do it.",
+      "meaning": "\"O prince what you think is acceptable to us also. Even though we are capable of achieving, knowing what is in Rama's mind, we should act only according to his command to accomplish the task. इत्यार्षे श्रीमद्रामायणे वाल्मीकीय आदिकाव्ये सुन्दरकाण्डे षष्टितमस्सर्गः।। Thus ends the sixtieth sarga of Sundarakanda of the holy Ramyana, the first epic composed by sage Valmiki."
+    }
+  ]
+}

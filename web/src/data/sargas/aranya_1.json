@@ -1,0 +1,161 @@
+{
+  "kanda": "aranya",
+  "kandaName": "Aranya Kanda",
+  "sarga": 1,
+  "title": "Sarga 1",
+  "totalShlokas": 19,
+  "shlokas": [
+    {
+      "id": "AK-1-1",
+      "shlokaNumber": 1,
+      "sanskrit": "प्रविश्य तु महारण्यं दण्डकारण्यमात्मवान्। ददर्श रामो दुर्धर्षस्तापसाश्रममण्डलम्।।3.1.1।।",
+      "transliteration": "praviśya tu mahāraṇyṃ daṇḍakāraṇyamātmavān| dadarśa rāmo durdharṣastāpasāśramamaṇḍalam||3.1.1||",
+      "wordByWord": "आत्मवान् selfpossessed, दुर्धर्षः invincible रामः Rama, महारण्यम् great forest, दण्डकारण्यम् Dandaka forest, प्रविश्य having entered, तापसाश्रममण्डलम् multitude of hermitages of the ascetics, ददर्श saw.",
+      "meaning": "The invincible and selfpossessed Rama entered the great forest of Dandaka and saw there a multitude of hermitages of the ascetics."
+    },
+    {
+      "id": "AK-1-2",
+      "shlokaNumber": 2,
+      "sanskrit": "कुशचीरपरिक्षिप्तं ब्राह्म्या लक्ष्म्या समावृतम्। यथा प्रदीप्तं दुर्दर्शं गगने सूर्यमण्डलम्।।3.1.2।।",
+      "transliteration": "kuśacīraparikṣiptṃ brāhmyā lakṣmyā samāvṛtam| yathā pradīptṃ durdarśṃ gagane sūryamaṇḍalam||3.1.2||",
+      "wordByWord": "कुशचीरपरिक्षिप्तम् ceremonial robes(made) of kusa grass spread all over ब्राह्म्या of the brahmanas, लक्ष्म्या of auspicious appearance, समावृतम् surrounded, गगने in the sky, प्रदीप्तम् glowing, सूर्यमण्डलं यथा like the orb of the Sun, दुर्दर्शम् difficult to gaze.",
+      "meaning": "They (the hermitages) were strewn all over with kusa grass and robes by bark with auspicious sacrificial materials around and hence dazzling like the orb of the sun in the sky difficult to gaze."
+    },
+    {
+      "id": "AK-1-3",
+      "shlokaNumber": 3,
+      "sanskrit": "शरण्यं सर्वभूतानां सुसम्मृष्टाजिरं सदा। मृगैर्बहुभिराकीर्णं पक्षिसङ्घैस्समावृतम्।।3.1.3।।",
+      "transliteration": "śaraṇyṃ sarvabhūtānāṃ susammṛṣṭājirṃ sadā| mṛgairbahubhirākīrṇṃ pakṣisaṅghaissamāvṛtam||3.1.3||",
+      "wordByWord": "सर्वभूतानाम् for all beings, शरण्यम् shelter, सदा always, सुसम्मृष्टाजिरं the courtyard being wellcleaned, wetted and decorated, बहुभिः by many, मृगैः by antelopes, आकीर्णम् filled all over, पक्षिसङ्घै by flocks of birds, समावृतम् filled with.",
+      "meaning": "The courtyards (of the hermitages) were cleanswept, sprinkled with water and decorated. They provided shelter to all kinds of creatures and were filled all over with flocks of birds and antelopes."
+    },
+    {
+      "id": "AK-1-4-5",
+      "shlokaNumber": 4,
+      "sanskrit": "पूजितं च प्रनृत्तं च नित्यमप्सरसां गणैः। विशालैरग्निशरणैः स्रुग्भाण्डैरजिनैः कुशैः।।3.1.4।। समिद्भिस्तोयकलशैः फलमूलैश्च शोभितम्। आरण्यैश्च महावृक्षैः पुण्यैस्स्वादुफलैर्वृतम्।।3.1.5।।",
+      "transliteration": "pūjitṃ ca pranṛttṃ ca nityamapsarasāṃ gaṇaiḥ| viśālairagniśaraṇaiḥ srugbhāṇḍairajinaiḥ kuśaiḥ||3.1.4|| samidbhistoyakalaśaiḥ phalamūlaiśca śobhitam| āraṇyaiśca mahāvṛkṣaiḥ puṇyaissvāduphalairvṛtam||3.1.5||",
+      "wordByWord": "अप्सरसाम् by celestial damsels, गणैः by groups, पूजितं च glorified, प्रनृत्तं च and offered dances as service, विशालैः with vast, अग्निशरणैः with fire sanctuaries स्रुग्भाण्डैः with wooden ladles for offering ghee अजिनैः with deerskins, कुशैः with kusa grass, समिद्भि: with faggots (specially offered to fire in sacrificial ceremonies), तोयकलशैः pots filled with water, फलमूलैश्च with fruits and roots, शोभितम् adorned, आरण्यैः produced in forests, पुण्यैः sacred ones, स्वादुफलैः by sweet fruits, महावृक्षैः with huge trees, उपशोभितम् looking delightful all over.",
+      "meaning": "The hermitages looked glorified with dances by celestial damsels. They were adorned with vast fire sanctuaries, ladles for sacrificial ceremonies, deerskins and kusa grass faggots for pots of water, roots and fruits. They looked delightful with huge sacred trees of the forest laden with sweet fruits."
+    },
+    {
+      "id": "AK-1-6-7",
+      "shlokaNumber": 6,
+      "sanskrit": "बलिहोमार्चितं पुण्यं ब्रह्मघोषनिनादितम्। पुष्पैश्चान्यैः परिक्षिप्तं पद्मिन्या च सपद्मया।।3.1.6।। फलमूलाशनैर्दान्तैश्चीरकृष्णाजिनाम्बरैः। सूर्यवैश्वानराभैश्च पुराणैर्मुनिभिर्वुतम्।।3.1.7।।",
+      "transliteration": "balihomārcitṃ puṇyṃ brahmaghoṣanināditam| puṣpaiścānyaiḥ parikṣiptṃ padminyā ca sapadmayā||3.1.6|| phalamūlāśanairdāntaiścīrakṛṣṇājināmbaraiḥ| sūryavaiśvānarābhaiśca purāṇairmunibhirvutam||3.1.7||",
+      "wordByWord": "बलिहोमार्चितम् worshipped with various offerings and sacrifices, पुण्यम् sacred, ब्रह्मघोषनिनादितम् reverberating with chanting of the Vedas,अन्यैः पुष्पैः by other flowers, परिक्षिप्तम् scattered here and there, पद्मिन्या by a lotuspond, सपद्मया filled with lotuses, फलमूलाशनैः by those living on fruits and roots, दान्तै: selfrestrained ones, चीरकृष्णाजिनाम्बरैः wearing bark garments and skins of black antelopes, सूर्यवैश्वानराभैश्च glowing like the Sun or the fire, पुराणैः by the aged, मुनिभिः by the sages, वृतम् surrounded by.",
+      "meaning": "The hermitages where various sacrificial offerings were made reverberated with Vedic chantings. Flowers were scattered all over. There was a lotuspond with lotuses. There were aged, selfrestrained sages glowing like the Sun or the fire, living on fruits and roots, clothed in bark and dark deerskin."
+    },
+    {
+      "id": "AK-1-8",
+      "shlokaNumber": 8,
+      "sanskrit": "पुण्यैश्च नियताहारैः शोभितं परमर्षिभिः। तद्ब्रह्मभवनप्रख्यं ब्रह्मघोषनिनादितम्।।3.1.8।।",
+      "transliteration": "puṇyaiśca niyatāhāraiḥ śobhitṃ paramarṣibhiḥ| tadbrahmabhavanaprakhyṃ brahmaghoṣanināditam||3.1.8||",
+      "wordByWord": "पुण्यैः by holy people, नियताहारैः with regulated diet, परमर्षिभिः by great sages, शोभितम् shining, ब्रह्मघोषनिनादितम् echoing with the chanting of the Vedas, ब्रह्मभवनप्रख्यम् resembling the abode of Brahma, तत् that (hermitage).",
+      "meaning": "The hermitages echoing with the sounds of Vedic recitations and resembling the very abode of Brahma were adorned with great, holy sages living on regulated diet."
+    },
+    {
+      "id": "AK-1-9",
+      "shlokaNumber": 9,
+      "sanskrit": "ब्रह्मविद्भिर्महाभागैर्ब्राह्मणैरुपशोभितम्। तद्दृष्ट्वा राघवः श्रीमांस्तापसाश्रममण्डलम्।।3.1.9।। अभ्यगच्छन्महातेजा विज्यं कृत्वा महद्धनुः।",
+      "transliteration": "brahmavidbhirmahābhāgairbrāhmaṇairupaśobhitam| taddṛṣṭvā rāghavḥ śrīmāṃstāpasāśramamaṇḍalam||3.1.9|| abhyagacchanmahātejā vijyṃ kṛtvā mahaddhanuḥ|",
+      "wordByWord": "ब्रह्मविद्भि: by those knowing the Supreme Spirit, महाभागैः by the venerable ones, बाह्मणैः by brahmins, उपशोभितम् was adorned, तत् that, तापसाश्रममण्डलम् groups of hermitages of the sages, दृष्ट्वा after seeing, श्रीमान् illustrious, महातेजाः a man of great lustre, राघवः Rama, महत् great, धनुः bow, विज्यम् with loosened string, कृत्वा doing, अभ्यगच्छत् went forward.",
+      "meaning": "The illustrious, effulgent Rama saw groups of hermitages adorned with venerable brahmins, with knowledge of the Supreme Spirit. On seeing them he loosened the string of his great bow and went forward."
+    },
+    {
+      "id": "AK-1-10",
+      "shlokaNumber": 10,
+      "sanskrit": "दिव्यज्ञानोपपन्नास्ते रामं दृष्ट्वा महर्षयः।।3.1.10।। अभ्यगच्छन्स्तदा प्रीता वैदेहीं च यशस्विनीम्।",
+      "transliteration": "divyajñānopapannāste rāmṃ dṛṣṭvā maharṣayḥ||3.1.10|| abhyagacchanstadā prītā vaidehīṃ ca yaśasvinīm|",
+      "wordByWord": "दिव्यज्ञानोपपन्नाः richly endowed with divine knowledge, ते महर्षयः those great sages, रामं Rama, यशस्विनीम् highly reputed, वैदेहीं च Sita too, दृष्ट्वा on seeing, प्रीताः pleased, तदा then, अभ्यगच्छन् went towards.",
+      "meaning": "On seeing Rama with illustrious Sita, the great sages, richly endowed with divine knowledge, went forward to greet him."
+    },
+    {
+      "id": "AK-1-11-12",
+      "shlokaNumber": 11,
+      "sanskrit": "ते तं सोममिवोद्यन्तं दृष्ट्वा वै धर्मचारिणम्।।3.1.11।। लक्ष्मणं चैव दृष्ट्वा तु वैदेहीं च यशस्विनीम्। मङ्गलानि प्रयुञ्जानाः प्रत्यगृह्णन्दृढव्रताः।।3.1.12।।",
+      "transliteration": "te tṃ somamivodyantṃ dṛṣṭvā vai dharmacāriṇam||3.1.11|| lakṣmaṇṃ caiva dṛṣṭvā tu vaidehīṃ ca yaśasvinīm| maṅgalāni prayuñjānāḥ pratyagṛhṇandṛḍhavratāḥ||3.1.12||",
+      "wordByWord": "दृढव्रताः steadfast in vows, ते they, उद्यन्तम् rising, सोममिव like the Moon, धर्मचारिणम् follower of righteous path, दृष्ट्वा तु on seeing, लक्ष्मणं चैव Lakshmana too, यशस्विनीम् famed, वैदेहीं च Sita also, दृष्ट्वा तु seeing, मङ्गलानि words of benediction, प्रयुञ्जानाः uttering, प्रत्यगृह्णन् went towards and received them.",
+      "meaning": "The sages, steadfast in their vows, saw Rama who was shining like the rising Moon, Lakshmana and the famed Sita went forward and received them with words of benediction."
+    },
+    {
+      "id": "AK-1-13",
+      "shlokaNumber": 13,
+      "sanskrit": "रूपसंहननं लक्ष्मीं सौकुमार्यं सुवेषताम्। ददृशुर्विस्मिताकारा रामस्य वनवासिनः।।3.1.13।।",
+      "transliteration": "rūpasṃhananṃ lakṣmīṃ saukumāryṃ suveṣatām| dadṛśurvismitākārā rāmasya vanavāsinḥ||3.1.13||",
+      "wordByWord": "वनवासिनः (sages) living in the woods, रामस्य Rama's, रूपसंहननम् beauty of the body, लक्ष्मीम् splendour, सौकुमार्यम् tenderness, सुवेषताम् will attired, विस्मिताकाराः wonderstruck sages, ददृशुः saw.",
+      "meaning": "Those sages living in the forest were wonderstruck to see the handsome, graceful, delicate and welldressed Rama."
+    },
+    {
+      "id": "AK-1-14",
+      "shlokaNumber": 14,
+      "sanskrit": "वैदेहीं लक्ष्मणं रामं नेत्रैरनिमिषैरिव। आश्चर्यभूतान्ददृशुः सर्वे ते वनचारिणः।।3.1.14।।",
+      "transliteration": "vaidehīṃ lakṣmaṇṃ rāmṃ netrairanimiṣairiva| āścaryabhūtāndadṛśuḥ sarve te vanacāriṇḥ||3.1.14||",
+      "wordByWord": "सर्वे all, ते वनचारिण: those forestrangers, आश्चर्यभूतान् creating wonder, वैदेहीम् Sita, लक्ष्मणं Lakshmana, चैव too, रामं Rama, अनिमिषैरिव unblinking, नेत्रै: with eyes, ददृशुः saw.",
+      "meaning": "All the foresters looked at the wonderful figures of Rama, Sita and Lakshmana with unblinking eyes."
+    },
+    {
+      "id": "AK-1-15",
+      "shlokaNumber": 15,
+      "sanskrit": "अत्रैनं हि महाभागा स्सर्वभूतहिते रताः। अतिथिं पर्णशालायां राघवं संन्यवेशयन्।।3.1.15।।",
+      "transliteration": "atrainṃ hi mahābhāgā ssarvabhūtahite ratāḥ| atithiṃ parṇaśālāyāṃ rāghavṃ sṃnyaveśayan||3.1.15||",
+      "wordByWord": "सर्वभूतहिते in the welfare of all beings, रताः engaged, महाभागाः glorious, अत्र here, पर्णशालायाम् in a leafy hut, अतिथिम् guest, एनम् राघवम् this Rama, संन्यवेशयन् made him sit and rest.",
+      "meaning": "Ever engaged in the welfare of all beings, the sages made Rama, their guest, sit in their leafy hut."
+    },
+    {
+      "id": "AK-1-16",
+      "shlokaNumber": 16,
+      "sanskrit": "ततो रामस्य सत्कृत्य विधिना पावकोपमाः। आजह्रुस्ते महाभागाः सलिलं धर्मचारिणः।।3.1.16।।",
+      "transliteration": "tato rāmasya satkṛtya vidhinā pāvakopamāḥ| ājahruste mahābhāgāḥ salilṃ dharmacāriṇḥ||3.1.16||",
+      "wordByWord": "ततः thereafter, पावकोपमाः comparable to fire, महाभागाः great ones, ते they, धर्मचारिणः followers of righteousness, विधिना as per tradition, सत्कृत्य after rendering due hospitality, रामस्य to Rama, सलिलम् water, आजह्रुः offered.",
+      "meaning": "The great sages comparable to the firegod and followers of righteousness honoured Rama according to tradition by offering water."
+    },
+    {
+      "id": "AK-1-17",
+      "shlokaNumber": 17,
+      "sanskrit": "पुष्पं मूलं फलं सर्वमाश्रमं च महात्मनः। निवेदयित्वा धर्मज्ञास्ते ततः प्राञ्जलयोऽब्रुवन्।।3.1.17।।",
+      "transliteration": "puṣpṃ mūlṃ phalṃ sarvamāśramṃ ca mahātmanḥ| nivedayitvā dharmajñāste tatḥ prāñjalayo'bruvan||3.1.17||",
+      "wordByWord": "धर्मज्ञाः knowers of dharma, ते they, तत: then, पुष्पम् flower, फलम् fruit, मूलं root, सर्वम् all, आश्रमं च and the hermitage, महात्मनः to the great self, निवेदयित्वा having offered, प्राञ्जलयः with folded palms, अब्रुवन् said.",
+      "meaning": "The sages who were knowers of dharma saluted the noble Rama, offered fruits, roots and flowers available at the hermitage and with folded palms said thus:"
+    },
+    {
+      "id": "AK-1-18",
+      "shlokaNumber": 18,
+      "sanskrit": "धर्मपालो जनस्यास्य शरण्यस्त्वं महायशाः। पूजनीयश्च मान्यश्च राजा दण्डधरो गुरुः।।3.1.18।।",
+      "transliteration": "dharmapālo janasyāsya śaraṇyastvṃ mahāyaśāḥ| pūjanīyaśca mānyaśca rājā daṇḍadharo guruḥ||3.1.18||",
+      "wordByWord": "राजा king, महायशा: of great fame, जनस्यास्य of the people, धर्मपालः protector of dharma, शरण्यश्च refuge, पूजनीयश्च worthy of worship, मान्यश्च respectable, दण्डधरः chastiser of evildoers, गुरुः a respectable one.",
+      "meaning": "O king of great reputation, you are the refuge of the people, a protector of dharma, a chastiser of wrongdoers, a worshipful and respectable preceptor."
+    },
+    {
+      "id": "AK-1-19",
+      "shlokaNumber": 19,
+      "sanskrit": "इन्द्रस्येह चतुर्भागः प्रजा रक्षति राघव। राजा तस्माद्वरान्भोगान्रम्यान् भुङक्तेलोकनमस्कृतः।।3.1.19।।",
+      "transliteration": "indrasyeha caturbhāgḥ prajā rakṣati rāghava| rājā tasmādvarānbhogānramyān bhuṅaktelokanamaskṛtḥ||3.1.19||",
+      "wordByWord": "राघव O Rama, इन्द्रस्य Indra's, इह here, चतुर्भागः fourth part, प्रजाः people, रक्षति protects, तस्मात् therefore, राजा king, नमस्कृतः obeyed, वरान् best, भोगान् pleasures, भुङक्ते enjoys.",
+      "meaning": "O Rama, in this world a king is considered the fourth part of Indra as he protects the people. Therefore, he is respected and he enjoys the choicest pleasures of life."
+    },
+    {
+      "id": "AK-1-20",
+      "shlokaNumber": 20,
+      "sanskrit": "ते वयं भवता रक्ष्या भवद्विषयवासिनः। नगरस्थो वनस्थो वा त्वं नो राजा जनेश्वरः।।3.1.20।।",
+      "transliteration": "te vayṃ bhavatā rakṣyā bhavadviṣayavāsinḥ| nagarastho vanastho vā tvṃ no rājā janeśvarḥ||3.1.20||",
+      "wordByWord": "भवद्विषयवासि residents of your domain, ते to you, वयम् we, भवता by you, रक्ष्याः deserve to be protected, नगरस्थः residing in a city, वनस्थः वा or staying in the forest, जनेश्वर: Lord of the people, त्वम् you, राजा king.",
+      "meaning": "Since we are the residents of your territory we deserve to be protected by you. Whether you live in the city or in the forest, you are the lord of the people and our king."
+    },
+    {
+      "id": "AK-1-21",
+      "shlokaNumber": 21,
+      "sanskrit": "न्यस्तदण्डा वयं राजञ्जितक्रोधा जितेन्द्रियाः। रक्षणीयास्त्वया शश्वदगर्भभूतास्तपोधनाः।।3.1.21।।",
+      "transliteration": "nyastadaṇḍā vayṃ rājañjitakrodhā jitendriyāḥ| rakṣaṇīyāstvayā śaśvadagarbhabhūtāstapodhanāḥ||3.1.21||",
+      "wordByWord": "राजन् O king, जितक्रोधाः men who have conquered anger, जितेन्द्रियाः selfcontrolled, तपोधनाः asceties, वयम् we, न्यस्तदण्डाः cast aside the symbol of authority, गर्भभूताः like your children, त्वया by you, शश्वत् forever, रक्षणीयाः to be protected.",
+      "meaning": "O king, we have conquered our anger and have controlled our senses. We ascetics have cast aside all our authority. We are like your children and need to be protected by you forever"
+    },
+    {
+      "id": "AK-1-22",
+      "shlokaNumber": 22,
+      "sanskrit": "एवमुक्त्वा फलैर्मूलैः पुष्पैर्वन्यैश्च राघवम्। अन्यैश्च विविधाहारैः सलक्ष्मणमपूजयन्।।3.1.22।।",
+      "transliteration": "evamuktvā phalairmūlaiḥ puṣpairvanyaiśca rāghavam| anyaiśca vividhāhāraiḥ salakṣmaṇamapūjayan||3.1.22||",
+      "wordByWord": "एवम् in that manner, उक्त्वा having said, सलक्ष्मणम् along with Lakshmana, राघवम् Rama, फलैः with fruits, मूलैः with roots, पुष्पैः with flowers, अन्यैश्च and by other, वन्यैः by forest produce, विविधाहारैः different kinds of food, अपूजयन् offered with reverence.",
+      "meaning": "Having said so, the ascetics offered with reverence fruits, roots, flowers and other forest products to Rama and Lakshmana."
+    }
+  ]
+}

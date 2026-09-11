@@ -1,0 +1,169 @@
+{
+  "kanda": "uttara",
+  "kandaName": "Uttara Kanda",
+  "sarga": 75,
+  "title": "Sarga 75",
+  "totalShlokas": 20,
+  "shlokas": [
+    {
+      "id": "UK-75-1",
+      "shlokaNumber": 1,
+      "sanskrit": "नारदस्य तु तद्वाक्यं श्रुत्वा ऽमृतमयं तदा । प्रहर्षमतुलं लेभे लक्ष्मणं चेदमब्रवीत् ।। 7.75.1 ।।",
+      "transliteration": "nāradasya tu tadvākyaṃ śrutvā 'mṛtamayaṃ tadā | praharṣamatulaṃ lebhe lakṣmaṇaṃ cedamabravīt || 7.75.1 ||",
+      "wordByWord": "Having heard those words of Narada, which were like nectar, Rama then attained unequalled joy and spoke thus to Lakshmana.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-75-2",
+      "shlokaNumber": 2,
+      "sanskrit": "गच्छ सौम्य द्विजश्रेष्ठं समाश्वासय सुव्रतम् । बालस्य तु शरीरं तत्तैलद्रोण्यां निधापय ।। 7.75.2 ।।",
+      "transliteration": "gaccha saumya dvijaśreṣṭhaṃ samāśvāsaya suvratam | bālasya tu śarīraṃ tattailadroṇyāṃ nidhāpaya || 7.75.2 ||",
+      "wordByWord": "\"Go, gentle one, and console that best of the twice-born, the man of holy vows; and have the body of the boy laid in a vat of oil.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-75-3",
+      "shlokaNumber": 3,
+      "sanskrit": "गन्धैश्च परमोदारैस्तैलैश्चापि सुगन्धिभिः । यथा न क्षीयते बालस्तथा सौम्य विधीयताम् ।। 7.75.3 ।।",
+      "transliteration": "gandhaiśca paramodāraistailaiścāpi sugandhibhiḥ | yathā na kṣīyate bālastathā saumya vidhīyatām || 7.75.3 ||",
+      "wordByWord": "\"With the most excellent perfumes and with fragrant oils, see to it, gentle one, that the boy's body does not decay.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-75-4",
+      "shlokaNumber": 4,
+      "sanskrit": "यथा शरीरो बालस्य गुप्तः सन् शिष्टकर्मणः । विपत्तिः परिभेदो वा न भवेच्च तथा कुरु ।। 7.75.4 ।।",
+      "transliteration": "yathā śarīro bālasya guptaḥ san śiṣṭakarmaṇaḥ | vipattiḥ paribhedo vā na bhavecca tathā kuru || 7.75.4 ||",
+      "wordByWord": "\"Act so that the body of this boy of cultured conduct, being guarded, suffers neither ruin nor decomposition.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-75-5",
+      "shlokaNumber": 5,
+      "sanskrit": "एवमादिश्य काकुत्स्थो लक्ष्मणं शुभलक्षणम् । मनसा पुष्पकं दध्यावागच्छेति महायशाः ।। 7.75.5 ।।",
+      "transliteration": "evamādiśya kākutstho lakṣmaṇaṃ śubhalakṣaṇam | manasā puṣpakaṃ dadhyāvāgaccheti mahāyaśāḥ || 7.75.5 ||",
+      "wordByWord": "Having thus instructed Lakshmana of auspicious marks, the greatly renowned descendant of Kakutstha called the Pushpaka to mind, thinking, \"Come.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-75-6",
+      "shlokaNumber": 6,
+      "sanskrit": "इङ्गितं स तु विज्ञाय पुष्पको हेमभूषितः । आजगाम मुहूर्तेन समीपे राघवस्य वै ।। 7.75.6 ।।",
+      "transliteration": "iṅgitaṃ sa tu vijñāya puṣpako hemabhūṣitaḥ | ājagāma muhūrtena samīpe rāghavasya vai || 7.75.6 ||",
+      "wordByWord": "Perceiving his intention, the Pushpaka, adorned with gold, came in a moment to the side of Raghava.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-75-7",
+      "shlokaNumber": 7,
+      "sanskrit": "सो ऽब्रवीत्प्रणतो भूत्वा अयमस्मि नराधिप । वश्यस्तव महाबाहो किङ्करः समुपस्थितः ।। 7.75.7 ।।",
+      "transliteration": "so 'bravītpraṇato bhūtvā ayamasmi narādhipa | vaśyastava mahābāho kiṅkaraḥ samupasthitaḥ || 7.75.7 ||",
+      "wordByWord": "Bowing low, it said, \"Here I am, O ruler of men; subject to you, O mighty-armed one, your servant stands ready at hand.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-75-8",
+      "shlokaNumber": 8,
+      "sanskrit": "भाषितं रुचिरं श्रुत्वा पुष्पकस्य नराधिपः । अभिवाद्य महर्षींस्तान् विमानं सो ऽध्यरोहत ।। 7.75.8 ।।",
+      "transliteration": "bhāṣitaṃ ruciraṃ śrutvā puṣpakasya narādhipaḥ | abhivādya maharṣīṃstān vimānaṃ so 'dhyarohata || 7.75.8 ||",
+      "wordByWord": "Hearing the pleasing speech of the Pushpaka, the ruler of men, having saluted those great sages, mounted the aerial chariot.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-75-9",
+      "shlokaNumber": 9,
+      "sanskrit": "धनुर्गृहीत्वा तूणी च खड्गं च रुचिरप्रभम् । निक्षिप्य नगरे वीरौ सौमित्रिभरतावुभौ ।। 7.75.9 ।।",
+      "transliteration": "dhanurgṛhītvā tūṇī ca khaḍgaṃ ca ruciraprabham | nikṣipya nagare vīrau saumitribharatāvubhau || 7.75.9 ||",
+      "wordByWord": "Taking up his bow, his two quivers, and his sword of brilliant lustre, and leaving behind in the city the two heroes Saumitri and Bharata,",
+      "meaning": ""
+    },
+    {
+      "id": "UK-75-10",
+      "shlokaNumber": 10,
+      "sanskrit": "प्रायात्प्रतीचीं हरितं विचिन्वंश्च ततस्ततः । उत्तरामगमच्छ्रीमान्दिशं हिमवता वृताम् ।। 7.75.10 ।।",
+      "transliteration": "prāyātpratīcīṃ haritaṃ vicinvaṃśca tatastataḥ | uttarāmagamacchrīmāndiśaṃ himavatā vṛtām || 7.75.10 ||",
+      "wordByWord": "he set forth toward the verdant western region, searching here and there; and then the illustrious one went to the northern quarter, which is enclosed by the Himavat mountains.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-75-11",
+      "shlokaNumber": 11,
+      "sanskrit": "अपश्यमानस्तत्रापि स्वल्पमप्यथ दुष्कृतम् । पूर्वामपि दिशं सर्वामथो ऽपश्यन्नराधिपः ।। 7.75.11 ।।",
+      "transliteration": "apaśyamānastatrāpi svalpamapyatha duṣkṛtam | pūrvāmapi diśaṃ sarvāmatho 'paśyannarādhipaḥ || 7.75.11 ||",
+      "wordByWord": "Not seeing even the slightest wrongdoing there either, the ruler of men then looked over the whole of the eastern quarter as well.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-75-12",
+      "shlokaNumber": 12,
+      "sanskrit": "प्रविशुद्धसमाचारामादर्शतलनिर्मलाम् । पुष्पकस्थो महाबाहुस्तदापश्यन्नराधिपः ।। 7.75.12 ।।",
+      "transliteration": "praviśuddhasamācārāmādarśatalanirmalām | puṣpakastho mahābāhustadāpaśyannarādhipaḥ || 7.75.12 ||",
+      "wordByWord": "Stationed in the Pushpaka, the mighty-armed lord of men then beheld a land of pure and excellent conduct, spotless as the surface of a mirror.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-75-13",
+      "shlokaNumber": 13,
+      "sanskrit": "दक्षिणां दिशमाक्रामत्ततो राजर्षिनन्दनः । शैवलस्योत्तरे पार्श्वे ददर्श सुमहत्सरः ।। 7.75.13 ।।",
+      "transliteration": "dakṣiṇāṃ diśamākrāmattato rājarṣinandanaḥ | śaivalasyottare pārśve dadarśa sumahatsaraḥ || 7.75.13 ||",
+      "wordByWord": "Then the delight of the royal sages advanced toward the southern quarter, and on the northern side of the Shaivala mountain he beheld a vast lake.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-75-14",
+      "shlokaNumber": 14,
+      "sanskrit": "तस्मिन्सरसि तप्यन्तं तापसं सुमहत्तपः । ददर्श राघवः श्रीमाँल्लम्बमानमधोमुखम् ।। 7.75.14 ।।",
+      "transliteration": "tasminsarasi tapyantaṃ tāpasaṃ sumahattapaḥ | dadarśa rāghavaḥ śrīmāँllambamānamadhomukham || 7.75.14 ||",
+      "wordByWord": "On the bank of that lake the illustrious Raghava saw an ascetic performing a most severe penance, hanging head-downward.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-75-15",
+      "shlokaNumber": 15,
+      "sanskrit": "राघवस्तमुपागम्य तप्यन्तं तप उत्तमम् । उवाच स तदा वाक्यं धन्यस्त्वमसि सुव्रत ।। 7.75.15 ।।",
+      "transliteration": "rāghavastamupāgamya tapyantaṃ tapa uttamam | uvāca sa tadā vākyaṃ dhanyastvamasi suvrata || 7.75.15 ||",
+      "wordByWord": "Raghava approached that man who was performing supreme austerity and then spoke these words: \"Blessed are you, O steadfast one of holy vows.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-75-16",
+      "shlokaNumber": 16,
+      "sanskrit": "कस्यां योन्यां तपोवृद्ध वर्तसे दृढविक्रम । कौतूहलात्त्वां पृच्छामि रामो दाशरथिर्ह्यहम् ।। 7.75.16 ।।",
+      "transliteration": "kasyāṃ yonyāṃ tapovṛddha vartase dṛḍhavikrama | kautūhalāttvāṃ pṛcchāmi rāmo dāśarathirhyaham || 7.75.16 ||",
+      "wordByWord": "In which caste were you born, O one grown in penance, O firm in valor? Out of curiosity I ask you, for I am Rama, the son of Dasharatha.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-75-17",
+      "shlokaNumber": 17,
+      "sanskrit": "को ऽर्थो मनीषितस्तुभ्यं स्वर्गलाभः परो ऽथवा । वराश्रयो यदर्थं त्वं तपस्यसि सुदुष्करम् । यमाश्रित्य तपस्तप्तं श्रोतुमिच्छामि तापस ।। 7.75.17 ।।",
+      "transliteration": "ko 'rtho manīṣitastubhyaṃ svargalābhaḥ paro 'thavā | varāśrayo yadarthaṃ tvaṃ tapasyasi suduṣkaram | yamāśritya tapastaptaṃ śrotumicchāmi tāpasa || 7.75.17 ||",
+      "wordByWord": "What is the object you desire — the attainment of heaven, or some other supreme boon as your refuge — for the sake of which you practice this most difficult austerity? Relying upon what aim has this penance been undertaken? That I wish to hear, O ascetic.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-75-18",
+      "shlokaNumber": 18,
+      "sanskrit": "ब्राह्मणो वा ऽसि भद्रं ते क्षत्रियो वा ऽसि दुर्जयः । वैश्यस्तृतीयवर्णो वा शूद्रो वा सत्यवाग्भव ।। 7.75.18 ।।",
+      "transliteration": "brāhmaṇo vā 'si bhadraṃ te kṣatriyo vā 'si durjayaḥ | vaiśyastṛtīyavarṇo vā śūdro vā satyavāgbhava || 7.75.18 ||",
+      "wordByWord": "\"Are you a Brahmana — blessings upon you — or are you an unconquerable Kshatriya, or a Vaishya of the third caste, or a Shudra? Be truthful in your speech.\"",
+      "meaning": ""
+    },
+    {
+      "id": "UK-75-19",
+      "shlokaNumber": 19,
+      "sanskrit": "इत्येवमुक्तः स नराधिपेन ह्यवाक्छिरा दाशरथाय तस्मै । उवाच जातिं नृपपुङ्गवाय यत्कारणे चैव तपःप्रयत्नः ।। 7.75.19 ।।",
+      "transliteration": "ityevamuktaḥ sa narādhipena hyavākchirā dāśarathāya tasmai | uvāca jātiṃ nṛpapuṅgavāya yatkāraṇe caiva tapaḥprayatnaḥ || 7.75.19 ||",
+      "wordByWord": "Thus addressed by the lord of men, that ascetic, with his head bent down, declared to that son of Dasharatha, the foremost of kings, his caste and the cause for which his striving in penance had been undertaken.",
+      "meaning": ""
+    },
+    {
+      "id": "UK-75-20",
+      "shlokaNumber": 20,
+      "sanskrit": "इत्यार्षे श्रीमद्रामायणे वाल्मीकीये आदिकाव्ये श्रीमदुत्तरकाण्डे पञ्चसप्ततितमः सर्गः ।। 75 ।।",
+      "transliteration": "ityārṣe śrīmadrāmāyaṇe vālmīkīye ādikāvye śrīmaduttarakāṇḍe pañcasaptatitamaḥ sargaḥ || 75 ||",
+      "wordByWord": "Thus ends the seventy-fifth canto of the sacred Uttara Kanda in the venerable Ramayana, the first poem, composed by the sage Valmiki.",
+      "meaning": ""
+    }
+  ]
+}
