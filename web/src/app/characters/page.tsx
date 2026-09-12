@@ -1,8 +1,12 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Search, Users, X, BookOpen, Sparkles, ExternalLink } from 'lucide-react';
+import { 
+  Search, Users, X, BookOpen, Sparkles, Crown, 
+  Flame, Shield, Mountain, Sun, Volume2, ArrowRight
+} from 'lucide-react';
 import charactersData from '@/data/characters.json';
+import { chantVerse } from '@/lib/audio';
 
 interface Character {
   slug: string;
@@ -21,54 +25,138 @@ interface Character {
   extendedBio?: string;
 }
 
+const grandFactions = [
+  { 
+    id: 'all', 
+    name: 'All 194 Figures', 
+    sanskrit: 'सर्वे पात्राणि',
+    icon: Sparkles,
+    desc: 'The complete dramatis personae of the Valmiki Ramayana.' 
+  },
+  { 
+    id: 'solar', 
+    name: 'The Solar Dynasty', 
+    sanskrit: 'रघुवंशः · अयोध्या',
+    icon: Sun,
+    desc: 'The scions and royal house of Ayodhya: Rama, Sita, Lakshmana, Bharata, and Dasharatha.',
+    tiers: ['Divine Couple', 'Brothers', 'Royal Parents', 'Royal Retinue', 'Allies']
+  },
+  { 
+    id: 'vanara', 
+    name: 'The Vanara Empire', 
+    sanskrit: 'वानरसेना · किष्किन्धा',
+    icon: Mountain,
+    desc: 'The heroes and chieftains of Kishkindha: Hanuman, Sugriva, Vali, Angada, and Jambavan.',
+    tiers: ['Vanaras & Allies']
+  },
+  { 
+    id: 'lanka', 
+    name: 'The Asura Citadel', 
+    sanskrit: 'राक्षसकुलम् · लङ्का',
+    icon: Shield,
+    desc: 'The warriors, royalty, and sorcerers of Lanka: Ravana, Indrajit, Kumbhakarna, and Vibhishana.',
+    tiers: ["Ravana's House", 'Rakshasas']
+  },
+  { 
+    id: 'sages', 
+    name: 'Rishis & Celestials', 
+    sanskrit: 'ऋषयः · देवाश्च',
+    icon: Flame,
+    desc: 'The spiritual preceptors, seers, gods, and cosmic guardians of the three worlds.',
+    tiers: ['Gurus & Sages', 'Great Rishis', 'Devas & Celestials', 'Celestials & Birds']
+  }
+];
+
 export default function CharactersPage() {
   const [searchQuery, setSearchQuery] = useState('');
-  const [selectedTier, setSelectedTier] = useState<string>('all');
+  const [activeFaction, setActiveFaction] = useState<string>('all');
   const [modalCharacter, setModalCharacter] = useState<Character | null>(null);
+  const [isPlayingQuote, setIsPlayingQuote] = useState(false);
 
-  // Extract unique tiers
-  const tiers = Array.from(new Set(charactersData.map(c => c.tier.title)));
+  const selectedFactionData = grandFactions.find(f => f.id === activeFaction) || grandFactions[0];
 
   const filteredCharacters = (charactersData as Character[]).filter(c => {
-    const matchesTier = selectedTier === 'all' || c.tier.title === selectedTier;
+    // Check faction
+    const matchesFaction = activeFaction === 'all' || 
+      (selectedFactionData.tiers && selectedFactionData.tiers.includes(c.tier.title));
+
+    // Check search query
     const q = searchQuery.toLowerCase().trim();
-    if (!q) return matchesTier;
+    if (!q) return matchesFaction;
 
     const matchesSearch = 
       c.name.toLowerCase().includes(q) ||
       c.sanskritName.toLowerCase().includes(q) ||
       c.description.toLowerCase().includes(q) ||
       (c.aliases && c.aliases.some((a: string) => typeof a === 'string' && a.toLowerCase().includes(q))) ||
-      c.roleTag.toLowerCase().includes(q);
+      c.roleTag.toLowerCase().includes(q) ||
+      c.tier.title.toLowerCase().includes(q);
 
-    return matchesTier && matchesSearch;
+    return matchesFaction && matchesSearch;
   });
 
+  const handleChantName = (name: string) => {
+    setIsPlayingQuote(true);
+    chantVerse(name, () => setIsPlayingQuote(false));
+  };
+
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
-      {/* Header */}
-      <div className="text-center max-w-2xl mx-auto mb-10">
-        <span className="text-xs tracking-widest text-[#f59e3a] uppercase font-semibold">
-          पात्राणि · Dramatis Personae
-        </span>
-        <h1 className="font-cinzel text-3xl sm:text-5xl font-bold text-gold-gradient mt-2">
-          Personalities Guide
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12">
+      {/* Header Section */}
+      <div className="text-center max-w-3xl mx-auto mb-10">
+        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-500/10 border border-amber-400/25 text-xs text-[#f3d27a] mb-4">
+          <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+          <span className="font-sanskrit tracking-wider">॥ रामायणपात्राणि ॥ १९४ धर्ममूर्तयः</span>
+        </div>
+        <h1 className="font-cinzel text-3xl sm:text-5xl md:text-6xl font-bold text-gold-gradient">
+          Dharma Alliances & Figures
         </h1>
-        <p className="text-sm text-[#a39eb5] mt-3 leading-relaxed">
-          An indexed roster of all 194 named personalities across the seven Kandas — heroes, sages, warriors, devas, and villains, each carrying a lesson in dharma.
+        <p className="text-sm sm:text-base text-[#a39eb5] mt-3 leading-relaxed font-light">
+          Traverse the moral tapestry of 194 named figures across five grand dynasties. 
+          Discover their lineages, pivotal decisions, and enduring lessons in righteousness.
         </p>
       </div>
 
-      {/* Search Bar & Tier Filter */}
-      <div className="max-w-2xl mx-auto mb-8 space-y-4">
+      {/* Grand Factions Switcher Banners */}
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 mb-8">
+        {grandFactions.map(faction => {
+          const Icon = faction.icon;
+          const isSelected = activeFaction === faction.id;
+
+          return (
+            <button
+              key={faction.id}
+              onClick={() => setActiveFaction(faction.id)}
+              className={`p-4 rounded-2xl border text-left transition-all cursor-pointer flex flex-col justify-between ${
+                isSelected
+                  ? 'bg-gradient-to-b from-amber-500/20 to-orange-950/40 border-amber-400 ring-1 ring-amber-400/50 shadow-lg scale-[1.02]'
+                  : 'bg-[#0f0b1c]/80 border-white/5 hover:border-amber-400/30 hover:bg-[#151026]'
+              }`}
+            >
+              <div>
+                <div className="flex items-center justify-between mb-2">
+                  <Icon className={`w-5 h-5 ${isSelected ? 'text-amber-300' : 'text-amber-400/70'}`} />
+                  <span className="font-sanskrit text-[10px] text-amber-300/60">{faction.sanskrit.split(' ')[0]}</span>
+                </div>
+                <h3 className={`font-cinzel text-xs sm:text-sm font-bold ${isSelected ? 'text-amber-200' : 'text-[#f5efe6]'}`}>
+                  {faction.name}
+                </h3>
+              </div>
+            </button>
+          );
+        })}
+      </div>
+
+      {/* Search Input Bar */}
+      <div className="max-w-2xl mx-auto mb-10">
         <div className="relative">
-          <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-[#f59e3a]" />
+          <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-amber-400" />
           <input
             type="text"
             value={searchQuery}
             onChange={e => setSearchQuery(e.target.value)}
-            placeholder="Search by name, Sanskrit, alias (e.g. Lakshmana, Anjaneya, जनक)..."
-            className="w-full pl-11 pr-4 py-3 rounded-2xl bg-[#0f0b1c] border border-white/10 text-sm text-[#f3f0e6] placeholder:text-[#a39eb5]/60 focus:outline-none focus:border-amber-400/50 shadow-inner"
+            placeholder="Search figure by name, Sanskrit, or alias (e.g. Lakshmana, Anjaneya, जनक, रावण)..."
+            className="w-full pl-11 pr-10 py-3.5 rounded-full bg-[#0e0a1b] border border-amber-400/20 text-xs sm:text-sm text-[#f5efe6] placeholder:text-[#a39eb5]/50 focus:outline-none focus:border-amber-400/60 shadow-inner"
           />
           {searchQuery && (
             <button
@@ -80,92 +168,81 @@ export default function CharactersPage() {
           )}
         </div>
 
-        {/* Tier Chips */}
-        <div className="flex flex-wrap justify-center gap-1.5 overflow-x-auto text-xs pb-2">
-          <button
-            onClick={() => setSelectedTier('all')}
-            className={`px-3 py-1.5 rounded-full transition-all cursor-pointer ${
-              selectedTier === 'all'
-                ? 'bg-[#f59e3a] text-black font-semibold'
-                : 'bg-white/5 hover:bg-white/10 text-[#a39eb5]'
-            }`}
-          >
-            All (194)
-          </button>
-          {tiers.map(t => (
-            <button
-              key={t}
-              onClick={() => setSelectedTier(t)}
-              className={`px-3 py-1.5 rounded-full transition-all cursor-pointer whitespace-nowrap ${
-                selectedTier === t
-                  ? 'bg-[#f59e3a] text-black font-semibold'
-                  : 'bg-white/5 hover:bg-white/10 text-[#a39eb5]'
-              }`}
+        <div className="flex justify-between items-center text-xs text-[#a39eb5] mt-3 px-2">
+          <span>Displaying <strong>{filteredCharacters.length}</strong> figures in {selectedFactionData.name}</span>
+          {activeFaction !== 'all' && (
+            <button 
+              onClick={() => setActiveFaction('all')}
+              className="text-amber-400 hover:underline font-medium"
             >
-              {t}
+              View all 194 figures
             </button>
-          ))}
+          )}
         </div>
       </div>
 
-      <div className="text-center text-xs text-[#a39eb5] mb-6">
-        Showing {filteredCharacters.length} personalities
-      </div>
-
-      {/* Characters Grid */}
+      {/* Characters Constellation Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {filteredCharacters.map(char => (
           <div
             key={char.slug}
             onClick={() => setModalCharacter(char)}
-            className="p-5 rounded-2xl bg-[#0f0c1c]/70 hover:bg-[#151026] border border-white/5 hover:border-amber-400/40 transition-all cursor-pointer flex flex-col justify-between group shadow-md"
+            className="manuscript-pothi p-5 sm:p-6 rounded-2xl hover:border-amber-400/50 transition-all duration-300 cursor-pointer flex flex-col justify-between group shadow-lg hover:-translate-y-0.5"
           >
             <div>
+              {/* Header Badge */}
               <div className="flex items-center justify-between mb-3">
-                <span className="text-2xl">{char.tier.icon || '🕉️'}</span>
-                <span className="px-2.5 py-0.5 rounded-full text-[10px] uppercase font-semibold bg-white/5 border border-white/10 text-amber-300">
+                <span className="text-xl sm:text-2xl">{char.tier.icon || '🕉️'}</span>
+                <span className="px-2.5 py-0.5 rounded-full text-[10px] font-semibold bg-amber-500/10 border border-amber-500/25 text-amber-300 font-cinzel">
                   {char.roleTag}
                 </span>
               </div>
 
+              {/* Names */}
               <div className="flex items-baseline gap-2 mb-1">
-                <h3 className="font-cinzel text-base sm:text-lg font-bold text-[#f3f0e6] group-hover:text-[#f59e3a] transition-colors">
+                <h4 className="font-cinzel text-base sm:text-lg font-bold text-[#f5efe6] group-hover:text-amber-300 transition-colors">
                   {char.name}
-                </h3>
-                <span className="font-sanskrit text-xs text-[#f3d27a]/70">
+                </h4>
+                <span className="font-sanskrit text-xs text-[#f3d27a]/70 font-medium">
                   {char.sanskritName}
                 </span>
               </div>
 
-              <p className="text-xs text-[#a39eb5] line-clamp-3 leading-relaxed mt-2">
+              <div className="text-[11px] text-amber-400/80 font-medium mb-2 font-cinzel">
+                {char.tier.title}
+              </div>
+
+              {/* Description */}
+              <p className="text-xs text-[#a39eb5] line-clamp-3 leading-relaxed font-light">
                 {char.description}
               </p>
             </div>
 
-            <div className="mt-4 pt-3 border-t border-white/5 text-[11px] text-[#a39eb5]">
-              {char.aliases && char.aliases.length > 0 && (
-                <div className="truncate mb-1">
-                  <span className="text-white/60">Aliases:</span> {char.aliases.join(', ')}
-                </div>
-              )}
-              {char.appearsIn && char.appearsIn.length > 0 && (
-                <div className="truncate">
-                  <span className="text-white/60">Kandas:</span> {char.appearsIn.join(', ')}
-                </div>
-              )}
+            {/* Footer Meta */}
+            <div className="mt-4 pt-3 border-t border-white/5 flex items-center justify-between text-[11px] text-[#a39eb5]">
+              <div className="truncate max-w-[180px]">
+                {char.appearsIn && char.appearsIn.length > 0 ? (
+                  <span>{char.appearsIn.join(', ')}</span>
+                ) : (
+                  <span>Valmiki Ramayana</span>
+                )}
+              </div>
+              <span className="text-amber-400 group-hover:translate-x-1 transition-transform font-medium">
+                View Dossier →
+              </span>
             </div>
           </div>
         ))}
       </div>
 
-      {/* Character Profile Modal */}
+      {/* Character Profile Modal Dossier */}
       {modalCharacter && (
         <div 
-          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm animate-in fade-in duration-200"
+          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/85 backdrop-blur-md animate-in fade-in duration-200"
           onClick={() => setModalCharacter(null)}
         >
           <div 
-            className="relative w-full max-w-2xl rounded-3xl bg-[#110d24] border border-amber-400/30 p-6 sm:p-8 shadow-2xl max-h-[85vh] overflow-y-auto"
+            className="relative w-full max-w-2xl rounded-3xl manuscript-pothi p-6 sm:p-9 shadow-2xl max-h-[85vh] overflow-y-auto"
             onClick={e => e.stopPropagation()}
           >
             <button
@@ -175,35 +252,53 @@ export default function CharactersPage() {
               <X className="w-5 h-5" />
             </button>
 
+            {/* Modal Header */}
             <div className="flex items-center gap-3 mb-2">
-              <span className="text-3xl">{modalCharacter.tier.icon}</span>
+              <span className="text-4xl">{modalCharacter.tier.icon}</span>
               <div>
-                <span className="text-xs uppercase font-semibold text-[#f59e3a] tracking-wider">
+                <span className="text-xs uppercase font-semibold text-[#f59e3a] tracking-wider font-cinzel">
                   {modalCharacter.tier.title} · {modalCharacter.tier.sanskrit}
                 </span>
-                <span className="ml-2 px-2 py-0.5 rounded text-[10px] bg-white/10 text-amber-200 uppercase">
+                <span className="ml-2 px-2.5 py-0.5 rounded-full text-[10px] bg-amber-500/15 border border-amber-400/30 text-amber-300 uppercase font-semibold">
                   {modalCharacter.roleTag}
                 </span>
               </div>
             </div>
 
-            <div className="flex items-baseline gap-3 my-3">
-              <h2 className="font-cinzel text-2xl sm:text-4xl font-bold text-gold-gradient">
-                {modalCharacter.name}
-              </h2>
-              <span className="font-sanskrit text-xl sm:text-2xl text-amber-300/80">
-                {modalCharacter.sanskritName}
-              </span>
+            {/* Title & Sanskrit Audio Button */}
+            <div className="flex items-center justify-between gap-4 my-3">
+              <div className="flex items-baseline gap-3">
+                <h2 className="font-cinzel text-3xl sm:text-4xl font-bold text-gold-gradient">
+                  {modalCharacter.name}
+                </h2>
+                <span className="font-sanskrit text-2xl sm:text-3xl text-amber-200">
+                  {modalCharacter.sanskritName}
+                </span>
+              </div>
+
+              <button
+                onClick={() => handleChantName(`${modalCharacter.name}. ${modalCharacter.sanskritName}`)}
+                className={`p-2.5 rounded-full border text-xs cursor-pointer transition-all ${
+                  isPlayingQuote
+                    ? 'bg-amber-500 text-black border-amber-400 animate-pulse'
+                    : 'bg-white/5 border-white/10 text-amber-300 hover:text-white'
+                }`}
+                title="Pronounce Name"
+              >
+                <Volume2 className="w-4 h-4 text-amber-400" />
+              </button>
             </div>
 
-            <p className="text-sm text-[#f3f0e6]/90 leading-relaxed mb-6">
+            {/* Short Description */}
+            <p className="text-sm sm:text-base text-[#f5efe6]/90 leading-relaxed mb-6 font-light">
               {modalCharacter.description}
             </p>
 
+            {/* Extended Biography */}
             {modalCharacter.extendedBio && (
-              <div className="my-6 p-4 rounded-2xl bg-black/40 border border-white/5 text-xs sm:text-sm text-[#a39eb5] leading-relaxed space-y-3">
-                <div className="text-xs font-semibold text-[#f59e3a] uppercase tracking-wider">
-                  Biographical Details & Dharma
+              <div className="my-6 p-5 rounded-2xl bg-black/50 border border-amber-400/20 text-xs sm:text-sm text-[#a39eb5] leading-relaxed space-y-3 font-light">
+                <div className="text-xs font-semibold text-amber-300 uppercase tracking-wider font-cinzel">
+                  ॥ धर्मवृत्तान्तः · Narrative Role & Dharma ॥
                 </div>
                 {modalCharacter.extendedBio.split('\n\n').map((para, i) => (
                   <p key={i}>{para}</p>
@@ -211,16 +306,17 @@ export default function CharactersPage() {
               </div>
             )}
 
+            {/* Aliases & Kandas Breakdown */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs pt-4 border-t border-white/10">
               {modalCharacter.aliases && modalCharacter.aliases.length > 0 && (
                 <div>
-                  <span className="font-semibold text-white block mb-1">Also known as:</span>
+                  <span className="font-semibold text-amber-300 block mb-1 font-cinzel">Also known as:</span>
                   <span className="text-[#a39eb5]">{modalCharacter.aliases.join(', ')}</span>
                 </div>
               )}
               {modalCharacter.appearsIn && modalCharacter.appearsIn.length > 0 && (
                 <div>
-                  <span className="font-semibold text-white block mb-1">Appears across Kandas:</span>
+                  <span className="font-semibold text-amber-300 block mb-1 font-cinzel">Appears across Kandas:</span>
                   <span className="text-[#a39eb5]">{modalCharacter.appearsIn.join(', ')}</span>
                 </div>
               )}

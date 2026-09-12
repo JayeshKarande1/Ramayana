@@ -52,20 +52,20 @@ export default function Header() {
 
           {/* Desktop Navigation Links */}
           <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-[#a39eb5]">
-            <Link href="/story" className="hover:text-[#f59e3a] transition-colors flex items-center gap-1.5">
-              <BookOpen className="w-4 h-4" /> Story
-            </Link>
             <Link href="/journey" className="hover:text-[#f59e3a] transition-colors flex items-center gap-1.5">
-              <Compass className="w-4 h-4" /> Journey
+              <Compass className="w-4 h-4 text-amber-400" /> Odyssey
+            </Link>
+            <Link href="/story" className="hover:text-[#f59e3a] transition-colors flex items-center gap-1.5">
+              <BookOpen className="w-4 h-4 text-amber-400" /> Codex
             </Link>
             <Link href="/pradakshina" className="hover:text-[#f59e3a] transition-colors flex items-center gap-1.5">
-              <Flame className="w-4 h-4" /> Pradakshina
+              <Flame className="w-4 h-4 text-amber-400" /> Parikrama
             </Link>
             <Link href="/characters" className="hover:text-[#f59e3a] transition-colors flex items-center gap-1.5">
-              <Users className="w-4 h-4" /> Personalities
+              <Users className="w-4 h-4 text-amber-400" /> Alliances
             </Link>
             <Link href="/parayana" className="hover:text-[#f59e3a] transition-colors flex items-center gap-1.5">
-              <Calendar className="w-4 h-4" /> Parayana
+              <Calendar className="w-4 h-4 text-amber-400" /> Sadhana
             </Link>
           </nav>
 
@@ -75,7 +75,7 @@ export default function Header() {
             <button
               onClick={() => setIsSearchOpen(true)}
               className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/5 border border-white/10 hover:border-amber-500/30 text-xs text-[#a39eb5] hover:text-[#f3f0e6] transition-all cursor-pointer"
-              title="Search scriptures (Ctrl+K)"
+              title="Search scripture (Ctrl+K)"
             >
               <Search className="w-3.5 h-3.5 text-[#f59e3a]" />
               <span className="hidden sm:inline">Search</span>
@@ -87,14 +87,29 @@ export default function Header() {
             {/* Ambient Tanpura Drone Player Button */}
             <button
               onClick={toggleTanpura}
-              className={`p-2 rounded-full border transition-all cursor-pointer ${
+              className={`px-3 py-1.5 rounded-full border transition-all cursor-pointer flex items-center gap-2 text-xs font-medium ${
                 isTanpuraPlaying
-                  ? 'bg-amber-500/20 border-amber-500/50 text-amber-300 shadow-md shadow-amber-500/20 animate-pulse'
+                  ? 'bg-amber-500/20 border-amber-500/50 text-amber-300 shadow-md shadow-amber-500/25'
                   : 'bg-white/5 border-white/10 text-[#a39eb5] hover:text-white'
               }`}
-              title={isTanpuraPlaying ? 'Stop Ambient Tanpura Drone' : 'Play Ambient Tanpura Drone (Sa-Pa)'}
+              title={isTanpuraPlaying ? 'Stop Ambient Tanpura Drone' : 'Play Ambient Tanpura Drone (Sa-Pa harmonics)'}
             >
-              {isTanpuraPlaying ? <Volume2 className="w-4 h-4 text-[#f59e3a]" /> : <VolumeX className="w-4 h-4" />}
+              {isTanpuraPlaying ? (
+                <>
+                  <span className="flex items-end gap-0.5 h-3.5">
+                    <span className="w-0.5 h-3 bg-amber-400 animate-pulse" />
+                    <span className="w-0.5 h-2 bg-amber-300 animate-pulse delay-75" />
+                    <span className="w-0.5 h-3.5 bg-amber-400 animate-pulse delay-150" />
+                    <span className="w-0.5 h-1.5 bg-amber-300 animate-pulse delay-100" />
+                  </span>
+                  <span className="text-[11px] text-amber-200">Tanpura On</span>
+                </>
+              ) : (
+                <>
+                  <Volume2 className="w-3.5 h-3.5 text-amber-400/70" />
+                  <span className="hidden sm:inline text-[11px]">Tanpura</span>
+                </>
+              )}
             </button>
 
             {/* Mobile Menu Button */}
@@ -111,39 +126,39 @@ export default function Header() {
         {mobileMenuOpen && (
           <div className="md:hidden border-t border-white/10 bg-[#0d091a] px-4 py-4 space-y-3">
             <Link
-              href="/story"
-              onClick={() => setMobileMenuOpen(false)}
-              className="flex items-center gap-3 py-2 text-sm text-[#f3f0e6] hover:text-[#f59e3a]"
-            >
-              <BookOpen className="w-4 h-4 text-[#f59e3a]" /> The Story (7 Kandas)
-            </Link>
-            <Link
               href="/journey"
               onClick={() => setMobileMenuOpen(false)}
               className="flex items-center gap-3 py-2 text-sm text-[#f3f0e6] hover:text-[#f59e3a]"
             >
-              <Compass className="w-4 h-4 text-[#f59e3a]" /> Rama's Journey Map (15 Stops)
+              <Compass className="w-4 h-4 text-amber-400" /> The 14-Year Odyssey (Map)
+            </Link>
+            <Link
+              href="/story"
+              onClick={() => setMobileMenuOpen(false)}
+              className="flex items-center gap-3 py-2 text-sm text-[#f3f0e6] hover:text-[#f59e3a]"
+            >
+              <BookOpen className="w-4 h-4 text-amber-400" /> The Living Codex (7 Kandas)
             </Link>
             <Link
               href="/pradakshina"
               onClick={() => setMobileMenuOpen(false)}
               className="flex items-center gap-3 py-2 text-sm text-[#f3f0e6] hover:text-[#f59e3a]"
             >
-              <Flame className="w-4 h-4 text-[#f59e3a]" /> Pradakshina (108 Names)
+              <Flame className="w-4 h-4 text-amber-400" /> Temple Parikrama (108 Names)
             </Link>
             <Link
               href="/characters"
               onClick={() => setMobileMenuOpen(false)}
               className="flex items-center gap-3 py-2 text-sm text-[#f3f0e6] hover:text-[#f59e3a]"
             >
-              <Users className="w-4 h-4 text-[#f59e3a]" /> Personalities Guide (194 figures)
+              <Users className="w-4 h-4 text-amber-400" /> Dharma Alliances & Lineages
             </Link>
             <Link
               href="/parayana"
               onClick={() => setMobileMenuOpen(false)}
               className="flex items-center gap-3 py-2 text-sm text-[#f3f0e6] hover:text-[#f59e3a]"
             >
-              <Calendar className="w-4 h-4 text-[#f59e3a]" /> Parayana Tracker
+              <Calendar className="w-4 h-4 text-amber-400" /> Sadhana Altar (7-Day Recital)
             </Link>
           </div>
         )}
