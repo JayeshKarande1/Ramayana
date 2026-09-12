@@ -13,7 +13,7 @@ export interface LanguageInfo {
 }
 
 export const LANGUAGES: LanguageInfo[] = [
-  { code: 'en', name: 'English (Sanskrit)', nativeName: 'English', script: 'iast' },
+  { code: 'en', name: 'English (Sanskrit)', nativeName: 'English', script: 'devanagari' },
   { code: 'hi', name: 'Hindi', nativeName: 'हिन्दी', script: 'devanagari' },
   { code: 'mr', name: 'Marathi', nativeName: 'मराठी', script: 'devanagari' },
   { code: 'ta', name: 'Tamil', nativeName: 'தமிழ்', script: 'tamil' },
