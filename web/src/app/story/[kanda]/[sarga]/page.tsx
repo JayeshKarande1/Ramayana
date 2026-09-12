@@ -9,6 +9,19 @@ interface Props {
   params: Promise<{ kanda: string; sarga: string }>;
 }
 
+export async function generateStaticParams() {
+  const params: { kanda: string; sarga: string }[] = [];
+  for (const kanda of kandasData) {
+    for (let i = 1; i <= kanda.sargasCount; i++) {
+      params.push({
+        kanda: kanda.id,
+        sarga: String(i),
+      });
+    }
+  }
+  return params;
+}
+
 export default async function SargaPage({ params }: Props) {
   const { kanda: kandaId, sarga: sargaStr } = await params;
   const sargaNum = parseInt(sargaStr, 10);

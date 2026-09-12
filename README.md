@@ -43,14 +43,17 @@
 * Traditional **7-Day Saptaha Parayana Schedule** dividing the 68 sargas of Sundara Kanda across 7 days.
 * Daily checklist, progress tracking, and direct chapter jumpers.
 
-### ⚡ 7. Sub-20ms Instant Search (SQLite FTS5)
-* Instant global search modal (`Ctrl+K` / `⌘K`) querying a local SQLite full-text search index across all 21,640 verses in both Sanskrit and English.
+### ⚡ 7. Instant Search & Multi-Target Deployment
+* **Client-Side Static Search & SQLite FTS5**: Global search modal (`Ctrl+K` / `⌘K`) querying indexed verses in both Sanskrit, IAST Roman transliteration, and English meanings.
+* **100% Static HTML Export (`output: 'export'`)**: Fully exportable for GitHub Pages, Cloudflare Pages, or any static host with automated GitHub Actions CI/CD.
 
 ---
 
 ## 🏛️ Repository Architecture
 
 ```text
+├── deploy/
+│   └── github-pages.yml          # GitHub Pages automated deployment workflow
 ├── data/
 │   ├── kandas.json               # Metadata for all 7 Kandas
 │   ├── characters.json           # 194 Personalities with roles, aliases & bios
@@ -63,23 +66,27 @@
 │   ├── scrape_characters.py      # Character roster & profile extractor
 │   ├── scrape_journey.py         # 15 stops journey map extractor
 │   ├── scrape_pradakshina.py     # 108 names extractor
+│   ├── generate_search_index.py  # Fast static search index generator
 │   ├── build_sqlite.py           # SQLite database & FTS5 search compiler
 │   ├── verify_data.py            # Comprehensive dataset audit
 │   └── test_web.py               # Web endpoint integration test suite
-└── web/                          # Next.js 15 Full-Stack Web Application
+└── web/                          # Next.js Full-Stack & Static Export Web App
+    ├── public/
+    │   ├── .nojekyll             # GitHub Pages bypass Jekyll marker
+    │   └── search_index.json     # Client-side instant search index
     ├── src/
     │   ├── app/
-    │   │   ├── page.tsx          # Homepage with Daily Darshan & pathways
-    │   │   ├── layout.tsx        # Global layout with Header & Footer
-    │   │   ├── globals.css       # Divine Gold & Saffron temple theme
-    │   │   ├── story/            # Kanda & Sarga Reader routes
+    │   │   ├── page.tsx          # Living sanctum homepage & 7 turning points
+    │   │   ├── layout.tsx        # Global layout with particles & audio
+    │   │   ├── story/            # Living Scripture Codex (all 648 sargas)
     │   │   ├── journey/          # Interactive 14-year route explorer
     │   │   ├── pradakshina/      # 108 Names diya chanting parikrama
     │   │   ├── characters/       # 194 Personalities directory & modal
-    │   │   ├── parayana/         # Sundara Kanda 7-Day sadhana tracker
-    │   │   └── api/search/       # Native node:sqlite FTS5 search endpoint
-    │   ├── components/           # UI Components (Header, Footer, Reader, Modal)
-    │   └── lib/                  # Transliteration & Audio engines
+    │   │   ├── relics/           # Divine Arsenal & Sacred Relics Treasury
+    │   │   ├── compass/          # The Dharma Compass moral dilemma matcher
+    │   │   └── parayana/         # Sundara Kanda 7-Day sadhana tracker
+    │   ├── components/           # UI & Audio Components (Particles, Reader, Intro)
+    │   └── lib/                  # Procedural Web Audio & Transliteration
 ```
 
 ---

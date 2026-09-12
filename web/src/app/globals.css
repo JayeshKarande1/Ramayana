@@ -2,15 +2,17 @@
 @import "tailwindcss";
 
 :root {
-  --background: #07050d;
-  --foreground: #f3f0e6;
-  --night-card: #110d1f;
+  --background: #06040a;
+  --foreground: #f5efe6;
+  --night-card: #0f0b1a;
+  --night-card-hover: #171129;
   --gold: #f3d27a;
   --gold-glow: rgba(243, 210, 122, 0.25);
   --saffron: #f59e3a;
   --saffron-deep: #ea580c;
   --border-gold: rgba(243, 210, 122, 0.16);
   --text-muted: #a39eb5;
+  --manuscript-bg: rgba(26, 18, 11, 0.65);
 }
 
 body {
@@ -18,6 +20,10 @@ body {
   color: var(--foreground);
   font-family: 'Inter', sans-serif;
   overflow-x: hidden;
+  background-image: 
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(245, 158, 58, 0.08), transparent 70%),
+    radial-gradient(ellipse 60% 40% at 80% 60%, rgba(243, 210, 122, 0.04), transparent 60%);
+  background-attachment: fixed;
 }
 
 .font-sanskrit {
@@ -41,6 +47,10 @@ body {
   box-shadow: 0 0 35px var(--gold-glow);
 }
 
+.sanctum-glow {
+  box-shadow: 0 0 60px rgba(245, 158, 58, 0.25), inset 0 0 40px rgba(243, 210, 122, 0.1);
+}
+
 .saffron-gradient {
   background: linear-gradient(135deg, #f59e3a 0%, #ea580c 100%);
 }
@@ -55,6 +65,56 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+/* Manuscript Parchment Card */
+.manuscript-pothi {
+  background: linear-gradient(180deg, rgba(28, 20, 14, 0.8) 0%, rgba(16, 11, 22, 0.9) 100%);
+  border: 1px solid rgba(243, 210, 122, 0.22);
+  box-shadow: 0 12px 40px -10px rgba(0, 0, 0, 0.7), inset 0 1px 0 rgba(243, 210, 122, 0.3);
+}
+
+/* Diya Flame Keyframes */
+@keyframes flame-flicker {
+  0%, 100% {
+    transform: scale(1) translateY(0);
+    opacity: 0.95;
+    filter: drop-shadow(0 0 6px #f59e3a);
+  }
+  25% {
+    transform: scale(1.08, 0.94) translateY(-1px);
+    opacity: 1;
+    filter: drop-shadow(0 0 10px #ffb300);
+  }
+  50% {
+    transform: scale(0.95, 1.05) translateY(-2px);
+    opacity: 0.9;
+    filter: drop-shadow(0 0 7px #ea580c);
+  }
+  75% {
+    transform: scale(1.04, 0.98) translateY(-1px);
+    opacity: 1;
+    filter: drop-shadow(0 0 12px #f59e3a);
+  }
+}
+
+.animate-flame {
+  animation: flame-flicker 1.8s infinite ease-in-out;
+}
+
+@keyframes pulse-slow {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.04);
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 4s infinite ease-in-out;
+}
+
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
   width: 7px;
@@ -62,14 +122,113 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #090612;
+  background: #06040a;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(243, 210, 122, 0.25);
+  background: rgba(243, 210, 122, 0.22);
   border-radius: 999px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--saffron);
+}
+
+/* ==========================================================================
+   View Transitions API (Chrome 111+, Edge 111+, Safari 18.2+, Firefox 144+)
+   ========================================================================== */
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition {
+    navigation: auto;
+  }
+
+  ::view-transition-old(root) {
+    animation: 180ms cubic-bezier(0.4, 0, 1, 1) both vt-fade-out;
+  }
+
+  ::view-transition-new(root) {
+    animation: 260ms cubic-bezier(0.22, 1, 0.36, 1) 30ms both vt-fade-in;
+  }
+}
+
+@keyframes vt-fade-out {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0.995);
+  }
+}
+
+@keyframes vt-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ==========================================================================
+   Universal Page Transition & Hardware-Accelerated Polish
+   ========================================================================== */
+@keyframes page-enter {
+  0% {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-page-enter {
+  animation: page-enter 260ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  will-change: opacity, transform;
+}
+
+/* ==========================================================================
+   Mobile App Touch & Native Ergonomics
+   ========================================================================== */
+html, body {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+.pt-safe {
+  padding-top: env(safe-area-inset-top, 0px);
+}
+
+.app-touch-active {
+  transition: transform 0.12s cubic-bezier(0.2, 0.8, 0.2, 1), opacity 0.12s ease;
+}
+.app-touch-active:active {
+  transform: scale(0.92);
+  opacity: 0.85;
+}
+
+/* Bottom Sheet Animations */
+@keyframes sheet-slide-up {
+  from {
+    transform: translateY(100%);
+    opacity: 0.4;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-sheet-up {
+  animation: sheet-slide-up 280ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  will-change: transform;
 }

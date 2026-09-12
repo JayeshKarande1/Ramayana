@@ -14,7 +14,8 @@
     "appearsIn": [],
     "hasFullProfile": true,
     "profileUrl": "/characters/rama/",
-    "profileDetails": 0
+    "profileDetails": 0,
+    "imageUrl": "/images/characters/rama.jpg"
   },
   {
     "slug": "sita",
@@ -31,7 +32,8 @@
     "appearsIn": [],
     "hasFullProfile": true,
     "profileUrl": "/characters/sita/",
-    "profileDetails": 0
+    "profileDetails": 0,
+    "imageUrl": "/images/characters/sita.jpg"
   },
   {
     "slug": "bharata",
@@ -48,7 +50,8 @@
     "appearsIn": [],
     "hasFullProfile": true,
     "profileUrl": "/characters/bharata/",
-    "profileDetails": 0
+    "profileDetails": 0,
+    "imageUrl": "/images/characters/bharata.jpg"
   },
   {
     "slug": "hanuman",
@@ -65,7 +68,8 @@
     "appearsIn": [],
     "hasFullProfile": true,
     "profileUrl": "/characters/hanuman/",
-    "profileDetails": 0
+    "profileDetails": 0,
+    "imageUrl": "/images/characters/hanuman.jpg"
   },
   {
     "slug": "lakshmana",
@@ -82,7 +86,8 @@
     "appearsIn": [],
     "hasFullProfile": true,
     "profileUrl": "/characters/lakshmana/",
-    "profileDetails": 0
+    "profileDetails": 0,
+    "imageUrl": "/images/characters/lakshmana.jpg"
   },
   {
     "slug": "shatrughna",
@@ -98,7 +103,8 @@
     "aliases": [],
     "appearsIn": [],
     "hasFullProfile": false,
-    "profileUrl": null
+    "profileUrl": null,
+    "imageUrl": "/images/characters/shatrughna.jpg"
   },
   {
     "slug": "dasharatha",
@@ -115,7 +121,8 @@
     "appearsIn": [],
     "hasFullProfile": true,
     "profileUrl": "/characters/dasharatha/",
-    "profileDetails": 0
+    "profileDetails": 0,
+    "imageUrl": "/images/characters/dasharatha.jpg"
   },
   {
     "slug": "janaka-seeradhwaja",
@@ -131,7 +138,8 @@
     "aliases": [],
     "appearsIn": [],
     "hasFullProfile": false,
-    "profileUrl": null
+    "profileUrl": null,
+    "imageUrl": "/images/characters/janaka-seeradhwaja.jpg"
   },
   {
     "slug": "kaikeyi",
@@ -148,7 +156,8 @@
     "appearsIn": [],
     "hasFullProfile": true,
     "profileUrl": "/characters/kaikeyi/",
-    "profileDetails": 0
+    "profileDetails": 0,
+    "imageUrl": "/images/characters/kaikeyi.jpg"
   },
   {
     "slug": "kausalya",
@@ -164,7 +173,8 @@
     "aliases": [],
     "appearsIn": [],
     "hasFullProfile": false,
-    "profileUrl": null
+    "profileUrl": null,
+    "imageUrl": "/images/characters/kausalya.jpg"
   },
   {
     "slug": "sumitra",
@@ -180,7 +190,8 @@
     "aliases": [],
     "appearsIn": [],
     "hasFullProfile": false,
-    "profileUrl": null
+    "profileUrl": null,
+    "imageUrl": "/images/characters/sumitra.jpg"
   },
   {
     "slug": "sunayana",
@@ -212,7 +223,8 @@
     "aliases": [],
     "appearsIn": [],
     "hasFullProfile": false,
-    "profileUrl": null
+    "profileUrl": null,
+    "imageUrl": "/images/characters/agastya.jpg"
   },
   {
     "slug": "ahalya",
@@ -228,7 +240,8 @@
     "aliases": [],
     "appearsIn": [],
     "hasFullProfile": false,
-    "profileUrl": null
+    "profileUrl": null,
+    "imageUrl": "/images/characters/ahalya.jpg"
   },
   {
     "slug": "anasuya",
@@ -308,7 +321,8 @@
     "aliases": [],
     "appearsIn": [],
     "hasFullProfile": false,
-    "profileUrl": null
+    "profileUrl": null,
+    "imageUrl": "/images/characters/narada.jpg"
   },
   {
     "slug": "valmiki",
@@ -325,7 +339,8 @@
     "appearsIn": [],
     "hasFullProfile": true,
     "profileUrl": "/characters/valmiki/",
-    "profileDetails": 0
+    "profileDetails": 0,
+    "imageUrl": "/images/characters/valmiki.jpg"
   },
   {
     "slug": "vasishta",
@@ -341,7 +356,8 @@
     "aliases": [],
     "appearsIn": [],
     "hasFullProfile": false,
-    "profileUrl": null
+    "profileUrl": null,
+    "imageUrl": "/images/characters/vasishta.jpg"
   },
   {
     "slug": "vishwamitra",
@@ -358,7 +374,8 @@
     "appearsIn": [],
     "hasFullProfile": true,
     "profileUrl": "/characters/vishwamitra/",
-    "profileDetails": 0
+    "profileDetails": 0,
+    "imageUrl": "/images/characters/vishwamitra.jpg"
   },
   {
     "slug": "aditi",
@@ -438,7 +455,8 @@
     "aliases": [],
     "appearsIn": [],
     "hasFullProfile": false,
-    "profileUrl": null
+    "profileUrl": null,
+    "imageUrl": "/images/characters/brahma.jpg"
   },
   {
     "slug": "chandra",
@@ -470,7 +488,8 @@
     "aliases": [],
     "appearsIn": [],
     "hasFullProfile": false,
-    "profileUrl": null
+    "profileUrl": null,
+    "imageUrl": "/images/characters/ganga.jpg"
   },
   {
     "slug": "garuda",
@@ -486,7 +505,8 @@
     "aliases": [],
     "appearsIn": [],
     "hasFullProfile": false,
-    "profileUrl": null
+    "profileUrl": null,
+    "imageUrl": "/images/characters/garuda.jpg"
   },
   {
     "slug": "indra",
@@ -710,7 +730,8 @@
     "aliases": [],
     "appearsIn": [],
     "hasFullProfile": false,
-    "profileUrl": null
+    "profileUrl": null,
+    "imageUrl": "/images/characters/shiva.jpg"
   },
   {
     "slug": "surasa",
@@ -1126,7 +1147,8 @@
     "aliases": [],
     "appearsIn": [],
     "hasFullProfile": false,
-    "profileUrl": null
+    "profileUrl": null,
+    "imageUrl": "/images/characters/shabari.jpg"
   },
   {
     "slug": "sharabhanga",
@@ -1286,7 +1308,8 @@
     "aliases": [],
     "appearsIn": [],
     "hasFullProfile": false,
-    "profileUrl": null
+    "profileUrl": null,
+    "imageUrl": "/images/characters/angada-son-of-vali.jpg"
   },
   {
     "slug": "guha",
@@ -1302,7 +1325,8 @@
     "aliases": [],
     "appearsIn": [],
     "hasFullProfile": false,
-    "profileUrl": null
+    "profileUrl": null,
+    "imageUrl": "/images/characters/guha.jpg"
   },
   {
     "slug": "jambavan",
@@ -1318,7 +1342,8 @@
     "aliases": [],
     "appearsIn": [],
     "hasFullProfile": false,
-    "profileUrl": null
+    "profileUrl": null,
+    "imageUrl": "/images/characters/jambavan.jpg"
   },
   {
     "slug": "jatayu",
@@ -1334,7 +1359,8 @@
     "aliases": [],
     "appearsIn": [],
     "hasFullProfile": false,
-    "profileUrl": null
+    "profileUrl": null,
+    "imageUrl": "/images/characters/jatayu.jpg"
   },
   {
     "slug": "nala",
@@ -1382,7 +1408,8 @@
     "aliases": [],
     "appearsIn": [],
     "hasFullProfile": false,
-    "profileUrl": null
+    "profileUrl": null,
+    "imageUrl": "/images/characters/sampati.jpg"
   },
   {
     "slug": "sugriva",
@@ -1398,7 +1425,8 @@
     "aliases": [],
     "appearsIn": [],
     "hasFullProfile": false,
-    "profileUrl": null
+    "profileUrl": null,
+    "imageUrl": "/images/characters/sugriva.jpg"
   },
   {
     "slug": "tara",
@@ -1430,7 +1458,8 @@
     "aliases": [],
     "appearsIn": [],
     "hasFullProfile": false,
-    "profileUrl": null
+    "profileUrl": null,
+    "imageUrl": "/images/characters/vibhishana.jpg"
   },
   {
     "slug": "aja",
@@ -2262,7 +2291,8 @@
     "aliases": [],
     "appearsIn": [],
     "hasFullProfile": false,
-    "profileUrl": null
+    "profileUrl": null,
+    "imageUrl": "/images/characters/vali.jpg"
   },
   {
     "slug": "vinata",
@@ -2294,7 +2324,8 @@
     "aliases": [],
     "appearsIn": [],
     "hasFullProfile": false,
-    "profileUrl": null
+    "profileUrl": null,
+    "imageUrl": "/images/characters/indrajit-meghanada.jpg"
   },
   {
     "slug": "kumbhakarna",
@@ -2310,7 +2341,8 @@
     "aliases": [],
     "appearsIn": [],
     "hasFullProfile": false,
-    "profileUrl": null
+    "profileUrl": null,
+    "imageUrl": "/images/characters/kumbhakarna.jpg"
   },
   {
     "slug": "mandodari",
@@ -2326,7 +2358,8 @@
     "aliases": [],
     "appearsIn": [],
     "hasFullProfile": false,
-    "profileUrl": null
+    "profileUrl": null,
+    "imageUrl": "/images/characters/mandodari.jpg"
   },
   {
     "slug": "ravana",
@@ -2343,7 +2376,8 @@
     "appearsIn": [],
     "hasFullProfile": true,
     "profileUrl": "/characters/ravana/",
-    "profileDetails": 0
+    "profileDetails": 0,
+    "imageUrl": "/images/characters/ravana.jpg"
   },
   {
     "slug": "akampana",
@@ -2663,7 +2697,8 @@
     "aliases": [],
     "appearsIn": [],
     "hasFullProfile": false,
-    "profileUrl": null
+    "profileUrl": null,
+    "imageUrl": "/images/characters/maricha.jpg"
   },
   {
     "slug": "mayasura",
