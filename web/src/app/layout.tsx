@@ -4,6 +4,8 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import TempleParticles from '@/components/TempleParticles';
 import CinematicIntro from '@/components/CinematicIntro';
+import PageTransition from '@/components/PageTransition';
+import MobileAppNavBar from '@/components/MobileAppNavBar';
 import { LanguageProvider } from '@/context/LanguageContext';
 
 export const metadata: Metadata = {
@@ -26,10 +28,13 @@ export default function RootLayout({
           <TempleParticles />
           <CinematicIntro />
           <Header />
-          <main className="flex-1 w-full relative z-10">
-            {children}
+          <main className="flex-1 w-full relative z-10 pb-20 md:pb-0">
+            <PageTransition>
+              {children}
+            </PageTransition>
           </main>
           <Footer />
+          <MobileAppNavBar />
         </LanguageProvider>
       </body>
     </html>

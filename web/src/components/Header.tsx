@@ -2,13 +2,16 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { Search, Volume2, VolumeX, Menu, X, BookOpen, Compass, Flame, Users, Calendar, Sparkles, Shield, Globe } from 'lucide-react';
+import { usePathname } from 'next/navigation';
+import { Search, Volume2, VolumeX, Menu, X, BookOpen, Compass, Flame, Users, Calendar, Sparkles, Shield, Globe, ChevronLeft } from 'lucide-react';
 import SearchModal from './SearchModal';
 import LanguageModal from './LanguageModal';
+import MobileMoreSheet from './MobileMoreSheet';
 import { useLanguage } from '@/context/LanguageContext';
 import { tanpura } from '@/lib/audio';
 
 export default function Header() {
+  const pathname = usePathname();
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isLanguageOpen, setIsLanguageOpen] = useState(false);
   const [isTanpuraPlaying, setIsTanpuraPlaying] = useState(false);
@@ -37,22 +40,43 @@ export default function Header() {
     <>
       <header className="sticky top-0 z-40 w-full border-b border-[rgba(243,210,122,0.12)] bg-[#07050d]/90 backdrop-blur-md">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-          {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-amber-400 via-orange-500 to-amber-800 p-[2px] shadow-lg shadow-orange-950/40 group-hover:scale-105 transition-transform">
-              <div className="w-full h-full rounded-full bg-[#0d091a] flex items-center justify-center">
-                <span className="font-sanskrit text-sm font-bold text-amber-200">श्रीराम</span>
+          {/* Logo & Contextual Back Navigation on Mobile */}
+          <div className="flex items-center gap-2">
+            {pathname !== '/' && (
+              <Link
+                href={
+                  pathname.startsWith('/story/') && pathname !== '/story'
+                    ? pathname.split('/').filter(Boolean).length > 2
+                      ? `/story/${pathname.split('/').filter(Boolean)[1]}`
+                      : '/story'
+                    : '/'
+                }
+                className="md:hidden flex items-center gap-1 py-1.5 px-2 rounded-xl bg-white/5 border border-white/10 text-amber-300 active:scale-95 transition-all app-touch-active"
+                title="Back"
+              >
+                <ChevronLeft className="w-4 h-4 stroke-[2.5]" />
+                <span className="font-cinzel text-xs font-bold text-amber-200">
+                  {pathname.startsWith('/story/') && pathname !== '/story' ? 'Back' : 'Home'}
+                </span>
+              </Link>
+            )}
+
+            <Link href="/" className="flex items-center gap-2.5 sm:gap-3 group">
+              <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-gradient-to-br from-amber-400 via-orange-500 to-amber-800 p-[2px] shadow-lg shadow-orange-950/40 group-hover:scale-105 transition-transform">
+                <div className="w-full h-full rounded-full bg-[#0d091a] flex items-center justify-center">
+                  <span className="font-sanskrit text-xs sm:text-sm font-bold text-amber-200">श्रीराम</span>
+                </div>
               </div>
-            </div>
-            <div className="flex flex-col">
-              <span className="font-cinzel text-xl font-bold tracking-wider text-gold-gradient">
-                RAMAYANA
-              </span>
-              <span className="font-sanskrit text-[10px] tracking-widest text-[#a39eb5]/80">
-                रामायणम् · वाल्मीकीयम्
-              </span>
-            </div>
-          </Link>
+              <div className={`flex flex-col ${pathname !== '/' ? 'hidden sm:flex' : 'flex'}`}>
+                <span className="font-cinzel text-lg sm:text-xl font-bold tracking-wider text-gold-gradient">
+                  RAMAYANA
+                </span>
+                <span className="font-sanskrit text-[9px] sm:text-[10px] tracking-widest text-[#a39eb5]/80">
+                  रामायणम् · वाल्मीकीयम्
+                </span>
+              </div>
+            </Link>
+          </div>
 
           {/* Desktop Navigation Links */}
           <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-[#a39eb5]">
@@ -156,89 +180,14 @@ export default function Header() {
           </div>
         </div>
 
-        {/* Mobile Navigation Dropdown */}
-        {mobileMenuOpen && (
-          <div className="md:hidden border-t border-white/10 bg-[#0d091a] px-4 py-4 space-y-3">
-            {/* Mobile Language Switcher */}
-            <button
-              onClick={() => {
-                setMobileMenuOpen(false);
-                setIsLanguageOpen(true);
-              }}
-              className="flex items-center justify-between py-2.5 px-3 rounded-xl bg-white/5 border border-white/10 text-sm text-amber-200 hover:text-white w-full cursor-pointer"
-            >
-              <span className="flex items-center gap-2.5">
-                <Globe className="w-4 h-4 text-amber-400" />
-                <span>{t('action_language')}</span>
-              </span>
-              <span className="font-sanskrit text-xs px-2.5 py-0.5 rounded-full bg-amber-500/20 text-amber-300 font-semibold">
-                {currentLanguageInfo.nativeName}
-              </span>
-            </button>
-
-            <button
-              onClick={() => {
-                setMobileMenuOpen(false);
-                if (typeof window !== 'undefined') {
-                  window.dispatchEvent(new Event('open-ramayana-prologue'));
-                }
-              }}
-              className="flex items-center gap-3 py-2 text-sm text-amber-300 font-medium hover:text-amber-200 w-full text-left"
-            >
-              <Sparkles className="w-4 h-4 text-amber-400" /> {t('action_prologue')}
-            </button>
-            <Link
-              href="/story"
-              onClick={() => setMobileMenuOpen(false)}
-              className="flex items-center gap-3 py-2 text-sm text-[#f3f0e6] hover:text-[#f59e3a] font-semibold text-amber-200"
-            >
-              <BookOpen className="w-4 h-4 text-amber-400" /> {t('sub_samhita')}
-            </Link>
-            <Link
-              href="/journey"
-              onClick={() => setMobileMenuOpen(false)}
-              className="flex items-center gap-3 py-2 text-sm text-[#f3f0e6] hover:text-[#f59e3a]"
-            >
-              <Compass className="w-4 h-4 text-amber-400" /> {t('sub_journey')}
-            </Link>
-            <Link
-              href="/pradakshina"
-              onClick={() => setMobileMenuOpen(false)}
-              className="flex items-center gap-3 py-2 text-sm text-[#f3f0e6] hover:text-[#f59e3a]"
-            >
-              <Flame className="w-4 h-4 text-amber-400" /> {t('sub_parikrama')}
-            </Link>
-            <Link
-              href="/characters"
-              onClick={() => setMobileMenuOpen(false)}
-              className="flex items-center gap-3 py-2 text-sm text-[#f3f0e6] hover:text-[#f59e3a]"
-            >
-              <Users className="w-4 h-4 text-amber-400" /> {t('sub_characters')}
-            </Link>
-            <Link
-              href="/relics"
-              onClick={() => setMobileMenuOpen(false)}
-              className="flex items-center gap-3 py-2 text-sm text-[#f3f0e6] hover:text-[#f59e3a]"
-            >
-              <Shield className="w-4 h-4 text-amber-400" /> {t('sub_relics')}
-            </Link>
-            <Link
-              href="/compass"
-              onClick={() => setMobileMenuOpen(false)}
-              className="flex items-center gap-3 py-2 text-sm text-[#f3f0e6] hover:text-[#f59e3a]"
-            >
-              <Compass className="w-4 h-4 text-amber-400" /> {t('sub_compass')}
-            </Link>
-            <Link
-              href="/parayana"
-              onClick={() => setMobileMenuOpen(false)}
-              className="flex items-center gap-3 py-2 text-sm text-[#f3f0e6] hover:text-[#f59e3a]"
-            >
-              <Calendar className="w-4 h-4 text-amber-400" /> {t('sub_parayana')}
-            </Link>
-          </div>
-        )}
       </header>
+
+      {/* Mobile More Portals Drawer Sheet */}
+      <MobileMoreSheet 
+        isOpen={mobileMenuOpen} 
+        onClose={() => setMobileMenuOpen(false)}
+        onOpenLanguage={() => setIsLanguageOpen(true)}
+      />
 
       {/* Global Search Modal */}
       <SearchModal isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
