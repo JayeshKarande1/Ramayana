@@ -7,7 +7,8 @@ import {
   Play, Pause, Sparkles, Navigation, Users, Shield, BookOpen
 } from 'lucide-react';
 import journeyData from '@/data/journey.json';
-import { chantVerse } from '@/lib/audio';
+import { chantVerse, playDiyaSpark } from '@/lib/audio';
+import JourneyMap from '@/components/JourneyMap';
 
 const stopMeta: Record<number, { distance: string; timeline: string; figures: string[]; sargaLink: string }> = {
   1: { distance: "0 km", timeline: "Beginning / Year 0", figures: ["Dasharatha", "Kausalya", "Vishvamitra", "Sita"], sargaLink: "/story/bala/1" },
@@ -40,6 +41,7 @@ export default function JourneyPage() {
   const [activeEpoch, setActiveEpoch] = useState<string>('all');
   const [isPlayingShloka, setIsPlayingShloka] = useState(false);
   const [isAutoTouring, setIsAutoTouring] = useState(false);
+  const [viewMode, setViewMode] = useState<'map' | 'list'>('map');
 
   const activeStopData = journeyData.find(s => s.stop === selectedStop) || journeyData[0];
   const meta = stopMeta[activeStopData.stop] || stopMeta[1];
@@ -54,8 +56,12 @@ export default function JourneyPage() {
   useEffect(() => {
     if (!isAutoTouring) return;
     const interval = setInterval(() => {
-      setSelectedStop(prev => (prev >= 15 ? 1 : prev + 1));
-    }, 7000);
+      setSelectedStop(prev => {
+        const next = prev >= 15 ? 1 : prev + 1;
+        playDiyaSpark();
+        return next;
+      });
+    }, 6000);
     return () => clearInterval(interval);
   }, [isAutoTouring]);
 
@@ -129,73 +135,117 @@ export default function JourneyPage() {
 
       {/* Main Odyssey Interactive Grid: Left Interactive Waypoint Track, Right Dramatic Stage */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start mb-16">
-        {/* Left Column: Interactive Waypoint Trail */}
-        <div className="lg:col-span-5 bg-gradient-to-b from-[#110d21] to-[#0a0714] rounded-3xl border border-amber-400/20 p-5 shadow-2xl">
-          <div className="flex justify-between items-center pb-3 border-b border-white/10 mb-4 px-2">
-            <span className="text-xs font-semibold uppercase tracking-wider text-amber-300 font-cinzel">
-              Sacred Trail (15 Milestones)
-            </span>
-            <span className="text-[11px] text-[#a39eb5]">
-              Active: {activeStopData.name} ({meta.distance})
-            </span>
+        {/* Left Column: Interactive Waypoint Trail or Animated Cartographic Map */}
+        <div className="lg:col-span-6">
+          {/* View Mode Toggle Header */}
+          <div className="flex items-center justify-between pb-3 border-b border-white/10 mb-4 px-1">
+            <div className="flex items-center gap-1 p-1 rounded-xl bg-black/40 border border-white/10 text-xs">
+              <button
+                onClick={() => setViewMode('map')}
+                className={`px-3 py-1.5 rounded-lg transition-all cursor-pointer flex items-center gap-1.5 font-medium ${
+                  viewMode === 'map'
+                    ? 'bg-amber-500/25 text-amber-300 border border-amber-500/40 shadow-sm font-semibold'
+                    : 'text-[#a39eb5] hover:text-white'
+                }`}
+              >
+                <Compass className="w-3.5 h-3.5 text-amber-400" />
+                <span>Antique Map</span>
+              </button>
+              <button
+                onClick={() => setViewMode('list')}
+                className={`px-3 py-1.5 rounded-lg transition-all cursor-pointer flex items-center gap-1.5 font-medium ${
+                  viewMode === 'list'
+                    ? 'bg-amber-500/25 text-amber-300 border border-amber-500/40 shadow-sm font-semibold'
+                    : 'text-[#a39eb5] hover:text-white'
+                }`}
+              >
+                <BookOpen className="w-3.5 h-3.5 text-amber-400" />
+                <span>Milestone Ledger</span>
+              </button>
+            </div>
+
+            <div className="text-right">
+              <span className="text-xs font-semibold text-amber-300 font-cinzel block">
+                {activeStopData.name}
+              </span>
+              <span className="text-[10px] text-[#a39eb5] font-mono">
+                {meta.distance} • {meta.timeline.split(' ')[0]}
+              </span>
+            </div>
           </div>
 
-          <div className="space-y-2.5 max-h-[640px] overflow-y-auto pr-1">
-            {filteredStops.map(s => {
-              const isSelected = selectedStop === s.stop;
-              const sMeta = stopMeta[s.stop] || stopMeta[1];
+          {/* View Content: Animated Map OR Ledger */}
+          {viewMode === 'map' ? (
+            <JourneyMap
+              selectedStop={selectedStop}
+              onSelectStop={(s) => {
+                setSelectedStop(s);
+                playDiyaSpark();
+              }}
+              isAutoTouring={isAutoTouring}
+              onToggleAutoTour={() => setIsAutoTouring(!isAutoTouring)}
+            />
+          ) : (
+            <div className="bg-gradient-to-b from-[#110d21] to-[#0a0714] rounded-3xl border border-amber-400/20 p-5 shadow-2xl space-y-2.5 max-h-[700px] overflow-y-auto pr-1">
+              {filteredStops.map(s => {
+                const isSelected = selectedStop === s.stop;
+                const sMeta = stopMeta[s.stop] || stopMeta[1];
 
-              return (
-                <div
-                  key={s.stop}
-                  onClick={() => setSelectedStop(s.stop)}
-                  className={`p-3.5 rounded-2xl border transition-all cursor-pointer flex items-center justify-between ${
-                    isSelected
-                      ? 'bg-gradient-to-r from-amber-500/20 to-orange-950/30 border-amber-400 shadow-md shadow-amber-950/40 scale-[1.01]'
-                      : 'bg-white/[0.02] border-white/5 hover:border-amber-400/30 hover:bg-white/[0.05]'
-                  }`}
-                >
-                  <div className="flex items-center gap-3">
-                    <div className={`w-8 h-8 rounded-full flex items-center justify-center font-cinzel text-xs font-bold shrink-0 transition-transform ${
+                return (
+                  <div
+                    key={s.stop}
+                    onClick={() => {
+                      setSelectedStop(s.stop);
+                      playDiyaSpark();
+                    }}
+                    className={`p-3.5 rounded-2xl border transition-all cursor-pointer flex items-center justify-between ${
                       isSelected
-                        ? 'bg-gradient-to-r from-amber-400 to-orange-500 text-black scale-110 shadow-md shadow-amber-500/30'
-                        : 'bg-white/10 text-amber-200'
-                    }`}>
-                      {s.stop}
-                    </div>
-                    <div>
-                      <div className="flex items-baseline gap-2">
-                        <h4 className={`text-sm font-bold font-cinzel ${isSelected ? 'text-amber-300' : 'text-[#f5efe6]'}`}>
-                          {s.name}
-                        </h4>
-                        <span className="font-sanskrit text-xs text-[#f3d27a]/60">
-                          {s.sanskritName}
-                        </span>
+                        ? 'bg-gradient-to-r from-amber-500/20 to-orange-950/30 border-amber-400 shadow-md shadow-amber-950/40 scale-[1.01]'
+                        : 'bg-white/[0.02] border-white/5 hover:border-amber-400/30 hover:bg-white/[0.05]'
+                    }`}
+                  >
+                    <div className="flex items-center gap-3">
+                      <div className={`w-8 h-8 rounded-full flex items-center justify-center font-cinzel text-xs font-bold shrink-0 transition-transform ${
+                        isSelected
+                          ? 'bg-gradient-to-r from-amber-400 to-orange-500 text-black scale-110 shadow-md shadow-amber-500/30'
+                          : 'bg-white/10 text-amber-200'
+                      }`}>
+                        {s.stop}
                       </div>
-                      <div className="text-[11px] text-[#a39eb5] flex items-center gap-2 mt-0.5">
-                        <span>{s.location.split(',')[0]}</span>
-                        <span>•</span>
-                        <span className="font-mono text-amber-400/80">{sMeta.distance}</span>
+                      <div>
+                        <div className="flex items-baseline gap-2">
+                          <h4 className={`text-sm font-bold font-cinzel ${isSelected ? 'text-amber-300' : 'text-[#f5efe6]'}`}>
+                            {s.name}
+                          </h4>
+                          <span className="font-sanskrit text-xs text-[#f3d27a]/60">
+                            {s.sanskritName}
+                          </span>
+                        </div>
+                        <div className="text-[11px] text-[#a39eb5] flex items-center gap-2 mt-0.5">
+                          <span>{s.location.split(',')[0]}</span>
+                          <span>•</span>
+                          <span className="font-mono text-amber-400/80">{sMeta.distance}</span>
+                        </div>
                       </div>
                     </div>
-                  </div>
 
-                  <div className="text-right shrink-0">
-                    <span className="text-[10px] uppercase font-bold text-[#f59e3a] block">
-                      {s.kanda.replace(' Kanda', '')}
-                    </span>
-                    <span className="text-[10px] text-[#a39eb5] font-mono">
-                      {sMeta.timeline.split(' ')[0]}
-                    </span>
+                    <div className="text-right shrink-0">
+                      <span className="text-[10px] uppercase font-bold text-[#f59e3a] block">
+                        {s.kanda.replace(' Kanda', '')}
+                      </span>
+                      <span className="text-[10px] text-[#a39eb5] font-mono">
+                        {sMeta.timeline.split(' ')[0]}
+                      </span>
+                    </div>
                   </div>
-                </div>
-              );
-            })}
-          </div>
+                );
+              })}
+            </div>
+          )}
         </div>
 
         {/* Right Column: High-Impact Waypoint Stage */}
-        <div className="lg:col-span-7 sticky top-24">
+        <div className="lg:col-span-6 sticky top-24">
           <div className="manuscript-pothi rounded-3xl p-6 sm:p-9 shadow-2xl relative overflow-hidden">
             {/* Ambient Background Aura */}
             <div className="absolute top-0 right-0 w-64 h-64 bg-amber-500/10 rounded-full blur-3xl pointer-events-none" />

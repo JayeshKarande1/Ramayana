@@ -7,7 +7,8 @@ import {
   Sparkles, ShieldCheck, MapPin, Feather, HeartHandshake, Eye
 } from 'lucide-react';
 import kandasData from '@/data/kandas.json';
-import { chantVerse } from '@/lib/audio';
+import { chantVerse, playTempleBell, playDiyaSpark } from '@/lib/audio';
+import EpicTurningPoints from '@/components/EpicTurningPoints';
 
 export default function HomePage() {
   const [isPlayingShloka, setIsPlayingShloka] = useState(false);
@@ -84,9 +85,13 @@ export default function HomePage() {
 
         {/* Floating Sacred Diya Flame Icon */}
         <div className="relative z-10 flex items-center justify-center mb-6">
-          <div className="relative w-16 h-16 rounded-full bg-gradient-to-b from-amber-500/20 to-orange-950/40 border border-amber-400/30 flex items-center justify-center sanctum-glow">
-            <span className="text-2xl animate-flame">🪔</span>
-          </div>
+          <button
+            onClick={() => playTempleBell(392)}
+            className="relative w-16 h-16 rounded-full bg-gradient-to-b from-amber-500/20 to-orange-950/40 border border-amber-400/30 flex items-center justify-center sanctum-glow hover:scale-110 active:scale-95 transition-all cursor-pointer group"
+            title="Ring Sacred Temple Bell (Ghanta)"
+          >
+            <span className="text-2xl animate-flame select-none group-hover:scale-125 transition-transform">🪔</span>
+          </button>
         </div>
 
         {/* Sacred Invocation Badge */}
@@ -108,6 +113,28 @@ export default function HomePage() {
           Traverse 21,640 sacred verses across seven Kandas and fifteen sacred lands. 
           Experience the epic not as a static book, but as an interactive spiritual odyssey.
         </p>
+
+        {/* Hero Quick Action CTAs */}
+        <div className="relative z-10 flex flex-wrap items-center justify-center gap-3.5 mt-8">
+          <button
+            onClick={() => {
+              if (typeof window !== 'undefined') {
+                window.dispatchEvent(new Event('open-ramayana-prologue'));
+              }
+            }}
+            className="px-6 py-3 rounded-full bg-amber-500/15 border border-amber-400/40 hover:border-amber-300 text-amber-200 hover:text-white font-medium text-sm tracking-wide transition-all shadow-[0_0_20px_rgba(245,158,11,0.15)] hover:shadow-[0_0_25px_rgba(245,158,11,0.35)] flex items-center gap-2 cursor-pointer"
+          >
+            <Sparkles className="w-4 h-4 text-amber-400" />
+            <span>Experience Prologue</span>
+          </button>
+          <Link
+            href="/journey"
+            className="px-6 py-3 rounded-full bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-400 hover:to-orange-400 text-black font-semibold text-sm tracking-wide transition-all shadow-lg shadow-amber-500/20 flex items-center gap-2"
+          >
+            <Compass className="w-4 h-4" />
+            <span>Begin 14-Year Odyssey</span>
+          </Link>
+        </div>
 
         {/* Three Experiential Gateways (Cards) */}
         <div className="relative z-10 grid grid-cols-1 md:grid-cols-3 gap-5 max-w-5xl w-full mt-12 text-left">
@@ -223,7 +250,10 @@ export default function HomePage() {
             return (
               <button
                 key={k.id}
-                onClick={() => setSelectedKandaIndex(idx)}
+                onClick={() => {
+                  setSelectedKandaIndex(idx);
+                  playDiyaSpark();
+                }}
                 className={`px-4 py-2.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all cursor-pointer flex items-center gap-2 ${
                   isSelected
                     ? 'saffron-gradient text-black shadow-lg shadow-orange-950/40 font-bold scale-105'
@@ -300,6 +330,9 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Scrollytelling Epic Arc: The Seven Turning Points of Dharma */}
+      <EpicTurningPoints />
+
       {/* Daily Contemplation Altar (Dharma Card) */}
       <section className="w-full max-w-5xl px-4 py-12">
         <div className="text-center mb-6">
@@ -357,7 +390,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Two Additional Distinct Experiences */}
+      {/* Four Additional Experiential Portals */}
       <section className="w-full max-w-6xl px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Box 1: Characters & Dharma Alliances */}
@@ -409,6 +442,60 @@ export default function HomePage() {
                 className="inline-flex items-center gap-1.5 text-xs font-semibold text-amber-400 hover:text-amber-300"
               >
                 <span>Open Sadhana Altar</span>
+                <ArrowRight className="w-3.5 h-3.5" />
+              </Link>
+            </div>
+          </div>
+
+          {/* Box 3: The Divine Arsenal & Sacred Relics */}
+          <div className="p-8 rounded-3xl bg-gradient-to-br from-[#140e24] to-[#0a0714] border border-amber-400/20 flex flex-col justify-between">
+            <div>
+              <div className="w-12 h-12 rounded-2xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-300 mb-4">
+                <ShieldCheck className="w-6 h-6" />
+              </div>
+              <span className="text-xs font-semibold tracking-widest text-[#f59e3a] uppercase font-cinzel">The Sacred Treasury</span>
+              <h3 className="font-cinzel text-2xl font-bold text-[#f5efe6] mt-1">
+                Divine Arsenal & Relics
+              </h3>
+              <p className="text-xs sm:text-sm text-[#a39eb5] mt-2 leading-relaxed">
+                Behold the celestial astras and holy tokens: Kodanda bow, Pinaka, Brahmastra, 
+                Rama&apos;s signet ring, and the Sanjeevani Himalayan peak.
+              </p>
+            </div>
+            <div className="mt-6 pt-4 border-t border-white/5 flex justify-between items-center">
+              <span className="text-xs text-amber-300/80 font-medium">7 Legendary Relics</span>
+              <Link
+                href="/relics"
+                className="inline-flex items-center gap-1.5 text-xs font-semibold text-amber-400 hover:text-amber-300"
+              >
+                <span>Enter Treasury</span>
+                <ArrowRight className="w-3.5 h-3.5" />
+              </Link>
+            </div>
+          </div>
+
+          {/* Box 4: The Dharma Compass */}
+          <div className="p-8 rounded-3xl bg-gradient-to-br from-[#140e24] to-[#0a0714] border border-amber-400/20 flex flex-col justify-between">
+            <div>
+              <div className="w-12 h-12 rounded-2xl bg-sky-500/10 border border-sky-500/30 flex items-center justify-center text-sky-300 mb-4">
+                <Compass className="w-6 h-6" />
+              </div>
+              <span className="text-xs font-semibold tracking-widest text-[#f59e3a] uppercase font-cinzel">Ethical Archetype</span>
+              <h3 className="font-cinzel text-2xl font-bold text-[#f5efe6] mt-1">
+                The Dharma Compass
+              </h3>
+              <p className="text-xs sm:text-sm text-[#a39eb5] mt-2 leading-relaxed">
+                Reflect on three profound moral dilemmas to discover which sacred archetype 
+                (Rama, Sita, Lakshmana, Hanuman, Bharata, Vibhishana) mirrors your soul.
+              </p>
+            </div>
+            <div className="mt-6 pt-4 border-t border-white/5 flex justify-between items-center">
+              <span className="text-xs text-amber-300/80 font-medium">3-Dilemma Matcher</span>
+              <Link
+                href="/compass"
+                className="inline-flex items-center gap-1.5 text-xs font-semibold text-amber-400 hover:text-amber-300"
+              >
+                <span>Take the Compass</span>
                 <ArrowRight className="w-3.5 h-3.5" />
               </Link>
             </div>

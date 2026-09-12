@@ -10,6 +10,8 @@ urls = [
     'http://localhost:3000/journey',
     'http://localhost:3000/pradakshina',
     'http://localhost:3000/characters',
+    'http://localhost:3000/relics',
+    'http://localhost:3000/compass',
     'http://localhost:3000/parayana'
 ]
 

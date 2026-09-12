@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { Search, Volume2, VolumeX, Menu, X, BookOpen, Compass, Flame, Users, Calendar } from 'lucide-react';
+import { Search, Volume2, VolumeX, Menu, X, BookOpen, Compass, Flame, Users, Calendar, Sparkles, Shield } from 'lucide-react';
 import SearchModal from './SearchModal';
 import { tanpura } from '@/lib/audio';
 
@@ -64,13 +64,33 @@ export default function Header() {
             <Link href="/characters" className="hover:text-[#f59e3a] transition-colors flex items-center gap-1.5">
               <Users className="w-4 h-4 text-amber-400" /> Alliances
             </Link>
+            <Link href="/relics" className="hover:text-[#f59e3a] transition-colors flex items-center gap-1.5">
+              <Shield className="w-4 h-4 text-amber-400" /> Treasury
+            </Link>
+            <Link href="/compass" className="hover:text-[#f59e3a] transition-colors flex items-center gap-1.5">
+              <Compass className="w-4 h-4 text-amber-400" /> Compass
+            </Link>
             <Link href="/parayana" className="hover:text-[#f59e3a] transition-colors flex items-center gap-1.5">
               <Calendar className="w-4 h-4 text-amber-400" /> Sadhana
             </Link>
           </nav>
 
           {/* Action Tools */}
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2 sm:gap-3">
+            {/* Replay Prologue Button */}
+            <button
+              onClick={() => {
+                if (typeof window !== 'undefined') {
+                  window.dispatchEvent(new Event('open-ramayana-prologue'));
+                }
+              }}
+              className="flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/30 hover:border-amber-400 text-xs text-amber-200 hover:text-white transition-all cursor-pointer shadow-sm hover:shadow-[0_0_12px_rgba(245,158,11,0.25)]"
+              title="Experience Epic Prologue"
+            >
+              <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+              <span className="hidden sm:inline">Prologue</span>
+            </button>
+
             {/* Search Trigger Button */}
             <button
               onClick={() => setIsSearchOpen(true)}
@@ -125,6 +145,17 @@ export default function Header() {
         {/* Mobile Navigation Dropdown */}
         {mobileMenuOpen && (
           <div className="md:hidden border-t border-white/10 bg-[#0d091a] px-4 py-4 space-y-3">
+            <button
+              onClick={() => {
+                setMobileMenuOpen(false);
+                if (typeof window !== 'undefined') {
+                  window.dispatchEvent(new Event('open-ramayana-prologue'));
+                }
+              }}
+              className="flex items-center gap-3 py-2 text-sm text-amber-300 font-medium hover:text-amber-200 w-full text-left"
+            >
+              <Sparkles className="w-4 h-4 text-amber-400" /> Experience Prologue (Intro)
+            </button>
             <Link
               href="/journey"
               onClick={() => setMobileMenuOpen(false)}
@@ -152,6 +183,20 @@ export default function Header() {
               className="flex items-center gap-3 py-2 text-sm text-[#f3f0e6] hover:text-[#f59e3a]"
             >
               <Users className="w-4 h-4 text-amber-400" /> Dharma Alliances & Lineages
+            </Link>
+            <Link
+              href="/relics"
+              onClick={() => setMobileMenuOpen(false)}
+              className="flex items-center gap-3 py-2 text-sm text-[#f3f0e6] hover:text-[#f59e3a]"
+            >
+              <Shield className="w-4 h-4 text-amber-400" /> The Sacred Treasury (Relics)
+            </Link>
+            <Link
+              href="/compass"
+              onClick={() => setMobileMenuOpen(false)}
+              className="flex items-center gap-3 py-2 text-sm text-[#f3f0e6] hover:text-[#f59e3a]"
+            >
+              <Compass className="w-4 h-4 text-amber-400" /> The Dharma Compass (Quiz)
             </Link>
             <Link
               href="/parayana"
