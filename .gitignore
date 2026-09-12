@@ -41,3 +41,6 @@ yarn-error.log*
 
 # Scratch scripts
 scratch/
+
+# Graphify
+graphify-out/

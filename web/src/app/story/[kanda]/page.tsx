@@ -77,14 +77,23 @@ export default async function KandaPage({ params }: Props) {
           {kanda.description}
         </p>
 
-        <div className="flex flex-wrap gap-6 mt-6 pt-6 border-t border-white/10 text-xs text-[#a39eb5]">
-          <div>
-            <span className="font-semibold text-white">{kanda.sargasCount}</span> Sargas
+        <div className="flex flex-wrap items-center justify-between gap-4 mt-6 pt-6 border-t border-white/10 text-xs text-[#a39eb5]">
+          <div className="flex items-center gap-6">
+            <div>
+              <span className="font-semibold text-white">{kanda.sargasCount}</span> Sargas
+            </div>
+            <div>
+              <span className="font-semibold text-white">{kanda.shlokasCount.toLocaleString()}</span> Verses
+            </div>
           </div>
-          <div>
-            <span className="font-semibold text-white">{kanda.shlokasCount.toLocaleString()}</span> Verses
-          </div>
-          <div>
+          <div className="flex items-center gap-3">
+            <Link
+              href={`/story/${kanda.id}/1?mode=book`}
+              className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full saffron-gradient text-black font-bold text-xs shadow-md shadow-amber-500/20 hover:scale-105 active:scale-95 transition-all"
+            >
+              <BookOpen className="w-3.5 h-3.5" />
+              <span>Read Canto as Book</span>
+            </Link>
             <Link
               href={`/story/${kanda.id}/1`}
               className="text-[#f59e3a] font-semibold hover:underline flex items-center gap-1"

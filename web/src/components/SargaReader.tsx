@@ -5,10 +5,11 @@ import Link from 'next/link';
 import { 
   Volume2, VolumeX, Play, Pause, ChevronLeft, ChevronRight, 
   Copy, Check, BookOpen, Sparkles, ScrollText, Maximize2, 
-  Columns, Settings, Layers, ArrowLeft, ArrowRight, Share2
+  Columns, Settings, Layers, ArrowLeft, ArrowRight, Share2, X
 } from 'lucide-react';
 import { chantVerse, stopChanting } from '@/lib/audio';
 import { transliterate, ScriptType } from '@/lib/transliteration';
+import { useLanguage } from '@/context/LanguageContext';
 
 export interface Shloka {
   id: string;
@@ -34,13 +35,16 @@ interface SargaReaderProps {
 }
 
 export default function SargaReader({ sargaData, totalSargasInKanda }: SargaReaderProps) {
-  // Reading mode: 'manuscript' (illuminated scroll), 'carousel' (focused sadhana deck), 'split' (scholar dual codex)
-  const [readingMode, setReadingMode] = useState<'manuscript' | 'carousel' | 'split'>('manuscript');
-  const [script, setScript] = useState<ScriptType>('devanagari');
+  const { currentLanguageInfo } = useLanguage();
+  // Reading mode: 'book' (distraction-free pothi page), 'manuscript' (illuminated scroll), 'carousel' (focused sadhana deck), 'split' (scholar dual codex)
+  const [readingMode, setReadingMode] = useState<'book' | 'manuscript' | 'carousel' | 'split'>('manuscript');
+  const [script, setScript] = useState<ScriptType>(currentLanguageInfo?.script || 'devanagari');
   const [fontSize, setFontSize] = useState<'normal' | 'large' | 'huge'>('normal');
   const [activePlayingIndex, setActivePlayingIndex] = useState<number | null>(null);
   const [isAutoPlaying, setIsAutoPlaying] = useState(false);
   const [carouselIndex, setCarouselIndex] = useState<number>(0);
+  const [bookIndex, setBookIndex] = useState<number>(0);
+  const [touchStartX, setTouchStartX] = useState<number | null>(null);
   const [copiedId, setCopiedId] = useState<string | null>(null);
   const [expandedWbw, setExpandedWbw] = useState<Record<number, boolean>>({});
 
@@ -49,6 +53,53 @@ export default function SargaReader({ sargaData, totalSargasInKanda }: SargaRead
   activePlayingIndexRef.current = activePlayingIndex;
   const isAutoPlayingRef = useRef<boolean>(false);
   isAutoPlayingRef.current = isAutoPlaying;
+
+  // Sync script with current global language if available
+  useEffect(() => {
+    if (currentLanguageInfo?.script) {
+      setScript(currentLanguageInfo.script);
+    }
+  }, [currentLanguageInfo]);
+
+  // Check URL query param or mobile viewports to open Book Mode
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      if (params.get('mode') === 'book' || window.innerWidth < 768) {
+        setReadingMode('book');
+      }
+    }
+  }, []);
+
+  const goToPrevShloka = () => {
+    if (bookIndex > 0) {
+      setBookIndex(prev => prev - 1);
+    }
+  };
+
+  const goToNextShloka = () => {
+    if (bookIndex < shlokas.length - 1) {
+      setBookIndex(prev => prev + 1);
+    }
+  };
+
+  const handleTouchStart = (e: React.TouchEvent) => {
+    setTouchStartX(e.touches[0].clientX);
+  };
+
+  const handleTouchEnd = (e: React.TouchEvent) => {
+    if (touchStartX === null) return;
+    const touchEndX = e.changedTouches[0].clientX;
+    const diffX = touchEndX - touchStartX;
+    if (diffX < -50) {
+      // Swiped left -> next verse
+      goToNextShloka();
+    } else if (diffX > 50) {
+      // Swiped right -> previous verse
+      goToPrevShloka();
+    }
+    setTouchStartX(null);
+  };
 
   const playVerse = (index: number, autoAdvance = false) => {
     if (index >= shlokas.length) {
@@ -60,11 +111,13 @@ export default function SargaReader({ sargaData, totalSargasInKanda }: SargaRead
     setActivePlayingIndex(index);
     if (readingMode === 'carousel') {
       setCarouselIndex(index);
+    } else if (readingMode === 'book') {
+      setBookIndex(index);
     }
     const shloka = shlokas[index];
 
     // Scroll to verse card if in manuscript or split mode
-    if (readingMode !== 'carousel') {
+    if (readingMode !== 'carousel' && readingMode !== 'book') {
       const element = document.getElementById(`shloka-${shloka.shlokaNumber}`);
       if (element) {
         element.scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -89,7 +142,7 @@ export default function SargaReader({ sargaData, totalSargasInKanda }: SargaRead
       setActivePlayingIndex(null);
     } else {
       setIsAutoPlaying(true);
-      const startIndex = readingMode === 'carousel' ? carouselIndex : (activePlayingIndex !== null ? activePlayingIndex : 0);
+      const startIndex = readingMode === 'book' ? bookIndex : (readingMode === 'carousel' ? carouselIndex : (activePlayingIndex !== null ? activePlayingIndex : 0));
       playVerse(startIndex, true);
     }
   };
@@ -105,10 +158,23 @@ export default function SargaReader({ sargaData, totalSargasInKanda }: SargaRead
     setExpandedWbw(prev => ({ ...prev, [num]: !prev[num] }));
   };
 
-  // Keyboard navigation for Carousel mode
+  // Keyboard navigation for Carousel and Book modes
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (readingMode === 'carousel') {
+      if (readingMode === 'book') {
+        if (e.key === 'Escape') {
+          setReadingMode('manuscript');
+          if (typeof window !== 'undefined' && window.location.search.includes('mode=book')) {
+            const url = new URL(window.location.href);
+            url.searchParams.delete('mode');
+            window.history.replaceState({}, '', url.pathname + (url.search ? url.search : ''));
+          }
+        } else if (e.key === 'ArrowRight' && bookIndex < shlokas.length - 1) {
+          setBookIndex(prev => prev + 1);
+        } else if (e.key === 'ArrowLeft' && bookIndex > 0) {
+          setBookIndex(prev => prev - 1);
+        }
+      } else if (readingMode === 'carousel') {
         if (e.key === 'ArrowRight' && carouselIndex < shlokas.length - 1) {
           setCarouselIndex(prev => prev + 1);
         } else if (e.key === 'ArrowLeft' && carouselIndex > 0) {
@@ -126,7 +192,19 @@ export default function SargaReader({ sargaData, totalSargasInKanda }: SargaRead
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [readingMode, carouselIndex, activePlayingIndex, shlokas.length]);
+  }, [readingMode, bookIndex, carouselIndex, activePlayingIndex, shlokas.length]);
+
+  // Lock body scroll when full-screen Book Mode is open
+  useEffect(() => {
+    if (readingMode === 'book') {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [readingMode]);
 
   useEffect(() => {
     return () => {
@@ -138,6 +216,7 @@ export default function SargaReader({ sargaData, totalSargasInKanda }: SargaRead
   const nextSarga = sargaData.sarga < totalSargasInKanda ? sargaData.sarga + 1 : null;
 
   const currentCarouselShloka = shlokas[carouselIndex] || shlokas[0];
+  const currentBookShloka = shlokas[bookIndex] || shlokas[0];
 
   const getFontSizeClass = () => {
     switch (fontSize) {
@@ -202,6 +281,19 @@ export default function SargaReader({ sargaData, totalSargasInKanda }: SargaRead
 
         {/* Mode Selector Tabs */}
         <div className="flex items-center bg-black/50 p-1 rounded-xl border border-white/10 text-xs">
+          <button
+            onClick={() => setReadingMode('book')}
+            className={`px-3 py-1.5 rounded-lg font-medium transition-all flex items-center gap-1.5 cursor-pointer ${
+              readingMode === 'book'
+                ? 'saffron-gradient text-black font-bold shadow-sm'
+                : 'text-[#a39eb5] hover:text-white'
+            }`}
+            title="Open Distraction-Free Book Mode"
+          >
+            <BookOpen className="w-3.5 h-3.5" />
+            <span className="hidden sm:inline">Book Mode</span>
+            <span className="sm:hidden">Book</span>
+          </button>
           <button
             onClick={() => setReadingMode('manuscript')}
             className={`px-3 py-1.5 rounded-lg font-medium transition-all flex items-center gap-1.5 cursor-pointer ${
@@ -268,9 +360,170 @@ export default function SargaReader({ sargaData, totalSargasInKanda }: SargaRead
             <option value="kannada">ಕನ್ನಡ (Kannada)</option>
             <option value="bengali">বাংলা (Bengali)</option>
             <option value="malayalam">മലയാളം (Malayalam)</option>
+            <option value="gujarati">ગુજરાતી (Gujarati)</option>
           </select>
         </div>
       </div>
+
+      {/* FULL SCREEN BOOK STYLE VIEW */}
+      {readingMode === 'book' && (
+        <div 
+          className="fixed inset-0 z-50 bg-[#06040a] text-[#f5efe6] flex flex-col justify-between p-4 sm:p-8 md:p-10 overflow-hidden select-none animate-in fade-in duration-200"
+          onTouchStart={handleTouchStart}
+          onTouchEnd={handleTouchEnd}
+        >
+          {/* Subtle Ambient Sacred Illumination */}
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-amber-950/20 via-[#0a0714] to-[#040207] pointer-events-none" />
+          
+          {/* Top Progress Line across the top of screen */}
+          <div className="absolute top-0 left-0 right-0 h-1 bg-white/10 z-30">
+            <div 
+              className="h-full saffron-gradient transition-all duration-300"
+              style={{ width: `${((bookIndex + 1) / shlokas.length) * 100}%` }}
+            />
+          </div>
+
+          {/* Minimalist Top Bar: Chapter Title, Counter, and Close Button Only */}
+          <div className="relative z-20 flex items-center justify-between pb-3 border-b border-amber-400/20 max-w-5xl mx-auto w-full">
+            <div className="flex items-center gap-2 sm:gap-3">
+              <span className="font-cinzel text-xs sm:text-sm font-bold text-amber-300 tracking-wider">
+                {sargaData.kandaName}
+              </span>
+              <span className="text-white/20">•</span>
+              <span className="text-xs sm:text-sm text-amber-200/80 font-cinzel">
+                Sarga {sargaData.sarga}
+              </span>
+              <span className="text-white/20">•</span>
+              <span className="text-xs font-mono text-amber-400/90 bg-amber-500/10 border border-amber-500/25 px-2.5 py-0.5 rounded-full font-semibold">
+                Shloka {bookIndex + 1} of {shlokas.length}
+              </span>
+            </div>
+
+            {/* ONLY Close Button */}
+            <button
+              onClick={() => {
+                setReadingMode('manuscript');
+                if (typeof window !== 'undefined' && window.location.search.includes('mode=book')) {
+                  const url = new URL(window.location.href);
+                  url.searchParams.delete('mode');
+                  window.history.replaceState({}, '', url.pathname + (url.search ? url.search : ''));
+                }
+              }}
+              className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/10 hover:bg-white/20 border border-white/20 hover:border-amber-400/40 text-xs text-white transition-all cursor-pointer shadow-lg active:scale-95"
+              title="Close Book Mode (Esc)"
+            >
+              <span className="font-medium">Close</span>
+              <X className="w-4 h-4 text-amber-400" />
+            </button>
+          </div>
+
+          {/* Central Book Page: Pure Shloka Focus */}
+          <div className="relative z-10 flex-1 flex flex-col items-center justify-center max-w-4xl mx-auto w-full my-auto px-2 sm:px-6 overflow-y-auto max-h-[calc(100vh-170px)]">
+            <div className="w-full manuscript-pothi p-6 sm:p-12 md:p-14 rounded-3xl border border-amber-400/30 shadow-[0_0_60px_rgba(0,0,0,0.85)] relative overflow-hidden flex flex-col items-center justify-center min-h-[380px] sm:min-h-[460px]">
+              
+              {/* Sacred Verse Seal */}
+              <div className="mb-6 flex items-center justify-center">
+                <span className="px-4 py-1 rounded-full bg-amber-500/10 border border-amber-400/30 font-sanskrit text-amber-300 text-sm font-semibold shadow-[0_0_20px_rgba(245,158,11,0.2)]">
+                  ॥ श्लोकः {currentBookShloka.shlokaNumber} ॥
+                </span>
+              </div>
+
+              {/* The Shloka Verse Text */}
+              <p className={`font-sanskrit text-gold-gradient leading-relaxed sm:leading-loose font-medium px-2 sm:px-6 select-text max-w-3xl mx-auto text-center drop-shadow-[0_2px_10px_rgba(245,158,11,0.25)] transition-all ${
+                fontSize === 'huge' 
+                  ? 'text-3xl sm:text-5xl md:text-6xl' 
+                  : (fontSize === 'large' ? 'text-2xl sm:text-4xl md:text-5xl' : 'text-xl sm:text-3xl md:text-4xl')
+              }`}>
+                {script === 'iast' 
+                  ? currentBookShloka.transliteration 
+                  : transliterate(currentBookShloka.sanskrit, script)}
+              </p>
+
+              {/* Transliteration (if script is Roman or non-devanagari) */}
+              {script !== 'iast' && currentBookShloka.transliteration && (
+                <p className="text-xs sm:text-sm text-[#a39eb5] italic max-w-xl mx-auto text-center mt-4 leading-relaxed font-light">
+                  {currentBookShloka.transliteration}
+                </p>
+              )}
+
+              {/* Verse Meaning */}
+              {currentBookShloka.meaning && (
+                <div className="mt-6 max-w-2xl mx-auto text-center border-t border-white/10 pt-4 px-4">
+                  <p className="text-xs sm:text-sm text-[#f5efe6]/85 leading-relaxed font-light italic">
+                    &ldquo;{currentBookShloka.meaning}&rdquo;
+                  </p>
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Bottom Bar: ONLY REQUIRED NAVIGATION BUTTONS */}
+          <div className="relative z-20 max-w-3xl mx-auto w-full pt-4 border-t border-amber-400/15 flex items-center justify-between gap-4">
+            {/* Previous Shloka Button */}
+            {bookIndex > 0 ? (
+              <button
+                onClick={goToPrevShloka}
+                className="flex items-center gap-2 px-6 sm:px-8 py-3.5 rounded-full border border-white/15 bg-white/5 hover:bg-white/10 hover:border-amber-400/40 text-[#f5efe6] active:scale-95 transition-all text-sm font-semibold cursor-pointer shadow-lg"
+              >
+                <ArrowLeft className="w-4 h-4 text-amber-400" />
+                <span>Previous</span>
+              </button>
+            ) : prevSarga ? (
+              <Link
+                href={`/story/${sargaData.kanda}/${prevSarga}?mode=book`}
+                className="flex items-center gap-2 px-6 sm:px-8 py-3.5 rounded-full border border-amber-400/25 bg-amber-500/10 hover:bg-amber-500/20 text-amber-200 active:scale-95 transition-all text-sm font-semibold shadow-lg"
+              >
+                <ArrowLeft className="w-4 h-4" />
+                <span>Sarga {prevSarga}</span>
+              </Link>
+            ) : (
+              <button
+                disabled
+                className="flex items-center gap-2 px-6 sm:px-8 py-3.5 rounded-full border border-white/5 bg-transparent text-white/20 text-sm font-semibold cursor-not-allowed"
+              >
+                <ArrowLeft className="w-4 h-4 opacity-20" />
+                <span>Previous</span>
+              </button>
+            )}
+
+            {/* Center Shloka Progress & Swipe Hint */}
+            <div className="text-center font-cinzel text-xs text-[#a39eb5]">
+              <span className="text-amber-300 font-bold text-sm">{bookIndex + 1}</span>
+              <span className="text-white/30 mx-1">/</span>
+              <span>{shlokas.length}</span>
+              <span className="text-[10px] text-amber-400/50 block tracking-wider mt-0.5">
+                ← Swipe or Arrow keys →
+              </span>
+            </div>
+
+            {/* Next Shloka Button */}
+            {bookIndex < shlokas.length - 1 ? (
+              <button
+                onClick={goToNextShloka}
+                className="flex items-center gap-2 px-6 sm:px-8 py-3.5 rounded-full saffron-gradient text-black font-bold shadow-lg shadow-amber-500/30 hover:shadow-amber-500/50 hover:scale-105 active:scale-95 transition-all text-sm cursor-pointer"
+              >
+                <span>Next Shloka</span>
+                <ArrowRight className="w-4 h-4" />
+              </button>
+            ) : nextSarga ? (
+              <Link
+                href={`/story/${sargaData.kanda}/${nextSarga}?mode=book`}
+                className="flex items-center gap-2 px-6 sm:px-8 py-3.5 rounded-full saffron-gradient text-black font-bold shadow-lg shadow-amber-500/40 hover:scale-105 active:scale-95 transition-all text-sm"
+              >
+                <span>Next Sarga →</span>
+              </Link>
+            ) : (
+              <button
+                disabled
+                className="flex items-center gap-2 px-6 sm:px-8 py-3.5 rounded-full border border-white/5 bg-transparent text-white/20 text-sm font-semibold cursor-not-allowed"
+              >
+                <span>Next</span>
+                <ArrowRight className="w-4 h-4 opacity-20" />
+              </button>
+            )}
+          </div>
+        </div>
+      )}
 
       {/* MODE 1: THE ILLUMINATED POTHI MANUSCRIPT (Continuous Flow) */}
       {readingMode === 'manuscript' && (
@@ -413,7 +666,7 @@ export default function SargaReader({ sargaData, totalSargasInKanda }: SargaRead
 
               {currentCarouselShloka.meaning && (
                 <p className="text-base sm:text-lg text-[#f5efe6]/90 max-w-3xl mx-auto leading-relaxed font-light pt-4 border-t border-white/5">
-                  "{currentCarouselShloka.meaning}"
+                  &ldquo;{currentCarouselShloka.meaning}&rdquo;
                 </p>
               )}
 
@@ -548,49 +801,52 @@ export default function SargaReader({ sargaData, totalSargasInKanda }: SargaRead
       )}
 
       {/* Floating Bottom Audio Sanctum Bar */}
-      <div className="fixed bottom-4 left-1/2 -translate-x-1/2 z-40 w-full max-w-2xl px-4">
-        <div className="rounded-full bg-[#0a0714]/90 backdrop-blur-xl border border-amber-400/30 p-2 sm:p-2.5 shadow-2xl flex items-center justify-between gap-3 text-xs text-[#f5efe6]">
-          {/* Autoplay Toggle */}
-          <button
-            onClick={toggleAutoPlay}
-            className={`px-4 py-2 rounded-full font-semibold flex items-center gap-2 cursor-pointer transition-all ${
-              isAutoPlaying
-                ? 'bg-amber-500 text-black shadow-md animate-pulse'
-                : 'saffron-gradient text-black hover:opacity-90'
-            }`}
-          >
-            {isAutoPlaying ? <Pause className="w-3.5 h-3.5" /> : <Play className="w-3.5 h-3.5 fill-current" />}
-            <span>{isAutoPlaying ? 'Pause Autoplay' : 'Continuous Chant'}</span>
-          </button>
-
-          {/* Active Status Display */}
-          <div className="hidden sm:flex items-center gap-2 text-[11px] text-[#a39eb5]">
-            <span>Active:</span>
-            <span className="text-amber-300 font-mono font-bold">
-              {activePlayingIndex !== null 
-                ? `Shloka ${shlokas[activePlayingIndex]?.shlokaNumber}` 
-                : (readingMode === 'carousel' ? `Shloka ${carouselIndex + 1}` : 'Ready')}
-            </span>
-          </div>
-
-          {/* Quick Script Selector in Bottom Bar */}
-          <div className="flex items-center gap-2">
-            <select
-              value={script}
-              onChange={e => setScript(e.target.value as ScriptType)}
-              className="bg-black/50 text-[11px] text-amber-300 border border-white/10 rounded-full px-3 py-1.5 focus:outline-none cursor-pointer"
+      {readingMode !== 'book' && (
+        <div className="fixed bottom-4 left-1/2 -translate-x-1/2 z-40 w-full max-w-2xl px-4">
+          <div className="rounded-full bg-[#0a0714]/90 backdrop-blur-xl border border-amber-400/30 p-2 sm:p-2.5 shadow-2xl flex items-center justify-between gap-3 text-xs text-[#f5efe6]">
+            {/* Autoplay Toggle */}
+            <button
+              onClick={toggleAutoPlay}
+              className={`px-4 py-2 rounded-full font-semibold flex items-center gap-2 cursor-pointer transition-all ${
+                isAutoPlaying
+                  ? 'bg-amber-500 text-black shadow-md animate-pulse'
+                  : 'saffron-gradient text-black hover:opacity-90'
+              }`}
             >
-              <option value="devanagari">Devanagari</option>
-              <option value="iast">IAST Roman</option>
-              <option value="telugu">Telugu</option>
-              <option value="tamil">Tamil</option>
-              <option value="kannada">Kannada</option>
-              <option value="bengali">Bengali</option>
-              <option value="malayalam">Malayalam</option>
-            </select>
+              {isAutoPlaying ? <Pause className="w-3.5 h-3.5" /> : <Play className="w-3.5 h-3.5 fill-current" />}
+              <span>{isAutoPlaying ? 'Pause Autoplay' : 'Continuous Chant'}</span>
+            </button>
+
+            {/* Active Status Display */}
+            <div className="hidden sm:flex items-center gap-2 text-[11px] text-[#a39eb5]">
+              <span>Active:</span>
+              <span className="text-amber-300 font-mono font-bold">
+                {activePlayingIndex !== null 
+                  ? `Shloka ${shlokas[activePlayingIndex]?.shlokaNumber}` 
+                  : (readingMode === 'carousel' ? `Shloka ${carouselIndex + 1}` : 'Ready')}
+              </span>
+            </div>
+
+            {/* Quick Script Selector in Bottom Bar */}
+            <div className="flex items-center gap-2">
+              <select
+                value={script}
+                onChange={e => setScript(e.target.value as ScriptType)}
+                className="bg-black/50 text-[11px] text-amber-300 border border-white/10 rounded-full px-3 py-1.5 focus:outline-none cursor-pointer"
+              >
+                <option value="devanagari">Devanagari</option>
+                <option value="iast">IAST Roman</option>
+                <option value="telugu">Telugu</option>
+                <option value="tamil">Tamil</option>
+                <option value="kannada">Kannada</option>
+                <option value="bengali">Bengali</option>
+                <option value="malayalam">Malayalam</option>
+                <option value="gujarati">Gujarati</option>
+              </select>
+            </div>
           </div>
         </div>
-      </div>
+      )}
     </div>
   );
 }

@@ -17,8 +17,18 @@ export default function StoryIndexPage() {
         </h1>
         <p className="text-sm sm:text-base text-[#a39eb5] mt-3 leading-relaxed font-light">
           The complete canonical Valmiki Ramayana structured across seven sacred cantos and 648 sargas. 
-          Choose a canto to enter its illuminated verses and word-by-word Sanskrit padaccheda.
+          Choose a canto to enter its illuminated verses, or open the distraction-free book reader.
         </p>
+        <div className="mt-6 flex items-center justify-center gap-3">
+          <Link
+            href="/story/bala/1?mode=book"
+            className="inline-flex items-center gap-2.5 px-6 py-3 rounded-full saffron-gradient text-black font-bold text-sm shadow-lg shadow-amber-500/30 hover:shadow-amber-500/50 hover:scale-105 active:scale-95 transition-all cursor-pointer"
+          >
+            <BookOpen className="w-4 h-4" />
+            <span>Read as Book (Book UI)</span>
+            <ArrowRight className="w-4 h-4" />
+          </Link>
+        </div>
       </div>
 
       {/* Kandas Grid */}

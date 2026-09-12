@@ -116,6 +116,13 @@ export default function HomePage() {
 
         {/* Hero Quick Action CTAs */}
         <div className="relative z-10 flex flex-wrap items-center justify-center gap-3.5 mt-8">
+          <Link
+            href="/story"
+            className="px-6 py-3 rounded-full bg-gradient-to-r from-amber-500 via-orange-500 to-amber-600 hover:from-amber-400 hover:to-orange-400 text-black font-semibold text-sm tracking-wide transition-all shadow-lg shadow-amber-500/25 hover:shadow-amber-500/40 hover:scale-105 flex items-center gap-2"
+          >
+            <BookOpen className="w-4 h-4" />
+            <span>Open Scripture Codex</span>
+          </Link>
           <button
             onClick={() => {
               if (typeof window !== 'undefined') {
@@ -129,16 +136,37 @@ export default function HomePage() {
           </button>
           <Link
             href="/journey"
-            className="px-6 py-3 rounded-full bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-400 hover:to-orange-400 text-black font-semibold text-sm tracking-wide transition-all shadow-lg shadow-amber-500/20 flex items-center gap-2"
+            className="px-5 py-3 rounded-full bg-white/5 border border-white/10 hover:border-amber-400/40 text-sm text-[#a39eb5] hover:text-white transition-all flex items-center gap-2"
           >
-            <Compass className="w-4 h-4" />
-            <span>Begin 14-Year Odyssey</span>
+            <Compass className="w-4 h-4 text-amber-400" />
+            <span>Rama Yatra</span>
           </Link>
         </div>
 
         {/* Three Experiential Gateways (Cards) */}
         <div className="relative z-10 grid grid-cols-1 md:grid-cols-3 gap-5 max-w-5xl w-full mt-12 text-left">
-          {/* Gateway 1: The Odyssey */}
+          {/* Gateway 1: The Living Codex */}
+          <Link
+            href="/story"
+            className="group relative p-6 rounded-2xl bg-gradient-to-b from-[#18112b]/90 to-[#0c0817]/90 border border-amber-400/30 hover:border-amber-400/70 transition-all duration-300 shadow-xl hover:-translate-y-1 ring-1 ring-amber-400/20"
+          >
+            <div className="w-12 h-12 rounded-xl bg-amber-500/15 border border-amber-500/30 flex items-center justify-center text-amber-400 mb-4 group-hover:scale-110 transition-transform">
+              <BookOpen className="w-6 h-6" />
+            </div>
+            <div className="text-xs font-semibold tracking-widest text-[#f59e3a] uppercase font-cinzel">Gateway I</div>
+            <h3 className="font-cinzel text-xl font-bold text-[#f5efe6] mt-1 group-hover:text-amber-300 transition-colors">
+              The Living Samhita
+            </h3>
+            <p className="text-xs text-[#a39eb5] mt-2 leading-relaxed">
+              648 Sargas with word-by-word Sanskrit Anvaya breakdown, audio chanting, and meditative full-screen focus.
+            </p>
+            <div className="mt-4 flex items-center gap-1.5 text-xs font-semibold text-amber-400 group-hover:translate-x-1 transition-transform">
+              <span>Open Samhita</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </div>
+          </Link>
+
+          {/* Gateway 2: Rama Yatra */}
           <Link
             href="/journey"
             className="group relative p-6 rounded-2xl bg-gradient-to-b from-[#161026]/90 to-[#0c0817]/90 border border-amber-400/20 hover:border-amber-400/60 transition-all duration-300 shadow-xl hover:-translate-y-1"
@@ -146,36 +174,15 @@ export default function HomePage() {
             <div className="w-12 h-12 rounded-xl bg-orange-500/10 border border-orange-500/30 flex items-center justify-center text-amber-400 mb-4 group-hover:scale-110 transition-transform">
               <Compass className="w-6 h-6" />
             </div>
-            <div className="text-xs font-semibold tracking-widest text-[#f59e3a] uppercase font-cinzel">Gateway I</div>
-            <h3 className="font-cinzel text-xl font-bold text-[#f5efe6] mt-1 group-hover:text-amber-300 transition-colors">
-              The 14-Year Odyssey
-            </h3>
-            <p className="text-xs text-[#a39eb5] mt-2 leading-relaxed">
-              Step into Rama's footsteps across 3,000 km and 15 sacred geographic milestones from Ayodhya to Lanka.
-            </p>
-            <div className="mt-4 flex items-center gap-1.5 text-xs font-semibold text-amber-400 group-hover:translate-x-1 transition-transform">
-              <span>Begin the Trail</span>
-              <ArrowRight className="w-3.5 h-3.5" />
-            </div>
-          </Link>
-
-          {/* Gateway 2: The Living Codex */}
-          <Link
-            href="/story"
-            className="group relative p-6 rounded-2xl bg-gradient-to-b from-[#161026]/90 to-[#0c0817]/90 border border-amber-400/20 hover:border-amber-400/60 transition-all duration-300 shadow-xl hover:-translate-y-1"
-          >
-            <div className="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 mb-4 group-hover:scale-110 transition-transform">
-              <BookOpen className="w-6 h-6" />
-            </div>
             <div className="text-xs font-semibold tracking-widest text-[#f59e3a] uppercase font-cinzel">Gateway II</div>
             <h3 className="font-cinzel text-xl font-bold text-[#f5efe6] mt-1 group-hover:text-amber-300 transition-colors">
-              The Living Codex
+              Rama Yatra (Sacred Journey)
             </h3>
             <p className="text-xs text-[#a39eb5] mt-2 leading-relaxed">
-              648 Sargas with word-by-word Sanskrit Anvaya breakdown, audio chanting, and meditative full-screen focus.
+              Step into Rama&apos;s footsteps across 3,000 km and 15 sacred geographic milestones from Ayodhya to Lanka.
             </p>
             <div className="mt-4 flex items-center gap-1.5 text-xs font-semibold text-amber-400 group-hover:translate-x-1 transition-transform">
-              <span>Open Scripture</span>
+              <span>Begin Rama Yatra</span>
               <ArrowRight className="w-3.5 h-3.5" />
             </div>
           </Link>
@@ -393,13 +400,13 @@ export default function HomePage() {
       {/* Four Additional Experiential Portals */}
       <section className="w-full max-w-6xl px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {/* Box 1: Characters & Dharma Alliances */}
+          {/* Box 1: Characters & Dharma Charitra */}
           <div className="p-8 rounded-3xl bg-gradient-to-br from-[#140e24] to-[#0a0714] border border-amber-400/20 flex flex-col justify-between">
             <div>
               <div className="w-12 h-12 rounded-2xl bg-purple-500/10 border border-purple-500/30 flex items-center justify-center text-purple-300 mb-4">
                 <Users className="w-6 h-6" />
               </div>
-              <span className="text-xs font-semibold tracking-widest text-[#f59e3a] uppercase font-cinzel">Lineages & Alliances</span>
+              <span className="text-xs font-semibold tracking-widest text-[#f59e3a] uppercase font-cinzel">Lineages &amp; Charitra</span>
               <h3 className="font-cinzel text-2xl font-bold text-[#f5efe6] mt-1">
                 194 Named Personalities
               </h3>
@@ -414,7 +421,7 @@ export default function HomePage() {
                 href="/characters"
                 className="inline-flex items-center gap-1.5 text-xs font-semibold text-amber-400 hover:text-amber-300"
               >
-                <span>Explore Alliances</span>
+                <span>Explore Charitra</span>
                 <ArrowRight className="w-3.5 h-3.5" />
               </Link>
             </div>
@@ -447,15 +454,15 @@ export default function HomePage() {
             </div>
           </div>
 
-          {/* Box 3: The Divine Arsenal & Sacred Relics */}
+          {/* Box 3: The Divyastra Kosha & Sacred Relics */}
           <div className="p-8 rounded-3xl bg-gradient-to-br from-[#140e24] to-[#0a0714] border border-amber-400/20 flex flex-col justify-between">
             <div>
               <div className="w-12 h-12 rounded-2xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-300 mb-4">
                 <ShieldCheck className="w-6 h-6" />
               </div>
-              <span className="text-xs font-semibold tracking-widest text-[#f59e3a] uppercase font-cinzel">The Sacred Treasury</span>
+              <span className="text-xs font-semibold tracking-widest text-[#f59e3a] uppercase font-cinzel">Divyastra Kosha</span>
               <h3 className="font-cinzel text-2xl font-bold text-[#f5efe6] mt-1">
-                Divine Arsenal & Relics
+                Divine Arsenal &amp; Relics
               </h3>
               <p className="text-xs sm:text-sm text-[#a39eb5] mt-2 leading-relaxed">
                 Behold the celestial astras and holy tokens: Kodanda bow, Pinaka, Brahmastra, 
@@ -468,13 +475,13 @@ export default function HomePage() {
                 href="/relics"
                 className="inline-flex items-center gap-1.5 text-xs font-semibold text-amber-400 hover:text-amber-300"
               >
-                <span>Enter Treasury</span>
+                <span>Enter Divyastra Kosha</span>
                 <ArrowRight className="w-3.5 h-3.5" />
               </Link>
             </div>
           </div>
 
-          {/* Box 4: The Dharma Compass */}
+          {/* Box 4: Dharma Niti Compass */}
           <div className="p-8 rounded-3xl bg-gradient-to-br from-[#140e24] to-[#0a0714] border border-amber-400/20 flex flex-col justify-between">
             <div>
               <div className="w-12 h-12 rounded-2xl bg-sky-500/10 border border-sky-500/30 flex items-center justify-center text-sky-300 mb-4">
@@ -482,7 +489,7 @@ export default function HomePage() {
               </div>
               <span className="text-xs font-semibold tracking-widest text-[#f59e3a] uppercase font-cinzel">Ethical Archetype</span>
               <h3 className="font-cinzel text-2xl font-bold text-[#f5efe6] mt-1">
-                The Dharma Compass
+                Dharma Niti (Moral Compass)
               </h3>
               <p className="text-xs sm:text-sm text-[#a39eb5] mt-2 leading-relaxed">
                 Reflect on three profound moral dilemmas to discover which sacred archetype 
@@ -495,7 +502,7 @@ export default function HomePage() {
                 href="/compass"
                 className="inline-flex items-center gap-1.5 text-xs font-semibold text-amber-400 hover:text-amber-300"
               >
-                <span>Take the Compass</span>
+                <span>Explore Dharma Niti</span>
                 <ArrowRight className="w-3.5 h-3.5" />
               </Link>
             </div>

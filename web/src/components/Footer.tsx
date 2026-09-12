@@ -19,7 +19,7 @@ export default function Footer() {
             </div>
           </Link>
           <p className="text-xs text-[#a39eb5]/80 leading-relaxed max-w-xs">
-            A free, open digital archive of Maharishi Valmiki's Sanskrit epic. 21,640+ shlokas across 7 Kandas with word-by-word meanings and prose translations.
+            A free, open digital archive of Maharishi Valmiki&apos;s Sanskrit epic. 21,640+ shlokas across 7 Kandas with word-by-word meanings and prose translations.
           </p>
           <div className="pt-2 font-sanskrit text-[#f3d27a] text-sm">
             लोकाः समस्ताः सुखिनो भवन्तु
@@ -44,13 +44,13 @@ export default function Footer() {
         <div>
           <h4 className="font-cinzel text-sm font-semibold text-[#f3f0e6] mb-4">Sacred Exploration</h4>
           <ul className="space-y-2 text-xs">
-            <li><Link href="/journey" className="hover:text-[#f59e3a] transition-colors">Rama's 14-Year Journey (Map)</Link></li>
-            <li><Link href="/relics" className="hover:text-[#f59e3a] transition-colors">Divine Arsenal & Relics (Treasury)</Link></li>
-            <li><Link href="/compass" className="hover:text-[#f59e3a] transition-colors">The Dharma Compass (Quiz)</Link></li>
-            <li><Link href="/pradakshina" className="hover:text-[#f59e3a] transition-colors">Pradakshina · 108 Sacred Names</Link></li>
-            <li><Link href="/characters" className="hover:text-[#f59e3a] transition-colors">Personalities Index (194 figures)</Link></li>
-            <li><Link href="/parayana" className="hover:text-[#f59e3a] transition-colors">Sundara Kanda Parayana Regimen</Link></li>
-            <li><Link href="/story" className="hover:text-[#f59e3a] transition-colors">All 648 Sargas Browser</Link></li>
+            <li><Link href="/journey" className="hover:text-[#f59e3a] transition-colors">Rama Yatra · 14-Year Sacred Journey</Link></li>
+            <li><Link href="/relics" className="hover:text-[#f59e3a] transition-colors">Divyastra · Sacred Relics &amp; Arsenal</Link></li>
+            <li><Link href="/compass" className="hover:text-[#f59e3a] transition-colors">Dharma Niti · Moral Compass &amp; Dilemmas</Link></li>
+            <li><Link href="/pradakshina" className="hover:text-[#f59e3a] transition-colors">Mandir Parikrama · 108 Sacred Names</Link></li>
+            <li><Link href="/characters" className="hover:text-[#f59e3a] transition-colors">Charitra · Personalities &amp; Lineages</Link></li>
+            <li><Link href="/parayana" className="hover:text-[#f59e3a] transition-colors">Nitya Parayana · 7-Day Recital Regimen</Link></li>
+            <li><Link href="/story" className="hover:text-[#f59e3a] transition-colors">Mula Samhita · All 648 Sargas Browser</Link></li>
           </ul>
         </div>
 

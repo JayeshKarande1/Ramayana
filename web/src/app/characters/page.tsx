@@ -23,6 +23,7 @@ interface Character {
   appearsIn: string[];
   hasFullProfile: boolean;
   extendedBio?: string;
+  imageUrl?: string;
 }
 
 const grandFactions = [
@@ -39,7 +40,7 @@ const grandFactions = [
     sanskrit: 'रघुवंशः · अयोध्या',
     icon: Sun,
     desc: 'The scions and royal house of Ayodhya: Rama, Sita, Lakshmana, Bharata, and Dasharatha.',
-    tiers: ['Divine Couple', 'Brothers', 'Royal Parents', 'Royal Retinue', 'Allies']
+    tiers: ['The Divine Couple', 'Brothers & Param Bhakta', 'Royal Parents & In-Laws', 'Ikshvaku Lineage & Kings', 'Faithful Allies of Rama']
   },
   { 
     id: 'vanara', 
@@ -47,7 +48,7 @@ const grandFactions = [
     sanskrit: 'वानरसेना · किष्किन्धा',
     icon: Mountain,
     desc: 'The heroes and chieftains of Kishkindha: Hanuman, Sugriva, Vali, Angada, and Jambavan.',
-    tiers: ['Vanaras & Allies']
+    tiers: ['Vanaras & Rikshas', 'Faithful Allies of Rama']
   },
   { 
     id: 'lanka', 
@@ -55,7 +56,7 @@ const grandFactions = [
     sanskrit: 'राक्षसकुलम् · लङ्का',
     icon: Shield,
     desc: 'The warriors, royalty, and sorcerers of Lanka: Ravana, Indrajit, Kumbhakarna, and Vibhishana.',
-    tiers: ["Ravana's House", 'Rakshasas']
+    tiers: ["Ravana's House", 'Other Rakshasas']
   },
   { 
     id: 'sages', 
@@ -63,7 +64,7 @@ const grandFactions = [
     sanskrit: 'ऋषयः · देवाश्च',
     icon: Flame,
     desc: 'The spiritual preceptors, seers, gods, and cosmic guardians of the three worlds.',
-    tiers: ['Gurus & Sages', 'Great Rishis', 'Devas & Celestials', 'Celestials & Birds']
+    tiers: ['Kula Gurus & Maharshis', 'Rishis & Sages', 'Devas — Cosmic Powers', 'Other Beings']
   }
 ];
 
@@ -77,8 +78,18 @@ export default function CharactersPage() {
 
   const filteredCharacters = (charactersData as Character[]).filter(c => {
     // Check faction
-    const matchesFaction = activeFaction === 'all' || 
-      (selectedFactionData.tiers && selectedFactionData.tiers.includes(c.tier.title));
+    let matchesFaction = activeFaction === 'all';
+    if (!matchesFaction && selectedFactionData.tiers) {
+      if (activeFaction === 'vanara') {
+        const vanaraSlugs = ['hanuman', 'sugriva', 'vali', 'angada-son-of-vali', 'jambavan', 'tara', 'ruma', 'nila', 'nala', 'kesari', 'sushena', 'panasa', 'mainda', 'dvivida', 'sharabha'];
+        matchesFaction = c.tier.title === 'Vanaras & Rikshas' || vanaraSlugs.includes(c.slug);
+      } else if (activeFaction === 'solar') {
+        const nonSolarAllies = ['hanuman', 'sugriva', 'vali', 'angada-son-of-vali', 'jambavan', 'tara', 'ruma', 'nila', 'nala', 'kesari', 'sushena', 'vibhishana'];
+        matchesFaction = selectedFactionData.tiers.includes(c.tier.title) && !nonSolarAllies.includes(c.slug);
+      } else {
+        matchesFaction = selectedFactionData.tiers.includes(c.tier.title);
+      }
+    }
 
     // Check search query
     const q = searchQuery.toLowerCase().trim();
@@ -182,54 +193,79 @@ export default function CharactersPage() {
       </div>
 
       {/* Characters Constellation Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
         {filteredCharacters.map(char => (
           <div
             key={char.slug}
             onClick={() => setModalCharacter(char)}
-            className="manuscript-pothi p-5 sm:p-6 rounded-2xl hover:border-amber-400/50 transition-all duration-300 cursor-pointer flex flex-col justify-between group shadow-lg hover:-translate-y-0.5"
+            className="manuscript-pothi rounded-2xl border border-amber-400/20 hover:border-amber-400/60 transition-all duration-300 cursor-pointer flex flex-col justify-between group shadow-lg hover:-translate-y-1 overflow-hidden"
           >
-            <div>
-              {/* Header Badge */}
-              <div className="flex items-center justify-between mb-3">
+            {/* Authentic Portrait Image Banner */}
+            {char.imageUrl ? (
+              <div className="relative w-full h-48 sm:h-52 overflow-hidden bg-black/50 border-b border-amber-400/20">
+                <img
+                  src={char.imageUrl}
+                  alt={char.name}
+                  loading="lazy"
+                  className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500 ease-out"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0e0a1b] via-transparent to-black/30" />
+                
+                {/* Floating Badges on Image */}
+                <div className="absolute top-3 left-3 right-3 flex items-center justify-between">
+                  <span className="w-8 h-8 rounded-full bg-black/70 backdrop-blur-md border border-amber-400/30 flex items-center justify-center text-sm shadow-md">
+                    {char.tier.icon || '🕉️'}
+                  </span>
+                  <span className="px-2.5 py-0.5 rounded-full text-[10px] font-semibold bg-black/80 backdrop-blur-md border border-amber-400/40 text-amber-300 font-cinzel shadow-md">
+                    {char.roleTag}
+                  </span>
+                </div>
+              </div>
+            ) : (
+              <div className="p-5 pb-0 flex items-center justify-between">
                 <span className="text-xl sm:text-2xl">{char.tier.icon || '🕉️'}</span>
                 <span className="px-2.5 py-0.5 rounded-full text-[10px] font-semibold bg-amber-500/10 border border-amber-500/25 text-amber-300 font-cinzel">
                   {char.roleTag}
                 </span>
               </div>
+            )}
 
-              {/* Names */}
-              <div className="flex items-baseline gap-2 mb-1">
-                <h4 className="font-cinzel text-base sm:text-lg font-bold text-[#f5efe6] group-hover:text-amber-300 transition-colors">
-                  {char.name}
-                </h4>
-                <span className="font-sanskrit text-xs text-[#f3d27a]/70 font-medium">
-                  {char.sanskritName}
+            <div className="p-5 sm:p-6 flex-1 flex flex-col justify-between">
+              <div>
+                {/* Names */}
+                <div className="flex items-baseline gap-2 mb-1">
+                  <h4 className="font-cinzel text-base sm:text-lg font-bold text-[#f5efe6] group-hover:text-amber-300 transition-colors">
+                    {char.name}
+                  </h4>
+                  <span className="font-sanskrit text-xs text-[#f3d27a]/70 font-medium">
+                    {char.sanskritName}
+                  </span>
+                </div>
+
+                <div className="text-[11px] text-amber-400/80 font-medium mb-2 font-cinzel">
+                  {char.tier.title}
+                </div>
+
+                {/* Description */}
+                <p className="text-xs text-[#a39eb5] line-clamp-3 leading-relaxed font-light">
+                  {char.description}
+                </p>
+              </div>
+
+              {/* Footer Meta */}
+              <div className="mt-4 pt-3 border-t border-white/5 flex items-center justify-between text-[11px] text-[#a39eb5]">
+                <div className="truncate max-w-[180px]">
+                  {char.appearsIn && char.appearsIn.length > 0 ? (
+                    <span>{char.appearsIn.join(', ')}</span>
+                  ) : (
+                    <span>Valmiki Ramayana</span>
+                  )}
+                </div>
+                <span className="text-amber-400 group-hover:translate-x-1 transition-transform font-medium flex items-center gap-1">
+                  <span>Dossier</span>
+                  <ArrowRight className="w-3 h-3" />
                 </span>
               </div>
-
-              <div className="text-[11px] text-amber-400/80 font-medium mb-2 font-cinzel">
-                {char.tier.title}
-              </div>
-
-              {/* Description */}
-              <p className="text-xs text-[#a39eb5] line-clamp-3 leading-relaxed font-light">
-                {char.description}
-              </p>
-            </div>
-
-            {/* Footer Meta */}
-            <div className="mt-4 pt-3 border-t border-white/5 flex items-center justify-between text-[11px] text-[#a39eb5]">
-              <div className="truncate max-w-[180px]">
-                {char.appearsIn && char.appearsIn.length > 0 ? (
-                  <span>{char.appearsIn.join(', ')}</span>
-                ) : (
-                  <span>Valmiki Ramayana</span>
-                )}
-              </div>
-              <span className="text-amber-400 group-hover:translate-x-1 transition-transform font-medium">
-                View Dossier →
-              </span>
             </div>
           </div>
         ))}
@@ -247,10 +283,27 @@ export default function CharactersPage() {
           >
             <button
               onClick={() => setModalCharacter(null)}
-              className="absolute top-6 right-6 p-2 rounded-full bg-white/5 hover:bg-white/10 text-[#a39eb5] hover:text-white"
+              className="absolute top-6 right-6 p-2 rounded-full bg-white/5 hover:bg-white/10 text-[#a39eb5] hover:text-white z-10"
             >
               <X className="w-5 h-5" />
             </button>
+
+            {/* Modal Character Portrait Hero */}
+            {modalCharacter.imageUrl && (
+              <div className="relative w-full h-56 sm:h-72 rounded-2xl overflow-hidden mb-6 border border-amber-400/30 shadow-2xl bg-black/60">
+                <img
+                  src={modalCharacter.imageUrl}
+                  alt={modalCharacter.name}
+                  className="w-full h-full object-cover object-top"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0e0a1b] via-transparent to-transparent" />
+                <div className="absolute bottom-3 left-4 right-4 flex items-center justify-between">
+                  <span className="text-[11px] text-amber-300 font-cinzel uppercase tracking-widest bg-black/70 backdrop-blur-md px-3 py-1 rounded-full border border-amber-400/30">
+                    Classical Sacred Masterpiece
+                  </span>
+                </div>
+              </div>
+            )}
 
             {/* Modal Header */}
             <div className="flex items-center gap-3 mb-2">

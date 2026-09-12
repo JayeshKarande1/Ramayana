@@ -2,14 +2,18 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { Search, Volume2, VolumeX, Menu, X, BookOpen, Compass, Flame, Users, Calendar, Sparkles, Shield } from 'lucide-react';
+import { Search, Volume2, VolumeX, Menu, X, BookOpen, Compass, Flame, Users, Calendar, Sparkles, Shield, Globe } from 'lucide-react';
 import SearchModal from './SearchModal';
+import LanguageModal from './LanguageModal';
+import { useLanguage } from '@/context/LanguageContext';
 import { tanpura } from '@/lib/audio';
 
 export default function Header() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [isLanguageOpen, setIsLanguageOpen] = useState(false);
   const [isTanpuraPlaying, setIsTanpuraPlaying] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const { currentLanguageInfo, t } = useLanguage();
 
   const toggleTanpura = () => {
     if (tanpura) {
@@ -52,31 +56,41 @@ export default function Header() {
 
           {/* Desktop Navigation Links */}
           <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-[#a39eb5]">
-            <Link href="/journey" className="hover:text-[#f59e3a] transition-colors flex items-center gap-1.5">
-              <Compass className="w-4 h-4 text-amber-400" /> Odyssey
+            <Link href="/story" className="hover:text-[#f59e3a] transition-colors flex items-center gap-1.5 font-semibold text-amber-200">
+              <BookOpen className="w-4 h-4 text-amber-400" /> {t('nav_samhita')}
             </Link>
-            <Link href="/story" className="hover:text-[#f59e3a] transition-colors flex items-center gap-1.5">
-              <BookOpen className="w-4 h-4 text-amber-400" /> Codex
+            <Link href="/journey" className="hover:text-[#f59e3a] transition-colors flex items-center gap-1.5">
+              <Compass className="w-4 h-4 text-amber-400" /> {t('nav_journey')}
             </Link>
             <Link href="/pradakshina" className="hover:text-[#f59e3a] transition-colors flex items-center gap-1.5">
-              <Flame className="w-4 h-4 text-amber-400" /> Parikrama
+              <Flame className="w-4 h-4 text-amber-400" /> {t('nav_parikrama')}
             </Link>
             <Link href="/characters" className="hover:text-[#f59e3a] transition-colors flex items-center gap-1.5">
-              <Users className="w-4 h-4 text-amber-400" /> Alliances
+              <Users className="w-4 h-4 text-amber-400" /> {t('nav_characters')}
             </Link>
             <Link href="/relics" className="hover:text-[#f59e3a] transition-colors flex items-center gap-1.5">
-              <Shield className="w-4 h-4 text-amber-400" /> Treasury
+              <Shield className="w-4 h-4 text-amber-400" /> {t('nav_relics')}
             </Link>
             <Link href="/compass" className="hover:text-[#f59e3a] transition-colors flex items-center gap-1.5">
-              <Compass className="w-4 h-4 text-amber-400" /> Compass
+              <Compass className="w-4 h-4 text-amber-400" /> {t('nav_compass')}
             </Link>
             <Link href="/parayana" className="hover:text-[#f59e3a] transition-colors flex items-center gap-1.5">
-              <Calendar className="w-4 h-4 text-amber-400" /> Sadhana
+              <Calendar className="w-4 h-4 text-amber-400" /> {t('nav_parayana')}
             </Link>
           </nav>
 
           {/* Action Tools */}
           <div className="flex items-center gap-2 sm:gap-3">
+            {/* Language Switcher Trigger */}
+            <button
+              onClick={() => setIsLanguageOpen(true)}
+              className="flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-full bg-white/5 border border-white/10 hover:border-amber-400/40 text-xs text-amber-200 hover:text-white transition-all cursor-pointer shadow-sm hover:shadow-[0_0_12px_rgba(245,158,11,0.2)]"
+              title="Change Language / भाषा बदलें"
+            >
+              <Globe className="w-3.5 h-3.5 text-amber-400" />
+              <span className="font-sanskrit text-xs font-semibold">{currentLanguageInfo.nativeName}</span>
+            </button>
+
             {/* Replay Prologue Button */}
             <button
               onClick={() => {
@@ -88,7 +102,7 @@ export default function Header() {
               title="Experience Epic Prologue"
             >
               <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-              <span className="hidden sm:inline">Prologue</span>
+              <span className="hidden sm:inline">{t('action_prologue')}</span>
             </button>
 
             {/* Search Trigger Button */}
@@ -98,7 +112,7 @@ export default function Header() {
               title="Search scripture (Ctrl+K)"
             >
               <Search className="w-3.5 h-3.5 text-[#f59e3a]" />
-              <span className="hidden sm:inline">Search</span>
+              <span className="hidden sm:inline">{t('action_search')}</span>
               <kbd className="hidden sm:inline-block px-1.5 py-0.5 text-[10px] font-mono bg-black/40 rounded border border-white/10 text-white/40">
                 ⌘K
               </kbd>
@@ -145,6 +159,23 @@ export default function Header() {
         {/* Mobile Navigation Dropdown */}
         {mobileMenuOpen && (
           <div className="md:hidden border-t border-white/10 bg-[#0d091a] px-4 py-4 space-y-3">
+            {/* Mobile Language Switcher */}
+            <button
+              onClick={() => {
+                setMobileMenuOpen(false);
+                setIsLanguageOpen(true);
+              }}
+              className="flex items-center justify-between py-2.5 px-3 rounded-xl bg-white/5 border border-white/10 text-sm text-amber-200 hover:text-white w-full cursor-pointer"
+            >
+              <span className="flex items-center gap-2.5">
+                <Globe className="w-4 h-4 text-amber-400" />
+                <span>{t('action_language')}</span>
+              </span>
+              <span className="font-sanskrit text-xs px-2.5 py-0.5 rounded-full bg-amber-500/20 text-amber-300 font-semibold">
+                {currentLanguageInfo.nativeName}
+              </span>
+            </button>
+
             <button
               onClick={() => {
                 setMobileMenuOpen(false);
@@ -154,56 +185,56 @@ export default function Header() {
               }}
               className="flex items-center gap-3 py-2 text-sm text-amber-300 font-medium hover:text-amber-200 w-full text-left"
             >
-              <Sparkles className="w-4 h-4 text-amber-400" /> Experience Prologue (Intro)
+              <Sparkles className="w-4 h-4 text-amber-400" /> {t('action_prologue')}
             </button>
+            <Link
+              href="/story"
+              onClick={() => setMobileMenuOpen(false)}
+              className="flex items-center gap-3 py-2 text-sm text-[#f3f0e6] hover:text-[#f59e3a] font-semibold text-amber-200"
+            >
+              <BookOpen className="w-4 h-4 text-amber-400" /> {t('sub_samhita')}
+            </Link>
             <Link
               href="/journey"
               onClick={() => setMobileMenuOpen(false)}
               className="flex items-center gap-3 py-2 text-sm text-[#f3f0e6] hover:text-[#f59e3a]"
             >
-              <Compass className="w-4 h-4 text-amber-400" /> The 14-Year Odyssey (Map)
-            </Link>
-            <Link
-              href="/story"
-              onClick={() => setMobileMenuOpen(false)}
-              className="flex items-center gap-3 py-2 text-sm text-[#f3f0e6] hover:text-[#f59e3a]"
-            >
-              <BookOpen className="w-4 h-4 text-amber-400" /> The Living Codex (7 Kandas)
+              <Compass className="w-4 h-4 text-amber-400" /> {t('sub_journey')}
             </Link>
             <Link
               href="/pradakshina"
               onClick={() => setMobileMenuOpen(false)}
               className="flex items-center gap-3 py-2 text-sm text-[#f3f0e6] hover:text-[#f59e3a]"
             >
-              <Flame className="w-4 h-4 text-amber-400" /> Temple Parikrama (108 Names)
+              <Flame className="w-4 h-4 text-amber-400" /> {t('sub_parikrama')}
             </Link>
             <Link
               href="/characters"
               onClick={() => setMobileMenuOpen(false)}
               className="flex items-center gap-3 py-2 text-sm text-[#f3f0e6] hover:text-[#f59e3a]"
             >
-              <Users className="w-4 h-4 text-amber-400" /> Dharma Alliances & Lineages
+              <Users className="w-4 h-4 text-amber-400" /> {t('sub_characters')}
             </Link>
             <Link
               href="/relics"
               onClick={() => setMobileMenuOpen(false)}
               className="flex items-center gap-3 py-2 text-sm text-[#f3f0e6] hover:text-[#f59e3a]"
             >
-              <Shield className="w-4 h-4 text-amber-400" /> The Sacred Treasury (Relics)
+              <Shield className="w-4 h-4 text-amber-400" /> {t('sub_relics')}
             </Link>
             <Link
               href="/compass"
               onClick={() => setMobileMenuOpen(false)}
               className="flex items-center gap-3 py-2 text-sm text-[#f3f0e6] hover:text-[#f59e3a]"
             >
-              <Compass className="w-4 h-4 text-amber-400" /> The Dharma Compass (Quiz)
+              <Compass className="w-4 h-4 text-amber-400" /> {t('sub_compass')}
             </Link>
             <Link
               href="/parayana"
               onClick={() => setMobileMenuOpen(false)}
               className="flex items-center gap-3 py-2 text-sm text-[#f3f0e6] hover:text-[#f59e3a]"
             >
-              <Calendar className="w-4 h-4 text-amber-400" /> Sadhana Altar (7-Day Recital)
+              <Calendar className="w-4 h-4 text-amber-400" /> {t('sub_parayana')}
             </Link>
           </div>
         )}
@@ -211,6 +242,9 @@ export default function Header() {
 
       {/* Global Search Modal */}
       <SearchModal isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
+
+      {/* Global Language Selector Modal */}
+      <LanguageModal isOpen={isLanguageOpen} onClose={() => setIsLanguageOpen(false)} />
     </>
   );
 }

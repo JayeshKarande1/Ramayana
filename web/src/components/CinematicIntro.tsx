@@ -1,10 +1,12 @@
 'use client';
 
 import React, { useState, useEffect, useCallback } from 'react';
+import { useRouter } from 'next/navigation';
 import { Volume2, VolumeX, Sparkles, ArrowRight, X } from 'lucide-react';
 import { playTempleBell, playConchShell, playDiyaSpark } from '@/lib/audio';
 
 export default function CinematicIntro() {
+  const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
   const [act, setAct] = useState<0 | 1 | 2 | 3 | 4>(0);
   const [isMuted, setIsMuted] = useState(false);
@@ -43,7 +45,8 @@ export default function CinematicIntro() {
   const handleSkip = useCallback(() => {
     sessionStorage.setItem('ramayana_prologue_completed', 'true');
     setIsOpen(false);
-  }, []);
+    router.push('/story');
+  }, [router]);
 
   const startJourney = () => {
     setAct(1);
@@ -143,7 +146,7 @@ export default function CinematicIntro() {
               onClick={handleSkip}
               className="w-full sm:w-auto px-6 py-3.5 rounded-full bg-white/5 border border-white/10 hover:border-amber-500/30 text-xs text-[#a39eb5] hover:text-white transition-all cursor-pointer"
             >
-              Direct to Sanctuary
+              Direct to Codex
             </button>
           </div>
         </div>
@@ -280,7 +283,7 @@ export default function CinematicIntro() {
             disabled={arrowFired}
             className="px-8 py-3.5 rounded-full bg-gradient-to-r from-amber-400 via-orange-500 to-amber-600 text-black font-semibold text-sm tracking-wider uppercase shadow-[0_0_30px_rgba(245,158,11,0.6)] hover:scale-105 transition-all flex items-center justify-center gap-2 mx-auto cursor-pointer"
           >
-            <span>Release Arrow & Enter Sanctum</span>
+            <span>Release Arrow & Enter Codex</span>
             <ArrowRight className="w-4 h-4" />
           </button>
         </div>

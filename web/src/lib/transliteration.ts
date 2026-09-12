@@ -3,7 +3,7 @@
  * Converts Devanagari into IAST, Telugu, Tamil, Kannada, Bengali, and Malayalam scripts.
  */
 
-export type ScriptType = 'devanagari' | 'iast' | 'telugu' | 'tamil' | 'kannada' | 'bengali' | 'malayalam';
+export type ScriptType = 'devanagari' | 'iast' | 'telugu' | 'tamil' | 'kannada' | 'bengali' | 'malayalam' | 'gujarati';
 
 const DEVA_TO_IAST: Record<string, string> = {
   'अ': 'a', 'आ': 'ā', 'इ': 'i', 'ई': 'ī', 'उ': 'u', 'ऊ': 'ū', 'ऋ': 'ṛ', 'ॠ': 'ṝ',
@@ -37,6 +37,7 @@ export function transliterate(text: string, targetScript: ScriptType): string {
 
   const offsets: Record<string, number> = {
     bengali: 0x0980 - 0x0900,
+    gujarati: 0x0A80 - 0x0900,
     telugu: 0x0C00 - 0x0900,
     kannada: 0x0C80 - 0x0900,
     malayalam: 0x0D00 - 0x0900,
