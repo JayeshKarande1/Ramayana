@@ -82,8 +82,8 @@ export default function LanguageModal({ isOpen, onClose }: LanguageModalProps) {
                   <span className={`text-xs block font-medium ${isSelected ? 'text-black/80' : 'text-[#a39eb5]'}`}>
                     {lang.name}
                   </span>
-                  <span className={`text-[10px] uppercase font-mono tracking-wider ${isSelected ? 'text-black/60' : 'text-amber-400/60'}`}>
-                    {lang.script}
+                  <span className={`text-[10px] uppercase font-mono tracking-wider px-1.5 py-0.5 rounded ${isSelected ? 'bg-black/15 text-black/80 font-bold' : 'bg-amber-400/10 text-amber-400/80 border border-amber-400/20'}`}>
+                    {lang.code.toUpperCase()}
                   </span>
                 </div>
               </button>
@@ -95,7 +95,7 @@ export default function LanguageModal({ isOpen, onClose }: LanguageModalProps) {
         <div className="mt-6 pt-4 border-t border-white/10 flex items-center justify-between text-xs text-[#a39eb5]">
           <span className="flex items-center gap-1.5 text-[11px]">
             <Sparkles className="w-3 h-3 text-amber-400" />
-            <span>Applies instantly across menus, labels &amp; transliteration</span>
+            <span>Applies instantly across menus, labels &amp; navigation · Shlokas in Devanagari</span>
           </span>
           <button
             onClick={onClose}

@@ -13,15 +13,15 @@ export interface LanguageInfo {
 }
 
 export const LANGUAGES: LanguageInfo[] = [
-  { code: 'en', name: 'English (Sanskrit)', nativeName: 'English', script: 'devanagari' },
+  { code: 'en', name: 'English', nativeName: 'English', script: 'devanagari' },
   { code: 'hi', name: 'Hindi', nativeName: 'हिन्दी', script: 'devanagari' },
   { code: 'mr', name: 'Marathi', nativeName: 'मराठी', script: 'devanagari' },
-  { code: 'ta', name: 'Tamil', nativeName: 'தமிழ்', script: 'tamil' },
-  { code: 'te', name: 'Telugu', nativeName: 'తెలుగు', script: 'telugu' },
-  { code: 'kn', name: 'Kannada', nativeName: 'ಕನ್ನಡ', script: 'kannada' },
-  { code: 'bn', name: 'Bengali', nativeName: 'বাংলা', script: 'bengali' },
-  { code: 'ml', name: 'Malayalam', nativeName: 'മലയാളം', script: 'malayalam' },
-  { code: 'gu', name: 'Gujarati', nativeName: 'ગુજરાતી', script: 'gujarati' },
+  { code: 'ta', name: 'Tamil', nativeName: 'தமிழ்', script: 'devanagari' },
+  { code: 'te', name: 'Telugu', nativeName: 'తెలుగు', script: 'devanagari' },
+  { code: 'kn', name: 'Kannada', nativeName: 'ಕನ್ನಡ', script: 'devanagari' },
+  { code: 'bn', name: 'Bengali', nativeName: 'বাংলা', script: 'devanagari' },
+  { code: 'ml', name: 'Malayalam', nativeName: 'മലയാളം', script: 'devanagari' },
+  { code: 'gu', name: 'Gujarati', nativeName: 'ગુજરાતી', script: 'devanagari' },
 ];
 
 export const UI_TRANSLATIONS: Record<string, Record<LanguageCode, string>> = {

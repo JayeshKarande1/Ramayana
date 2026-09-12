@@ -428,22 +428,28 @@ export default function SargaReader({ sargaData, totalSargasInKanda }: SargaRead
                 </span>
               </div>
 
-              {/* The Shloka Verse Text */}
+              {/* The Sacred Sanskrit Shloka in Original Devanagari */}
               <p className={`font-sanskrit text-gold-gradient leading-relaxed sm:leading-loose font-medium px-2 sm:px-6 select-text max-w-3xl mx-auto text-center drop-shadow-[0_2px_10px_rgba(245,158,11,0.25)] transition-all ${
                 fontSize === 'huge' 
                   ? 'text-3xl sm:text-5xl md:text-6xl' 
                   : (fontSize === 'large' ? 'text-2xl sm:text-4xl md:text-5xl' : 'text-xl sm:text-3xl md:text-4xl')
               }`}>
-                {script === 'iast' 
-                  ? currentBookShloka.transliteration 
-                  : transliterate(currentBookShloka.sanskrit, script)}
+                {currentBookShloka.sanskrit}
               </p>
 
-              {/* Transliteration (if script is Roman or non-devanagari) */}
-              {script !== 'iast' && currentBookShloka.transliteration && (
-                <p className="text-xs sm:text-sm text-[#a39eb5] italic max-w-xl mx-auto text-center mt-4 leading-relaxed font-light">
-                  {currentBookShloka.transliteration}
+              {/* Transliteration (Regional Indic Script or Roman IAST) */}
+              {script !== 'devanagari' ? (
+                <p className="text-sm sm:text-base text-amber-200/90 font-serif max-w-xl mx-auto text-center mt-3 leading-relaxed">
+                  {script === 'iast' 
+                    ? currentBookShloka.transliteration 
+                    : transliterate(currentBookShloka.sanskrit, script)}
                 </p>
+              ) : (
+                currentBookShloka.transliteration && (
+                  <p className="text-xs sm:text-sm text-[#a39eb5] italic max-w-xl mx-auto text-center mt-4 leading-relaxed font-light">
+                    {currentBookShloka.transliteration}
+                  </p>
+                )
               )}
 
               {/* Verse Meaning */}
@@ -530,9 +536,6 @@ export default function SargaReader({ sargaData, totalSargasInKanda }: SargaRead
         <div className="space-y-6">
           {shlokas.map((shloka, index) => {
             const isPlaying = activePlayingIndex === index;
-            const displaySanskrit = script === 'iast' 
-              ? shloka.transliteration 
-              : transliterate(shloka.sanskrit, script);
 
             return (
               <article
@@ -576,16 +579,22 @@ export default function SargaReader({ sargaData, totalSargasInKanda }: SargaRead
                   </div>
                 </div>
 
-                {/* Sacred Sanskrit Verse */}
+                {/* Sacred Sanskrit Verse in Original Devanagari */}
                 <p className={`font-sanskrit text-gold-gradient leading-relaxed mb-4 font-medium ${getFontSizeClass()}`}>
-                  {displaySanskrit}
+                  {shloka.sanskrit}
                 </p>
 
-                {/* Academic Transliteration */}
-                {script !== 'iast' && shloka.transliteration && (
-                  <p className="text-xs sm:text-sm text-[#a39eb5] italic leading-relaxed mb-4 font-light">
-                    {shloka.transliteration}
+                {/* Transliteration (Regional Indic Script or Academic IAST) */}
+                {script !== 'devanagari' ? (
+                  <p className="text-sm sm:text-base text-amber-200/90 font-serif leading-relaxed mb-4">
+                    {script === 'iast' ? shloka.transliteration : transliterate(shloka.sanskrit, script)}
                   </p>
+                ) : (
+                  shloka.transliteration && (
+                    <p className="text-xs sm:text-sm text-[#a39eb5] italic leading-relaxed mb-4 font-light">
+                      {shloka.transliteration}
+                    </p>
+                  )
                 )}
 
                 {/* Word-by-Word Padaccheda Toggle */}
@@ -650,18 +659,25 @@ export default function SargaReader({ sargaData, totalSargasInKanda }: SargaRead
               </div>
             </div>
 
-            {/* Central Stage: Sanskrit Verse */}
+            {/* Central Stage: Sacred Sanskrit Verse in Original Devanagari */}
             <div className="py-8 text-center space-y-6">
               <p className="font-sanskrit text-3xl sm:text-5xl text-gold-gradient leading-loose font-medium px-4">
-                {script === 'iast' 
-                  ? currentCarouselShloka.transliteration 
-                  : transliterate(currentCarouselShloka.sanskrit, script)}
+                {currentCarouselShloka.sanskrit}
               </p>
 
-              {script !== 'iast' && currentCarouselShloka.transliteration && (
-                <p className="text-sm sm:text-base text-[#a39eb5] italic max-w-2xl mx-auto leading-relaxed">
-                  {currentCarouselShloka.transliteration}
+              {/* Transliteration (Regional Indic Script or Academic IAST) */}
+              {script !== 'devanagari' ? (
+                <p className="text-base sm:text-lg text-amber-200/90 font-serif max-w-2xl mx-auto leading-relaxed">
+                  {script === 'iast' 
+                    ? currentCarouselShloka.transliteration 
+                    : transliterate(currentCarouselShloka.sanskrit, script)}
                 </p>
+              ) : (
+                currentCarouselShloka.transliteration && (
+                  <p className="text-sm sm:text-base text-[#a39eb5] italic max-w-2xl mx-auto leading-relaxed">
+                    {currentCarouselShloka.transliteration}
+                  </p>
+                )
               )}
 
               {currentCarouselShloka.meaning && (
@@ -724,9 +740,6 @@ export default function SargaReader({ sargaData, totalSargasInKanda }: SargaRead
         <div className="space-y-6">
           {shlokas.map((shloka, index) => {
             const isPlaying = activePlayingIndex === index;
-            const displaySanskrit = script === 'iast' 
-              ? shloka.transliteration 
-              : transliterate(shloka.sanskrit, script);
 
             return (
               <article
@@ -758,14 +771,22 @@ export default function SargaReader({ sargaData, totalSargasInKanda }: SargaRead
                       </button>
                     </div>
 
+                    {/* Original Sacred Sanskrit Shloka in Devanagari */}
                     <p className="font-sanskrit text-2xl sm:text-3xl text-gold-gradient leading-relaxed font-medium">
-                      {displaySanskrit}
+                      {shloka.sanskrit}
                     </p>
 
-                    {script !== 'iast' && shloka.transliteration && (
-                      <p className="text-xs text-[#a39eb5] italic leading-relaxed">
-                        {shloka.transliteration}
+                    {/* Transliteration (Regional Indic Script or Academic IAST) */}
+                    {script !== 'devanagari' ? (
+                      <p className="text-sm text-amber-200/90 font-serif leading-relaxed">
+                        {script === 'iast' ? shloka.transliteration : transliterate(shloka.sanskrit, script)}
                       </p>
+                    ) : (
+                      shloka.transliteration && (
+                        <p className="text-xs text-[#a39eb5] italic leading-relaxed">
+                          {shloka.transliteration}
+                        </p>
+                      )
                     )}
                   </div>
 
