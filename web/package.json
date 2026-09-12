@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "deploy": "powershell -ExecutionPolicy Bypass -File ../deploy.ps1"
   },
   "dependencies": {
     "lucide-react": "^1.45.0",
