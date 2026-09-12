@@ -45,6 +45,8 @@ export default function Footer() {
           <h4 className="font-cinzel text-sm font-semibold text-[#f3f0e6] mb-4">Sacred Exploration</h4>
           <ul className="space-y-2 text-xs">
             <li><Link href="/journey" className="hover:text-[#f59e3a] transition-colors">Rama's 14-Year Journey (Map)</Link></li>
+            <li><Link href="/relics" className="hover:text-[#f59e3a] transition-colors">Divine Arsenal & Relics (Treasury)</Link></li>
+            <li><Link href="/compass" className="hover:text-[#f59e3a] transition-colors">The Dharma Compass (Quiz)</Link></li>
             <li><Link href="/pradakshina" className="hover:text-[#f59e3a] transition-colors">Pradakshina · 108 Sacred Names</Link></li>
             <li><Link href="/characters" className="hover:text-[#f59e3a] transition-colors">Personalities Index (194 figures)</Link></li>
             <li><Link href="/parayana" className="hover:text-[#f59e3a] transition-colors">Sundara Kanda Parayana Regimen</Link></li>

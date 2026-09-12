@@ -22,6 +22,8 @@ interface SearchModalProps {
   onClose: () => void;
 }
 
+let cachedIndex: SearchResult[] | null = null;
+
 export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
   const [query, setQuery] = useState('');
   const [kandaFilter, setKandaFilter] = useState('');
@@ -32,6 +34,13 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
   useEffect(() => {
     if (isOpen) {
       setTimeout(() => inputRef.current?.focus(), 50);
+      // Pre-load index on modal open
+      if (!cachedIndex) {
+        fetch(`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/search_index.json`)
+          .then(r => r.ok ? r.json() : [])
+          .then(data => { cachedIndex = data; })
+          .catch(() => {});
+      }
     }
   }, [isOpen]);
 
@@ -44,19 +53,37 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
     const timer = setTimeout(async () => {
       setLoading(true);
       try {
-        const params = new URLSearchParams({ q: query, limit: '20' });
-        if (kandaFilter) params.set('kanda', kandaFilter);
-        const res = await fetch(`/api/search?${params.toString()}`);
-        if (res.ok) {
-          const data = await res.json();
-          setResults(data.results || []);
+        if (!cachedIndex) {
+          const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/search_index.json`);
+          if (res.ok) {
+            cachedIndex = await res.json();
+          }
+        }
+
+        if (cachedIndex) {
+          const q = query.trim().toLowerCase();
+          const matches = cachedIndex
+            .filter(item => {
+              if (kandaFilter && item.kanda_id.toLowerCase() !== kandaFilter.toLowerCase()) {
+                return false;
+              }
+              return (
+                item.meaning.toLowerCase().includes(q) ||
+                item.sanskrit.includes(query.trim()) ||
+                (item.transliteration && item.transliteration.toLowerCase().includes(q)) ||
+                item.verse_code.toLowerCase().includes(q)
+              );
+            })
+            .slice(0, 30);
+
+          setResults(matches);
         }
       } catch (e) {
         console.error('Search fetch failed:', e);
       } finally {
         setLoading(false);
       }
-    }, 250);
+    }, 150);
 
     return () => clearTimeout(timer);
   }, [query, kandaFilter]);
@@ -162,6 +189,11 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
               <p className="font-sanskrit text-sm sm:text-base text-[#f3d27a] leading-relaxed mb-1 line-clamp-2">
                 {item.sanskrit}
               </p>
+              {item.transliteration && (
+                <p className="text-xs text-amber-200/70 italic mb-1 line-clamp-1">
+                  {item.transliteration}
+                </p>
+              )}
               <p 
                 className="text-xs sm:text-sm text-[#f3f0e6]/80 leading-relaxed line-clamp-2"
                 dangerouslySetInnerHTML={{ __html: item.meaning_snippet || item.meaning }}
