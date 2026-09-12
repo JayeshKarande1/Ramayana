@@ -227,7 +227,7 @@ export default function SargaReader({ sargaData, totalSargasInKanda }: SargaRead
   };
 
   return (
-    <div className="max-w-5xl mx-auto px-4 sm:px-6 py-8 pb-32">
+    <div className="w-full max-w-5xl mx-auto px-4 sm:px-6 py-8 pb-32">
       {/* Illuminated Header Banner */}
       <div className="text-center max-w-3xl mx-auto mb-8">
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-500/10 border border-amber-400/25 text-xs text-[#f3d27a] mb-3">
@@ -280,7 +280,7 @@ export default function SargaReader({ sargaData, totalSargasInKanda }: SargaRead
         </div>
 
         {/* Mode Selector Tabs */}
-        <div className="flex items-center bg-black/50 p-1 rounded-xl border border-white/10 text-xs">
+        <div className="flex max-w-full items-center overflow-x-auto rounded-xl border border-white/10 bg-black/50 p-1 text-xs">
           <button
             onClick={() => setReadingMode('book')}
             className={`px-3 py-1.5 rounded-lg font-medium transition-all flex items-center gap-1.5 cursor-pointer ${
@@ -533,7 +533,7 @@ export default function SargaReader({ sargaData, totalSargasInKanda }: SargaRead
 
       {/* MODE 1: THE ILLUMINATED POTHI MANUSCRIPT (Continuous Flow) */}
       {readingMode === 'manuscript' && (
-        <div className="space-y-6">
+        <div className="space-y-6 break-words">
           {shlokas.map((shloka, index) => {
             const isPlaying = activePlayingIndex === index;
 

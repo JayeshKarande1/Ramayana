@@ -74,7 +74,7 @@ export default function JourneyPage() {
       });
 
   return (
-    <div className="max-w-7xl mx-auto px-3 sm:px-6 py-6 sm:py-12">
+    <div className="w-full min-w-0 max-w-7xl mx-auto px-3 sm:px-6 py-6 sm:py-12">
       {/* Header Section */}
       <div className="text-center max-w-3xl mx-auto mb-6 sm:mb-10 px-1">
         <div className="inline-flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-1 sm:py-1.5 rounded-full bg-amber-500/10 border border-amber-400/25 text-[11px] sm:text-xs text-[#f3d27a] mb-3 sm:mb-4">

@@ -86,7 +86,7 @@ export default function CinematicIntro() {
   if (!isOpen) return null;
 
   return (
-    <div className={`fixed inset-0 z-50 flex items-center justify-center bg-[#06040a] transition-opacity duration-1000 ${arrowFired ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}>
+    <div className={`fixed inset-0 z-50 flex items-center justify-center overflow-hidden bg-[#06040a] transition-opacity duration-1000 ${arrowFired ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}>
       {/* Background Sacred Ambience */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-amber-950/25 via-[#0a0714] to-[#040207] pointer-events-none" />
       
