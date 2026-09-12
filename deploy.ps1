@@ -21,10 +21,10 @@ git add -A
 git commit -m "deploy: update GitHub Pages build [skip ci]"
 
 Write-Host "🌐 [3/3] Pushing to origin/gh-pages..." -ForegroundColor Cyan
-git remote add origin https://github.com/JayeshKarande1/ramayana-gemini.git
+git remote add origin https://github.com/JayeshKarande1/Ramayana.git
 git push -u origin gh-pages --force
 
 Remove-Item -Recurse -Force .git
 Set-Location "$PSScriptRoot"
 
-Write-Host "✨ Deployed successfully to https://jayeshkarande1.github.io/ramayana-gemini/" -ForegroundColor Green
+Write-Host "✨ Deployed successfully to https://jayeshkarande1.github.io/Ramayana/" -ForegroundColor Green

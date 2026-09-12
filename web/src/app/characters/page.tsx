@@ -26,6 +26,14 @@ interface Character {
   imageUrl?: string;
 }
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+const getImageUrl = (url?: string) => {
+  if (!url) return '';
+  if (url.startsWith('http://') || url.startsWith('https://')) return url;
+  if (basePath && url.startsWith(basePath)) return url;
+  return `${basePath}${url}`;
+};
+
 const grandFactions = [
   { 
     id: 'all', 
@@ -204,7 +212,7 @@ export default function CharactersPage() {
             {char.imageUrl ? (
               <div className="relative w-full h-48 sm:h-52 overflow-hidden bg-black/50 border-b border-amber-400/20">
                 <img
-                  src={char.imageUrl}
+                  src={getImageUrl(char.imageUrl)}
                   alt={char.name}
                   loading="lazy"
                   className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500 ease-out"
@@ -293,7 +301,7 @@ export default function CharactersPage() {
             {modalCharacter.imageUrl && (
               <div className="relative w-full h-48 sm:h-72 rounded-2xl overflow-hidden mb-6 border border-amber-400/30 shadow-2xl bg-black/60">
                 <img
-                  src={modalCharacter.imageUrl}
+                  src={getImageUrl(modalCharacter.imageUrl)}
                   alt={modalCharacter.name}
                   className="w-full h-full object-cover object-top"
                 />

@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const isGithubActions = process.env.GITHUB_ACTIONS === 'true';
-const repoName = 'ramayana-gemini';
+const repoName = process.env.REPO_NAME || 'Ramayana';
 
 const nextConfig: NextConfig = {
   output: 'export',
