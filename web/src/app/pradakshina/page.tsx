@@ -156,7 +156,7 @@ export default function PradakshinaPage() {
 
       {/* VIEW 1: THE CENTRAL SANCTUM ALTAR (GARBHAGRIHA MANDALA) */}
       {viewStyle === 'sanctum' && (
-        <div className="manuscript-pothi rounded-3xl p-8 sm:p-14 relative overflow-hidden text-center shadow-2xl mb-12">
+        <div className="manuscript-pothi rounded-3xl p-5 sm:p-14 relative overflow-hidden text-center shadow-2xl mb-12">
           {/* Central Sanctum Background Glow */}
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-amber-500/10 rounded-full blur-[100px] pointer-events-none" />
 
@@ -175,7 +175,7 @@ export default function PradakshinaPage() {
               <div className="absolute inset-0 rounded-full border border-amber-300/30 animate-spin-slow" />
             </div>
 
-            <h2 className="font-sanskrit text-4xl sm:text-6xl md:text-7xl font-bold text-gold-gradient leading-tight tracking-wide my-2">
+            <h2 className="font-sanskrit text-2xl sm:text-5xl md:text-7xl font-bold text-gold-gradient leading-tight tracking-wide my-2 break-words max-w-full px-2">
               {currentName.name}
             </h2>
 
@@ -242,7 +242,7 @@ export default function PradakshinaPage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-6 sm:grid-cols-9 md:grid-cols-12 gap-2.5 max-w-4xl mx-auto">
+          <div className="grid grid-cols-4 sm:grid-cols-8 md:grid-cols-12 gap-2 sm:gap-2.5 max-w-4xl mx-auto">
             {pradakshinaData.map((item, idx) => {
               const isLit = chantedNames.has(idx);
               const isCurrent = chantIndex === idx;

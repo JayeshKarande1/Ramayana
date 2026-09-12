@@ -277,7 +277,7 @@ export default function RelicsPage() {
         </div>
 
         {/* Right Column (7 cols): The Consecrated Relic Sanctum Stage */}
-        <div className="lg:col-span-7 sticky top-24">
+        <div id="relic-stage" className="lg:col-span-7 lg:sticky lg:top-24 scroll-mt-24">
           <div
             className={`rounded-3xl bg-gradient-to-br ${activeRelic.gradient} via-[#0c0817] to-[#06040e] border border-amber-400/30 p-6 sm:p-9 shadow-2xl relative overflow-hidden transition-all duration-500`}
             style={{ boxShadow: `0 0 50px ${activeRelic.glowColor}` }}

@@ -4,6 +4,7 @@ import fs from 'fs';
 import path from 'path';
 import kandasData from '@/data/kandas.json';
 import SargaReader, { SargaData } from '@/components/SargaReader';
+import { getSargasDirectory } from '@/lib/sargas';
 
 interface Props {
   params: Promise<{ kanda: string; sarga: string }>;
@@ -31,8 +32,9 @@ export default async function SargaPage({ params }: Props) {
     notFound();
   }
 
-  // Load sarga JSON file
-  const sargaFilePath = path.join(process.cwd(), 'src', 'data', 'sargas', `${kanda.id}_${sargaNum}.json`);
+  // Load sarga JSON file robustly
+  const sargasDir = getSargasDirectory();
+  const sargaFilePath = path.join(sargasDir, `${kanda.id}_${sargaNum}.json`);
   
   if (!fs.existsSync(sargaFilePath)) {
     notFound();

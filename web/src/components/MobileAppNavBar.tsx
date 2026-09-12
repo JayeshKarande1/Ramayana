@@ -7,12 +7,14 @@ import { Home, BookOpen, Compass, Flame, Grid } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
 import MobileMoreSheet from './MobileMoreSheet';
 import LanguageModal from './LanguageModal';
+import SearchModal from './SearchModal';
 
 export default function MobileAppNavBar() {
   const pathname = usePathname();
   const { t } = useLanguage();
   const [isMoreOpen, setIsMoreOpen] = useState(false);
   const [isLanguageOpen, setIsLanguageOpen] = useState(false);
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isBookMode, setIsBookMode] = useState(false);
 
   // Detect if user is currently inside the full-screen Book Mode
@@ -156,6 +158,13 @@ export default function MobileAppNavBar() {
         isOpen={isMoreOpen} 
         onClose={() => setIsMoreOpen(false)}
         onOpenLanguage={() => setIsLanguageOpen(true)}
+        onOpenSearch={() => setIsSearchOpen(true)}
+      />
+
+      {/* Search Modal */}
+      <SearchModal
+        isOpen={isSearchOpen}
+        onClose={() => setIsSearchOpen(false)}
       />
 
       {/* Language Selector Modal */}

@@ -71,41 +71,43 @@ export default function JourneyMap({
   };
 
   return (
-    <div className="relative w-full rounded-3xl bg-gradient-to-b from-[#120d24] via-[#0d091a] to-[#07050e] border border-amber-400/20 p-4 sm:p-6 shadow-2xl overflow-hidden">
+    <div className="relative w-full rounded-2xl sm:rounded-3xl bg-gradient-to-b from-[#120d24] via-[#0d091a] to-[#07050e] border border-amber-400/20 p-3 sm:p-6 shadow-2xl overflow-hidden">
       {/* Ancient Map Header Bar */}
-      <div className="flex flex-wrap items-center justify-between gap-3 pb-3 border-b border-white/10 mb-3">
+      <div className="flex flex-wrap items-center justify-between gap-2 sm:gap-3 pb-2.5 sm:pb-3 border-b border-white/10 mb-3">
         <div className="flex items-center gap-2">
-          <div className="w-2.5 h-2.5 rounded-full bg-amber-400 animate-ping" />
-          <h3 className="font-cinzel text-sm sm:text-base font-bold text-amber-200 tracking-wider">
+          <div className="w-2.5 h-2.5 rounded-full bg-amber-400 animate-ping shrink-0" />
+          <h3 className="font-cinzel text-xs sm:text-base font-bold text-amber-200 tracking-wider truncate">
             Cartography of Bharatavarsha · 3,200 km Trail
           </h3>
         </div>
 
         {/* Action Controls */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-1.5 sm:gap-2">
           <button
             onClick={onToggleAutoTour}
-            className={`flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold transition-all cursor-pointer ${
+            className={`flex items-center gap-1 sm:gap-1.5 px-2.5 sm:px-3 py-1 rounded-full text-[11px] sm:text-xs font-semibold transition-all cursor-pointer ${
               isAutoTouring
                 ? 'bg-amber-500 text-black shadow-md shadow-amber-500/30'
                 : 'bg-white/5 border border-white/10 text-amber-300 hover:border-amber-400/40'
             }`}
           >
             {isAutoTouring ? <Pause className="w-3 h-3" /> : <Play className="w-3 h-3" />}
-            <span>{isAutoTouring ? 'Pause Tour' : 'Auto Tour'}</span>
+            <span>{isAutoTouring ? 'Pause' : 'Auto Tour'}</span>
           </button>
 
           <button
             onClick={() => handleStopClick(selectedStop <= 1 ? 15 : selectedStop - 1)}
-            className="p-1.5 rounded-full bg-white/5 border border-white/10 text-[#a39eb5] hover:text-white cursor-pointer"
+            className="p-1.5 rounded-full bg-white/5 border border-white/10 text-[#a39eb5] hover:text-white cursor-pointer active:scale-90"
             title="Previous Waypoint"
+            aria-label="Previous Waypoint"
           >
             <ChevronLeft className="w-3.5 h-3.5" />
           </button>
           <button
             onClick={() => handleStopClick(selectedStop >= 15 ? 1 : selectedStop + 1)}
-            className="p-1.5 rounded-full bg-white/5 border border-white/10 text-[#a39eb5] hover:text-white cursor-pointer"
+            className="p-1.5 rounded-full bg-white/5 border border-white/10 text-[#a39eb5] hover:text-white cursor-pointer active:scale-90"
             title="Next Waypoint"
+            aria-label="Next Waypoint"
           >
             <ChevronRight className="w-3.5 h-3.5" />
           </button>
@@ -113,7 +115,7 @@ export default function JourneyMap({
       </div>
 
       {/* SVG Ancient Map Canvas */}
-      <div className="relative w-full aspect-[520/730] max-h-[720px] select-none flex items-center justify-center">
+      <div className="relative w-full aspect-[520/730] max-h-[520px] sm:max-h-[720px] select-none flex items-center justify-center">
         <svg
           viewBox="0 0 520 740"
           className="w-full h-full drop-shadow-2xl overflow-visible"
@@ -268,22 +270,31 @@ export default function JourneyMap({
                 onMouseEnter={() => setHoveredStop(pt.stop)}
                 onMouseLeave={() => setHoveredStop(null)}
               >
+                {/* Generous touch target for effortless mobile tapping */}
+                <circle
+                  cx="0"
+                  cy="0"
+                  r="28"
+                  fill="transparent"
+                  className="cursor-pointer"
+                />
+
                 {/* Outer Glow Halo for active or hovered node */}
                 {(isSelected || isHovered) && (
                   <>
                     <circle
                       cx="0"
                       cy="0"
-                      r="20"
-                      fill="rgba(245, 158, 11, 0.2)"
+                      r="22"
+                      fill="rgba(245, 158, 11, 0.25)"
                       className="animate-ping"
-                      style={{ animationDuration: '3s' }}
+                      style={{ animationDuration: '2.5s' }}
                     />
                     <circle
                       cx="0"
                       cy="0"
-                      r="14"
-                      fill="rgba(245, 158, 11, 0.3)"
+                      r="15"
+                      fill="rgba(245, 158, 11, 0.35)"
                     />
                   </>
                 )}
@@ -292,7 +303,7 @@ export default function JourneyMap({
                 <circle
                   cx="0"
                   cy="0"
-                  r={isSelected ? 9 : 6.5}
+                  r={isSelected ? 10 : 7}
                   fill={isSelected ? "#ea580c" : isHovered ? "#d97706" : "#1a1226"}
                   stroke={isSelected ? "#fef08a" : "#fbbf24"}
                   strokeWidth={isSelected ? 2.5 : 1.2}
@@ -302,10 +313,10 @@ export default function JourneyMap({
                 {/* Node Number */}
                 <text
                   x="0"
-                  y="2.5"
+                  y="3"
                   textAnchor="middle"
                   fill={isSelected ? "#ffffff" : "#fef08a"}
-                  fontSize={isSelected ? "8" : "6.5"}
+                  fontSize={isSelected ? "8.5" : "7"}
                   fontFamily="Cinzel"
                   fontWeight="bold"
                 >
@@ -314,29 +325,29 @@ export default function JourneyMap({
 
                 {/* Stop Label text */}
                 <g
-                  transform={`translate(${pt.x > 320 ? -12 : 12}, 3)`}
-                  opacity={isSelected || isHovered ? 1 : 0.75}
+                  transform={`translate(${pt.x > 320 ? -14 : 14}, 3)`}
+                  opacity={isSelected ? 1 : isHovered ? 0.95 : 0.8}
                 >
                   <text
                     x="0"
                     y="0"
                     textAnchor={pt.x > 320 ? "end" : "start"}
                     fill={isSelected ? "#fef08a" : "#f3f0e6"}
-                    fontSize={isSelected ? "10" : "8"}
+                    fontSize={isSelected ? "11" : "8.5"}
                     fontFamily="Cinzel"
-                    fontWeight={isSelected ? "bold" : "normal"}
+                    fontWeight={isSelected ? "bold" : "600"}
                     className="transition-all"
                   >
                     {pt.name}
                   </text>
                   <text
                     x="0"
-                    y="9"
+                    y="10"
                     textAnchor={pt.x > 320 ? "end" : "start"}
-                    fill="#f59e0b"
-                    fontSize="7"
+                    fill={isSelected ? "#fbbf24" : "#f59e0b"}
+                    fontSize={isSelected ? "8" : "7"}
                     fontFamily="Noto Serif Devanagari"
-                    opacity="0.8"
+                    opacity={isSelected ? 1 : 0.75}
                   >
                     {pt.sanskritName}
                   </text>
@@ -385,31 +396,71 @@ export default function JourneyMap({
       </div>
 
       {/* Map Footer Scrubber & Milestones */}
-      <div className="mt-3 pt-3 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
-        <div className="flex items-center gap-2">
-          <span className="px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 font-mono text-[11px]">
-            Stop {currentStopData.stop} / 15
+      <div className="mt-3 pt-2.5 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-2.5 text-xs">
+        <div className="flex items-center gap-2 flex-wrap justify-between sm:justify-start w-full sm:w-auto">
+          <span className="px-2.5 py-0.5 rounded-full bg-amber-500/20 text-amber-300 font-mono text-[11px] font-semibold">
+            Stop {currentStopData.stop} of 15
           </span>
-          <span className="text-[#f3f0e6] font-medium font-cinzel">
+          <span className="text-[#f3f0e6] font-medium font-cinzel text-xs sm:text-sm">
             {currentStopData.name} ({currentStopData.sanskritName})
           </span>
-          <span className="text-[#a39eb5] font-mono">
-            • {currentStopData.distance}
+          <span className="text-[#a39eb5] font-mono text-[11px]">
+            {currentStopData.distance}
           </span>
         </div>
 
-        <div className="flex items-center gap-1.5">
+        {/* Mobile Touch Number Pill Scrubber */}
+        <div className="sm:hidden w-full flex items-center justify-between gap-1.5 pt-1">
+          <button
+            onClick={() => handleStopClick(selectedStop <= 1 ? 15 : selectedStop - 1)}
+            className="p-2 rounded-xl bg-white/5 border border-white/10 text-amber-300 active:scale-90 transition-transform shrink-0"
+            aria-label="Previous Stop"
+          >
+            <ChevronLeft className="w-4 h-4" />
+          </button>
+          
+          <div className="flex items-center gap-1.5 overflow-x-auto py-1 px-1 no-scrollbar scroll-smooth">
+            {MAP_WAYPOINTS.map(w => (
+              <button
+                key={w.stop}
+                onClick={() => handleStopClick(w.stop)}
+                className={`w-7 h-7 rounded-full flex items-center justify-center font-cinzel text-xs font-bold shrink-0 transition-all cursor-pointer ${
+                  selectedStop === w.stop
+                    ? 'saffron-gradient text-black scale-110 shadow-md shadow-amber-500/40 font-extrabold'
+                    : 'bg-white/5 text-[#a39eb5] border border-white/10 hover:border-amber-400/40'
+                }`}
+                aria-label={`Jump to stop ${w.stop}: ${w.name}`}
+              >
+                {w.stop}
+              </button>
+            ))}
+          </div>
+
+          <button
+            onClick={() => handleStopClick(selectedStop >= 15 ? 1 : selectedStop + 1)}
+            className="p-2 rounded-xl bg-white/5 border border-white/10 text-amber-300 active:scale-90 transition-transform shrink-0"
+            aria-label="Next Stop"
+          >
+            <ChevronRight className="w-4 h-4" />
+          </button>
+        </div>
+
+        {/* Desktop Sleek Scrubber */}
+        <div className="hidden sm:flex items-center gap-0.5 sm:gap-1 flex-wrap justify-center">
           {MAP_WAYPOINTS.map(w => (
             <button
               key={w.stop}
               onClick={() => handleStopClick(w.stop)}
               title={`${w.stop}. ${w.name}`}
-              className={`h-2 rounded-full transition-all cursor-pointer ${
+              aria-label={`Jump to stop ${w.stop}: ${w.name}`}
+              className="p-1 cursor-pointer flex items-center justify-center group"
+            >
+              <span className={`h-2 rounded-full transition-all block ${
                 selectedStop === w.stop
                   ? 'w-6 bg-gradient-to-r from-amber-400 to-orange-500 shadow-sm shadow-amber-500/50'
-                  : 'w-1.5 bg-white/20 hover:bg-white/40'
-              }`}
-            />
+                  : 'w-1.5 bg-white/25 group-hover:bg-white/50'
+              }`} />
+            </button>
           ))}
         </div>
       </div>

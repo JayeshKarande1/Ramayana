@@ -19,7 +19,7 @@ export default function Header() {
   const { currentLanguageInfo, t } = useLanguage();
 
   const toggleTanpura = () => {
-    if (tanpura) {
+    if (tanpura && typeof tanpura.toggle === 'function') {
       const active = tanpura.toggle();
       setIsTanpuraPlaying(active);
     }
@@ -36,27 +36,49 @@ export default function Header() {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, []);
 
+  // Contextual back navigation on mobile
+  const getMobileBackInfo = () => {
+    const cleanPath = pathname.replace(/\/+$/, '');
+    const segments = cleanPath.split('/').filter(Boolean);
+
+    if (segments.length === 0) {
+      return null;
+    }
+
+    if (segments[0] === 'story') {
+      if (segments.length >= 3) {
+        // e.g. /story/bala/1 -> back to /story/bala/
+        return { href: `/story/${segments[1]}/`, label: 'Kanda' };
+      }
+      if (segments.length === 2) {
+        // e.g. /story/bala -> back to /story/
+        return { href: '/story/', label: 'Codex' };
+      }
+      // e.g. /story -> back to home /
+      return { href: '/', label: 'Home' };
+    }
+
+    // Any other top-level section (/journey, /characters, etc.)
+    return { href: '/', label: 'Home' };
+  };
+
+  const mobileBack = getMobileBackInfo();
+
   return (
     <>
       <header className="sticky top-0 z-40 w-full border-b border-[rgba(243,210,122,0.12)] bg-[#07050d]/90 backdrop-blur-md">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
           {/* Logo & Contextual Back Navigation on Mobile */}
           <div className="flex items-center gap-2">
-            {pathname !== '/' && (
+            {mobileBack && (
               <Link
-                href={
-                  pathname.startsWith('/story/') && pathname !== '/story'
-                    ? pathname.split('/').filter(Boolean).length > 2
-                      ? `/story/${pathname.split('/').filter(Boolean)[1]}`
-                      : '/story'
-                    : '/'
-                }
-                className="md:hidden flex items-center gap-1 py-1.5 px-2 rounded-xl bg-white/5 border border-white/10 text-amber-300 active:scale-95 transition-all app-touch-active"
-                title="Back"
+                href={mobileBack.href}
+                className="md:hidden flex items-center gap-1 py-1.5 px-2.5 rounded-xl bg-white/5 border border-white/10 text-amber-300 active:scale-95 transition-all app-touch-active"
+                title={`Back to ${mobileBack.label}`}
               >
                 <ChevronLeft className="w-4 h-4 stroke-[2.5]" />
                 <span className="font-cinzel text-xs font-bold text-amber-200">
-                  {pathname.startsWith('/story/') && pathname !== '/story' ? 'Back' : 'Home'}
+                  {mobileBack.label}
                 </span>
               </Link>
             )}
@@ -104,36 +126,13 @@ export default function Header() {
           </nav>
 
           {/* Action Tools */}
-          <div className="flex items-center gap-2 sm:gap-3">
-            {/* Language Switcher Trigger */}
-            <button
-              onClick={() => setIsLanguageOpen(true)}
-              className="flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-full bg-white/5 border border-white/10 hover:border-amber-400/40 text-xs text-amber-200 hover:text-white transition-all cursor-pointer shadow-sm hover:shadow-[0_0_12px_rgba(245,158,11,0.2)]"
-              title="Change Language / भाषा बदलें"
-            >
-              <Globe className="w-3.5 h-3.5 text-amber-400" />
-              <span className="font-sanskrit text-xs font-semibold">{currentLanguageInfo.nativeName}</span>
-            </button>
-
-            {/* Replay Prologue Button */}
-            <button
-              onClick={() => {
-                if (typeof window !== 'undefined') {
-                  window.dispatchEvent(new Event('open-ramayana-prologue'));
-                }
-              }}
-              className="flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/30 hover:border-amber-400 text-xs text-amber-200 hover:text-white transition-all cursor-pointer shadow-sm hover:shadow-[0_0_12px_rgba(245,158,11,0.25)]"
-              title="Experience Epic Prologue"
-            >
-              <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-              <span className="hidden sm:inline">{t('action_prologue')}</span>
-            </button>
-
+          <div className="flex items-center gap-1.5 sm:gap-3 shrink-0">
             {/* Search Trigger Button */}
             <button
               onClick={() => setIsSearchOpen(true)}
-              className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/5 border border-white/10 hover:border-amber-500/30 text-xs text-[#a39eb5] hover:text-[#f3f0e6] transition-all cursor-pointer"
+              className="flex items-center justify-center gap-2 h-9 px-2.5 sm:px-3 rounded-full bg-white/5 border border-white/10 hover:border-amber-500/30 text-xs text-[#a39eb5] hover:text-[#f3f0e6] transition-all cursor-pointer"
               title="Search scripture (Ctrl+K)"
+              aria-label="Search scripture"
             >
               <Search className="w-3.5 h-3.5 text-[#f59e3a]" />
               <span className="hidden sm:inline">{t('action_search')}</span>
@@ -142,10 +141,40 @@ export default function Header() {
               </kbd>
             </button>
 
-            {/* Ambient Tanpura Drone Player Button */}
+            {/* Language Switcher Trigger */}
+            <button
+              onClick={() => setIsLanguageOpen(true)}
+              className="flex items-center gap-1.5 h-9 px-2.5 sm:px-3 rounded-full bg-white/5 border border-white/10 hover:border-amber-400/40 text-xs text-amber-200 hover:text-white transition-all cursor-pointer shadow-sm hover:shadow-[0_0_12px_rgba(245,158,11,0.2)]"
+              title="Change Language / भाषा बदलें"
+              aria-label="Change Language"
+            >
+              <Globe className="w-3.5 h-3.5 text-amber-400" />
+              <span className="font-sanskrit text-xs font-semibold sm:inline hidden">
+                {currentLanguageInfo.nativeName}
+              </span>
+              <span className="font-mono text-[11px] font-semibold sm:hidden inline text-amber-300">
+                {currentLanguageInfo.code.toUpperCase()}
+              </span>
+            </button>
+
+            {/* Replay Prologue Button (Desktop) */}
+            <button
+              onClick={() => {
+                if (typeof window !== 'undefined') {
+                  window.dispatchEvent(new Event('open-ramayana-prologue'));
+                }
+              }}
+              className="hidden sm:flex items-center gap-1.5 h-9 px-3 rounded-full bg-amber-500/10 border border-amber-500/30 hover:border-amber-400 text-xs text-amber-200 hover:text-white transition-all cursor-pointer shadow-sm hover:shadow-[0_0_12px_rgba(245,158,11,0.25)]"
+              title="Experience Epic Prologue"
+            >
+              <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+              <span>{t('action_prologue')}</span>
+            </button>
+
+            {/* Ambient Tanpura Drone Player Button (Desktop) */}
             <button
               onClick={toggleTanpura}
-              className={`px-3 py-1.5 rounded-full border transition-all cursor-pointer flex items-center gap-2 text-xs font-medium ${
+              className={`hidden sm:flex h-9 px-3 rounded-full border transition-all cursor-pointer items-center gap-2 text-xs font-medium ${
                 isTanpuraPlaying
                   ? 'bg-amber-500/20 border-amber-500/50 text-amber-300 shadow-md shadow-amber-500/25'
                   : 'bg-white/5 border-white/10 text-[#a39eb5] hover:text-white'
@@ -165,15 +194,21 @@ export default function Header() {
               ) : (
                 <>
                   <Volume2 className="w-3.5 h-3.5 text-amber-400/70" />
-                  <span className="hidden sm:inline text-[11px]">Tanpura</span>
+                  <span className="text-[11px]">Tanpura</span>
                 </>
               )}
             </button>
 
-            {/* Mobile Menu Button */}
+            {/* Mobile Menu Button - High Contrast & Guaranteed Visible */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="md:hidden p-2 rounded-lg bg-white/5 text-[#a39eb5]"
+              aria-label={mobileMenuOpen ? "Close navigation menu" : "Open navigation menu"}
+              aria-expanded={mobileMenuOpen}
+              className={`md:hidden flex items-center justify-center w-10 h-10 rounded-xl transition-all cursor-pointer ${
+                mobileMenuOpen 
+                  ? 'bg-amber-500/25 border border-amber-400 text-amber-300' 
+                  : 'bg-white/10 hover:bg-white/15 border border-amber-400/30 text-amber-200 shadow-sm'
+              }`}
             >
               {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
             </button>
@@ -187,6 +222,7 @@ export default function Header() {
         isOpen={mobileMenuOpen} 
         onClose={() => setMobileMenuOpen(false)}
         onOpenLanguage={() => setIsLanguageOpen(true)}
+        onOpenSearch={() => setIsSearchOpen(true)}
       />
 
       {/* Global Search Modal */}

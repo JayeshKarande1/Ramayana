@@ -61,11 +61,11 @@ export default function SargaReader({ sargaData, totalSargasInKanda }: SargaRead
     }
   }, [currentLanguageInfo]);
 
-  // Check URL query param or mobile viewports to open Book Mode
+  // Check URL query param to open Book Mode
   useEffect(() => {
     if (typeof window !== 'undefined') {
       const params = new URLSearchParams(window.location.search);
-      if (params.get('mode') === 'book' || window.innerWidth < 768) {
+      if (params.get('mode') === 'book') {
         setReadingMode('book');
       }
     }
@@ -232,7 +232,7 @@ export default function SargaReader({ sargaData, totalSargasInKanda }: SargaRead
       <div className="text-center max-w-3xl mx-auto mb-8">
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-500/10 border border-amber-400/25 text-xs text-[#f3d27a] mb-3">
           <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-          <Link href={`/story/${sargaData.kanda}`} className="hover:underline font-sanskrit font-medium">
+          <Link href={`/story/${sargaData.kanda}/`} className="hover:underline font-sanskrit font-medium">
             {sargaData.kandaName}
           </Link>
           <span>•</span>
@@ -252,7 +252,7 @@ export default function SargaReader({ sargaData, totalSargasInKanda }: SargaRead
         <div className="flex items-center gap-2">
           {prevSarga ? (
             <Link
-              href={`/story/${sargaData.kanda}/${prevSarga}`}
+              href={`/story/${sargaData.kanda}/${prevSarga}/`}
               className="p-1.5 rounded-lg bg-white/5 hover:bg-white/10 text-[#a39eb5] hover:text-white transition-colors"
               title="Previous Sarga"
             >
@@ -268,7 +268,7 @@ export default function SargaReader({ sargaData, totalSargasInKanda }: SargaRead
 
           {nextSarga ? (
             <Link
-              href={`/story/${sargaData.kanda}/${nextSarga}`}
+              href={`/story/${sargaData.kanda}/${nextSarga}/`}
               className="p-1.5 rounded-lg bg-white/5 hover:bg-white/10 text-[#a39eb5] hover:text-white transition-colors"
               title="Next Sarga"
             >
@@ -476,7 +476,7 @@ export default function SargaReader({ sargaData, totalSargasInKanda }: SargaRead
               </button>
             ) : prevSarga ? (
               <Link
-                href={`/story/${sargaData.kanda}/${prevSarga}?mode=book`}
+                href={`/story/${sargaData.kanda}/${prevSarga}/?mode=book`}
                 className="flex items-center gap-2 px-6 sm:px-8 py-3.5 rounded-full border border-amber-400/25 bg-amber-500/10 hover:bg-amber-500/20 text-amber-200 active:scale-95 transition-all text-sm font-semibold shadow-lg"
               >
                 <ArrowLeft className="w-4 h-4" />
@@ -513,7 +513,7 @@ export default function SargaReader({ sargaData, totalSargasInKanda }: SargaRead
               </button>
             ) : nextSarga ? (
               <Link
-                href={`/story/${sargaData.kanda}/${nextSarga}?mode=book`}
+                href={`/story/${sargaData.kanda}/${nextSarga}/?mode=book`}
                 className="flex items-center gap-2 px-6 sm:px-8 py-3.5 rounded-full saffron-gradient text-black font-bold shadow-lg shadow-amber-500/40 hover:scale-105 active:scale-95 transition-all text-sm"
               >
                 <span>Next Sarga →</span>

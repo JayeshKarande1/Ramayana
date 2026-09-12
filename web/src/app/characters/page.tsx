@@ -278,19 +278,20 @@ export default function CharactersPage() {
           onClick={() => setModalCharacter(null)}
         >
           <div 
-            className="relative w-full max-w-2xl rounded-3xl manuscript-pothi p-6 sm:p-9 shadow-2xl max-h-[85vh] overflow-y-auto"
+            className="relative w-full max-w-2xl rounded-3xl manuscript-pothi p-5 sm:p-9 shadow-2xl max-h-[88vh] overflow-y-auto"
             onClick={e => e.stopPropagation()}
           >
             <button
               onClick={() => setModalCharacter(null)}
-              className="absolute top-6 right-6 p-2 rounded-full bg-white/5 hover:bg-white/10 text-[#a39eb5] hover:text-white z-10"
+              className="absolute top-4 right-4 sm:top-6 sm:right-6 p-2 rounded-full bg-white/10 hover:bg-white/20 text-[#a39eb5] hover:text-white z-10 transition-all cursor-pointer"
+              aria-label="Close character modal"
             >
               <X className="w-5 h-5" />
             </button>
 
             {/* Modal Character Portrait Hero */}
             {modalCharacter.imageUrl && (
-              <div className="relative w-full h-56 sm:h-72 rounded-2xl overflow-hidden mb-6 border border-amber-400/30 shadow-2xl bg-black/60">
+              <div className="relative w-full h-48 sm:h-72 rounded-2xl overflow-hidden mb-6 border border-amber-400/30 shadow-2xl bg-black/60">
                 <img
                   src={modalCharacter.imageUrl}
                   alt={modalCharacter.name}
@@ -306,25 +307,25 @@ export default function CharactersPage() {
             )}
 
             {/* Modal Header */}
-            <div className="flex items-center gap-3 mb-2">
-              <span className="text-4xl">{modalCharacter.tier.icon}</span>
-              <div>
+            <div className="flex flex-wrap items-center gap-2 sm:gap-3 mb-2 pr-8">
+              <span className="text-3xl sm:text-4xl">{modalCharacter.tier.icon}</span>
+              <div className="flex flex-wrap items-center gap-1.5">
                 <span className="text-xs uppercase font-semibold text-[#f59e3a] tracking-wider font-cinzel">
                   {modalCharacter.tier.title} · {modalCharacter.tier.sanskrit}
                 </span>
-                <span className="ml-2 px-2.5 py-0.5 rounded-full text-[10px] bg-amber-500/15 border border-amber-400/30 text-amber-300 uppercase font-semibold">
+                <span className="px-2.5 py-0.5 rounded-full text-[10px] bg-amber-500/15 border border-amber-400/30 text-amber-300 uppercase font-semibold">
                   {modalCharacter.roleTag}
                 </span>
               </div>
             </div>
 
             {/* Title & Sanskrit Audio Button */}
-            <div className="flex items-center justify-between gap-4 my-3">
-              <div className="flex items-baseline gap-3">
-                <h2 className="font-cinzel text-3xl sm:text-4xl font-bold text-gold-gradient">
+            <div className="flex flex-wrap items-center justify-between gap-3 my-3">
+              <div className="flex flex-wrap items-baseline gap-2 sm:gap-3">
+                <h2 className="font-cinzel text-2xl sm:text-4xl font-bold text-gold-gradient break-words">
                   {modalCharacter.name}
                 </h2>
-                <span className="font-sanskrit text-2xl sm:text-3xl text-amber-200">
+                <span className="font-sanskrit text-xl sm:text-3xl text-amber-200">
                   {modalCharacter.sanskritName}
                 </span>
               </div>

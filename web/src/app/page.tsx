@@ -210,7 +210,7 @@ export default function HomePage() {
         </div>
 
         {/* Global Statistics Ribbon */}
-        <div className="relative z-10 flex flex-wrap justify-center items-center gap-6 sm:gap-12 mt-14 py-4 px-8 rounded-full bg-white/[0.03] border border-amber-400/20 backdrop-blur-md">
+        <div className="relative z-10 flex flex-wrap justify-center items-center gap-4 sm:gap-12 mt-14 py-4 px-4 sm:px-8 rounded-2xl sm:rounded-full bg-white/[0.03] border border-amber-400/20 backdrop-blur-md">
           <div className="text-center">
             <span className="font-cinzel font-bold text-amber-300 text-lg sm:text-xl">7</span>
             <span className="text-[11px] text-[#a39eb5] ml-2">Kandas</span>

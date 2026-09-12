@@ -7,10 +7,10 @@ class TanpuraEngine {
   private ctx: AudioContext | null = null;
   private oscillators: OscillatorNode[] = [];
   private gainNode: GainNode | null = null;
-  private isPlaying = false;
+  private _isPlaying = false;
 
   start(baseFreq: number = 138.59) { // C#3 (traditional Sa for Rama chanting)
-    if (this.isPlaying) return;
+    if (this._isPlaying) return;
     try {
       const AudioCtx = window.AudioContext || (window as any).webkitAudioContext;
       this.ctx = new AudioCtx();
@@ -40,14 +40,14 @@ class TanpuraEngine {
         return osc;
       });
 
-      this.isPlaying = true;
+      this._isPlaying = true;
     } catch (e) {
       console.warn('Web Audio not supported or blocked:', e);
     }
   }
 
   stop() {
-    if (!this.isPlaying) return;
+    if (!this._isPlaying) return;
     this.oscillators.forEach(osc => {
       try { osc.stop(); } catch (e) {}
     });
@@ -56,11 +56,11 @@ class TanpuraEngine {
       try { this.ctx.close(); } catch (e) {}
       this.ctx = null;
     }
-    this.isPlaying = false;
+    this._isPlaying = false;
   }
 
-  toggle() {
-    if (this.isPlaying) {
+  toggle(): boolean {
+    if (this._isPlaying) {
       this.stop();
       return false;
     } else {
@@ -69,12 +69,16 @@ class TanpuraEngine {
     }
   }
 
-  get active() {
-    return this.isPlaying;
+  isPlaying(): boolean {
+    return this._isPlaying;
+  }
+
+  get active(): boolean {
+    return this._isPlaying;
   }
 }
 
-export const tanpura = typeof window !== 'undefined' ? new TanpuraEngine() : (null as any);
+export const tanpura: TanpuraEngine | null = typeof window !== 'undefined' ? new TanpuraEngine() : null;
 
 /**
  * Speaks a Sanskrit shloka using Web Speech API
