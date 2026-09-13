@@ -44,11 +44,21 @@ export default function SargaReader({ sargaData, totalSargasInKanda }: SargaRead
   const [isAutoPlaying, setIsAutoPlaying] = useState(false);
   const [carouselIndex, setCarouselIndex] = useState<number>(0);
   const [bookIndex, setBookIndex] = useState<number>(0);
+  const [bookViewMode, setBookViewMode] = useState<'full' | 'meaning'>('full');
   const [touchStartX, setTouchStartX] = useState<number | null>(null);
   const [copiedId, setCopiedId] = useState<string | null>(null);
   const [expandedWbw, setExpandedWbw] = useState<Record<number, boolean>>({});
 
   const shlokas = sargaData.shlokas || [];
+  const meaningPageSize = 10;
+  const bookPageStart = Math.floor(bookIndex / meaningPageSize) * meaningPageSize;
+  const currentBookPageShlokas = shlokas.slice(bookPageStart, bookPageStart + meaningPageSize);
+  const totalMeaningPages = Math.max(1, Math.ceil(shlokas.length / meaningPageSize));
+  const currentMeaningPage = Math.floor(bookIndex / meaningPageSize) + 1;
+  const canGoPrevBook = bookIndex > 0;
+  const canGoNextBook = bookViewMode === 'meaning'
+    ? bookPageStart + meaningPageSize < shlokas.length
+    : bookIndex < shlokas.length - 1;
   const activePlayingIndexRef = useRef<number | null>(null);
   activePlayingIndexRef.current = activePlayingIndex;
   const isAutoPlayingRef = useRef<boolean>(false);
@@ -72,13 +82,17 @@ export default function SargaReader({ sargaData, totalSargasInKanda }: SargaRead
   }, []);
 
   const goToPrevShloka = () => {
-    if (bookIndex > 0) {
+    if (bookViewMode === 'meaning') {
+      setBookIndex(prev => Math.max(0, prev - meaningPageSize));
+    } else if (bookIndex > 0) {
       setBookIndex(prev => prev - 1);
     }
   };
 
   const goToNextShloka = () => {
-    if (bookIndex < shlokas.length - 1) {
+    if (bookViewMode === 'meaning') {
+      setBookIndex(prev => Math.min(shlokas.length - 1, prev + meaningPageSize));
+    } else if (bookIndex < shlokas.length - 1) {
       setBookIndex(prev => prev + 1);
     }
   };
@@ -169,10 +183,10 @@ export default function SargaReader({ sargaData, totalSargasInKanda }: SargaRead
             url.searchParams.delete('mode');
             window.history.replaceState({}, '', url.pathname + (url.search ? url.search : ''));
           }
-        } else if (e.key === 'ArrowRight' && bookIndex < shlokas.length - 1) {
-          setBookIndex(prev => prev + 1);
-        } else if (e.key === 'ArrowLeft' && bookIndex > 0) {
-          setBookIndex(prev => prev - 1);
+        } else if (e.key === 'ArrowRight' && canGoNextBook) {
+          goToNextShloka();
+        } else if (e.key === 'ArrowLeft' && canGoPrevBook) {
+          goToPrevShloka();
         }
       } else if (readingMode === 'carousel') {
         if (e.key === 'ArrowRight' && carouselIndex < shlokas.length - 1) {
@@ -192,7 +206,7 @@ export default function SargaReader({ sargaData, totalSargasInKanda }: SargaRead
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [readingMode, bookIndex, carouselIndex, activePlayingIndex, shlokas.length]);
+  }, [readingMode, bookIndex, bookViewMode, canGoNextBook, canGoPrevBook, carouselIndex, activePlayingIndex, shlokas.length]);
 
   // Lock body scroll when full-screen Book Mode is open
   useEffect(() => {
@@ -368,9 +382,9 @@ export default function SargaReader({ sargaData, totalSargasInKanda }: SargaRead
       {/* FULL SCREEN BOOK STYLE VIEW */}
       {readingMode === 'book' && (
         <div 
-          className="fixed inset-0 z-50 bg-[#06040a] text-[#f5efe6] flex flex-col justify-between p-4 sm:p-8 md:p-10 overflow-hidden select-none animate-in fade-in duration-200"
-          onTouchStart={handleTouchStart}
-          onTouchEnd={handleTouchEnd}
+          className="fixed inset-0 z-50 h-dvh min-h-screen bg-[#06040a] text-[#f5efe6] flex flex-col justify-between p-4 sm:p-8 md:p-10 overflow-hidden select-none animate-in fade-in duration-200"
+          onTouchStart={bookViewMode === 'full' ? handleTouchStart : undefined}
+          onTouchEnd={bookViewMode === 'full' ? handleTouchEnd : undefined}
         >
           {/* Subtle Ambient Sacred Illumination */}
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-amber-950/20 via-[#0a0714] to-[#040207] pointer-events-none" />
@@ -379,7 +393,7 @@ export default function SargaReader({ sargaData, totalSargasInKanda }: SargaRead
           <div className="absolute top-0 left-0 right-0 h-1 bg-white/10 z-30">
             <div 
               className="h-full saffron-gradient transition-all duration-300"
-              style={{ width: `${((bookIndex + 1) / shlokas.length) * 100}%` }}
+              style={{ width: `${(bookViewMode === 'meaning' ? (currentMeaningPage / totalMeaningPages) : ((bookIndex + 1) / shlokas.length)) * 100}%` }}
             />
           </div>
 
@@ -395,7 +409,9 @@ export default function SargaReader({ sargaData, totalSargasInKanda }: SargaRead
               </span>
               <span className="text-white/20">•</span>
               <span className="text-xs font-mono text-amber-400/90 bg-amber-500/10 border border-amber-500/25 px-2.5 py-0.5 rounded-full font-semibold">
-                Shloka {bookIndex + 1} of {shlokas.length}
+                {bookViewMode === 'meaning'
+                  ? `Page ${currentMeaningPage} of ${totalMeaningPages}`
+                  : `Shloka ${bookIndex + 1} of ${shlokas.length}`}
               </span>
             </div>
 
@@ -417,114 +433,169 @@ export default function SargaReader({ sargaData, totalSargasInKanda }: SargaRead
             </button>
           </div>
 
+          <div className="relative z-20 max-w-5xl mx-auto w-full pt-3 flex justify-center">
+            <div className="flex items-center rounded-full border border-white/10 bg-black/40 p-1 text-[11px] sm:text-xs">
+              <button
+                onClick={() => setBookViewMode('full')}
+                className={`px-3 py-1.5 rounded-full font-semibold transition-all cursor-pointer ${
+                  bookViewMode === 'full'
+                    ? 'saffron-gradient text-black'
+                    : 'text-[#a39eb5] hover:text-white'
+                }`}
+              >
+                Full Shloka
+              </button>
+              <button
+                onClick={() => setBookViewMode('meaning')}
+                className={`px-3 py-1.5 rounded-full font-semibold transition-all cursor-pointer ${
+                  bookViewMode === 'meaning'
+                    ? 'saffron-gradient text-black'
+                    : 'text-[#a39eb5] hover:text-white'
+                }`}
+              >
+                Meaning Only
+              </button>
+            </div>
+          </div>
+
           {/* Central Book Page: Pure Shloka Focus */}
-          <div className="relative z-10 flex-1 flex flex-col items-center justify-center max-w-4xl mx-auto w-full my-auto px-2 sm:px-6 overflow-y-auto max-h-[calc(100vh-170px)]">
-            <div className="w-full manuscript-pothi p-6 sm:p-12 md:p-14 rounded-3xl border border-amber-400/30 shadow-[0_0_60px_rgba(0,0,0,0.85)] relative overflow-hidden flex flex-col items-center justify-center min-h-[380px] sm:min-h-[460px]">
-              
-              {/* Sacred Verse Seal */}
-              <div className="mb-6 flex items-center justify-center">
-                <span className="px-4 py-1 rounded-full bg-amber-500/10 border border-amber-400/30 font-sanskrit text-amber-300 text-sm font-semibold shadow-[0_0_20px_rgba(245,158,11,0.2)]">
-                  ॥ श्लोकः {currentBookShloka.shlokaNumber} ॥
-                </span>
-              </div>
-
-              {/* The Sacred Sanskrit Shloka in Original Devanagari */}
-              <p className={`font-sanskrit text-gold-gradient leading-relaxed sm:leading-loose font-medium px-2 sm:px-6 select-text max-w-3xl mx-auto text-center drop-shadow-[0_2px_10px_rgba(245,158,11,0.25)] transition-all ${
-                fontSize === 'huge' 
-                  ? 'text-3xl sm:text-5xl md:text-6xl' 
-                  : (fontSize === 'large' ? 'text-2xl sm:text-4xl md:text-5xl' : 'text-xl sm:text-3xl md:text-4xl')
-              }`}>
-                {currentBookShloka.sanskrit}
-              </p>
-
-              {/* Transliteration (Regional Indic Script or Roman IAST) */}
-              {script !== 'devanagari' ? (
-                <p className="text-sm sm:text-base text-amber-200/90 font-serif max-w-xl mx-auto text-center mt-3 leading-relaxed">
-                  {script === 'iast' 
-                    ? currentBookShloka.transliteration 
-                    : transliterate(currentBookShloka.sanskrit, script)}
-                </p>
-              ) : (
-                currentBookShloka.transliteration && (
-                  <p className="text-xs sm:text-sm text-[#a39eb5] italic max-w-xl mx-auto text-center mt-4 leading-relaxed font-light">
-                    {currentBookShloka.transliteration}
-                  </p>
-                )
-              )}
-
-              {/* Verse Meaning */}
-              {currentBookShloka.meaning && (
-                <div className="mt-6 max-w-2xl mx-auto text-center border-t border-white/10 pt-4 px-4">
-                  <p className="text-xs sm:text-sm text-[#f5efe6]/85 leading-relaxed font-light italic">
-                    &ldquo;{currentBookShloka.meaning}&rdquo;
-                  </p>
+          <div className={`relative z-10 flex-1 flex flex-col items-center mx-auto w-full my-auto px-1.5 sm:px-6 overflow-y-auto ${
+            bookViewMode === 'meaning'
+              ? 'justify-start max-w-6xl max-h-[calc(100vh-170px)] py-4 sm:py-6'
+              : 'justify-center max-w-4xl max-h-[calc(100vh-200px)]'
+          }`}>
+            <div className={`w-full manuscript-pothi border border-amber-400/30 shadow-[0_0_60px_rgba(0,0,0,0.85)] relative ${
+              bookViewMode === 'meaning'
+                ? 'overflow-visible p-4 sm:p-8 lg:p-10 rounded-2xl sm:rounded-3xl'
+                : 'overflow-hidden p-6 sm:p-12 md:p-14 rounded-3xl flex flex-col items-center justify-center min-h-[380px] sm:min-h-[460px]'
+            }`}>
+              {bookViewMode === 'meaning' ? (
+                <div className="space-y-3 sm:space-y-4 lg:space-y-5">
+                  {currentBookPageShlokas.map(shloka => (
+                    <article key={shloka.id} className="border-b border-white/10 pb-3 last:border-b-0 last:pb-0">
+                      <div className="mb-1 flex items-center justify-between gap-3">
+                        <span className="font-cinzel text-[11px] font-bold uppercase tracking-wider text-amber-300">
+                          Shloka {shloka.shlokaNumber}
+                        </span>
+                        <span className="text-[10px] text-amber-400/50">
+                          {sargaData.sarga}.{shloka.shlokaNumber}
+                        </span>
+                      </div>
+                      <p className="select-text text-sm sm:text-base lg:text-lg leading-relaxed text-[#f5efe6]/90">
+                        {shloka.meaning}
+                      </p>
+                    </article>
+                  ))}
                 </div>
+              ) : (
+                <>
+                  {/* Sacred Verse Seal */}
+                  <div className="mb-6 flex items-center justify-center">
+                    <span className="px-4 py-1 rounded-full bg-amber-500/10 border border-amber-400/30 font-sanskrit text-amber-300 text-sm font-semibold shadow-[0_0_20px_rgba(245,158,11,0.2)]">
+                      ॥ श्लोकः {currentBookShloka.shlokaNumber} ॥
+                    </span>
+                  </div>
+
+                  {/* The Sacred Sanskrit Shloka in Original Devanagari */}
+                  <p className={`font-sanskrit text-gold-gradient leading-relaxed sm:leading-loose font-medium px-2 sm:px-6 select-text max-w-3xl mx-auto text-center drop-shadow-[0_2px_10px_rgba(245,158,11,0.25)] transition-all ${
+                    fontSize === 'huge' 
+                      ? 'text-3xl sm:text-5xl md:text-6xl' 
+                      : (fontSize === 'large' ? 'text-2xl sm:text-4xl md:text-5xl' : 'text-xl sm:text-3xl md:text-4xl')
+                  }`}>
+                    {currentBookShloka.sanskrit}
+                  </p>
+
+                  {/* Transliteration (Regional Indic Script or Roman IAST) */}
+                  {script !== 'devanagari' ? (
+                    <p className="text-sm sm:text-base text-amber-200/90 font-serif max-w-xl mx-auto text-center mt-3 leading-relaxed">
+                      {script === 'iast' 
+                        ? currentBookShloka.transliteration 
+                        : transliterate(currentBookShloka.sanskrit, script)}
+                    </p>
+                  ) : (
+                    currentBookShloka.transliteration && (
+                      <p className="text-xs sm:text-sm text-[#a39eb5] italic max-w-xl mx-auto text-center mt-4 leading-relaxed font-light">
+                        {currentBookShloka.transliteration}
+                      </p>
+                    )
+                  )}
+
+                  {/* Verse Meaning */}
+                  {currentBookShloka.meaning && (
+                    <div className="mt-6 max-w-2xl mx-auto text-center border-t border-white/10 pt-4 px-4">
+                      <p className="text-xs sm:text-sm text-[#f5efe6]/85 leading-relaxed font-light italic">
+                        &ldquo;{currentBookShloka.meaning}&rdquo;
+                      </p>
+                    </div>
+                  )}
+                </>
               )}
             </div>
           </div>
 
           {/* Bottom Bar: ONLY REQUIRED NAVIGATION BUTTONS */}
-          <div className="relative z-20 max-w-3xl mx-auto w-full pt-4 border-t border-amber-400/15 flex items-center justify-between gap-4">
+          <div className="relative z-20 max-w-3xl mx-auto w-full pt-3 sm:pt-4 border-t border-amber-400/15 flex items-center justify-between gap-2 sm:gap-4">
             {/* Previous Shloka Button */}
-            {bookIndex > 0 ? (
+            {canGoPrevBook ? (
               <button
                 onClick={goToPrevShloka}
-                className="flex items-center gap-2 px-6 sm:px-8 py-3.5 rounded-full border border-white/15 bg-white/5 hover:bg-white/10 hover:border-amber-400/40 text-[#f5efe6] active:scale-95 transition-all text-sm font-semibold cursor-pointer shadow-lg"
+                className="flex min-w-0 items-center gap-1.5 sm:gap-2 px-3 sm:px-8 py-2 sm:py-3.5 rounded-full border border-white/15 bg-white/5 hover:bg-white/10 hover:border-amber-400/40 text-[#f5efe6] active:scale-95 transition-all text-xs sm:text-sm font-semibold cursor-pointer shadow-lg"
               >
-                <ArrowLeft className="w-4 h-4 text-amber-400" />
-                <span>Previous</span>
+                <ArrowLeft className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-amber-400" />
+                <span>{bookViewMode === 'meaning' ? 'Prev' : 'Previous'}</span>
               </button>
             ) : prevSarga ? (
               <Link
                 href={`/story/${sargaData.kanda}/${prevSarga}/?mode=book`}
-                className="flex items-center gap-2 px-6 sm:px-8 py-3.5 rounded-full border border-amber-400/25 bg-amber-500/10 hover:bg-amber-500/20 text-amber-200 active:scale-95 transition-all text-sm font-semibold shadow-lg"
+                className="flex min-w-0 items-center gap-1.5 sm:gap-2 px-3 sm:px-8 py-2 sm:py-3.5 rounded-full border border-amber-400/25 bg-amber-500/10 hover:bg-amber-500/20 text-amber-200 active:scale-95 transition-all text-xs sm:text-sm font-semibold shadow-lg"
               >
-                <ArrowLeft className="w-4 h-4" />
+                <ArrowLeft className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
                 <span>Sarga {prevSarga}</span>
               </Link>
             ) : (
               <button
                 disabled
-                className="flex items-center gap-2 px-6 sm:px-8 py-3.5 rounded-full border border-white/5 bg-transparent text-white/20 text-sm font-semibold cursor-not-allowed"
+                className="flex min-w-0 items-center gap-1.5 sm:gap-2 px-3 sm:px-8 py-2 sm:py-3.5 rounded-full border border-white/5 bg-transparent text-white/20 text-xs sm:text-sm font-semibold cursor-not-allowed"
               >
-                <ArrowLeft className="w-4 h-4 opacity-20" />
-                <span>Previous</span>
+                <ArrowLeft className="w-3.5 h-3.5 sm:w-4 sm:h-4 opacity-20" />
+                <span>Prev</span>
               </button>
             )}
 
             {/* Center Shloka Progress & Swipe Hint */}
             <div className="text-center font-cinzel text-xs text-[#a39eb5]">
-              <span className="text-amber-300 font-bold text-sm">{bookIndex + 1}</span>
+              <span className="text-amber-300 font-bold text-sm">{bookViewMode === 'meaning' ? currentMeaningPage : bookIndex + 1}</span>
               <span className="text-white/30 mx-1">/</span>
-              <span>{shlokas.length}</span>
+              <span>{bookViewMode === 'meaning' ? totalMeaningPages : shlokas.length}</span>
               <span className="text-[10px] text-amber-400/50 block tracking-wider mt-0.5">
-                ← Swipe or Arrow keys →
+                <span className="hidden sm:inline">Swipe or Arrow keys</span>
+                <span className="sm:hidden">Swipe</span>
               </span>
             </div>
 
             {/* Next Shloka Button */}
-            {bookIndex < shlokas.length - 1 ? (
+            {canGoNextBook ? (
               <button
                 onClick={goToNextShloka}
-                className="flex items-center gap-2 px-6 sm:px-8 py-3.5 rounded-full saffron-gradient text-black font-bold shadow-lg shadow-amber-500/30 hover:shadow-amber-500/50 hover:scale-105 active:scale-95 transition-all text-sm cursor-pointer"
+                className="flex min-w-0 items-center gap-1.5 sm:gap-2 px-3 sm:px-8 py-2 sm:py-3.5 rounded-full saffron-gradient text-black font-bold shadow-lg shadow-amber-500/30 hover:shadow-amber-500/50 hover:scale-105 active:scale-95 transition-all text-xs sm:text-sm cursor-pointer"
               >
-                <span>Next Shloka</span>
-                <ArrowRight className="w-4 h-4" />
+                <span>{bookViewMode === 'meaning' ? 'Next' : 'Next Shloka'}</span>
+                <ArrowRight className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
               </button>
             ) : nextSarga ? (
               <Link
                 href={`/story/${sargaData.kanda}/${nextSarga}/?mode=book`}
-                className="flex items-center gap-2 px-6 sm:px-8 py-3.5 rounded-full saffron-gradient text-black font-bold shadow-lg shadow-amber-500/40 hover:scale-105 active:scale-95 transition-all text-sm"
+                className="flex min-w-0 items-center gap-1.5 sm:gap-2 px-3 sm:px-8 py-2 sm:py-3.5 rounded-full saffron-gradient text-black font-bold shadow-lg shadow-amber-500/40 hover:scale-105 active:scale-95 transition-all text-xs sm:text-sm"
               >
-                <span>Next Sarga →</span>
+                <span>Next Sarga</span>
               </Link>
             ) : (
               <button
                 disabled
-                className="flex items-center gap-2 px-6 sm:px-8 py-3.5 rounded-full border border-white/5 bg-transparent text-white/20 text-sm font-semibold cursor-not-allowed"
+                className="flex min-w-0 items-center gap-1.5 sm:gap-2 px-3 sm:px-8 py-2 sm:py-3.5 rounded-full border border-white/5 bg-transparent text-white/20 text-xs sm:text-sm font-semibold cursor-not-allowed"
               >
                 <span>Next</span>
-                <ArrowRight className="w-4 h-4 opacity-20" />
+                <ArrowRight className="w-3.5 h-3.5 sm:w-4 sm:h-4 opacity-20" />
               </button>
             )}
           </div>
